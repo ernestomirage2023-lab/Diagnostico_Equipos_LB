@@ -61,3 +61,17 @@ Casos reales, validados por Ernesto, para fallas que se describen por síntoma y
 - Sí llega voltaje y no abre → bobina o empaque pegado.
 
 **Material de apoyo:** boletines del 6 L blanco de electroválvulas y de prueba de válvula, y el video de la bobina de gas.
+
+## Turbo Flux MBF16AF — Enciende bien, pero a los pocos segundos se apaga solo
+
+**Síntoma:** el equipo arranca y enciende, pero a los pocos segundos se apaga solo.
+
+**Lógica:** si encendió, el arranque está bien; el corte viene de una protección o de una alimentación que se cae. Causas a revisar (criterio de Ernesto):
+
+1. **Termostato:** hacerle su revisión de diagnóstico; puede estar cortando muy pronto y el equipo se protege.
+2. **Transformador con falla:** no entrega la corriente suficiente; bajo carga el voltaje se cae y el equipo se apaga.
+3. **Motor del ventilador:** no genera el vacío suficiente; también revisar que no esté en corto y medirlo.
+4. **Sensor de vacío:** no actúa como debe ser, y sin esa señal el equipo corta.
+5. **Tarjeta:** que no tenga falsos contactos ni terminales sulfatadas, que nada esté fallando en ella, y revisar que su alimentación sea la correcta.
+
+**Material de apoyo:** boletines Turbo Flux E6 de vacío (sensor y manguera de succión), E6 de motor (capacitor de 2.5 µF y resistencias del motor) y E1 de voltaje (salida del transformador).
