@@ -39,7 +39,8 @@ como una skill que el Muse de cada técnico puede instalar y consultar.
 
 ## Acceso
 
-- Recomendado: repositorio **privado**. Solo entra el equipo que
-  Ernesto invite con su cuenta de GitHub.
-- Público solo si Ernesto quiere compartir el conocimiento con
-  cualquier persona.
+- Este repositorio es **público** (decisión de Ernesto del
+  2026-11-11): cualquier técnico con el enlace lo abre y lo instala
+  sin invitación.
+- Si algún día se quiere limitar el acceso al equipo, se puede
+  regresar a privado desde Settings de GitHub.
