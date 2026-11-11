@@ -44,3 +44,20 @@ Casos reales, validados por Ernesto, para fallas que se describen por síntoma y
 **Confirmación con multímetro (boletín del sensor magnético):** sin contacto con el imán debe marcar abierto (O.L); en contacto con el imán debe cerrar (beep). Si no cierra con el imán, el sensor está malo y se cambia.
 
 **Material de apoyo en Drive:** boletín «Boiler 6 Lts Blanco Sensor Magnético» y video «Magnetico prueba» (enlaces en `referencias/indice-drive.md`).
+
+## MBF06ED — Hay chispa, pero la flama nunca abre
+
+**Síntoma:** al abrir el agua sí se oye/ve la chispa, pero la flama nunca abre.
+
+**Centro del problema:** la bobina de la válvula de gas. Tres causas posibles (criterio de Ernesto):
+
+1. La tarjeta de control no entrega voltaje a la bobina.
+2. Baterías: no hay, o no alcanzan — puede alcanzar para la chispa, pero no el voltaje que necesita la bobina para abrir.
+3. El empaque o la bobina está pegada: falla mecánica; aunque le llegue voltaje, no abre.
+
+**Cómo se separa:** mide si le llega voltaje a la bobina.
+
+- No llega voltaje → tarjeta de control o baterías.
+- Sí llega voltaje y no abre → bobina o empaque pegado.
+
+**Material de apoyo:** boletines del 6 L blanco de electroválvulas y de prueba de válvula, y el video de la bobina de gas.
