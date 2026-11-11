@@ -1,0 +1,5 @@
+name: "diagnostico_boilers_mirage"
+title: "Diagnóstico de boilers Mirage"
+description: "Guía el diagnóstico de calentadores Mirage Flux, Turbo Flux y Flux Electric por modelo y código de error, usando los manuales y boletines del equipo."
+category: "Work and knowledge"
+include_in_prompt: true
