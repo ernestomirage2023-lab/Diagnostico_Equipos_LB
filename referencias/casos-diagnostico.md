@@ -20,3 +20,27 @@ Casos reales, validados por Ernesto, para fallas que se describen por síntoma y
 3. Si la señal de lectura llega bien y el equipo sigue sin registrar la flama, la falla está en la tarjeta, en su etapa de lectura.
 
 **Conclusión:** sospechosa principal, la tarjeta. La etapa de chispa funciona; la de lectura, no, y viven en la misma pieza.
+
+## MBF06ED — No enciende, con baterías nuevas
+
+**Síntoma:** al abrir el agua el equipo no enciende nada (ni clic, ni chispa), y las baterías son nuevas.
+
+**Lógica:**
+
+- Baterías nuevas casi descartan falta de energía; solo se confirma polaridad correcta y terminales limpios.
+- Si no hay ni un intento, lo probable es que el equipo no esté detectando el flujo de agua, así que ni siquiera manda el encendido.
+
+**La prueba del puente (la que divide el diagnóstico):**
+
+1. Desconecta el sensor magnético de su conector.
+2. Puentea los dos cables del conector del lado del equipo (el arnés), simulando el sensor cerrado, como si hubiera flujo.
+3. Abre la llave del agua caliente.
+
+**Interpretación:**
+
+- Con el puente el equipo **sí enciende**: tarjeta, chispa y válvula trabajan; la falla está en la detección, es decir, el sensor magnético o el imán/flotador que no se mueve (revisar sarro en el conjunto de agua).
+- Con el puente **sigue sin encender**: no es el sensor; sigue tarjeta o cableado.
+
+**Confirmación con multímetro (boletín del sensor magnético):** sin contacto con el imán debe marcar abierto (O.L); en contacto con el imán debe cerrar (beep). Si no cierra con el imán, el sensor está malo y se cambia.
+
+**Material de apoyo en Drive:** boletín «Boiler 6 Lts Blanco Sensor Magnético» y video «Magnetico prueba» (enlaces en `referencias/indice-drive.md`).
