@@ -8,7 +8,7 @@ Actualizado por Poly el 2026-11-11 a la 1:06 pm (America/Hermosillo), con un esc
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
 - **Contenido verificado en este escaneo:** 44 archivos (36 PDFs y 8 videos), 2.15 GB en total.
-- **Último agregado:** `Magnetico prueba.mp4` en la carpeta Videos (27.8 MB), detectado a la 1:06 pm; no venía en la versión anterior de este índice.
+- **Último agregado:** `Magnetico prueba.mp4` en la carpeta Videos (27.8 MB), detectado a la 1:06 pm; no venía en la versión anterior de este índice. Ernesto lo describió ese día: sensor magnético de flujo, se prueba con un puente.
 - **Nota:** el diagrama explosivo del MBE081G aparece en dos carpetas (Boiler MBF06ED y Boiler MBE081G); es duplicado conocido.
 
 ## Carpetas en Drive
@@ -78,7 +78,7 @@ Actualizado por Poly el 2026-11-11 a la 1:06 pm (America/Hermosillo), con un esc
 ## Github / Boiler de paso / Videos
 
 - Flujo.mp4 — 1874.7 MB — https://drive.google.com/file/d/1WzMl3IpTaYr92pX7nca8X-E1kEVL3-Y6/view?usp=drivesdk
-- Magnetico prueba.mp4 — 27.8 MB — https://drive.google.com/file/d/1e5wLEQ1qmJSVTKPAVPXD-iU4fCcGgIeX/view?usp=drivesdk
+- Magnetico prueba.mp4 — 27.8 MB — https://drive.google.com/file/d/1e5wLEQ1qmJSVTKPAVPXD-iU4fCcGgIeX/view?usp=drivesdk — Descripción de Ernesto (2026-11-11): es el sensor magnético para saber si hay flujo; se prueba haciendo un puente, para saber si lo demás funciona correctamente.
 - presion de gas.mp4 — 19.8 MB — https://drive.google.com/file/d/1-dYpzs57t78WJcRR7Z8lKcHwvAnvQQoj/view?usp=drivesdk
 - Termostato temperatura.mp4 — 23.9 MB — https://drive.google.com/file/d/1eyaGCsnOqVX2OOv0wqGQyAD_aq6_n5Ph/view?usp=drivesdk
 - Valvula.mp4 — 4.1 MB — https://drive.google.com/file/d/1pTbSueucMA7daVBgmvqNl9FwBKxIv9Ii/view?usp=drivesdk
