@@ -48,6 +48,12 @@
 
 - Los videos viven en Drive por su peso (hay uno de 1.87 GB), así que nunca intentes bajarlos del repositorio.
 
+## Códigos de la app oficial de Mirage
+
+- Lee `referencias/codigos-app-mirage.md` para el resumen de códigos de la app oficial de Mirage en Línea Blanca (11 equipos) y su cruce con los boletines: qué códigos empatan con boletín, cuáles solo están en la app (p. ej. el nE de Turbo Flux y las lavadoras LMA017/LMA019/LMA022D/LMA022M/LMA022N) y cuáles solo están en el archivo (MBF10AD y MBE051G, que la app no cubre).
+
+- La app es resumen oficial; cuando un código tenga boletín, manda el procedimiento del boletín, que trae las mediciones.
+
 ## Lavadoras Mirage
 
 - Lee `referencias/lavadoras-mirage.md` cuando la falla sea de una lavadora Mirage: semiautomáticas de doble tina LMS-013M, LMS-016M y LMS-022M, y automática análoga de 22 kg LMA022G.
