@@ -89,3 +89,16 @@ Casos reales, validados por Ernesto, para fallas que se describen por síntoma y
 5. Si el E2 persiste con todo lo anterior bien, el módulo está dañado y hay que **reemplazar la tarjeta**.
 
 **Material de apoyo:** boletín de código E2 del MBF10AD/MBF10AE (en Drive).
+
+## MBE081G — El display enciende, pero el agua no calienta
+
+**Síntoma:** en el Flux Electric de 1.5 servicios, al haber flujo el display enciende y el equipo detecta el flujo, pero el agua no calienta nada.
+
+**Lógica:** si el display enciende con el flujo, la alimentación y la detección de flujo trabajan. Lo que no está llegando es la señal (los pulsos) para calentar. Revisión (criterio de Ernesto):
+
+1. **Tarjeta (de display/control):** detecta el flujo pero no manda la señal; problema en la tarjeta.
+2. **Triac:** revisar que esté generando los pulsos; es el que conmuta la potencia hacia la resistencia.
+3. **Resistencia:** medirla; si está dañada o abierta, hay señal pero no calienta.
+4. **Fusible de la tarjeta:** medirlo; puede estar abierto.
+
+**Material de apoyo:** boletín de triac/resistencia del Flux Eléctrico y el video del Flux Electric (resistencia, triac, sensores y protector térmico).
