@@ -1,10 +1,14 @@
 # Índice de media en Google Drive — carpeta Github / Boiler de paso
 
-Generado por Poly el 2026-11-11 desde la carpeta de Drive de Ernesto. La skill vive en GitHub; la media (PDFs y videos) vive aquí en Drive y Poly es el medio para llegar a ella.
+Actualizado por Poly el 2026-11-11 a las 12:59 pm (America/Hermosillo), con un escaneo completo y nuevo de la carpeta de Drive de Ernesto.
 
+## Estado
 
-## Github / Boiler de paso
-
+- **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
+- **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
+- **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
+- **Contenido verificado en este escaneo:** 43 archivos (36 PDFs y 7 videos), 2.12 GB en total.
+- **Nota:** el diagrama explosivo del MBE081G aparece en dos carpetas (Boiler MBF06ED y Boiler MBE081G); es duplicado conocido.
 
 ## Github / Boiler de paso / Boiler MBE051G
 
