@@ -102,3 +102,16 @@ Casos reales, validados por Ernesto, para fallas que se describen por síntoma y
 4. **Fusible de la tarjeta:** medirlo; puede estar abierto.
 
 **Material de apoyo:** boletín de triac/resistencia del Flux Eléctrico y el video del Flux Electric (resistencia, triac, sensores y protector térmico).
+
+## MBF06ED — Con poca presión de agua no arranca; con la llave bien abierta sí
+
+**Síntoma:** el equipo enciende bien con buen flujo, pero con poca presión de agua no arranca.
+
+**Clave del modelo:** el equipo necesita un flujo mínimo de 5 litros por minuto para poder encender. Si el flujo no llega a ese mínimo, no es una descompostura: el equipo simplemente no alcanza su punto de arranque.
+
+**Lo que puede estar limitando el flujo (instalación, no el equipo):**
+
+- La restricción de la regadera (el ahorrador): quitarla, probar el equipo y ver si el problema se mantiene.
+- Las bajas de presión de la instalación hidráulica de la casa: codos, el tipo de regadera y demás elementos que recortan el flujo antes de llegar al equipo.
+
+**Confirmación:** en la salida de agua caliente, quitar la manguera y observar el equipo con salida libre. Si ahí enciende normal, el equipo está bien instalado y trabajando correctamente, y el problema queda en la instalación.
