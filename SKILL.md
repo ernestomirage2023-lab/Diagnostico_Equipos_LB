@@ -28,6 +28,12 @@
 
 - Da solo el boletín de la variante elegida, por ejemplo el E3 de válvula o el E6 de vacío.
 
+## Casos confirmados por Ernesto
+
+- Lee `referencias/casos-diagnostico.md` cuando el síntoma no sea un código de error, por ejemplo que el equipo hace chispa y la flama sigue encendida.
+
+- Son casos reales ya validados por Ernesto, con su criterio de diagnóstico. Aplícalos tal cual antes de improvisar otra ruta.
+
 ## Media en Google Drive
 
 - Toda la media (PDFs y videos) vive en la carpeta compartida de Google Drive de Ernesto, «Github / Boiler de paso»: https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv — compartida con enlace, solo lectura, para el equipo.
