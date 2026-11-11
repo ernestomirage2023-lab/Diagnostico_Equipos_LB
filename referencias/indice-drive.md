@@ -7,9 +7,10 @@ Actualizado por Poly el 2026-11-11 a la 1:06 pm (America/Hermosillo), con un esc
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 44 archivos (36 PDFs y 8 videos), 2.15 GB en total.
+- **Contenido verificado en este escaneo:** 47 archivos (36 PDFs y 11 videos), ~2.4 GB en total.
 - **Último agregado:** `Magnetico prueba.mp4` en la carpeta Videos (27.8 MB), detectado a la 1:06 pm; no venía en la versión anterior de este índice. Ernesto lo describió ese día: sensor magnético de flujo, se prueba con un puente.
-- **Nota:** el diagrama explosivo del MBE081G aparece en dos carpetas (Boiler MBF06ED y Boiler MBE081G); es duplicado conocido.
+- **Completado el 2026-11-11 por la tarde:** el escaneo anterior no había listado 3 videos que sí están en la carpeta Videos; Ernesto los señaló con sus enlaces y quedaron agregados a este índice con su descripción (MBF16AF todos los códigos, MBE081G diagnósticos y MBF06 Flux Series).
+- **Nota:** el diagrama explosivo del MBE081G aparece en dos carpetas (Boiler MBF06ED y Boiler MBE081G); es duplicado conocido. También hay copias del video de diagnósticos del MBE081G y del video del Flux Series tanto en su carpeta de modelo como en la carpeta Videos.
 
 ## Carpetas en Drive
 
@@ -77,6 +78,9 @@ Actualizado por Poly el 2026-11-11 a la 1:06 pm (America/Hermosillo), con un esc
 
 ## Github / Boiler de paso / Videos
 
+- Boier MBF16AF TurboFlux.mp4 — 104.4 MB — https://drive.google.com/file/d/1Ye7fU-0CjLKu4AfoouPd4eX22wlJMuvU/view?usp=drive_link — Descripción de Ernesto (2026-11-11): video para la revisión del modelo MBF16AF, todos los códigos.
+- Boiler MBE081G Electrico Diagnosticos.mp4 — 60.4 MB — https://drive.google.com/file/d/13kKc9il02hoqp7w3afCNjb9v_rqLB0fI/view?usp=drive_link — Descripción de Ernesto (2026-11-11): video para el diagnóstico de diferentes fallas del MBE081G. Hay otra copia de este video en la carpeta Boiler MBE081G.
+- Boiler MBF06 ED EF ZC ZB Flux Series.mp4 — 80.9 MB — https://drive.google.com/file/d/15h8dljmbiisBRsy1ePoq2iB7c8c_T8SX/view?usp=drive_link — Descripción de Ernesto (2026-11-11): video para la revisión de los equipos MBF06ED, MBF06EF, ZC y XB de Flux Series. Hay otra copia del video del Flux Series en la carpeta Boiler MBF06ED.
 - Flujo.mp4 — 1874.7 MB — https://drive.google.com/file/d/1WzMl3IpTaYr92pX7nca8X-E1kEVL3-Y6/view?usp=drivesdk
 - Magnetico prueba.mp4 — 27.8 MB — https://drive.google.com/file/d/1e5wLEQ1qmJSVTKPAVPXD-iU4fCcGgIeX/view?usp=drivesdk — Descripción de Ernesto (2026-11-11): es el sensor magnético para saber si hay flujo; se prueba haciendo un puente, para saber si lo demás funciona correctamente.
 - presion de gas.mp4 — 19.8 MB — https://drive.google.com/file/d/1-dYpzs57t78WJcRR7Z8lKcHwvAnvQQoj/view?usp=drivesdk
