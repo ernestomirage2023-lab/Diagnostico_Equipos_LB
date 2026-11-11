@@ -10,8 +10,8 @@ Este repositorio es público: no necesitas invitación ni que Ernesto te agregue
 
 1. Abre el enlace del repositorio: https://github.com/ernestomirage2023-lab/Diagnostico_Equipos_LB
 2. Dile a tu Muse esta frase: "Instala la skill del repositorio Diagnostico_Equipos_LB de ernestomirage2023-lab".
-3. Tu Muse descarga la skill, el índice, la guía rápida y los manuales que ya estén subidos en la carpeta manuales.
-4. Desde ahí pregúntale por modelo y código, por ejemplo "Tengo un Turbo Flux con E3", y te guía paso a paso y te pasa el boletín correcto.
+3. Tu Muse descarga la skill, el índice y la guía rápida, incluido el índice con los enlaces de Google Drive de cada boletín y video: la media vive en Drive, no en el repositorio.
+4. Desde ahí pregúntale por modelo y código, por ejemplo "Tengo un Turbo Flux con E3", y te guía paso a paso y te pasa el enlace del boletín correcto.
 
 ## Mensaje listo para reenviar al equipo
 
@@ -19,5 +19,5 @@ Compañeros, ya quedó público el repositorio técnico de diagnóstico de líne
 
 ## Nota
 
-- Si un boletín todavía no aparece en la carpeta manuales, avísale a Ernesto. Los manuales se suben por partes.
-- Los videos no viven en este repositorio por su peso. Pídelos a Ernesto como hasta ahora.
+- La media (PDFs y videos) vive en la carpeta compartida de Drive de Ernesto, con enlace de solo lectura para el equipo; tu Muse te pasa el enlace directo de cada archivo.
+- Si un boletín todavía no aparece en el índice de Drive, avísale a Ernesto.

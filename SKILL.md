@@ -18,7 +18,7 @@
 
 - Explica la revisión paso a paso, en el orden del boletín, con la medición esperada en cada paso.
 
-- Entrega el PDF del boletín al técnico cuando lo pida, en vez de resumir todo el manual.
+- Entrega el PDF del boletín al técnico cuando lo pida, en vez de resumir todo el manual. La media no vive en este repositorio: vive en Google Drive, ver la sección siguiente.
 
 ## Códigos con más de un boletín
 
@@ -28,11 +28,19 @@
 
 - Da solo el boletín de la variante elegida, por ejemplo el E3 de válvula o el E6 de vacío.
 
+## Media en Google Drive
+
+- Toda la media (PDFs y videos) vive en la carpeta compartida de Google Drive de Ernesto, «Github / Boiler de paso»: https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv — compartida con enlace, solo lectura, para el equipo.
+
+- Busca el enlace directo de cada archivo en `referencias/indice-drive.md` y entrega ese enlace al técnico para que lo baje o lo vea. Ese es el medio de entrega, no los archivos del repositorio.
+
+- Actúa como el medio entre el técnico y ese conocimiento: el técnico pregunta por modelo y código, tú ubicas el boletín o video correcto y lo entregas, sin que él tenga que buscar en carpetas.
+
 ## Videos de procedimiento
 
-- Consulta la lista de videos en `referencias/indice.md` cuando el técnico necesite ver el procedimiento.
+- Consulta la lista de videos en `referencias/indice-drive.md` cuando el técnico necesite ver el procedimiento, y entrégale el enlace de Drive del video correcto.
 
-- Avisa que los videos viven fuera del repositorio por su peso y da su descripción y duración para que pida el correcto.
+- Los videos viven en Drive por su peso (hay uno de 1.87 GB), así que nunca intentes bajarlos del repositorio.
 
 ## Huecos conocidos
 
