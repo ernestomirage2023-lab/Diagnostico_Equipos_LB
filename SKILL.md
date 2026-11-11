@@ -48,6 +48,12 @@
 
 - Los videos viven en Drive por su peso (hay uno de 1.87 GB), así que nunca intentes bajarlos del repositorio.
 
+## Lavadoras Mirage
+
+- Lee `referencias/lavadoras-mirage.md` cuando la falla sea de una lavadora Mirage: semiautomáticas de doble tina LMS-013M, LMS-016M y LMS-022M, y automática análoga de 22 kg LMA022G.
+
+- Ese documento trae componentes, valores de medición, diagramas, códigos de error, modo test y procedimientos de diagnóstico por código, de la capacitación 2025 de Ernesto.
+
 ## Huecos conocidos
 
 - Avisa que al modelo de 10 litros con WiFi le falta el boletín del código E4, porque solo hay E0, E1, E2, E3 y E5.
