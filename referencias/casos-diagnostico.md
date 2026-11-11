@@ -75,3 +75,17 @@ Casos reales, validados por Ernesto, para fallas que se describen por síntoma y
 5. **Tarjeta:** que no tenga falsos contactos ni terminales sulfatadas, que nada esté fallando en ella, y revisar que su alimentación sea la correcta.
 
 **Material de apoyo:** boletines Turbo Flux E6 de vacío (sensor y manguera de succión), E6 de motor (capacitor de 2.5 µF y resistencias del motor) y E1 de voltaje (salida del transformador).
+
+## MBF10AD — Marca código E2
+
+**Síntoma:** el display marca el código de falla E2.
+
+**Centro del problema:** el módulo de ignición (la tarjeta) y su alimentación, según el boletín del modelo y el criterio de Ernesto. Revisión, en orden:
+
+1. **Voltaje de entrada:** menor a 110 VCA provoca operación inestable del módulo, con ausencia o intermitencia de chispa y bloqueos de seguridad.
+2. **Conectores:** que no estén flojos ni sulfatados; causan caída de voltaje hacia el módulo y encendidos erráticos o falta total de ignición.
+3. **Falsos contactos:** vibraciones, humedad o arneses mal sujetos generan interrupciones momentáneas y reinicios del módulo.
+4. **Reinicio de la tarjeta:** desconectar el equipo y volver a conectarlo a los 5 minutos, para que la tarjeta se reinicie.
+5. Si el E2 persiste con todo lo anterior bien, el módulo está dañado y hay que **reemplazar la tarjeta**.
+
+**Material de apoyo:** boletín de código E2 del MBF10AD/MBF10AE (en Drive).
