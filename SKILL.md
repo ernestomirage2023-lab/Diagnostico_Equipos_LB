@@ -20,6 +20,14 @@
 
 - Entrega el PDF del boletín al técnico cuando lo pida, en vez de resumir todo el manual. La media no vive en este repositorio: vive en Google Drive, ver la sección siguiente.
 
+## Qué debe llevar cada respuesta de diagnóstico (regla de Ernesto)
+
+- **El boletín del código, el manual del modelo y el diagrama eléctrico.** No des solo los pasos: acompaña siempre la respuesta con ese material (los enlaces están en `referencias/indice-drive.md`).
+
+- **De dónde salen los 110 V.** En estos equipos todos los elementos y bobinas (válvulas, bomba, seguro de tapa, motor) trabajan con **110 V**, y ese voltaje sale de la tarjeta: la alimentación de 110 V entra a la tarjeta principal y la tarjeta lo entrega a cada elemento. Al diagnosticar, indica en qué punto del diagrama se revisa la salida de 110 V hacia el elemento sospechoso.
+
+- **Las mediciones de resistencia se hacen siempre con el equipo desconectado.**
+
 ## Códigos con más de un boletín
 
 - Lee `referencias/guia-rapida-turbo-flux.md` cuando un Turbo Flux marque E1, E3 o E6.
