@@ -1,6 +1,6 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-12 a la 1:35 pm (America/Hermosillo): incluye los 20 archivos de la carpeta Dispensadores (10 que Ernesto subió directo — manuales, diagramas y boletines de los MDD10/MDD30 —, las 2 fotos y 2 videos del caso de fuga debajo del depósito de agua fría, y los 6 manuales y fichas de especificaciones que Ernesto envió después), verificados en Drive.
+Actualizado por Poly el 2026-11-12 a la 1:40 pm (America/Hermosillo): incluye los 20 archivos de la carpeta Dispensadores (10 que Ernesto subió directo — manuales, diagramas y boletines de los MDD10/MDD30 —, las 2 fotos y 2 videos del caso de fuga debajo del depósito de agua fría, y los 6 manuales y fichas de especificaciones que Ernesto envió después), verificados en Drive.
 
 ## Estado
 
@@ -232,3 +232,8 @@ Actualizado por Poly el 2026-11-12 a la 1:35 pm (America/Hermosillo): incluye lo
 - Manual_Dispensador_Blanco_Garrafon_Oculto_MDD30HD.pdf — 3.3 MB — https://drive.google.com/file/d/1JY9EmYCfZOEtSDSOCICI86SgB1R50oXu/view?usp=drivesdk — **Manual del dispensador blanco de garrafón oculto MDD30HD** (enviado por Ernesto el 2026-11-12).
 - Manual_Disx10_MDD10CS.pdf — 4.7 MB — https://drive.google.com/file/d/1_RNH11jOQN3itooP7XWUeIryfpf_wRGw/view?usp=drivesdk — **Manual del Disx10 MDD10CS** (enviado por Ernesto el 2026-11-12).
 - Manual_Mirage_Disx30.pdf — 2.3 MB — https://drive.google.com/file/d/1wx_xHPM8Gvx_fKFeQPUpCXUgSlBbVqEe/view?usp=drivesdk — **Manual Mirage Disx30** (enviado por Ernesto el 2026-11-12).
+
+## Github / Congeladores
+
+- Manual_de_uso_congelador_hb.pdf — 1.5 MB — https://drive.google.com/file/d/1HjjLEiFQ1OU5MXnlPxq8axkbHy4UvrTe/view?usp=drivesdk — **Manual de uso del congelador HB** (23 págs.; enviado por Ernesto el 2026-11-12).
+- congelador_hb.pdf — 1.8 MB — https://drive.google.com/file/d/1QC2NSJKqQVlSoemuFgOAM0YnjOHxvJzD/view?usp=drivesdk — Documento del congelador HB, 2 págs. (enviado por Ernesto el 2026-11-12).
