@@ -71,11 +71,19 @@ Referencia extraída el 2026-11-11 de la app oficial «Códigos Diagnóstico» d
 6. Solo SEGURO intermitente (patrón verificado) — Falla en el seguro de la tapa. Solución: revisar el mecanismo del seguro de la tapa.
 7. Indicador de bloqueo de niños (candado) intermitente (patrón verificado); falla de comunicación. Soluciones: revisar que los conectores de los cables de comunicación estén bien conectados en la tarjeta de tablero y la tarjeta principal; revisar si hay cables dañados en los arneses.
 
-### LMA022N (7 patrones)
+### LMA022N (7 patrones; LEDs: SEGURO, REMOJO, LAVADO, ENJUAGUE, SECADO)
 
-Igual que LMA022M en las entradas 1, 3, 4, 5, 6 y 7. La entrada 2 es distinta: **tiempo de drenaje ≥ 6 minutos**. Soluciones: revisar el funcionamiento del sensor de nivel; comprobar que la manguera que une la tina con el sensor de nivel no esté rota; revisar la bomba de drenado. (En la app, las entradas de la LMA022N se nombran «LMA022M-1» a «LMA022M-7» en sus enlaces.)
+Ojo: aunque las descripciones coinciden con la LMA022M, **los patrones 3 y 4 son distintos** entre ambos modelos. (En la app, las entradas de la LMA022N se nombran «LMA022M-1» a «LMA022M-7» en sus enlaces.)
 
-> Nota: los 7 patrones LED de LMA022M quedaron verificados el 2026-11-12 con la captura de la app que envió Ernesto. Las imágenes de los patrones de LMA022N no cargaron en la app al extraer esto; sus descripciones y soluciones sí quedaron verificadas. Los patrones de LMA022G también están verificados.
+1. SEGURO y REMOJO intermitentes (patrón verificado) — Alarma de llenado de agua durante más de 1 hora. Soluciones: revisar si la llave de agua está abierta o cerrada; revisar baja presión en el suministro de agua.
+2. REMOJO y LAVADO intermitentes (patrón verificado) — **Tiempo de drenaje ≥ 6 minutos** (distinto de la LMA022M). Soluciones: revisar el funcionamiento del sensor de nivel; comprobar que la manguera que une la tina con el sensor de nivel no esté rota; revisar la bomba de drenado.
+3. LAVADO y ENJUAGUE intermitentes (patrón verificado; en la LMA022M este código lleva también REMOJO) — La tapa no está cerrada para iniciar el ciclo de secado. Soluciones: asegurarse de que la tapa esté completamente cerrada; revisar sensor magnético y mecánico de tapa; revisar la correcta conexión de los sensores de la puerta.
+4. ENJUAGUE y SECADO intermitentes (patrón verificado; en la LMA022M este código lleva también SEGURO) — Exceso de vibración en el proceso de secado. Soluciones: asegurarse de que la base esté bien nivelada; distribuir la ropa uniformemente dentro de la tina.
+5. SEGURO y SECADO intermitentes (patrón verificado) — Falla en sensor de nivel de agua. Soluciones: revisar el funcionamiento del sensor de nivel; comprobar que la manguera que une la tina con el sensor no esté rota; reemplazar el sensor de nivel de agua.
+6. Solo SEGURO intermitente (patrón verificado) — Falla en el seguro de la tapa. Solución: revisar el mecanismo del seguro de la tapa.
+7. Indicador de bloqueo de niños (candado) intermitente (patrón verificado); falla de comunicación. Soluciones: revisar que los conectores de los cables de comunicación estén bien conectados en la tarjeta de tablero y la tarjeta principal; revisar si hay cables dañados en los arneses.
+
+> Nota: los 7 patrones LED de LMA022M y los 7 de LMA022N quedaron verificados el 2026-11-12 con las capturas de la app que envió Ernesto. Los patrones de LMA022G también están verificados.
 
 ## Cruce con los boletines y documentos de Ernesto
 
