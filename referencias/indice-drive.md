@@ -7,10 +7,11 @@ Actualizado por Poly el 2026-11-12 a la 1:00 pm (America/Hermosillo): incluye lo
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 118 archivos, 3.03 GB en total.
+- **Contenido verificado en este escaneo:** 132 archivos, ≈3.08 GB en total.
   - **Boiler de paso:** 57 archivos.
   - **Lavadoras:** 61 archivos.
-- **Novedad de esta actualización:** las 3 fotos del termostato del MBF06ED/EF (quemado, sus cables y el repuesto nuevo) y la foto del termostato dañado del Flux Rojo, que se suman a las 3 fotos de la válvula de drenaje de las semiautomáticas LMS-013M/016M/022M y a los 6 archivos de boilers subidos hoy (fotos del módulo del MBF16AF, su medición de 122.5 V CA, el video de su transformador y el switch del MBF06ED).
+  - **Dispensadores:** 14 archivos.
+- **Novedad de esta actualización:** la carpeta Dispensadores recibió sus primeros 14 archivos: manuales de los Disx10/Disx30, diagramas del MDD30HD, MDD30HC y MDD10CB, boletines (bomba sin succión, alarma de nivel bajo, check valve), el video de la bomba y el material de campo del caso **fuga debajo del depósito de agua fría** (2 fotos y 2 videos) que Ernesto mandó registrar como diagnóstico el 2026-11-12.
 - **Descripciones:** las descripciones que Ernesto ha dado de sus videos (por ejemplo la prueba del puente del sensor magnético) van anotadas en la entrada de cada archivo.
 - **Notas de duplicados conocidos:** el diagrama explosivo del MBE081G aparece en dos carpetas de boilers; hay copias de los videos de diagnósticos del MBE081G y del Flux Series en su carpeta de modelo y en la carpeta Videos; y varios boletines de lavadora LMA017D existen en PDF y también en DOCX (y en dos carpetas de boletines).
 
@@ -35,7 +36,7 @@ Actualizado por Poly el 2026-11-12 a la 1:00 pm (America/Hermosillo): incluye lo
 - Github / Lavadoras / Lavadoras Semiautomaticas LMS-M — https://drive.google.com/drive/folders/1zvfBGNkJuI4c3IY5rIW6mDQpoYzJSuAy
 - Github / Lavadoras / Lavadoras Semiautomaticas LMS-M / PDF — https://drive.google.com/drive/folders/1J7WpPCyrpQLLuCw19DMnTupgFmhKZvuX
 - Github / Lavadoras / Videos — https://drive.google.com/drive/folders/1BbqK4zrKVjxiu-nI6wGu0g361rJ10yO8
-- Github / Dispensadores — https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K — **categoría nueva (2026-11-12), aún sin archivos**
+- Github / Dispensadores — https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K — **14 archivos**
 - Github / Microondas — https://drive.google.com/drive/folders/1IHPTyI1Gj4hCj9yp_sFf3a5LuInAST0R — **categoría nueva (2026-11-12), aún sin archivos**
 - Github / Congeladores — https://drive.google.com/drive/folders/1z2HWoyE5JTNSMw-xh-WZlcEuTRYGCZfC — **categoría nueva (2026-11-12), aún sin archivos**
 - Github / Refrigeradores — https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX — **categoría nueva (2026-11-12), aún sin archivos**
@@ -214,7 +215,7 @@ Actualizado por Poly el 2026-11-12 a la 1:00 pm (America/Hermosillo): incluye lo
 - Boletin DISK10-Check-Valve.pdf — 2.3 MB — https://drive.google.com/file/d/1oB9Q6HiWjbC092tNa8yRz2eUqOhrxZRo/view?usp=drivesdk
 - Boletin-Alarma_Nivel_Bajo_Agua_MDD30HC.pdf — 5.8 MB — https://drive.google.com/file/d/1k-uy8xPH2qafoS-YZEF8c6XSU2sDuoO0/view?usp=drivesdk
 - Boletin_DISX30_Bomba sin succión.pdf — 0.4 MB — https://drive.google.com/file/d/1xiwa6s0SiHX2ToR1IHCqD818i4TDzjwb/view?usp=drivesdk
-- Bomba Dispensador.mp4 — 13.1 MB — https://drive.google.com/file/d/1MrCmeSrV0FuVH7yVaUFfnmr1vu2JnmRU/view?usp=drivesdk
+- Bomba Dispensador.mp4 — 13.1 MB — https://drive.google.com/file/d/1MrCmeSrV0FuVH7yVaUFfnmr1vu2JnmRU/view?usp=drivesdk — **Video oficial DISX30 (dispensador de garrafón oculto).** Descripción de Ernesto (2026-11-12): muestra la **falla de bomba sin succión** — el despiece del cabezal (manguera, tubos y cople, liga, codo y seguros) y el **sello de vacío**: si queda algún espacio o la manguera se jala, entra aire, la bomba no succiona, no sube el agua y el equipo marca falla. (Ernesto reenvió este video por WhatsApp el 2026-11-12; es el mismo que ya estaba en Drive, por eso no se duplicó.)
 - Diagrama Dispensador MDD30HD.pdf — 0.4 MB — https://drive.google.com/file/d/1_6k-4AjymycooLk1uTMclYioxsn30jTy/view?usp=drivesdk
 - Diagrama Electrico Dispensador MDD30HC.pdf — 0.1 MB — https://drive.google.com/file/d/1DNPv2lyQ917LnEH9HBDj3GNF8r6NqS89/view?usp=drivesdk
 - Diagrama Explosivo - MDD10CB.pdf — 0.8 MB — https://drive.google.com/file/d/1-MUn_ooj0s56C_x2z-MaDESpqWh0j159/view?usp=drivesdk

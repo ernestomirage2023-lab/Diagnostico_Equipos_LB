@@ -75,6 +75,8 @@ Proceso termodinámico de **compresión de vapor**, en 4 pasos:
 - La tarjeta entrega **12 VCD** y la bomba no trabaja → la falla es la **bomba**.
 - La tarjeta entrega un voltaje anormal — casos vistos por el instructor: **24 o 40 V**, o por debajo: **5 o 3 V** — → la falla es la **tarjeta**.
 - Si el equipo debería estar llenando y la tarjeta no manda el voltaje → también es la tarjeta.
+
+**Falla conocida — bomba sin succión por pérdida de vacío** *(explicación de Ernesto, 2026-11-12; video oficial DISX30)*: en el MDD30 de garrafón oculto, si al conectar queda **algún espacio** o la **manguera se jala**, se genera una entrada de aire y **se pierde el vacío**: la bomba no succiona como debe, **no sube el agua y el equipo marca falla**. Antes de condenar la bomba o la tarjeta, revisar el conjunto de succión del garrafón: el **cabezal** con sus tubos y cople, la **liga**, el **codo** y sus **seguros** (clips), y sobre todo el **sello de vacío** de la unión del codo con la manguera — la manguera debe entrar completa y quedar asegurada con su clip, sin espacio, igual que la conexión superior que sube al tanque. Material relacionado en la carpeta de Dispensadores: `Boletin_DISX30_Bomba sin succión.pdf` y el video `Bomba Dispensador.mp4` (muestra el despiece del cabezal y el sello de vacío).
 - El instructor remite al **diagrama del dispensador** (área de calentamiento y de enfriamiento) para el diagnóstico. Los diagramas ya están en la carpeta de Dispensadores de Drive: **Diagrama Dispensador MDD30HD**, **Diagrama Electrico Dispensador MDD30HC** y **Diagrama Explosivo MDD10CB** (ver `referencias/indice-drive.md`), junto con los manuales Disx10 y Disx30.
 
 ### 3.3 Caso de campo (Ernesto, 2026-11-12): fuga debajo del depósito de agua fría
