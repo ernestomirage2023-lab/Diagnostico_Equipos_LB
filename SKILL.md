@@ -82,10 +82,15 @@
 - Lee `referencias/lavadoras-modulo-3.md` para el curso de lavadoras de Ernesto (Módulo 3): tipos y funcionamiento, componentes, revisión de componentes y fallas comunes de las semiautomáticas LMS y de la automática de 22 kg, y el modo test. Complementa a `referencias/lavadoras-mirage.md`.
 - Valores confirmados por Ernesto el 2026-11-12, ya integrados en ese documento: retractor **1.6 kΩ**; bomba de drenaje **20–40 Ω en la LMA022G** y **15–20 Ω en la LMA022M/N**; lavado en seco del modo test de **≈5 minutos**; prueba de llenado con la perilla de **opciones en Pre remojo**; protector térmico del motor arriba de **60 °C**.
 
+## Microondas (curso de Ernesto, Módulo 4)
+
+- Lee `referencias/microondas-modulo-4.md` para el curso de microondas de Ernesto (Módulo 4): principio de funcionamiento (2.45 GHz), componentes principales y revisión de componentes con seguridad. Valores confirmados por Ernesto el 2026-11-12: capacitor de **2,000 V**, fusible de entrada de **15 A / 250 V**, termostato de cavidad de **105 °C**.
+- **Seguridad primero:** en cualquier procedimiento interno, recuerda la **descarga del capacitor** antes de tocar componentes; nunca sugieras anular los interruptores de puerta.
+
 ## Categorías nuevas (en preparación)
 
-- A petición de Ernesto (2026-11-12), la skill se amplía a más línea blanca. Ya existen las carpetas en Drive y las referencias, **aún sin material**: **Dispensadores** (`referencias/dispensadores.md`), **Microondas** (`referencias/microondas.md`), **Congeladores** (`referencias/congeladores.md`) y **Refrigeradores** (`referencias/refrigeradores.md`). Su media vivirá en las carpetas del mismo nombre en la raíz de la carpeta «Github» de Drive, registradas en `referencias/indice-drive.md`.
-- Si preguntan por un equipo de estas categorías, di que la categoría está en preparación y todavía no hay material cargado; no inventes códigos ni procedimientos para ellas.
+- A petición de Ernesto (2026-11-12), la skill se amplía a más línea blanca. Ya existen las carpetas en Drive y las referencias, **aún sin material**: **Dispensadores** (`referencias/dispensadores.md`), **Congeladores** (`referencias/congeladores.md`) y **Refrigeradores** (`referencias/refrigeradores.md`). **Microondas ya tiene material** (ver la sección anterior). Su media vivirá en las carpetas del mismo nombre en la raíz de la carpeta «Github» de Drive, registradas en `referencias/indice-drive.md`.
+- Si preguntan por un equipo de las categorías aún vacías, di que la categoría está en preparación y todavía no hay material cargado; no inventes códigos ni procedimientos para ellas.
 
 ## Huecos conocidos
 
