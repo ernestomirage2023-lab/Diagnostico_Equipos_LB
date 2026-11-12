@@ -112,7 +112,7 @@ Guía basada en el calentador de paso de **gas LP, 1 servicio, 5–6 L/min**.
 #### a) Suministro de gas y baterías
 
 - Verificar que la válvula del tanque esté **abierta** y que haya suministro de gas.
-- Baterías con voltaje **por encima de 3 V** (se requieren para el funcionamiento).
+- Baterías con voltaje **por encima de 3 V** (se requieren para el funcionamiento). Es el par de 2 pilas de 1.5 V: con 3.0 V o menos, la bobina de la válvula ya no se sostiene y se cambian las pilas.
 
 #### b) Bobina de la válvula de gas
 
@@ -122,7 +122,7 @@ Guía basada en el calentador de paso de **gas LP, 1 servicio, 5–6 L/min**.
 
 #### c) Flujo de agua muy bajo
 
-- Equipos de 1 servicio (5–6 L/min) requieren una **presión mínima de 1.45 psi** ⚠️ *(transcrito como "1.45 PSA"; confirmar unidad)*, que equivale a un caudal de unos 5 L/min en la tubería.
+- Equipos de 1 servicio (5–6 L/min) requieren una **presión mínima de 1.45 psi** *(la transcripción decía "1.45 PSA"; la unidad es psi — validación del 2026-11-12: 1.45 psi ≈ 1 m de columna de agua, coherente con el caudal de diseño; ningún otro documento del archivo trae este dato)*, que equivale a un caudal de unos 5 L/min en la tubería.
 - **Prueba práctica de la cubeta de 20 L** (sin caudalímetro):
 
 | Tiempo en llenar 20 L | Interpretación |
@@ -164,7 +164,7 @@ Guía basada en el calentador de paso de **gas LP, 1 servicio, 5–6 L/min**.
 ### 3.4 Presión de gas
 
 - Presión de trabajo requerida: **2.74 kPa, constante.**
-- Equivalencias: **11 pulgadas de columna de agua** y **6.36 oz/pulg²** ⚠️ *(transcrito como "6.36 h sobre pulgada cuadrada"; se interpreta como onzas por pulgada cuadrada)*.
+- Equivalencias: **11 pulgadas de columna de agua** y **6.36 oz/pulg²** *(confirmado por conversión el 2026-11-12: 2.74 kPa = 11.0 pulg. de columna de agua = 6.36 oz/pulg², exacto)*.
 - **Presión estática** (circuito cerrado, sin consumo) puede verse buena, pero **al encender el equipo la presión puede caer**. Si además otro aparato consume gas (por ejemplo la estufa), la presión baja más y la flama se puede apagar.
 - Verificar con un **manómetro**: con el equipo apagado la presión se mantiene, al encender baja y al apagar sube de nuevo. Si cae demasiado al operar, hay un problema de suministro.
 
@@ -208,10 +208,10 @@ Guía basada en el calentador de paso de **gas LP, 1 servicio, 5–6 L/min**.
 | Componente | Prueba | Valor esperado |
 |------------|--------|----------------|
 | **Termostato de alta temperatura** | Continuidad entre terminales. Cuando se dispara, el botoncito central sobresale. Rearmar y confirmar continuidad. | Con continuidad al estar frío y rearmado |
-| **Triac** | Entre terminales **1 y 3**: prueba de resistencia y prueba de diodos | Resistencia ≈ **105.9** ⚠️ *(transcrito "105.9b", unidad por confirmar)*; diodos ≈ **0.148 V** ⚠️ |
+| **Triac** | Entre terminales **1 y 3**: prueba de resistencia y prueba de diodos | Resistencia = **105.9 Ω**; diodos = **0.148 V** *(ambos confirmados contra el boletín Flux Eléctrico E1, modelos MBE081G/MBE040B, de Ernesto — validación del 2026-11-12)* |
 | **Resistencia interna** (código 1: no calienta) | Medir resistencia | Entre **4 y 7 Ω** según modelo |
 | **Sensor de temperatura (NTC)** | Medir a 25 °C | **47 kΩ** |
-| **Sensor de temperatura a 0 °C** (agua con hielo) | Medir a 0 °C | ≈ **150.4 kΩ** ⚠️ *(transcrito "1504kb"; confirmar valor)* |
+| **Sensor de temperatura a 0 °C** (agua con hielo) | Medir a 0 °C | ≈ **150.4 kΩ** *(validado por consistencia de la curva NTC el 2026-11-12: con 47 kΩ a 25 °C da un Beta de ≈3789 K, típico de estos sensores; pendiente solo la medición en campo)* |
 
 #### Instalación eléctrica
 
@@ -269,11 +269,11 @@ Guía basada en el calentador de paso de **gas LP, 1 servicio, 5–6 L/min**.
 
 | Dato | Lo que dice la transcripción | Por confirmar |
 |------|------------------------------|---------------|
-| Presión mínima de agua | "1.45 PSA" | Unidad (se interpreta psi) |
-| Presión de gas en onzas | "6.36 h sobre pulgada cuadrada" | Se interpreta oz/pulg² |
-| Triac, resistencia (terminales 1 y 3) | "105.9b" | Valor y unidad |
-| Triac, prueba de diodos | "0.148b" | Se interpreta 0.148 V |
-| Sensor NTC a 0 °C | "1504kb" | Probable 150.4 kΩ |
+| Presión mínima de agua | "1.45 PSA" | ✅ Resuelto (2026-11-12): la unidad es **psi**; ≈1 m de columna de agua. El valor solo lo respalda el curso |
+| Presión de gas en onzas | "6.36 h sobre pulgada cuadrada" | ✅ Resuelto (2026-11-12): **oz/pulg²**, confirmado por conversión (2.74 kPa = 11.0" c.a. = 6.36 oz/pulg²) |
+| Triac, resistencia (terminales 1 y 3) | "105.9b" | ✅ Resuelto (2026-11-12): **105.9 Ω**, según el boletín Flux Eléctrico E1 de Ernesto |
+| Triac, prueba de diodos | "0.148b" | ✅ Resuelto (2026-11-12): **0.148 V**, según el mismo boletín E1 |
+| Sensor NTC a 0 °C | "1504kb" | ✅ Consistente (2026-11-12): **150.4 kΩ**; la curva NTC con 47 kΩ a 25 °C da Beta ≈3789 K. Pendiente solo medición en campo |
 
 ## Reglas para la skill
 
