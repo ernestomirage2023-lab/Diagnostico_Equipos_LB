@@ -150,3 +150,22 @@ Casos reales, validados por Ernesto, para fallas que se describen por síntoma y
 **Cómo se separa:** sensor que no cierra con el imán = detección (E3); sin pulso de 110 V = tarjeta; pulso presente y pistón que no traba o switch que no confirma = el seguro (Fd).
 
 **Material de apoyo en Drive:** boletín E3 de la LMA022G, boletín E3 Sensor Magnético de la LMA017D (mismo principio de sensor), Manual para técnicos LMA022G, Diagrama Eléctrico LMA022G y Modo Test LMA022G (enlaces en `referencias/indice-drive.md`); procedimientos E3 y Fd del documento de lavadoras (`referencias/lavadoras-mirage.md`).
+
+## LMA022G — En lavado el motor solo gira a un lado
+
+**Síntoma:** la lavadora sí lava, pero el motor gira en un solo sentido; no alterna el giro.
+
+**Lógica:** en lavado, la tarjeta principal alterna dos salidas de 110 V hacia el motor, **L1 y L2**, una por sentido de giro. Si falta un sentido, las causas posibles son el devanado de ese sentido en el motor o que la tarjeta no entregue esa salida.
+
+**Revisión, en orden:**
+
+1. **Devanados del motor** (equipo desconectado): **4.3 Ω cada uno y 8.6 Ω entre extremos** (medido en banco: 4.4 / 8.5 / 4.1 Ω). Un devanado en OL = motor dañado.
+2. **Salidas de la tarjeta:** durante el lavado, medir en el conector del motor (CN3) **neutro contra L1** y **neutro contra L2**; cada salida debe dar **110 V en su turno**.
+3. **Dónde se corta:** si una salida no entrega los 110 V **en el conector de la tarjeta**, la falla es la etapa de salida de ese sentido en la tarjeta principal. Si en la tarjeta sí sale pero no llega al motor, es arnés o conector.
+4. El capacitor de **60 µF** débil quita fuerza de arranque, pero el giro en un solo sentido clásico es devanado abierto o salida de tarjeta.
+
+**Caso validado por Ernesto:** el L2 sí entrega 110 V y el motor gira con L2, pero el L1 no sale de la tarjeta. Conclusión: falla en la salida L1 de la tarjeta principal; se recomienda cambiar la **tarjeta principal**, no el motor, porque el motor sí trabaja con el sentido que recibe.
+
+**Confirmación:** modo test, prueba de lavado en seco (perilla de nivel de agua en ALTO, ciclo de ≈5 minutos): sin agua se ve si el motor alterna o solo gira a un lado.
+
+**Material de apoyo en Drive:** Manual para técnicos LMA022G, Diagrama Eléctrico LMA022G (salida del motor en CN3) y Modo Test LMA022G con su video (enlaces en `referencias/indice-drive.md`); sección Motor del documento de lavadoras (`referencias/lavadoras-mirage.md`). No hay boletín específico de motor para este modelo.
