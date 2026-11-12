@@ -187,3 +187,21 @@ Casos reales, validados por Ernesto, para fallas que se describen por síntoma y
 **Confirmación:** modo test, prueba de centrifugado (valida transmisión y bomba): ahí se ve si el retractor libera el embrague y la tina toma el giro.
 
 **Material de apoyo en Drive:** Manual para técnicos LMA022G (vista inferior con el retractor y el cuerpo de embrague, y sección de componentes), Diagrama Eléctrico LMA022G y Modo Test LMA022G con su video (enlaces en `referencias/indice-drive.md`); sección Retractor del documento de lavadoras (`referencias/lavadoras-mirage.md`). **No hay boletín ni documento específico del retractor.**
+
+## LMA022G — No llena, código E1: la causa era la presión de agua de la casa
+
+**Síntoma:** la lavadora no llena y marca **E1** (llenado mayor a 30 minutos; patrón de LEDs: **SEGURO intermitente**). El agua entraba lento y muy poco.
+
+**Lógica:** el E1 se dispara por **tiempo de llenado**, no por una pieza en específico: si el chorro que entra es débil, la lavadora rebasa los 30 minutos y marca el código aunque sus válvulas y su tarjeta estén buenas. Antes de condenar componentes hay que comprobar el suministro de agua de la casa.
+
+**Revisión, en orden:**
+
+1. **Prueba de la cubeta:** con las mangueras de llenado sueltas en una cubeta, el chorro salía **flojo**. Esta es la prueba que cierra el diagnóstico.
+2. **Fría y caliente:** el chorro era lento **en las dos entradas**; si el problema fuera una sola válvula de la lavadora, fallaría un solo lado. Lento en ambos descarta una sola válvula.
+3. **Contexto de la casa:** el agua salía floja **en toda la casa**; instalación **sin tinaco ni bomba, directo de red**.
+
+**Conclusión del caso:** no cambiar válvulas ni tarjeta. Revisar que la **llave principal** y el **medidor** estén abiertos a tope; como solución de largo plazo, **tinaco con bomba** para dar presión a la instalación.
+
+**Material de apoyo en Drive:** Boletín E1 LMA022G, Manual para técnicos LMA022G, Diagrama Eléctrico LMA022G y Modo Test LMA022G (enlaces en `referencias/indice-drive.md`).
+
+**Origen:** caso real atendido por un técnico del equipo y validado por Ernesto el 2026-11-12; se integra por el canal oficial (la skill es de solo consulta: los casos los escriben Ernesto y Poly).
