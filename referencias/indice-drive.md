@@ -1,16 +1,16 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-11 a las 7:57 pm (America/Hermosillo): se agregaron los 4 archivos nuevos que Ernesto mandó subir a la carpeta Boiler MBF16AF (fotos del módulo de ignición, foto del conector de 5 V del display y video del transformador), verificados en Drive.
+Actualizado por Poly el 2026-11-11 a las 8:07 pm (America/Hermosillo): incluye los 6 archivos nuevos que Ernesto mandó subir hoy (5 en la carpeta Boiler MBF16AF y 1 en la carpeta Boiler MBF06ED), verificados en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 109 archivos, 3.03 GB en total.
-  - **Boiler de paso:** 51 archivos.
+- **Contenido verificado en este escaneo:** 111 archivos, 3.03 GB en total.
+  - **Boiler de paso:** 53 archivos.
   - **Lavadoras:** 58 archivos.
-- **Novedad de esta actualización:** 4 archivos nuevos del Turbo Flux MBF16AF (3 fotos y 1 video) que Ernesto mandó subir a Drive el 2026-11-11, con sus descripciones y datos de medición.
+- **Novedad de esta actualización:** 6 archivos nuevos que Ernesto mandó subir a Drive el 2026-11-11: las fotos del módulo de ignición del MBF16AF, la medición de su alimentación de línea (122.5 V CA), el video del transformador del MBF16AF y la foto del switch de encendido del MBF06ED, con sus descripciones y datos de medición.
 - **Descripciones:** las descripciones que Ernesto ha dado de sus videos (por ejemplo la prueba del puente del sensor magnético) van anotadas en la entrada de cada archivo.
 - **Notas de duplicados conocidos:** el diagrama explosivo del MBE081G aparece en dos carpetas de boilers; hay copias de los videos de diagnósticos del MBE081G y del Flux Series en su carpeta de modelo y en la carpeta Videos; y varios boletines de lavadora LMA017D existen en PDF y también en DOCX (y en dos carpetas de boletines).
 
@@ -73,6 +73,7 @@ Actualizado por Poly el 2026-11-11 a las 7:57 pm (America/Hermosillo): se agrega
 - Diagrama explosivo - MBE081G.pdf — 0.5 MB — https://drive.google.com/file/d/1emUd54brd_vfpyW__7nwDpcBFIi4_Ur-/view?usp=drivesdk
 - Manual Flux Blanco MBF06ED-MBF06EF.pdf — 9.7 MB — https://drive.google.com/file/d/1IN2ERnaq1kvTBkDy7NCUbo-kHJIgmfY4/view?usp=drivesdk
 - Manual Flux Rojo MBFxxxB MBFxxxC.pdf — 10.1 MB — https://drive.google.com/file/d/1ZcJFTUMtLl0RBMxqOcNwaCzs4vPd8PA6/view?usp=drivesdk
+- Switch de encendido MBF06ED.jpg — 0.1 MB — https://drive.google.com/file/d/1JONEhMCnTmsBQLgvNi_11fLk8N2ZOVtp/view?usp=drivesdk — Foto de Ernesto (2026-11-11): el switch de encendido del MBF06ED/EF con sus dos cables rojos; punto de revisión: su estado y las terminales (en la foto se ven sulfatadas/deterioradas).
 
 ## Github / Boiler de paso / Boiler MBF16AF
 
@@ -93,6 +94,7 @@ Actualizado por Poly el 2026-11-11 a las 7:57 pm (America/Hermosillo): se agrega
 - Modulo de ignicion MBF16AF instalado.jpg — 0.1 MB — https://drive.google.com/file/d/1VzMX0iWFRZJB0pNR7lHTagrrdwNrXmkY/view?usp=drivesdk — Foto de Ernesto (2026-11-11): el módulo de ignición ya montado y conectado en el MBF16AF.
 - Modulo MBF16AF display no enciende 5V.jpg — 0.1 MB — https://drive.google.com/file/d/1ZeffF7C5MQY0bBpHPOYFMdT3TLgHkMIG/view?usp=drivesdk — Foto de Ernesto (2026-11-11): el conector del display en el módulo (marcado 5V, CN9); cuando el display no enciende, entre las terminales seleccionadas debe dar 5 volts.
 - Transformador MBF16AF.mp4 — 2.6 MB — https://drive.google.com/file/d/16xDyUfWHFfoHbox3rN-xh13scUMCMca0/view?usp=drivesdk — Video de Ernesto (2026-11-11): el transformador del MBF16AF; los rojos son la entrada de 110 V, blanco a negro son 12 V y blanco a blanco son 24 V (dos devanados de 12.5 V/0.8 A).
+- Voltaje de alimentacion del modulo MBF16AF.jpg — 0.1 MB — https://drive.google.com/file/d/1u5Yf8wRj0DayN5Fn2Uv3K0fwp5OKV62y/view?usp=drivesdk — Foto de Ernesto (2026-11-11): medición con pinza amperimétrica del voltaje de línea que alimenta al MBF16AF: **122.5 V CA**, valor ideal (por debajo de 110 V ya hay problema de alimentación).
 
 ## Github / Boiler de paso / Videos
 
