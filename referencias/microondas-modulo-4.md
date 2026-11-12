@@ -118,7 +118,8 @@ La puerta lleva **tres switches** de seguridad; hay que revisar la lógica de ca
 ### 3.9 Fusibles
 
 - **Fusible de entrada (línea): 15 A, 250 V** *(confirmado por Ernesto el 2026-11-12)*. Revisar continuidad en sus dos terminales.
-- Al final de la lección el curso menciona un fusible «del capacitor al magnetrón»; Ernesto confirmó que el fusible del equipo es el de la entrada (15 A / 250 V), sin un segundo fusible confirmado.
+- Al final de la lección el curso menciona un fusible «del capacitor al magnetrón», y la presentación del Módulo IV trae una diapositiva titulada **«FUSIBLE Capacitor-Magnetron»** en la revisión de componentes (sin valor visible). Ernesto confirmó que el fusible del equipo es el de la entrada (15 A / 250 V), sin un segundo fusible confirmado: si un equipo en campo trae fusible de alto voltaje, se documenta en ese momento.
+- **Material del modelo en Drive** (carpeta Github / Microondas): manuales de los **Xwave MWD020 y MWD031**, diagramas explosivos **MWD020E y MWD031E** y la presentación del Módulo IV (`Presentacion_LB.pdf`), que confirma los ~4,000 V del magnetrón y los switches de puerta NA/NC/NA de este documento.
 
 ---
 
