@@ -27,6 +27,7 @@
 - **De dónde salen los 110 V.** En estos equipos todos los elementos y bobinas (válvulas, bomba, seguro de tapa, motor) trabajan con **110 V**, y ese voltaje sale de la tarjeta: la alimentación de 110 V entra a la tarjeta principal y la tarjeta lo entrega a cada elemento. Al diagnosticar, indica en qué punto del diagrama se revisa la salida de 110 V hacia el elemento sospechoso.
 
 - **Las mediciones de resistencia se hacen siempre con el equipo desconectado.**
+- **Si el diagnóstico indica cambiar una pieza, muestra la foto de esa pieza.** Cuando la conclusión sea reemplazar un componente (tarjeta, bomba, retractor, termostato, sensor, válvula, etc.), entrega también su foto desde `referencias/indice-drive.md` cuando exista, para que el técnico identifique la pieza exacta antes de cambiarla, y di qué medición confirma que esa pieza es la falla.
 
 ## Códigos con más de un boletín
 
