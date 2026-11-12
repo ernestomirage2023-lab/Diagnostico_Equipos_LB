@@ -1,16 +1,16 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-11 a las 3:29 pm (America/Hermosillo), con un escaneo completo y nuevo de toda la carpeta de Drive de Ernesto.
+Actualizado por Poly el 2026-11-11 a las 7:57 pm (America/Hermosillo): se agregaron los 4 archivos nuevos que Ernesto mandó subir a la carpeta Boiler MBF16AF (fotos del módulo de ignición, foto del conector de 5 V del display y video del transformador), verificados en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 105 archivos, 3.03 GB en total.
-  - **Boiler de paso:** 47 archivos.
+- **Contenido verificado en este escaneo:** 109 archivos, 3.03 GB en total.
+  - **Boiler de paso:** 51 archivos.
   - **Lavadoras:** 58 archivos.
-- **Novedad de esta actualización:** el índice ahora cubre también toda la rama de **Lavadoras** (58 archivos: manuales, boletines, diagramas, presentaciones y el video del modo test), que no venía en la versión anterior, donde solo venía Boiler de paso.
+- **Novedad de esta actualización:** 4 archivos nuevos del Turbo Flux MBF16AF (3 fotos y 1 video) que Ernesto mandó subir a Drive el 2026-11-11, con sus descripciones y datos de medición.
 - **Descripciones:** las descripciones que Ernesto ha dado de sus videos (por ejemplo la prueba del puente del sensor magnético) van anotadas en la entrada de cada archivo.
 - **Notas de duplicados conocidos:** el diagrama explosivo del MBE081G aparece en dos carpetas de boilers; hay copias de los videos de diagnósticos del MBE081G y del Flux Series en su carpeta de modelo y en la carpeta Videos; y varios boletines de lavadora LMA017D existen en PDF y también en DOCX (y en dos carpetas de boletines).
 
@@ -89,6 +89,10 @@ Actualizado por Poly el 2026-11-11 a las 3:29 pm (America/Hermosillo), con un es
 - Boletin Turbo Flux Codigo E6 Vacio.pdf — 0.6 MB — https://drive.google.com/file/d/11e16KZwMOBlQlbI3iUtXAxFZU6GkS8hC/view?usp=drivesdk
 - Boletin Turbo Flux Codigo E7 Valvula.pdf — 0.6 MB — https://drive.google.com/file/d/1E1RgLhNcwLE20qz1UD6Rp_rONTsbpLPq/view?usp=drivesdk
 - Diagrama Explosivo MBF16AF.pdf — 2.2 MB — https://drive.google.com/file/d/1bB1IaOmriMgZ7fGhC1T_zSfCaAILKnFg/view?usp=drivesdk
+- Modulo de ignicion MBF16AF.jpg — 0.1 MB — https://drive.google.com/file/d/11dAeVEHL-_0_YM2IUMqRpbDN_IEDt_yH/view?usp=drivesdk — Foto de Ernesto (2026-11-11): el módulo de ignición del MBF16AF en la mano, con su arnés (etiqueta 2040100184), dentro del equipo abierto.
+- Modulo de ignicion MBF16AF instalado.jpg — 0.1 MB — https://drive.google.com/file/d/1VzMX0iWFRZJB0pNR7lHTagrrdwNrXmkY/view?usp=drivesdk — Foto de Ernesto (2026-11-11): el módulo de ignición ya montado y conectado en el MBF16AF.
+- Modulo MBF16AF display no enciende 5V.jpg — 0.1 MB — https://drive.google.com/file/d/1ZeffF7C5MQY0bBpHPOYFMdT3TLgHkMIG/view?usp=drivesdk — Foto de Ernesto (2026-11-11): el conector del display en el módulo (marcado 5V, CN9); cuando el display no enciende, entre las terminales seleccionadas debe dar 5 volts.
+- Transformador MBF16AF.mp4 — 2.6 MB — https://drive.google.com/file/d/16xDyUfWHFfoHbox3rN-xh13scUMCMca0/view?usp=drivesdk — Video de Ernesto (2026-11-11): el transformador del MBF16AF; los rojos son la entrada de 110 V, blanco a negro son 12 V y blanco a blanco son 24 V (dos devanados de 12.5 V/0.8 A).
 
 ## Github / Boiler de paso / Videos
 
