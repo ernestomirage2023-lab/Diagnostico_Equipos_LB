@@ -1,16 +1,16 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-11 a las 8:26 pm (America/Hermosillo): incluye los 9 archivos nuevos que Ernesto mandó subir hoy (6 de boilers y 3 fotos de la válvula de drenaje de las semiautomáticas LMS), verificados en Drive.
+Actualizado por Poly el 2026-11-11 a las 8:30 pm (America/Hermosillo): incluye los 10 archivos nuevos que Ernesto mandó subir hoy (7 de boilers y 3 fotos de la válvula de drenaje de las semiautomáticas LMS), verificados en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 114 archivos, 3.03 GB en total.
-  - **Boiler de paso:** 53 archivos.
+- **Contenido verificado en este escaneo:** 115 archivos, 3.03 GB en total.
+  - **Boiler de paso:** 54 archivos.
   - **Lavadoras:** 61 archivos.
-- **Novedad de esta actualización:** 3 fotos de Ernesto de la válvula de drenaje de las lavadoras semiautomáticas LMS-013M/016M/022M (tapón con resorte, válvula instalada y salida tapada con pelusa), que se suman a los 6 archivos de boilers subidos hoy (fotos del módulo del MBF16AF, su medición de 122.5 V CA, el video de su transformador y el switch del MBF06ED).
+- **Novedad de esta actualización:** la foto del termostato dañado del Flux Rojo, que se suma a las 3 fotos de la válvula de drenaje de las semiautomáticas LMS-013M/016M/022M y a los 6 archivos de boilers subidos hoy (fotos del módulo del MBF16AF, su medición de 122.5 V CA, el video de su transformador y el switch del MBF06ED).
 - **Descripciones:** las descripciones que Ernesto ha dado de sus videos (por ejemplo la prueba del puente del sensor magnético) van anotadas en la entrada de cada archivo.
 - **Notas de duplicados conocidos:** el diagrama explosivo del MBE081G aparece en dos carpetas de boilers; hay copias de los videos de diagnósticos del MBE081G y del Flux Series en su carpeta de modelo y en la carpeta Videos; y varios boletines de lavadora LMA017D existen en PDF y también en DOCX (y en dos carpetas de boletines).
 
@@ -74,6 +74,7 @@ Actualizado por Poly el 2026-11-11 a las 8:26 pm (America/Hermosillo): incluye l
 - Manual Flux Blanco MBF06ED-MBF06EF.pdf — 9.7 MB — https://drive.google.com/file/d/1IN2ERnaq1kvTBkDy7NCUbo-kHJIgmfY4/view?usp=drivesdk
 - Manual Flux Rojo MBFxxxB MBFxxxC.pdf — 10.1 MB — https://drive.google.com/file/d/1ZcJFTUMtLl0RBMxqOcNwaCzs4vPd8PA6/view?usp=drivesdk
 - Switch de encendido MBF06ED.jpg — 0.1 MB — https://drive.google.com/file/d/1JONEhMCnTmsBQLgvNi_11fLk8N2ZOVtp/view?usp=drivesdk — Foto de Ernesto (2026-11-11): el switch de encendido del MBF06ED/EF con sus dos cables rojos; punto de revisión: su estado y las terminales (en la foto se ven sulfatadas/deterioradas).
+- Termostato danado Flux Rojo.jpg — 0.1 MB — https://drive.google.com/file/d/11dr1_xydmwLl-_NczyoH75qzN5eGugba/view?usp=drivesdk — Foto de Ernesto (2026-11-11): un termostato bimetálico **dañado** del Flux Rojo (serie Z/B, con display), montado sobre el intercambiador y con corrosión/humedad — es la pieza que la app de Mirage señala en el código **EE** (alta temperatura: termostato dañado).
 
 ## Github / Boiler de paso / Boiler MBF16AF
 
