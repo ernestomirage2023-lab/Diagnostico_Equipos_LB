@@ -1,6 +1,6 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-12 a la 1:50 pm (America/Hermosillo): incluye los 20 archivos de la carpeta Dispensadores (10 que Ernesto subió directo — manuales, diagramas y boletines de los MDD10/MDD30 —, las 2 fotos y 2 videos del caso de fuga debajo del depósito de agua fría, y los 6 manuales y fichas de especificaciones que Ernesto envió después), verificados en Drive.
+Actualizado por Poly el 2026-11-12 a la 1:55 pm (America/Hermosillo): incluye los 20 archivos de la carpeta Dispensadores (10 que Ernesto subió directo — manuales, diagramas y boletines de los MDD10/MDD30 —, las 2 fotos y 2 videos del caso de fuga debajo del depósito de agua fría, y los 6 manuales y fichas de especificaciones que Ernesto envió después), verificados en Drive.
 
 ## Estado
 
@@ -248,3 +248,8 @@ Actualizado por Poly el 2026-11-12 a la 1:50 pm (America/Hermosillo): incluye lo
 - Presentacion_LB.pdf — 1.6 MB — https://drive.google.com/file/d/1_f26p5Xqjg7QHu1nhsTIAlft5M1H0Tna/view?usp=drivesdk — **Presentación del curso, Módulo IV (Microondas Mirage)** — CAE 2025: las diapositivas de las que salieron las transcripciones del Módulo 4 (principio de funcionamiento, componentes y revisión). Confirma los ~4,000 V del magnetrón y la configuración de switches de puerta NA/NC/NA.
 - xwave_MWD020.pdf — 1.9 MB — https://drive.google.com/file/d/1_jRFI1e6V__WKPTh_taEs_6D0o3uvbu_/view?usp=drivesdk — **Manual del microondas Xwave MWD020** (23 págs.; enviado por Ernesto el 2026-11-12).
 - xwave_MWD031.pdf — 1.8 MB — https://drive.google.com/file/d/1qj6jLSHqDFIgLQGh7cl3IoKsMSuLOppt/view?usp=drivesdk — **Manual del microondas Xwave MWD031** (23 págs.; enviado por Ernesto el 2026-11-12).
+
+## Github / Refrigeradores
+
+- Diagrama_Explosivo_-_MRX33ES.pdf — 0.6 MB — https://drive.google.com/file/d/1LoAlU82uxUlzaoXIFglSRFZIiIKaJGsA/view?usp=drivesdk — **Diagrama explosivo del refrigerador MRX33ES** (enviado por Ernesto el 2026-11-12).
+- Refrigerador_REFX90.pdf — 15.3 MB — https://drive.google.com/file/d/1_1coQyLNYF0nt79IxuW9SRVVCJZ9XSbv/view?usp=drivesdk — **Documento del refrigerador/frigobar REFX90** (21 págs.; enviado por Ernesto el 2026-11-12 con la etiqueta «frigobar y refrigeradores»).
