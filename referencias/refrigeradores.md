@@ -1,7 +1,8 @@
 # Refrigeradores
 
-Categoría creada el 2026-11-12 a petición de Ernesto, dentro del proyecto Diagnostico_Equipos_LB. **Aún sin material.**
+Categoría creada el 2026-11-12 a petición de Ernesto, dentro del proyecto Diagnostico_Equipos_LB. **Ya tiene material inicial.**
 
+- Lo que hay de esta categoría está en **`referencias/refrigeracion-domestica-modulo-5.md`** (Módulo 5 del curso de Ernesto): el **ciclo de refrigeración** por compresión de vapor y los **tipos de equipos** (refrigeradores de una puerta; diferencias por distribución del sistema, control de temperatura y uno o dos evaporadores).
+- **Aún no hay** lección de revisión de componentes ni valores de medición específicos de refrigeradores: si preguntan por eso, di que ese material está pendiente y no inventes procedimientos.
 - La media (manuales, boletines, fotos y videos) vivirá en la carpeta de Drive **Github / Refrigeradores**: https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX
-- Conforme Ernesto comparta material de esta categoría, se registrará en `referencias/indice-drive.md` y se documentará aquí (modelos, códigos de error y casos de diagnóstico), siguiendo las mismas reglas de respuesta de la skill.
-- Si un técnico pregunta por esta categoría mientras tanto, avísale que está en preparación y que aún no hay material cargado; no inventes códigos ni procedimientos para ella.
+- Conforme Ernesto comparta más material de esta categoría, se registrará en `referencias/indice-drive.md` y se documentará aquí, siguiendo las mismas reglas de respuesta de la skill.

@@ -87,10 +87,16 @@
 - Lee `referencias/microondas-modulo-4.md` para el curso de microondas de Ernesto (Módulo 4): principio de funcionamiento (2.45 GHz), componentes principales y revisión de componentes con seguridad. Valores confirmados por Ernesto el 2026-11-12: capacitor de **2,000 V**, fusible de entrada de **15 A / 250 V**, termostato de cavidad de **105 °C**.
 - **Seguridad primero:** en cualquier procedimiento interno, recuerda la **descarga del capacitor** antes de tocar componentes; nunca sugieras anular los interruptores de puerta.
 
-## Categorías nuevas (en preparación)
+## Refrigeración doméstica (curso de Ernesto, Módulo 5): dispensadores, refrigeradores y congeladores
 
-- A petición de Ernesto (2026-11-12), la skill se amplía a más línea blanca. Ya existen las carpetas en Drive y las referencias, **aún sin material**: **Dispensadores** (`referencias/dispensadores.md`), **Congeladores** (`referencias/congeladores.md`) y **Refrigeradores** (`referencias/refrigeradores.md`). **Microondas ya tiene material** (ver la sección anterior). Su media vivirá en las carpetas del mismo nombre en la raíz de la carpeta «Github» de Drive, registradas en `referencias/indice-drive.md`.
-- Si preguntan por un equipo de las categorías aún vacías, di que la categoría está en preparación y todavía no hay material cargado; no inventes códigos ni procedimientos para ellas.
+- Lee `referencias/refrigeracion-domestica-modulo-5.md` para el Módulo 5 del curso: el ciclo de refrigeración por compresión de vapor (común a los tres equipos), los tipos de equipos, la revisión del **dispensador** (modelos **MDD10** y **MDD30**) y el **congelador** (100–300 L, **R600a**, rangos por etapa, relé PTC, termostato y compresor).
+- De **refrigeradores** el módulo solo cubre el ciclo y los tipos: no hay revisión de componentes documentada todavía; no inventes procedimientos para ellos.
+- **Seguridad:** el R600a es inflamable; recuérdalo al hablar del sistema sellado del congelador.
+
+## Categorías nuevas
+
+- A petición de Ernesto (2026-11-12), la skill se amplió a más línea blanca, con carpetas en Drive y referencias para **Dispensadores** (`referencias/dispensadores.md`), **Microondas** (`referencias/microondas.md`), **Congeladores** (`referencias/congeladores.md`) y **Refrigeradores** (`referencias/refrigeradores.md`). A la fecha, **las cuatro ya tienen material** (Microondas: Módulo 4; Dispensadores, Congeladores y Refrigeradores: Módulo 5). Su media vive en las carpetas del mismo nombre en la raíz de la carpeta «Github» de Drive, registradas en `referencias/indice-drive.md`.
+- Lo que no esté documentado en las referencias, dilo así; no inventes códigos ni procedimientos.
 
 ## Huecos conocidos
 

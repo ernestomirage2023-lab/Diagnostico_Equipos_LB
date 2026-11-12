@@ -1,7 +1,7 @@
 # Dispensadores
 
-Categoría creada el 2026-11-12 a petición de Ernesto, dentro del proyecto Diagnostico_Equipos_LB. **Aún sin material.**
+Categoría creada el 2026-11-12 a petición de Ernesto, dentro del proyecto Diagnostico_Equipos_LB. **Ya tiene su primer material.**
 
+- El contenido técnico de la categoría está en **`referencias/refrigeracion-domestica-modulo-5.md`** (Módulo 5 del curso de Ernesto, compartido con refrigeradores y congeladores): ciclo de refrigeración y la revisión de los dos modelos — **MDD10** (garrafón superior por gravedad: resistencia del tanque caliente 26 Ω, termostatos de 85/90 °C, compresor 10 Ω / 20 Ω) y **MDD30** (garrafón inferior con bomba: resistencia 33 Ω, bomba alimentada a 12 VCD desde la tarjeta) —, con las confirmaciones de Ernesto del 2026-11-12.
 - La media (manuales, boletines, fotos y videos) vivirá en la carpeta de Drive **Github / Dispensadores**: https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K
-- Conforme Ernesto comparta material de esta categoría, se registrará en `referencias/indice-drive.md` y se documentará aquí (modelos, códigos de error y casos de diagnóstico), siguiendo las mismas reglas de respuesta de la skill.
-- Si un técnico pregunta por esta categoría mientras tanto, avísale que está en preparación y que aún no hay material cargado; no inventes códigos ni procedimientos para ella.
+- Conforme Ernesto comparta más material de esta categoría, se registrará en `referencias/indice-drive.md` y se documentará aquí, siguiendo las mismas reglas de respuesta de la skill.
