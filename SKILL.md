@@ -43,6 +43,13 @@
 
 - Son casos reales ya validados por Ernesto, con su criterio de diagnóstico. Aplícalos tal cual antes de improvisar otra ruta.
 
+## Calentadores de paso (curso de Ernesto)
+
+- Lee `referencias/calentadores-de-paso.md` para los fundamentos de los calentadores de paso del curso de capacitación de Ernesto (Módulo 2): componentes y lógica de encendido, importancia del flujo (diseño 5–6 L/min, prueba de la cubeta de 20 L), presión de gas de trabajo (2.74 kPa = 11 pulgadas de columna de agua), diagnóstico por síntoma del gas LP de 1 servicio, pruebas del eléctrico de 1.5 servicios (triac, resistencia 4–7 Ω, sensor NTC de 47 kΩ a 25 °C) y el mantenimiento con descalcificado del intercambiador.
+- Este documento complementa los boletines y los casos confirmados; si el boletín del modelo dice otra cosa, manda el boletín del modelo.
+- Los valores marcados con ⚠️ en el documento están **por confirmar**: avísalo cuando los uses.
+- **Nunca sugieras quitar el apagado automático de 20 minutos** de los equipos de gas: es una norma de seguridad.
+
 ## Media en Google Drive
 
 - Toda la media (PDFs y videos) vive en la carpeta compartida de Google Drive de Ernesto, «Github / Boiler de paso»: https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv — compartida con enlace, solo lectura, para el equipo.
