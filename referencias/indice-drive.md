@@ -1,16 +1,16 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-11 a las 8:07 pm (America/Hermosillo): incluye los 6 archivos nuevos que Ernesto mandó subir hoy (5 en la carpeta Boiler MBF16AF y 1 en la carpeta Boiler MBF06ED), verificados en Drive.
+Actualizado por Poly el 2026-11-11 a las 8:26 pm (America/Hermosillo): incluye los 9 archivos nuevos que Ernesto mandó subir hoy (6 de boilers y 3 fotos de la válvula de drenaje de las semiautomáticas LMS), verificados en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 111 archivos, 3.03 GB en total.
+- **Contenido verificado en este escaneo:** 114 archivos, 3.03 GB en total.
   - **Boiler de paso:** 53 archivos.
-  - **Lavadoras:** 58 archivos.
-- **Novedad de esta actualización:** 6 archivos nuevos que Ernesto mandó subir a Drive el 2026-11-11: las fotos del módulo de ignición del MBF16AF, la medición de su alimentación de línea (122.5 V CA), el video del transformador del MBF16AF y la foto del switch de encendido del MBF06ED, con sus descripciones y datos de medición.
+  - **Lavadoras:** 61 archivos.
+- **Novedad de esta actualización:** 3 fotos de Ernesto de la válvula de drenaje de las lavadoras semiautomáticas LMS-013M/016M/022M (tapón con resorte, válvula instalada y salida tapada con pelusa), que se suman a los 6 archivos de boilers subidos hoy (fotos del módulo del MBF16AF, su medición de 122.5 V CA, el video de su transformador y el switch del MBF06ED).
 - **Descripciones:** las descripciones que Ernesto ha dado de sus videos (por ejemplo la prueba del puente del sensor magnético) van anotadas en la entrada de cada archivo.
 - **Notas de duplicados conocidos:** el diagrama explosivo del MBE081G aparece en dos carpetas de boilers; hay copias de los videos de diagnósticos del MBE081G y del Flux Series en su carpeta de modelo y en la carpeta Videos; y varios boletines de lavadora LMA017D existen en PDF y también en DOCX (y en dos carpetas de boletines).
 
@@ -189,6 +189,9 @@ Actualizado por Poly el 2026-11-11 a las 8:07 pm (America/Hermosillo): incluye l
 - Manual Lavadora Semi-Automatica Or.pdf — 11.6 MB — https://drive.google.com/file/d/1HSOstDghrAjYbFJwBWvqtnNl99GcT1ip/view?usp=drivesdk
 - Remover base de Lavadora semiautomática de 13Kg LMS013M - copia.pdf — 0.5 MB — https://drive.google.com/file/d/1bVFmBOBFoiODf7CXkA57PpD3zF6TL9Qm/view?usp=drivesdk
 - Remover base de Lavadora semiautomática de 13Kg LMS013M.pdf — 0.5 MB — https://drive.google.com/file/d/1NG0vcTuk8RIP8-mwFtWpOYslQqd7ktr7/view?usp=drivesdk
+- Valvula de drenaje LMS tapon y resorte.jpg — 0.1 MB — https://drive.google.com/file/d/1TIkFy7fzTGbJxQinjOLLoim22_FLN2l5/view?usp=drivesdk — Foto de Ernesto (2026-11-11): el tapón (émbolo) de la válvula de drenaje de las semiautomáticas LMS-013M/016M/022M en la mano, con su resorte y el fuelle de goma.
+- Valvula de drenaje LMS instalada.jpg — 0.0 MB — https://drive.google.com/file/d/1RyO0DXRNzpJCuL30ecHOs90h8IiKyIeK/view?usp=drivesdk — Foto de Ernesto (2026-11-11): el cuerpo de la válvula de drenaje ya montado bajo la tina, con el cordón verde que la acciona desde la perilla.
+- Valvula de drenaje LMS tapada con pelusa.jpg — 0.1 MB — https://drive.google.com/file/d/1rLmik2tUNz25PKZQA3cqIHPU8_T3_IfH/view?usp=drivesdk — Foto de Ernesto (2026-11-11): la salida de la válvula de drenaje tapada con una bola de pelusa — causa típica de que la semiautomática no drene.
 
 ## Github / Lavadoras / Lavadoras Semiautomaticas LMS-M / PDF
 
