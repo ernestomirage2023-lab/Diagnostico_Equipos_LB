@@ -302,7 +302,7 @@ Recordatorio del PDF: **los componentes trabajan con 110 V**. Mediciones de resi
 | Motor automática (L1, L2) | 4.3 Ω c/u; extremos 8.6 Ω | LMA022G | PDF |
 | Motor medido en banco | 4.4 / 8.5 / 4.1 Ω | LMA022G | PDF |
 | Capacitor motor automática | 60 µF / 300 V | LMA022G | PDF |
-| Retractor | 1.09 kΩ (1.9 kΩ / 190 Ω en diagramas) | LMA022G | PDF – VERIFICAR |
+| Retractor | **1.6 kΩ** | LMA022G | Confirmado por Ernesto (2026-11-12); antes: 1.09 kΩ aquí, 1.9 kΩ / 190 Ω en diagramas |
 | Bomba de drenaje | 15–20 Ω (diagrama) / 15.9 Ω medido / 20–40 Ω en lámina "digital" | LMA022G | PDF – VERIFICAR |
 | Seguro de tapa (bobina) | 60–70 Ω | LMA022G | PDF |
 | Válvulas (bobina) | ≈ 1 kΩ (1.07–1.077 kΩ medido) | LMA022G | PDF |

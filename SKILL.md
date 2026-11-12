@@ -77,6 +77,11 @@
 
 - Ese documento trae componentes, valores de medición, diagramas, códigos de error, modo test y procedimientos de diagnóstico por código, de la capacitación 2025 de Ernesto.
 
+## Lavadoras (curso de Ernesto, Módulo 3)
+
+- Lee `referencias/lavadoras-modulo-3.md` para el curso de lavadoras de Ernesto (Módulo 3): tipos y funcionamiento, componentes, revisión de componentes y fallas comunes de las semiautomáticas LMS y de la automática de 22 kg, y el modo test. Complementa a `referencias/lavadoras-mirage.md`.
+- Valores confirmados por Ernesto el 2026-11-12, ya integrados en ese documento: retractor **1.6 kΩ**; bomba de drenaje **20–40 Ω en la LMA022G** y **15–20 Ω en la LMA022M/N**; lavado en seco del modo test de **≈5 minutos**; prueba de llenado con la perilla de **opciones en Pre remojo**; protector térmico del motor arriba de **60 °C**.
+
 ## Categorías nuevas (en preparación)
 
 - A petición de Ernesto (2026-11-12), la skill se amplía a más línea blanca. Ya existen las carpetas en Drive y las referencias, **aún sin material**: **Dispensadores** (`referencias/dispensadores.md`), **Microondas** (`referencias/microondas.md`), **Congeladores** (`referencias/congeladores.md`) y **Refrigeradores** (`referencias/refrigeradores.md`). Su media vivirá en las carpetas del mismo nombre en la raíz de la carpeta «Github» de Drive, registradas en `referencias/indice-drive.md`.

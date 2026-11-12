@@ -181,7 +181,7 @@ Casos reales, validados por Ernesto, para fallas que se describen por síntoma y
 1. **Modo test de centrifugado**, observando por abajo si el retractor mueve su palanca al entrar el centrifugado (su ubicación y la del cuerpo de embrague están en la vista inferior del Manual para técnicos).
 2. **Si la palanca no se mueve:** medir si al retractor le llegan **110 V** al arrancar el centrifugado. Ese voltaje lo entrega la **tarjeta principal** (la línea entra por CN1 y la tarjeta reparte las salidas; la del retractor va en CN3).
    - Sin voltaje → la tarjeta no está mandando la salida; revisar también que el seguro de tapa haya confirmado, porque sin esa confirmación la tarjeta no ordena centrifugar.
-   - Con voltaje y sin movimiento → motor del retractor dañado; su bobina se mide con el equipo desconectado (≈1.09 kΩ según el documento de lavadoras; el póster marca 1.9 kΩ, dato por verificar).
+   - Con voltaje y sin movimiento → motor del retractor dañado; su bobina se mide con el equipo desconectado: **1.6 kΩ** (confirmado por Ernesto el 2026-11-12; el curso del Módulo 3 trae el mismo valor).
 3. **Si la palanca sí se mueve y la tina no se acopla:** lado mecánico — palanca del clutch atascada, **resorte de fricción del embrague** atascado o dañado, o cuerpo de embrague/transmisión dañado.
 
 **Confirmación:** modo test, prueba de centrifugado (valida transmisión y bomba): ahí se ve si el retractor libera el embrague y la tina toma el giro.
