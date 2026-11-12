@@ -1,6 +1,6 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-11 a las 8:32 pm (America/Hermosillo): incluye los 13 archivos nuevos que Ernesto mandó subir hoy (10 de boilers y 3 fotos de la válvula de drenaje de las semiautomáticas LMS), verificados en Drive.
+Actualizado por Poly el 2026-11-12 a la 1:00 pm (America/Hermosillo): incluye los 14 archivos de la carpeta Dispensadores (10 que Ernesto subió directo — manuales, diagramas y boletines de los MDD10/MDD30 — y las 2 fotos y 2 videos del caso de fuga debajo del depósito de agua fría), verificados en Drive.
 
 ## Estado
 
@@ -208,3 +208,20 @@ Actualizado por Poly el 2026-11-11 a las 8:32 pm (America/Hermosillo): incluye l
 ## Github / Lavadoras / Videos
 
 - test LMA022G.mp4 — 201.0 MB — https://drive.google.com/file/d/10uHnlaTI16BZPVoeZUdoeR_1Mpr7K-LL/view?usp=drivesdk
+
+## Github / Dispensadores
+
+- Boletin DISK10-Check-Valve.pdf — 2.3 MB — https://drive.google.com/file/d/1oB9Q6HiWjbC092tNa8yRz2eUqOhrxZRo/view?usp=drivesdk
+- Boletin-Alarma_Nivel_Bajo_Agua_MDD30HC.pdf — 5.8 MB — https://drive.google.com/file/d/1k-uy8xPH2qafoS-YZEF8c6XSU2sDuoO0/view?usp=drivesdk
+- Boletin_DISX30_Bomba sin succión.pdf — 0.4 MB — https://drive.google.com/file/d/1xiwa6s0SiHX2ToR1IHCqD818i4TDzjwb/view?usp=drivesdk
+- Bomba Dispensador.mp4 — 13.1 MB — https://drive.google.com/file/d/1MrCmeSrV0FuVH7yVaUFfnmr1vu2JnmRU/view?usp=drivesdk
+- Diagrama Dispensador MDD30HD.pdf — 0.4 MB — https://drive.google.com/file/d/1_6k-4AjymycooLk1uTMclYioxsn30jTy/view?usp=drivesdk
+- Diagrama Electrico Dispensador MDD30HC.pdf — 0.1 MB — https://drive.google.com/file/d/1DNPv2lyQ917LnEH9HBDj3GNF8r6NqS89/view?usp=drivesdk
+- Diagrama Explosivo - MDD10CB.pdf — 0.8 MB — https://drive.google.com/file/d/1-MUn_ooj0s56C_x2z-MaDESpqWh0j159/view?usp=drivesdk
+- DisX10_Reemplazo_Termostato.pdf — 9.0 MB — https://drive.google.com/file/d/1w5dsYzpeamYpLV5McIi8PnxhLRhvXR71/view?usp=drivesdk
+- Fuga deposito de agua fria dispensador - tanque.jpg — 0.1 MB — https://drive.google.com/file/d/1o-GfBgWTdfhx75FwTAhw3RMKA82lAQdS/view?usp=drivesdk — **Caso fuga debajo del depósito de agua fría (material de Ernesto, 2026-11-12):** el depósito de agua fría visto desde arriba, con su aislamiento de unicel y el disco plástico del fondo.
+- Fuga deposito de agua fria dispensador - punto de fuga.jpg — 0.1 MB — https://drive.google.com/file/d/1ToR0aWcGFrZxM-Xzjt09AmyPTmGLHHsp/view?usp=drivesdk — **Caso fuga:** la misma vista con el **orificio central del fondo del depósito marcado en verde**: por ahí se va el agua hacia abajo.
+- Fuga deposito de agua fria dispensador - video vastago.mp4 — 5.3 MB — https://drive.google.com/file/d/14FZI3DAOUK03yOrbRNdV0bGNcq5kGDkY/view?usp=drivesdk — **Caso fuga:** vista por debajo del depósito: el vástago metálico roscado que baja del fondo del tanque, con su rondana y tuerca, húmedo; el dedo señala el orificio central por dentro.
+- Fuga deposito de agua fria dispensador - video goteo.mp4 — 2.7 MB — https://drive.google.com/file/d/1uoUreYPHLxktP0zTwe4boESCFErefNPb/view?usp=drivesdk — **Caso fuga:** acercamiento al vástago inferior del depósito de agua fría, junto al compresor: por esa unión escurre el agua.
+- Manual-Disx10.pdf — 8.9 MB — https://drive.google.com/file/d/1giVse4bjzstSKGwXZX2SOxkZz5q5KiHd/view?usp=drivesdk
+- Manual-Disx30.pdf — 10.1 MB — https://drive.google.com/file/d/1KPIGQgWqp0ECpQx686y6OsCNayRfw9vR/view?usp=drivesdk

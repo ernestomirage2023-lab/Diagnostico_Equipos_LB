@@ -75,7 +75,24 @@ Proceso termodinámico de **compresión de vapor**, en 4 pasos:
 - La tarjeta entrega **12 VCD** y la bomba no trabaja → la falla es la **bomba**.
 - La tarjeta entrega un voltaje anormal — casos vistos por el instructor: **24 o 40 V**, o por debajo: **5 o 3 V** — → la falla es la **tarjeta**.
 - Si el equipo debería estar llenando y la tarjeta no manda el voltaje → también es la tarjeta.
-- El instructor remite al **diagrama del dispensador** (área de calentamiento y de enfriamiento) para el diagnóstico *(Ernesto confirmó el 2026-11-12 que sí lo tiene; pendiente de que lo comparta para subirlo a la carpeta de Dispensadores de Drive y enlazarlo aquí)*.
+- El instructor remite al **diagrama del dispensador** (área de calentamiento y de enfriamiento) para el diagnóstico. Los diagramas ya están en la carpeta de Dispensadores de Drive: **Diagrama Dispensador MDD30HD**, **Diagrama Electrico Dispensador MDD30HC** y **Diagrama Explosivo MDD10CB** (ver `referencias/indice-drive.md`), junto con los manuales Disx10 y Disx30.
+
+### 3.3 Caso de campo (Ernesto, 2026-11-12): fuga debajo del depósito de agua fría
+
+**Síntoma:** el dispensador tira agua por debajo del equipo y la fuga se localiza **debajo del depósito de agua fría**.
+
+**Diagnóstico con el material de Ernesto (fotos y videos en la carpeta de Dispensadores de Drive):**
+
+- Al abrir el equipo se ve el depósito de agua fría con su aislamiento de unicel y, en el fondo, un **disco plástico con un orificio central** (en la foto de Ernesto está marcado en verde): **por ese orificio central se va el agua hacia abajo**.
+- Por debajo del depósito baja un **vástago metálico roscado** con su rondana y tuerca (junto al compresor). En los videos el vástago y la unión se ven **húmedos**: el agua escurre por esa unión y gotea debajo del equipo.
+- **Revisión:** vaciar el depósito, revisar por dentro el orificio central del fondo y por fuera el apriete y el sello de la unión del vástago inferior; ahí es donde se concentra la fuga de este caso. Para identificar las piezas del fondo del depósito, apoyarse en el **Diagrama Explosivo del MDD10CB** (carpeta de Dispensadores de Drive).
+
+**Media del caso (carpeta Github / Dispensadores, ver `referencias/indice-drive.md`):**
+
+- Foto del depósito de agua fría desde arriba: https://drive.google.com/file/d/1o-GfBgWTdfhx75FwTAhw3RMKA82lAQdS/view?usp=drivesdk
+- Foto con el orificio central del fondo marcado en verde: https://drive.google.com/file/d/1ToR0aWcGFrZxM-Xzjt09AmyPTmGLHHsp/view?usp=drivesdk
+- Video del vástago inferior del depósito: https://drive.google.com/file/d/14FZI3DAOUK03yOrbRNdV0bGNcq5kGDkY/view?usp=drivesdk
+- Video del goteo en la unión del vástago: https://drive.google.com/file/d/1uoUreYPHLxktP0zTwe4boESCFErefNPb/view?usp=drivesdk
 
 ---
 
@@ -136,7 +153,7 @@ Proceso termodinámico de **compresión de vapor**, en 4 pasos:
 3. **Voltaje del congelador:** 110 o 120 V, **ambos son normales**.
 4. **Niveles del congelador:** sí, es **refrigeración por etapas** (suave, moderada y máxima sobre la escala 1–7).
 5. **Refrigerante:** sí, **todos los congeladores usan R600a**.
-6. **Diagrama del dispensador:** sí lo tiene; pendiente de compartirlo para subirlo a Drive.
+6. **Diagrama del dispensador:** sí lo tiene — los diagramas del MDD30HD, MDD30HC y el explosivo del MDD10CB ya están en la carpeta de Dispensadores de Drive.
 
 ## Reglas para la skill
 
