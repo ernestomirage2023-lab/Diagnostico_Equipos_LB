@@ -35,6 +35,10 @@ Actualizado por Poly el 2026-11-11 a las 8:32 pm (America/Hermosillo): incluye l
 - Github / Lavadoras / Lavadoras Semiautomaticas LMS-M — https://drive.google.com/drive/folders/1zvfBGNkJuI4c3IY5rIW6mDQpoYzJSuAy
 - Github / Lavadoras / Lavadoras Semiautomaticas LMS-M / PDF — https://drive.google.com/drive/folders/1J7WpPCyrpQLLuCw19DMnTupgFmhKZvuX
 - Github / Lavadoras / Videos — https://drive.google.com/drive/folders/1BbqK4zrKVjxiu-nI6wGu0g361rJ10yO8
+- Github / Dispensadores — https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K — **categoría nueva (2026-11-12), aún sin archivos**
+- Github / Microondas — https://drive.google.com/drive/folders/1IHPTyI1Gj4hCj9yp_sFf3a5LuInAST0R — **categoría nueva (2026-11-12), aún sin archivos**
+- Github / Congeladores — https://drive.google.com/drive/folders/1z2HWoyE5JTNSMw-xh-WZlcEuTRYGCZfC — **categoría nueva (2026-11-12), aún sin archivos**
+- Github / Refrigeradores — https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX — **categoría nueva (2026-11-12), aún sin archivos**
 
 ## Github / Boiler de paso / Boiler MBE051G
 

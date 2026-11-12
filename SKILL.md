@@ -70,6 +70,11 @@
 
 - Ese documento trae componentes, valores de medición, diagramas, códigos de error, modo test y procedimientos de diagnóstico por código, de la capacitación 2025 de Ernesto.
 
+## Categorías nuevas (en preparación)
+
+- A petición de Ernesto (2026-11-12), la skill se amplía a más línea blanca. Ya existen las carpetas en Drive y las referencias, **aún sin material**: **Dispensadores** (`referencias/dispensadores.md`), **Microondas** (`referencias/microondas.md`), **Congeladores** (`referencias/congeladores.md`) y **Refrigeradores** (`referencias/refrigeradores.md`). Su media vivirá en las carpetas del mismo nombre en la raíz de la carpeta «Github» de Drive, registradas en `referencias/indice-drive.md`.
+- Si preguntan por un equipo de estas categorías, di que la categoría está en preparación y todavía no hay material cargado; no inventes códigos ni procedimientos para ellas.
+
 ## Huecos conocidos
 
 - Avisa que al modelo de 10 litros con WiFi le falta el boletín del código E4, porque solo hay E0, E1, E2, E3 y E5.
