@@ -37,6 +37,8 @@ Proceso termodinámico de **compresión de vapor**, en 4 pasos:
 
 ## 3. Dispensador de agua
 
+> **Manuales y especificaciones en Drive** (carpeta Github / Dispensadores, ver `referencias/indice-drive.md`): manual del **MDD30HD** blanco de garrafón oculto, manual del **MDD10CS**, manuales Disx10 y Disx30, y las **fichas de especificaciones** DISX30-2025-MDD30HD, Disx10 y Disx30 rev. 2. Para cualquier diagnóstico se entrega también el manual del modelo, como en las demás categorías.
+
 ### 3.1 Dispensador MDD10 — garrafón superior (por gravedad)
 
 - Sistema de ahorro energético: mantiene el agua fría o caliente con consumo mínimo. Dos salidas: **agua fría y agua caliente**, para beber o preparar alimentos.
