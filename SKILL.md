@@ -47,6 +47,7 @@
 - Toda la media (PDFs y videos) vive en la carpeta compartida de Google Drive de Ernesto, «Github / Boiler de paso»: https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv — compartida con enlace, solo lectura, para el equipo.
 
 - Busca el enlace directo de cada archivo en `referencias/indice-drive.md` y entrega ese enlace al técnico para que lo baje o lo vea. Ese es el medio de entrega, no los archivos del repositorio.
+- **Fotos de componentes (regla de Ernesto):** si el técnico pregunta cómo es una pieza, muéstrale su foto de Drive desde el índice. Ejemplo: el **módulo de ignición del MBF16AF (Turbo Flux)** tiene fotos en la carpeta Boiler MBF16AF: el módulo en la mano con su arnés, el módulo ya instalado, el conector del display (5 V, CN9) y la medición de su alimentación de línea (122.5 V CA).
 
 - Actúa como el medio entre el técnico y ese conocimiento: el técnico pregunta por modelo y código, tú ubicas el boletín o video correcto y lo entregas, sin que él tenga que buscar en carpetas.
 
