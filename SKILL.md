@@ -1,5 +1,10 @@
 # Diagnóstico de boilers Mirage
 
+## Uso de esta skill (regla de Ernesto)
+
+- Esta skill es **de solo consulta**. Los documentos MD de este repositorio los escriben y actualizan **únicamente Ernesto y Poly**; ningún técnico debe registrar, editar ni agregar nada en ellos.
+- Si un técnico tiene un caso nuevo, un dato o una corrección, **se lo pasa a Ernesto**; no lo anota en la skill por su cuenta. Su copia instalada es para consultar, no para escribir.
+
 ## Identificar el equipo
 
 - Pregunta primero el modelo exacto y el código de error en pantalla antes de dar pasos de revisión.
