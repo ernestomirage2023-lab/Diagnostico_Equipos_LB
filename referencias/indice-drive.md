@@ -1,16 +1,17 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-12 a la 1:40 pm (America/Hermosillo): incluye los 20 archivos de la carpeta Dispensadores (10 que Ernesto subió directo — manuales, diagramas y boletines de los MDD10/MDD30 —, las 2 fotos y 2 videos del caso de fuga debajo del depósito de agua fría, y los 6 manuales y fichas de especificaciones que Ernesto envió después), verificados en Drive.
+Actualizado por Poly el 2026-11-12 a la 1:45 pm (America/Hermosillo): incluye los 20 archivos de la carpeta Dispensadores (10 que Ernesto subió directo — manuales, diagramas y boletines de los MDD10/MDD30 —, las 2 fotos y 2 videos del caso de fuga debajo del depósito de agua fría, y los 6 manuales y fichas de especificaciones que Ernesto envió después), verificados en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 138 archivos, ≈3.09 GB en total.
+- **Contenido verificado en este escaneo:** 140 archivos, ≈3.10 GB en total.
   - **Boiler de paso:** 57 archivos.
   - **Lavadoras:** 61 archivos.
   - **Dispensadores:** 20 archivos.
+  - **Congeladores:** 2 archivos.
 - **Novedad de esta actualización:** la carpeta Dispensadores recibió sus primeros 20 archivos: manuales de los Disx10/Disx30 (incluidos el del blanco de garrafón oculto MDD30HD y el del MDD10CS), las fichas de especificaciones (DISX30-2025-MDD30HD, Disx10 y Disx30 rev. 2), diagramas del MDD30HD, MDD30HC y MDD10CB, boletines (bomba sin succión, alarma de nivel bajo, check valve), el video de la bomba y el material de campo del caso **fuga debajo del depósito de agua fría** (2 fotos y 2 videos) que Ernesto mandó registrar como diagnóstico el 2026-11-12.
 - **Descripciones:** las descripciones que Ernesto ha dado de sus videos (por ejemplo la prueba del puente del sensor magnético) van anotadas en la entrada de cada archivo.
 - **Notas de duplicados conocidos:** el diagrama explosivo del MBE081G aparece en dos carpetas de boilers; hay copias de los videos de diagnósticos del MBE081G y del Flux Series en su carpeta de modelo y en la carpeta Videos; y varios boletines de lavadora LMA017D existen en PDF y también en DOCX (y en dos carpetas de boletines).
@@ -38,7 +39,7 @@ Actualizado por Poly el 2026-11-12 a la 1:40 pm (America/Hermosillo): incluye lo
 - Github / Lavadoras / Videos — https://drive.google.com/drive/folders/1BbqK4zrKVjxiu-nI6wGu0g361rJ10yO8
 - Github / Dispensadores — https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K — **20 archivos**
 - Github / Microondas — https://drive.google.com/drive/folders/1IHPTyI1Gj4hCj9yp_sFf3a5LuInAST0R — **categoría nueva (2026-11-12), aún sin archivos**
-- Github / Congeladores — https://drive.google.com/drive/folders/1z2HWoyE5JTNSMw-xh-WZlcEuTRYGCZfC — **categoría nueva (2026-11-12), aún sin archivos**
+- Github / Congeladores — https://drive.google.com/drive/folders/1z2HWoyE5JTNSMw-xh-WZlcEuTRYGCZfC — **2 archivos**
 - Github / Refrigeradores — https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX — **categoría nueva (2026-11-12), aún sin archivos**
 
 ## Github / Boiler de paso / Boiler MBE051G
@@ -237,3 +238,9 @@ Actualizado por Poly el 2026-11-12 a la 1:40 pm (America/Hermosillo): incluye lo
 
 - Manual_de_uso_congelador_hb.pdf — 1.5 MB — https://drive.google.com/file/d/1HjjLEiFQ1OU5MXnlPxq8axkbHy4UvrTe/view?usp=drivesdk — **Manual de uso del congelador HB** (23 págs.; enviado por Ernesto el 2026-11-12).
 - congelador_hb.pdf — 1.8 MB — https://drive.google.com/file/d/1QC2NSJKqQVlSoemuFgOAM0YnjOHxvJzD/view?usp=drivesdk — Documento del congelador HB, 2 págs. (enviado por Ernesto el 2026-11-12).
+
+## Github / Microondas
+
+- microondas_xwave031.pdf — 0.7 MB — https://drive.google.com/file/d/1wAia5TUYMYR5qrWNGY1CVzYW8DRot7Dl/view?usp=drivesdk — Documento de 2 págs. del microondas Xwave 031 (enviado por Ernesto el 2026-11-12; lo mandó dos veces con nombres distintos — `microondas_xwave031.pdf` y `microondas_xwave.pdf` — y se subió una sola vez).
+- xwave_MWD020.pdf — 1.9 MB — https://drive.google.com/file/d/1_jRFI1e6V__WKPTh_taEs_6D0o3uvbu_/view?usp=drivesdk — **Manual del microondas Xwave MWD020** (23 págs.; enviado por Ernesto el 2026-11-12).
+- xwave_MWD031.pdf — 1.8 MB — https://drive.google.com/file/d/1qj6jLSHqDFIgLQGh7cl3IoKsMSuLOppt/view?usp=drivesdk — **Manual del microondas Xwave MWD031** (23 págs.; enviado por Ernesto el 2026-11-12).
