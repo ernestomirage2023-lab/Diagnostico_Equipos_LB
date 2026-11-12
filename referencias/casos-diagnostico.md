@@ -115,3 +115,18 @@ Casos reales, validados por Ernesto, para fallas que se describen por síntoma y
 - Las bajas de presión de la instalación hidráulica de la casa: codos, el tipo de regadera y demás elementos que recortan el flujo antes de llegar al equipo.
 
 **Confirmación:** en la salida de agua caliente, quitar la manguera y observar el equipo con salida libre. Si ahí enciende normal, el equipo está bien instalado y trabajando correctamente, y el problema queda en la instalación.
+
+## LMA022G — No drena; tarda más de 10 minutos (E2)
+
+**Síntoma:** la lavadora llena bien y lava, pero al llegar el drenado se queda intentando más de 10 minutos y no pasa a centrifugado.
+
+**Revisión, en orden (criterio de Ernesto):**
+
+1. **Bomba de drenado — primero se escucha.** Si la bomba se oye trabajando pero el agua no sale, hay algo atorado: revisar la bomba y la manguera por bloqueo o suciedad. Si la bomba no se oye y no extrae el agua, puede ser que la tarjeta no le esté entregando voltaje.
+2. **Voltaje a la bomba:** medir si le llegan los **110 V**. Si no llega voltaje, la sospechosa es la tarjeta. Si sí llega y la bomba no trabaja, la falla está en la bomba; su bobina mide **15–20 Ω** según el diagrama (15.9 Ω medido).
+3. **Manguera y altura:** revisión visual de la manguera, que no esté doblada ni tapada e interrumpa el paso. La altura de la manguera de drenaje debe quedar entre **80 cm y 1 m**.
+4. **Sensor de nivel:** si el sensor no reinicia al vaciar, la lavadora no avanza al centrifugado. Se revisa en su conector: tiene tres pines; dos pares miden **capacitancia (40–50 nF cada una)** y la medición de **resistencia es 20–40 Ω** (en el procedimiento F8: 20–55 Ω). Los datos están en los manuales.
+
+**Cómo se separa:** bomba que suena y no extrae = atorón; bomba muda = medir sus 110 V para separar tarjeta de bomba; y si la tina sí vacía pero la lavadora no avanza, el sensor de nivel no está reiniciando.
+
+**Material de apoyo:** documento de lavadoras de Ernesto (`referencias/lavadoras-mirage.md`, procedimientos E2 y F8 y tabla maestra de valores) y la entrada de drenado de la LMA022G en `referencias/codigos-app-mirage.md`.
