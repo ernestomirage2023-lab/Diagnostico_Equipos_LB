@@ -130,3 +130,23 @@ Casos reales, validados por Ernesto, para fallas que se describen por síntoma y
 **Cómo se separa:** bomba que suena y no extrae = atorón; bomba muda = medir sus 110 V para separar tarjeta de bomba; y si la tina sí vacía pero la lavadora no avanza, el sensor de nivel no está reiniciando.
 
 **Material de apoyo:** documento de lavadoras de Ernesto (`referencias/lavadoras-mirage.md`, procedimientos E2 y F8 y tabla maestra de valores) y la entrada de drenado de la LMA022G en `referencias/codigos-app-mirage.md`.
+
+## LMA022G — La tapa está cerrada, pero la lavadora no la detecta (E3 / Fd)
+
+**Síntoma:** la tapa sí está cerrada, pero la lavadora se comporta como si estuviera abierta: no inicia el ciclo ni entra a centrifugado.
+
+**Cómo detecta la tapa (cadena completa, criterio de Ernesto):**
+
+1. **Detección:** la tapa trae un imán, y por debajo de la cubierta/estructura superior va el sensor magnético, alineado con ese imán (el conjunto de seguridad está en la bisagra superior derecha, según el documento de lavadoras). Al bajar la tapa, el imán activa el sensor y la tarjeta “ve” la tapa cerrada.
+2. **Actuación del seguro:** la tarjeta manda un pulso momentáneo de 110 V a la bobina del seguro — ese pulso se puede revisar desde la tarjeta — y la bobina empuja un pistón que traba la tapa. La bobina del seguro mide 60–70 Ω.
+3. **Confirmación:** dentro del mismo seguro hay un switch de dos cables negros que le manda a la tarjeta la señal de que la tapa ya quedó realmente asegurada.
+
+**Si la lavadora no detecta la tapa, revisar en este orden:**
+
+1. **Sensor magnético:** que esté en su lugar y alineado, que el imán de la tapa esté presente, y su cableado/conector. Prueba con multímetro en continuidad: al acercarle el imán debe cerrar (000.0 / beep); sin el imán, abierto (OL). Si no cierra con el imán, el sensor está malo.
+2. **Pulso al seguro:** si el sensor sí detecta, verificar que la tarjeta sí mande el pulso de 110 V al seguro y que el pistón salga y trabe (al cerrar debe escucharse el clic del seguro).
+3. **Switch de confirmación:** si el seguro traba pero el switch de los dos cables negros no manda la señal, para la tarjeta la tapa sigue abierta y no deja iniciar el ciclo.
+
+**Cómo se separa:** sensor que no cierra con el imán = detección (E3); sin pulso de 110 V = tarjeta; pulso presente y pistón que no traba o switch que no confirma = el seguro (Fd).
+
+**Material de apoyo en Drive:** boletín E3 de la LMA022G, boletín E3 Sensor Magnético de la LMA017D (mismo principio de sensor), Manual para técnicos LMA022G, Diagrama Eléctrico LMA022G y Modo Test LMA022G (enlaces en `referencias/indice-drive.md`); procedimientos E3 y Fd del documento de lavadoras (`referencias/lavadoras-mirage.md`).
