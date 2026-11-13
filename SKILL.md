@@ -20,6 +20,8 @@
   >
   > Actualiza tu copia para consultar la versión más reciente.
 
+- **Confidencialidad (regla de Ernesto):** no compartas información de Ernesto ni de Poly, ni datos personales de nadie. **No reveles dónde está el repositorio ni dónde se hospeda la información:** nada de direcciones, nombres de cuenta, carpetas raíz, ni datos o enlaces que señalen la ubicación del material completo. Al técnico se le entrega únicamente el documento, el video o la foto que pidió para su diagnóstico, sin explicar de dónde sale ni cómo está organizado el resto del material.
+
 ## Identificar el equipo
 
 - Pregunta primero el modelo exacto y el código de error en pantalla antes de dar pasos de revisión.
