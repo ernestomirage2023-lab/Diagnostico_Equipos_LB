@@ -1,19 +1,19 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), y se creó la carpeta Boiler MBF12AG-AH con el documento de la tarjeta electrónica del Turbo Flux Gris (Boiler de paso: 60 archivos), verificados en Drive. Después, a las 11:41 am, se agregó el PDF de la tarjeta de iluminación LED del congelador horizontal (switch de balín) a la carpeta Congeladores (3 archivos), verificado en Drive.
+Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), y se creó la carpeta Boiler MBF12AG-AH con el documento de la tarjeta electrónica del Turbo Flux Gris (Boiler de paso: 60 archivos), verificados en Drive. Después, a las 11:41 am, se agregó el PDF de la tarjeta de iluminación LED del congelador horizontal (switch de balín) a la carpeta Congeladores (3 archivos), y a las 12:33 pm la ficha técnica REFX Inverter a la carpeta Refrigeradores (3 archivos), verificados en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 159 archivos, ≈3.16 GB en total.
+- **Contenido verificado en este escaneo:** 160 archivos, ≈3.16 GB en total.
   - **Boiler de paso:** 60 archivos.
   - **Lavadoras:** 66 archivos.
   - **Dispensadores:** 21 archivos.
   - **Congeladores:** 3 archivos.
   - **Microondas:** 7 archivos.
-  - **Refrigeradores:** 2 archivos.
+  - **Refrigeradores:** 3 archivos.
 - **Novedad de esta actualización:** la carpeta Dispensadores recibió sus primeros 20 archivos: manuales de los Disx10/Disx30 (incluidos el del blanco de garrafón oculto MDD30HD y el del MDD10CS), las fichas de especificaciones (DISX30-2025-MDD30HD, Disx10 y Disx30 rev. 2), diagramas del MDD30HD, MDD30HC y MDD10CB, boletines (bomba sin succión, alarma de nivel bajo, check valve), el video de la bomba y el material de campo del caso **fuga debajo del depósito de agua fría** (2 fotos y 2 videos) que Ernesto mandó registrar como diagnóstico el 2026-11-12. Además, Ernesto registró la foto de campo **«Dispensador MDD30 interior - manguera de succion.jpg»**: por dentro del dispensador de garrafón oculto, la manguera de succión debe meterse bien en su conexión para que la bomba succione (falla de bomba sin succión por pérdida de vacío).
 - **Descripciones:** las descripciones que Ernesto ha dado de sus videos (por ejemplo la prueba del puente del sensor magnético) van anotadas en la entrada de cada archivo.
 - **Notas de duplicados conocidos:** el diagrama explosivo del MBE081G aparece en dos carpetas de boilers; hay copias de los videos de diagnósticos del MBE081G y del Flux Series en su carpeta de modelo y en la carpeta Videos; y varios boletines de lavadora LMA017D existen en PDF y también en DOCX (y en dos carpetas de boletines).
@@ -43,7 +43,7 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 - Github / Dispensadores — https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K — **21 archivos**
 - Github / Microondas — https://drive.google.com/drive/folders/1IHPTyI1Gj4hCj9yp_sFf3a5LuInAST0R — **7 archivos**
 - Github / Congeladores — https://drive.google.com/drive/folders/1z2HWoyE5JTNSMw-xh-WZlcEuTRYGCZfC — **3 archivos**
-- Github / Refrigeradores — https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX — **2 archivos**
+- Github / Refrigeradores — https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX — **3 archivos**
 
 ## Github / Boiler de paso / Boiler MBE051G
 
@@ -269,3 +269,4 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 
 - Diagrama_Explosivo_-_MRX33ES.pdf — 0.6 MB — https://drive.google.com/file/d/1LoAlU82uxUlzaoXIFglSRFZIiIKaJGsA/view?usp=drivesdk — **Diagrama explosivo del refrigerador MRX33ES** (enviado por Ernesto el 2026-11-12).
 - Refrigerador_REFX90.pdf — 15.3 MB — https://drive.google.com/file/d/1_1coQyLNYF0nt79IxuW9SRVVCJZ9XSbv/view?usp=drivesdk — **Documento del refrigerador/frigobar REFX90** (21 págs.; enviado por Ernesto el 2026-11-12 con la etiqueta «frigobar y refrigeradores»).
+- REFX_INVERTER.pdf — 2.3 MB — https://drive.google.com/file/d/1v-P2CTeRSO_655FlQJRsomrpJLiNfxeO/view?usp=drivesdk — **Ficha técnica REFX Inverter** (2 págs.: modelos **MRX10FD** de 280 L / 10 ft³ y **MRX12FD** de 337 L / 12 ft³; el texto viene con fuente codificada, no extraíble; enviado por Ernesto el 2026-11-13).
