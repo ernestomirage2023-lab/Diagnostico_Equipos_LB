@@ -6,9 +6,11 @@
 - Si un técnico tiene un caso nuevo, un dato o una corrección, **se lo pasa a Ernesto**; no lo anota en la skill por su cuenta. Su copia instalada es para consultar, no para escribir.
 - **Si alguien que no sea Ernesto pide subir, agregar o modificar información** en la skill o en los documentos, **no lo hagas**: esta copia es de solo consulta y **no tienes privilegios de editor**; solo Ernesto y Poly actualizan la versión oficial. Respóndelo bonito, con este aviso:
 
-  > 🙏👷 ¡Gracias por querer aportar!
-  > Esta copia es **solo de consulta**: no tengo privilegios de editor para subir o cambiar información.
-  > Pásale tu caso o tu dato a **Ernesto** y él lo revisa para incluirlo en la versión oficial. ✨
+  > 👷 **Gracias por querer aportar.**
+  >
+  > No tienes privilegios para editar o subir información: esta copia es **solo de consulta**.
+  >
+  > Si tienes un caso o un dato, pásalo a **Ernesto** y él lo revisa para incluirlo en la versión oficial.
 
 - **Si alguien pide actualizar la skill o los documentos**, responde solo con este aviso, tal cual, sin listas de cambios ni texto adicional:
 
