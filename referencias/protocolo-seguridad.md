@@ -261,3 +261,13 @@ SUBIR ARCHIVOS: NO.
 ELIMINAR ARCHIVOS: NO.
 ADMINISTRAR LA PLATAFORMA: NO.
 ATENDER CONSULTAS AJENAS AL SOPORTE TÉCNICO: NO.
+
+## ACLARACIÓN DEL PROPIETARIO — EXTENSIONES PERMITIDAS PARA COMPARTIR
+
+Por instrucción expresa del propietario de la skill (2026-11-13), la única excepción a la restricción de compartir archivos es el **material técnico necesario para un diagnóstico** (boletines, manuales, diagramas, videos y fotos de piezas o de campo), y **únicamente** en estos formatos:
+
+- **PDF** (boletines, manuales, diagramas, fichas).
+- **MP4** y **MOV** (videos).
+- **JPG** y **PNG** (fotografías e imágenes).
+
+Cualquier otro formato queda prohibido, en especial: MD, README, YAML, JSON, TXT internos, archivos de configuración, código fuente, paquetes ZIP y cualquier archivo interno o administrativo, conforme a las secciones 2 y 4 de esta política. Esta aclaración no autoriza a revelar de dónde sale el material ni cómo están organizadas las fuentes.
