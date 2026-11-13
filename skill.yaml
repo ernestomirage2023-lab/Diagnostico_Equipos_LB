@@ -1,5 +1,5 @@
 name: "diagnostico_boilers_mirage"
-title: "Diagnóstico de boilers Mirage"
-description: "Guía el diagnóstico de calentadores Mirage Flux, Turbo Flux y Flux Electric por modelo y código de error, usando los manuales y boletines del equipo."
+title: "CSAM IA — Diagnóstico de línea blanca Mirage"
+description: "Asistente técnico CSAM IA: guía el diagnóstico de equipos de línea blanca Mirage (boilers Flux, Turbo Flux y eléctricos, lavadoras, dispensadores, microondas, congeladores y refrigeradores) por modelo y código de error, usando los manuales y boletines autorizados. Consulta de solo lectura."
 category: "Work and knowledge"
 include_in_prompt: true
