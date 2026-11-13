@@ -1,14 +1,14 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), y se creó la carpeta Boiler MBF12AG-AH con el documento de la tarjeta electrónica del Turbo Flux Gris (Boiler de paso: 60 archivos), verificados en Drive. Después, a las 11:41 am, se agregó el PDF de la tarjeta de iluminación LED del congelador horizontal (switch de balín) a la carpeta Congeladores (3 archivos), y a las 12:33 pm la ficha técnica REFX Inverter a la carpeta Refrigeradores (3 archivos), verificados en Drive.
+Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), y se creó la carpeta Boiler MBF12AG-AH con el documento de la tarjeta electrónica del Turbo Flux Gris (Boiler de paso: 60 archivos), verificados en Drive. Después, a las 11:41 am, se agregó el PDF de la tarjeta de iluminación LED del congelador horizontal (switch de balín) a la carpeta Congeladores (3 archivos), y a las 12:33 pm la ficha técnica REFX Inverter a la carpeta Refrigeradores (3 archivos), y a las 12:46 pm el video de evidencia de falla «falso en módulo de ignición» a la carpeta Videos de Boiler de paso (61 archivos), verificados en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 160 archivos, ≈3.16 GB en total.
-  - **Boiler de paso:** 60 archivos.
+- **Contenido verificado en este escaneo:** 161 archivos, ≈3.16 GB en total.
+  - **Boiler de paso:** 61 archivos.
   - **Lavadoras:** 66 archivos.
   - **Dispensadores:** 21 archivos.
   - **Congeladores:** 3 archivos.
@@ -119,6 +119,7 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 - Boier MBF16AF TurboFlux.mp4 — 104.4 MB — https://drive.google.com/file/d/1Ye7fU-0CjLKu4AfoouPd4eX22wlJMuvU/view?usp=drivesdk — Descripción de Ernesto (2026-11-11): video para la revisión del modelo MBF16AF, todos los códigos.
 - Boiler MBE081G Electrico Diagnosticos.mp4 — 60.4 MB — https://drive.google.com/file/d/13kKc9il02hoqp7w3afCNjb9v_rqLB0fI/view?usp=drivesdk — Descripción de Ernesto (2026-11-11): video para el diagnóstico de diferentes fallas del MBE081G. Hay otra copia de este video en la carpeta Boiler MBE081G.
 - Boiler MBF06 ED EF ZC ZB Flux Series.mp4 — 80.9 MB — https://drive.google.com/file/d/15h8dljmbiisBRsy1ePoq2iB7c8c_T8SX/view?usp=drivesdk — Descripción de Ernesto (2026-11-11): video para la revisión de los equipos MBF06ED, MBF06EF, ZC y XB de Flux Series. Hay otra copia del video del Flux Series en la carpeta Boiler MBF06ED.
+- Evidencia de falla - falso en modulo de ignicion.mp4 — 2.9 MB — https://drive.google.com/file/d/1NyZ97tDj_EntZ_rOUakFiCwEgeSZ_enQ/view?usp=drivesdk — **Video de evidencia de falla de Ernesto (2026-11-13), tipo pruebas/evidencias de fallas:** boiler Flux de gas abierto, con la flama del quemador y los electrodos de chispa/flama a la vista. Lectura de Ernesto: la falla es un **falso en el módulo de ignición**, con posible falso en el **cable de señal de flama** o en el **termostato de seguridad**.
 - Flujo.mp4 — 1874.7 MB — https://drive.google.com/file/d/1WzMl3IpTaYr92pX7nca8X-E1kEVL3-Y6/view?usp=drivesdk
 - Magnetico prueba.mp4 — 27.8 MB — https://drive.google.com/file/d/1e5wLEQ1qmJSVTKPAVPXD-iU4fCcGgIeX/view?usp=drivesdk — Descripción de Ernesto (2026-11-11): es el sensor magnético para saber si hay flujo; se prueba haciendo un puente, para saber si lo demás funciona correctamente.
 - presion de gas.mp4 — 19.8 MB — https://drive.google.com/file/d/1-dYpzs57t78WJcRR7Z8lKcHwvAnvQQoj/view?usp=drivesdk
