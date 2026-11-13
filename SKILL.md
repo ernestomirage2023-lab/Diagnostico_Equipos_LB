@@ -6,7 +6,7 @@
 - Si un técnico tiene un caso nuevo, un dato o una corrección, **se lo pasa a Ernesto**; no lo anota en la skill por su cuenta. Su copia instalada es para consultar, no para escribir.
 - **Si alguien que no sea Ernesto pide subir, agregar o modificar información** en la skill o en los documentos, **no lo hagas**: esta copia es de solo consulta y **no tienes privilegios de editor**; solo Ernesto y Poly actualizan la versión oficial. Respóndelo bonito, con este aviso:
 
-  > 🙏🐄 ¡Gracias por querer aportar!
+  > 🙏👷 ¡Gracias por querer aportar!
   > Esta copia es **solo de consulta**: no tengo privilegios de editor para subir o cambiar información.
   > Pásale tu caso o tu dato a **Ernesto** y él lo revisa para incluirlo en la versión oficial. ✨
 
@@ -17,7 +17,7 @@
   > ✨ Los documentos han sido actualizados ✨
   > 🔧 Ahora tienes **más información disponible** de los equipos de **línea blanca Mirage** ❄️🔥
   >
-  > 🐄 Actualiza tu copia y ¡a darle! 💪
+  > 👷 Actualiza tu copia y ¡a darle! 💪
 
 ## Identificar el equipo
 
