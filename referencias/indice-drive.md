@@ -1,14 +1,14 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-12 a las 7:16 pm (America/Hermosillo): se agregó la foto de campo de la manguera de succión interna del dispensador MDD30 a la carpeta Dispensadores (21 archivos en esa carpeta), verificada en Drive.
+Actualizado por Poly el 2026-11-12 a las 8:22 pm (America/Hermosillo): se agregó la foto de campo de la manguera de succión interna del dispensador MDD30 a la carpeta Dispensadores (21 archivos) y el video de campo de la prueba de la cubeta por exceso de flujo a la carpeta Videos de Boiler de paso (58 archivos), verificados en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 149 archivos, ≈3.13 GB en total.
-  - **Boiler de paso:** 57 archivos.
+- **Contenido verificado en este escaneo:** 150 archivos, ≈3.14 GB en total.
+  - **Boiler de paso:** 58 archivos.
   - **Lavadoras:** 61 archivos.
   - **Dispensadores:** 21 archivos.
   - **Congeladores:** 2 archivos.
@@ -116,6 +116,7 @@ Actualizado por Poly el 2026-11-12 a las 7:16 pm (America/Hermosillo): se agreg�
 - Flujo.mp4 — 1874.7 MB — https://drive.google.com/file/d/1WzMl3IpTaYr92pX7nca8X-E1kEVL3-Y6/view?usp=drivesdk
 - Magnetico prueba.mp4 — 27.8 MB — https://drive.google.com/file/d/1e5wLEQ1qmJSVTKPAVPXD-iU4fCcGgIeX/view?usp=drivesdk — Descripción de Ernesto (2026-11-11): es el sensor magnético para saber si hay flujo; se prueba haciendo un puente, para saber si lo demás funciona correctamente.
 - presion de gas.mp4 — 19.8 MB — https://drive.google.com/file/d/1-dYpzs57t78WJcRR7Z8lKcHwvAnvQQoj/view?usp=drivesdk
+- Prueba de la cubeta exceso de flujo.mp4 — 12.2 MB — https://drive.google.com/file/d/1w428fXuLTDrmBs-ClfDNcqITdb0GVqmO/view?usp=drivesdk — **Video de campo de Ernesto (2026-11-12), prueba de la cubeta con cronómetro:** la cubeta de **19 L se llena en menos de 2 minutos** → flujo de ≈9.5 L/min o más → **exceso de flujo: el calentador no calienta** porque el agua pasa demasiado rápido por el intercambiador (diseño 5–6 L/min). Criterio registrado en `referencias/calentadores-de-paso.md`.
 - Termostato temperatura.mp4 — 23.9 MB — https://drive.google.com/file/d/1eyaGCsnOqVX2OOv0wqGQyAD_aq6_n5Ph/view?usp=drivesdk
 - Valvula.mp4 — 4.1 MB — https://drive.google.com/file/d/1pTbSueucMA7daVBgmvqNl9FwBKxIv9Ii/view?usp=drivesdk
 

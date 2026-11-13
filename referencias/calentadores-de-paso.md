@@ -131,6 +131,8 @@ Guía basada en el calentador de paso de **gas LP, 1 servicio, 5–6 L/min**.
 | Más de 4 min; 7–8 min | Flujo demasiado bajo |
 | 1–2 min | Flujo demasiado alto; también afecta el rendimiento |
 
+- **Criterio de exceso de flujo (Ernesto, caso de campo 2026-11-12):** si la cubeta de **19 L se llena en menos de 2 minutos**, el flujo es de **≈9.5 L/min o más** contra los 5–6 L/min de diseño: hay **exceso de flujo** y el equipo **no calienta**, porque el agua pasa tan rápido por el intercambiador que no alcanza a tomar temperatura. Video de campo con cronómetro: `Prueba de la cubeta exceso de flujo.mp4` (carpeta Videos de Boiler de paso, en el índice de Drive).
+
 - Revisar que el **sensor/filtro de entrada** no tenga sarro y esté limpio.
 
 #### d) Sensor magnético (sensor de flujo)
