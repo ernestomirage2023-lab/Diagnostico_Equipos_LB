@@ -74,6 +74,21 @@
 - Si la referencia marca **«registrada, no existe en el servidor»**, esa foto no está disponible aunque el Excel la liste (son 13 piezas, casi todas de dispensadores MDD10): dilo así y no inventes otra imagen.
 - Esta referencia cubre **solo línea blanca (LB)**; no trae refacciones de clima (organizaciones AR/LC del MASTERDATA).
 
+## Diagramas explosivos — listados de piezas por modelo
+
+- Cuando se necesite identificar una pieza de un modelo (su **posición en el diagrama** y su **número de parte oficial**), lee el listado de su diagrama explosivo. Cada listado cruza el número contra la base de refacciones: dice si el número está en el MASTERDATA y si tiene foto.
+- **Boilers de gas:** `referencias/explosivo-flux-mbf06zb-mbf06zc.md`, `referencias/explosivo-flux-mbf06ed-mbf06ef.md`, `referencias/explosivo-flux-mbf10bb-mbf10bc.md`, `referencias/explosivo-flux-mbf10nb-mbf10nc.md`, `referencias/explosivo-turbo-flux-mbf16af.md`.
+- **Boilers eléctricos:** `referencias/explosivo-flux-electric-mbe040b.md`, `referencias/explosivo-flux-electric-mbe081g.md`.
+- **Campanas Velox:** `referencias/explosivo-campana-velox-mcv60us-mcv90us.md`, `referencias/explosivo-campana-velox-mcv60ws-mcv90ws.md`.
+- **Congeladores:** `referencias/explosivo-congelador-mcp10hb.md`, `referencias/explosivo-congelador-mcp15hb.md`, `referencias/explosivo-congelador-mcp20hb.md`, `referencias/explosivo-congelador-mcp25hb.md`, `referencias/explosivo-congelador-mcp30hb.md`.
+- **Dispensadores:** `referencias/explosivo-dispensador-mdt10bb-disx05.md`, `referencias/explosivo-dispensador-mdd10cb-disx10.md`, `referencias/explosivo-dispensador-mdd10cs-disx10.md`.
+- **Refrigeración:** `referencias/explosivo-frigobar-mrx33es.md`, `referencias/explosivo-refrigerador-mrx92fb.md`.
+- **Lavadoras semiautomáticas:** `referencias/explosivo-lavadora-lms013l.md`, `referencias/explosivo-lavadora-lms013m.md`, `referencias/explosivo-lavadora-lms016l.md`, `referencias/explosivo-lavadora-lms016m.md`.
+- **Parrillas Sparx:** `referencias/explosivo-parrilla-mps60gb.md`, `referencias/explosivo-parrilla-mps90gb.md`.
+- **Secadora:** `referencias/explosivo-secadora-smg022d.md`.
+- Ojo con dos numeraciones que **no coinciden** con el MASTERDATA: los congeladores **MCP** traen códigos del fabricante (serie 890…) y las **parrillas Sparx** códigos del proveedor (series GHS…); en esos modelos el listado del explosivo es la referencia del número, aunque no aparezca en la base de refacciones.
+- En el **MBF06ED** la válvula de control a gas LP es la **02090300393** (equivalencia confirmada), aunque su diagrama impreso lista otro número; el detalle está en su listado.
+
 ## Casos confirmados por Ernesto
 
 - Lee `referencias/casos-diagnostico.md` cuando el síntoma no sea un código de error, por ejemplo que el equipo hace chispa y la flama sigue encendida.
