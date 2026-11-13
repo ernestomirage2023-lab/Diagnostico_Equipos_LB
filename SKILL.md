@@ -47,6 +47,13 @@
 
 - Lee `referencias/tarjeta-turbo-flux-gris.md` cuando el equipo sea un **Turbo Flux Gris MBF12AG o MBF12AH** y la revisión sea de su tarjeta electrónica o de sus componentes: trae la identificación de componentes en la tarjeta, los valores del diagrama del documento de Ernesto (**alimentación 120 V, termistores de entrada y salida de 10 kΩ, capacitor del motor extractor de 1.5 µF**) y su secuencia de revisión. El PDF vive en Drive, en la carpeta Boiler MBF12AG-AH (ver `referencias/indice-drive.md`).
 
+## Refacciones de línea blanca y sus fotos
+
+- Cuando se pregunte por una **refacción** de línea blanca (su **número de parte**, cómo es la pieza o su **foto**), lee `referencias/refacciones-lb.md`: trae las **988 refacciones de la organización LB** del MASTERDATA de Mirage, organizadas por familia y modelo (lavadoras, boilers FLUX SERIES, TURBO FLUX y EFLUX, dispensadores DISX10/DISX30, microondas XWAVE/SPARX, secadoras VELOX, congeladores y refrigeradores REFX), con EX_ID y número de parte (Spare Parts Code).
+- La misma referencia trae el enlace **«ver foto»** de la **imagen 1 y la imagen 2** de cada pieza (las fotos viven en Amazon AWS S3). Si la pieza tiene foto, entrégala con su enlace: es la misma regla de mostrar la foto de la pieza cuando el diagnóstico dice cambiarla.
+- Si la referencia marca **«registrada, no existe en el servidor»**, esa foto no está disponible aunque el Excel la liste (son 13 piezas, casi todas de dispensadores MDD10): dilo así y no inventes otra imagen.
+- Esta referencia cubre **solo línea blanca (LB)**; no trae refacciones de clima (organizaciones AR/LC del MASTERDATA).
+
 ## Casos confirmados por Ernesto
 
 - Lee `referencias/casos-diagnostico.md` cuando el síntoma no sea un código de error, por ejemplo que el equipo hace chispa y la flama sigue encendida.
