@@ -1,15 +1,15 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-12 a las 8:22 pm (America/Hermosillo): se agregó la foto de campo de la manguera de succión interna del dispensador MDD30 a la carpeta Dispensadores (21 archivos) y el video de campo de la prueba de la cubeta por exceso de flujo a la carpeta Videos de Boiler de paso (58 archivos), verificados en Drive.
+Actualizado por Poly el 2026-11-13 a las 8:16 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos) y tres láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs y la del código E1 por taponamiento— (Lavadoras: 64 archivos), verificadas en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 150 archivos, ≈3.14 GB en total.
-  - **Boiler de paso:** 58 archivos.
-  - **Lavadoras:** 61 archivos.
+- **Contenido verificado en este escaneo:** 154 archivos, ≈3.14 GB en total.
+  - **Boiler de paso:** 59 archivos.
+  - **Lavadoras:** 64 archivos.
   - **Dispensadores:** 21 archivos.
   - **Congeladores:** 2 archivos.
   - **Microondas:** 6 archivos.
@@ -58,6 +58,7 @@ Actualizado por Poly el 2026-11-12 a las 8:22 pm (America/Hermosillo): se agreg�
 - Diagrama explosivo - MBE081G.pdf — 0.5 MB — https://drive.google.com/file/d/1hstmfX022Ck-zP3hmuMhyAehB7vEaO4A/view?usp=drivesdk
 - Ficha tecnica Turbo Flux 1.5 sv.pdf — 0.7 MB — https://drive.google.com/file/d/1_EvnCgbEIirwcreAKlY0HEJ4o0_cTBMI/view?usp=drivesdk
 - Manual de uso Boiler Electrico_MBE081G 1.5  sv.pdf — 6.3 MB — https://drive.google.com/file/d/1bJg-P29SzYo-XAdBRT6ROC3nMFsa9ip8/view?usp=drivesdk
+- Triac revision E1 no calienta Flux Electrico.jpg — 0.2 MB — https://drive.google.com/file/d/1EOOORJS_6nHRbvZyZN8oh0Dl6UT2kCW9/view?usp=drivesdk — Lámina de Ernesto (2026-11-13): revisión E1 «no calienta» del boiler eléctrico Flux Electric — medición del triac entre terminales 1 y 3: 105.9 Ω en resistencia y 0.148 V en prueba de diodos.
 
 ## Github / Boiler de paso / Boiler MBE10AD
 
@@ -132,11 +133,14 @@ Actualizado por Poly el 2026-11-12 a las 8:22 pm (America/Hermosillo): se agreg�
 
 ## Github / Lavadoras / Lavadoras Automatica Digital LMA-G
 
+- Codigo E1 presion baja taponamiento LMA022G.jpg — 0.2 MB — https://drive.google.com/file/d/1s0jT3rcJEF5AvhHIHHnlZsYNIIkP9_dp/view?usp=drivesdk — Lámina de Ernesto (2026-11-13): código E1 de la LMA022G (el llenado toma más de 30 min) por presión baja / taponamiento: fotos de los filtros (mallas) de las electroválvulas de entrada, caliente y fría, tapados con sedimento, y el filtro retirado con la suciedad acumulada.
+- Codigos de error y leds LMA022G.jpg — 0.2 MB — https://drive.google.com/file/d/1WDjltRG283TxoP_8HwqGErFpOFCTAh3R/view?usp=drivesdk — Lámina de Ernesto (2026-11-13): tabla oficial de códigos de error de la LMA022G (E1, E2, E3, E4, E5, F5, F8, Fd) con la situación de cada código y el patrón de LEDs que parpadea en el panel (intermitente, apagado, encendido).
 - Diagrama Electrico Lavadora LMA022G.pdf — 0.1 MB — https://drive.google.com/file/d/16JLH_G5t4rv7nWyXC9uBdobbQdXoeqxr/view?usp=drivesdk
 - Instalacion test lavadora .pptx — 205.0 MB — https://docs.google.com/presentation/d/1pHZ29WL5Q1dkUp__kUQP_xJ3CH-6_IUJ/edit?usp=drivesdk&ouid=102203244686594074081&rtpof=true&sd=true
 - LAVADORA AUTOMÁTICA 22KG 2024.pdf — 2.3 MB — https://drive.google.com/file/d/15aWWh4kEXGEgKl0tID8btrb0O8ImZG9S/view?usp=drivesdk
 - Lavadora LMA022G - Manual para técnicos LMA022G.pdf — 18.9 MB — https://drive.google.com/file/d/1S8dpa2EEJUIiO-P6HnFDYd7-VM4UQrYv/view?usp=drivesdk
 - Manual_LMA022G_V_2023.pdf — 7.8 MB — https://drive.google.com/file/d/1lYS3q5amnc-SotSHAhgTYv6Nmyli8jdY/view?usp=drivesdk
+- Vista inferior componentes LMA022G.jpg — 0.2 MB — https://drive.google.com/file/d/1c5jd2uQuo9FZCShFIHkjLnuSO0SBOinA/view?usp=drivesdk — Imagen de Ernesto (2026-11-13): vista inferior (parte de abajo) de la LMA022G con los componentes señalados: motor, banda, transmisión, retractor y bomba de agua.
 
 ## Github / Lavadoras / Lavadoras Automatica Digital LMA-G / Boletines LMA022G
 
