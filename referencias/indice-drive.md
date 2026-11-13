@@ -1,19 +1,20 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-12 a la 1:55 pm (America/Hermosillo): incluye los 20 archivos de la carpeta Dispensadores (10 que Ernesto subió directo — manuales, diagramas y boletines de los MDD10/MDD30 —, las 2 fotos y 2 videos del caso de fuga debajo del depósito de agua fría, y los 6 manuales y fichas de especificaciones que Ernesto envió después), verificados en Drive.
+Actualizado por Poly el 2026-11-12 a las 7:16 pm (America/Hermosillo): se agregó la foto de campo de la manguera de succión interna del dispensador MDD30 a la carpeta Dispensadores (21 archivos en esa carpeta), verificada en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 146 archivos, ≈3.11 GB en total.
+- **Contenido verificado en este escaneo:** 149 archivos, ≈3.13 GB en total.
   - **Boiler de paso:** 57 archivos.
   - **Lavadoras:** 61 archivos.
-  - **Dispensadores:** 20 archivos.
+  - **Dispensadores:** 21 archivos.
   - **Congeladores:** 2 archivos.
   - **Microondas:** 6 archivos.
-- **Novedad de esta actualización:** la carpeta Dispensadores recibió sus primeros 20 archivos: manuales de los Disx10/Disx30 (incluidos el del blanco de garrafón oculto MDD30HD y el del MDD10CS), las fichas de especificaciones (DISX30-2025-MDD30HD, Disx10 y Disx30 rev. 2), diagramas del MDD30HD, MDD30HC y MDD10CB, boletines (bomba sin succión, alarma de nivel bajo, check valve), el video de la bomba y el material de campo del caso **fuga debajo del depósito de agua fría** (2 fotos y 2 videos) que Ernesto mandó registrar como diagnóstico el 2026-11-12.
+  - **Refrigeradores:** 2 archivos.
+- **Novedad de esta actualización:** la carpeta Dispensadores recibió sus primeros 20 archivos: manuales de los Disx10/Disx30 (incluidos el del blanco de garrafón oculto MDD30HD y el del MDD10CS), las fichas de especificaciones (DISX30-2025-MDD30HD, Disx10 y Disx30 rev. 2), diagramas del MDD30HD, MDD30HC y MDD10CB, boletines (bomba sin succión, alarma de nivel bajo, check valve), el video de la bomba y el material de campo del caso **fuga debajo del depósito de agua fría** (2 fotos y 2 videos) que Ernesto mandó registrar como diagnóstico el 2026-11-12. Además, Ernesto registró la foto de campo **«Dispensador MDD30 interior - manguera de succion.jpg»**: por dentro del dispensador de garrafón oculto, la manguera de succión debe meterse bien en su conexión para que la bomba succione (falla de bomba sin succión por pérdida de vacío).
 - **Descripciones:** las descripciones que Ernesto ha dado de sus videos (por ejemplo la prueba del puente del sensor magnético) van anotadas en la entrada de cada archivo.
 - **Notas de duplicados conocidos:** el diagrama explosivo del MBE081G aparece en dos carpetas de boilers; hay copias de los videos de diagnósticos del MBE081G y del Flux Series en su carpeta de modelo y en la carpeta Videos; y varios boletines de lavadora LMA017D existen en PDF y también en DOCX (y en dos carpetas de boletines).
 
@@ -38,10 +39,10 @@ Actualizado por Poly el 2026-11-12 a la 1:55 pm (America/Hermosillo): incluye lo
 - Github / Lavadoras / Lavadoras Semiautomaticas LMS-M — https://drive.google.com/drive/folders/1zvfBGNkJuI4c3IY5rIW6mDQpoYzJSuAy
 - Github / Lavadoras / Lavadoras Semiautomaticas LMS-M / PDF — https://drive.google.com/drive/folders/1J7WpPCyrpQLLuCw19DMnTupgFmhKZvuX
 - Github / Lavadoras / Videos — https://drive.google.com/drive/folders/1BbqK4zrKVjxiu-nI6wGu0g361rJ10yO8
-- Github / Dispensadores — https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K — **20 archivos**
+- Github / Dispensadores — https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K — **21 archivos**
 - Github / Microondas — https://drive.google.com/drive/folders/1IHPTyI1Gj4hCj9yp_sFf3a5LuInAST0R — **6 archivos**
 - Github / Congeladores — https://drive.google.com/drive/folders/1z2HWoyE5JTNSMw-xh-WZlcEuTRYGCZfC — **2 archivos**
-- Github / Refrigeradores — https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX — **categoría nueva (2026-11-12), aún sin archivos**
+- Github / Refrigeradores — https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX — **2 archivos**
 
 ## Github / Boiler de paso / Boiler MBE051G
 
@@ -221,6 +222,7 @@ Actualizado por Poly el 2026-11-12 a la 1:55 pm (America/Hermosillo): incluye lo
 - Diagrama Dispensador MDD30HD.pdf — 0.4 MB — https://drive.google.com/file/d/1_6k-4AjymycooLk1uTMclYioxsn30jTy/view?usp=drivesdk
 - Diagrama Electrico Dispensador MDD30HC.pdf — 0.1 MB — https://drive.google.com/file/d/1DNPv2lyQ917LnEH9HBDj3GNF8r6NqS89/view?usp=drivesdk
 - Diagrama Explosivo - MDD10CB.pdf — 0.8 MB — https://drive.google.com/file/d/1-MUn_ooj0s56C_x2z-MaDESpqWh0j159/view?usp=drivesdk
+- Dispensador MDD30 interior - manguera de succion.jpg — 0.1 MB — https://drive.google.com/file/d/1lWqZiUVJFqXomOlrCyBVArBbV8Qrd2-0/view?usp=drivesdk — **Foto de campo de Ernesto (2026-11-12), dispensador que no llena:** por dentro del dispensador de garrafón oculto (MDD30), la manguera de succión conectada al vástago inferior. Indicación de Ernesto: **hay que meter bien esa manguera, hasta el fondo, para que la bomba pueda succionar, y revisar todas las conexiones**. Si la manguera queda con espacio, entra aire y se pierde el vacío: la bomba se escucha pero no sube el agua. Apoya la falla «bomba sin succión por pérdida de vacío» de `referencias/refrigeracion-domestica-modulo-5.md` (§3.2).
 - DISX30-2025-MDD30HD.pdf — 0.5 MB — https://drive.google.com/file/d/14hK8FZnWK25dndTxoRUDZ_08Hl1M-o4o/view?usp=drivesdk — **Ficha de especificaciones 2025** del DISX30 / MDD30HD de garrafón oculto (enviada por Ernesto el 2026-11-12).
 - Disx10.pdf — 0.2 MB — https://drive.google.com/file/d/1MpO4tYLEOaFSCfqwIClfyWdpgU0zUp7p/view?usp=drivesdk — **Ficha de especificaciones** del Disx10 (enviada por Ernesto el 2026-11-12).
 - Disx30-rev2.pdf — 1.5 MB — https://drive.google.com/file/d/1Xg47jB1l9r7Qg6J09bXFqCanildyR8N9/view?usp=drivesdk — **Ficha de especificaciones** del Disx30, revisión 2 (enviada por Ernesto el 2026-11-12).
