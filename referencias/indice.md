@@ -58,6 +58,7 @@ Archivos que Ernesto envía por chat para guardar por etiqueta/categoría y pode
 - `Boletin_Turbo_Flux_Codigo_E6_Vacio.pdf` — PDF, 3 págs., 0.6 MB — guardado en `archivos/turbo-flux/Boletin_Turbo_Flux_Codigo_E6_Vacio.pdf` (original en `files/Boletin_Turbo_Flux_Codigo_E6_Vacio.pdf`)
 - `Boletin_Turbo_Flux_Codigo_E7_Valvula.pdf` — PDF, 3 págs., 0.6 MB — guardado en `archivos/turbo-flux/Boletin_Turbo_Flux_Codigo_E7_Valvula.pdf` (original en `files/Boletin_Turbo_Flux_Codigo_E7_Valvula.pdf`)
 - `Diagrama_Explosivo_MBF16AF.pdf` — PDF, 1 págs., 2.1 MB — guardado en `archivos/turbo-flux/Diagrama_Explosivo_MBF16AF.pdf` (original en `files/Diagrama_Explosivo_MBF16AF.pdf`)
+- `Tarjeta_electr_nica_Turbo_Flux_MBF12AG-AH.pdf` — PDF, 2 págs., 1.4 MB — guardado en `archivos/turbo-flux/Tarjeta_electr_nica_Turbo_Flux_MBF12AG-AH.pdf` (original en `files/Tarjeta_electr_nica_Turbo_Flux_MBF12AG-AH.pdf`). Recibido el 2026-11-13 con la etiqueta «Revision y componente MBF16AG Y MBF12AH»: conexiones de la tarjeta electrónica del Turbo Flux Gris (el documento indica modelos MBF12AG y MBF12AH): electroválvulas solenoides, termostato bimetálico de gas, motor extractor con capacitor de 1.5 µF, sensor de flujo, termistores de entrada y salida de agua de 10 kΩ, display, emisores de chispa, sensor de flama y alimentación de 120 V.
 
 ## Guía rápida: códigos Turbo Flux con más de un boletín
 

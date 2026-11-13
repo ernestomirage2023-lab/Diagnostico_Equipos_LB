@@ -16,6 +16,7 @@
   - Gas LP de Flux Series, con los manuales MBF06ED y MBF06EF del Flux blanco y la serie MBFxxxB y MBFxxxC del Flux rojo
   - 10 litros con WiFi, modelos MBF10AD y MBF10AE
   - Turbo Flux, modelos MBF16AF y MBF16AG, con su diagrama explosivo
+  - Turbo Flux Gris, modelos MBF12AG y MBF12AH, con el documento de conexiones de su tarjeta electrónica
 
 ## Diagnosticar por código
 
@@ -41,6 +42,10 @@
 - Pregunta qué revisión va a hacer antes de elegir el boletín, porque cada código tiene variantes con mediciones distintas.
 
 - Da solo el boletín de la variante elegida, por ejemplo el E3 de válvula o el E6 de vacío.
+
+## Tarjeta electrónica del Turbo Flux Gris (MBF12AG y MBF12AH)
+
+- Lee `referencias/tarjeta-turbo-flux-gris.md` cuando el equipo sea un **Turbo Flux Gris MBF12AG o MBF12AH** y la revisión sea de su tarjeta electrónica o de sus componentes: trae la identificación de componentes en la tarjeta, los valores del diagrama del documento de Ernesto (**alimentación 120 V, termistores de entrada y salida de 10 kΩ, capacitor del motor extractor de 1.5 µF**) y su secuencia de revisión. El PDF vive en Drive, en la carpeta Boiler MBF12AG-AH (ver `referencias/indice-drive.md`).
 
 ## Casos confirmados por Ernesto
 
