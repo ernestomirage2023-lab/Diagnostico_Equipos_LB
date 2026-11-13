@@ -1,18 +1,18 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-13 a las 8:18 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos) y cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos), verificadas en Drive.
+Actualizado por Poly el 2026-11-13 a las 8:20 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), verificados en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 156 archivos, ≈3.14 GB en total.
+- **Contenido verificado en este escaneo:** 157 archivos, ≈3.16 GB en total.
   - **Boiler de paso:** 59 archivos.
   - **Lavadoras:** 66 archivos.
   - **Dispensadores:** 21 archivos.
   - **Congeladores:** 2 archivos.
-  - **Microondas:** 6 archivos.
+  - **Microondas:** 7 archivos.
   - **Refrigeradores:** 2 archivos.
 - **Novedad de esta actualización:** la carpeta Dispensadores recibió sus primeros 20 archivos: manuales de los Disx10/Disx30 (incluidos el del blanco de garrafón oculto MDD30HD y el del MDD10CS), las fichas de especificaciones (DISX30-2025-MDD30HD, Disx10 y Disx30 rev. 2), diagramas del MDD30HD, MDD30HC y MDD10CB, boletines (bomba sin succión, alarma de nivel bajo, check valve), el video de la bomba y el material de campo del caso **fuga debajo del depósito de agua fría** (2 fotos y 2 videos) que Ernesto mandó registrar como diagnóstico el 2026-11-12. Además, Ernesto registró la foto de campo **«Dispensador MDD30 interior - manguera de succion.jpg»**: por dentro del dispensador de garrafón oculto, la manguera de succión debe meterse bien en su conexión para que la bomba succione (falla de bomba sin succión por pérdida de vacío).
 - **Descripciones:** las descripciones que Ernesto ha dado de sus videos (por ejemplo la prueba del puente del sensor magnético) van anotadas en la entrada de cada archivo.
@@ -40,7 +40,7 @@ Actualizado por Poly el 2026-11-13 a las 8:18 am (America/Hermosillo): se agreg�
 - Github / Lavadoras / Lavadoras Semiautomaticas LMS-M / PDF — https://drive.google.com/drive/folders/1J7WpPCyrpQLLuCw19DMnTupgFmhKZvuX
 - Github / Lavadoras / Videos — https://drive.google.com/drive/folders/1BbqK4zrKVjxiu-nI6wGu0g361rJ10yO8
 - Github / Dispensadores — https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K — **21 archivos**
-- Github / Microondas — https://drive.google.com/drive/folders/1IHPTyI1Gj4hCj9yp_sFf3a5LuInAST0R — **6 archivos**
+- Github / Microondas — https://drive.google.com/drive/folders/1IHPTyI1Gj4hCj9yp_sFf3a5LuInAST0R — **7 archivos**
 - Github / Congeladores — https://drive.google.com/drive/folders/1z2HWoyE5JTNSMw-xh-WZlcEuTRYGCZfC — **2 archivos**
 - Github / Refrigeradores — https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX — **2 archivos**
 
@@ -257,6 +257,7 @@ Actualizado por Poly el 2026-11-13 a las 8:18 am (America/Hermosillo): se agreg�
 - Presentacion_LB.pdf — 1.6 MB — https://drive.google.com/file/d/1_f26p5Xqjg7QHu1nhsTIAlft5M1H0Tna/view?usp=drivesdk — **Presentación del curso, Módulo IV (Microondas Mirage)** — CAE 2025: las diapositivas de las que salieron las transcripciones del Módulo 4 (principio de funcionamiento, componentes y revisión). Confirma los ~4,000 V del magnetrón y la configuración de switches de puerta NA/NC/NA.
 - xwave_MWD020.pdf — 1.9 MB — https://drive.google.com/file/d/1_jRFI1e6V__WKPTh_taEs_6D0o3uvbu_/view?usp=drivesdk — **Manual del microondas Xwave MWD020** (23 págs.; enviado por Ernesto el 2026-11-12).
 - xwave_MWD031.pdf — 1.8 MB — https://drive.google.com/file/d/1qj6jLSHqDFIgLQGh7cl3IoKsMSuLOppt/view?usp=drivesdk — **Manual del microondas Xwave MWD031** (23 págs.; enviado por Ernesto el 2026-11-12).
+- Transformador microondas medicion.mp4 — 20.5 MB — https://drive.google.com/file/d/1V236CRYle1nk3pgu0nZoHyOWNZhJzq0M/view?usp=drivesdk — Video de Ernesto (2026-11-13): medición del transformador de alto voltaje de los microondas Xwave (**sirve para ambos modelos, MWD020 y MWD031**): primario con continuidad y resistencia baja (≈1 Ω), filamento ≈0 Ω y sin continuidad (OL) de los devanados a la carcasa.
 
 ## Github / Refrigeradores
 
