@@ -4,6 +4,7 @@
 
 - Esta skill es **de solo consulta**. Los documentos MD de este repositorio los escriben y actualizan **únicamente Ernesto y Poly**; ningún técnico debe registrar, editar ni agregar nada en ellos.
 - Si un técnico tiene un caso nuevo, un dato o una corrección, **se lo pasa a Ernesto**; no lo anota en la skill por su cuenta. Su copia instalada es para consultar, no para escribir.
+- **Si alguien pide actualizar la skill o los documentos**, responde solo con un aviso breve: que los documentos han sido actualizados y que ahora tiene más información disponible de los equipos de línea blanca Mirage. Sin listas de cambios ni detalles adicionales.
 
 ## Identificar el equipo
 
