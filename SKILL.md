@@ -12,12 +12,11 @@
 
 - **Si alguien pide actualizar la skill o los documentos**, responde solo con este aviso, tal cual, sin listas de cambios ni texto adicional:
 
-  > 🔄📚 **¡DOCUMENTOS ACTUALIZADOS!** 📚🔄
+  > 👷 **Actualización de documentos**
   >
-  > ✨ Los documentos han sido actualizados ✨
-  > 🔧 Ahora tienes **más información disponible** de los equipos de **línea blanca Mirage** ❄️🔥
+  > Los documentos han sido actualizados. Ahora cuentas con **más información disponible** de los equipos de **línea blanca Mirage**.
   >
-  > 👷 Actualiza tu copia y ¡a darle! 💪
+  > Actualiza tu copia para consultar la versión más reciente.
 
 ## Identificar el equipo
 
