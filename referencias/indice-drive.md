@@ -1,14 +1,14 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-13 a las 8:20 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), verificados en Drive.
+Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), y se creó la carpeta Boiler MBF12AG-AH con el documento de la tarjeta electrónica del Turbo Flux Gris (Boiler de paso: 60 archivos), verificados en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 157 archivos, ≈3.16 GB en total.
-  - **Boiler de paso:** 59 archivos.
+- **Contenido verificado en este escaneo:** 158 archivos, ≈3.16 GB en total.
+  - **Boiler de paso:** 60 archivos.
   - **Lavadoras:** 66 archivos.
   - **Dispensadores:** 21 archivos.
   - **Congeladores:** 2 archivos.
@@ -25,6 +25,7 @@ Actualizado por Poly el 2026-11-13 a las 8:20 am (America/Hermosillo): se agreg�
 - Github / Boiler de paso / Boiler MBE081G — https://drive.google.com/drive/folders/1TaDU_VmpXplreWTgiki4OFxU9n8eXeQe
 - Github / Boiler de paso / Boiler MBE10AD — https://drive.google.com/drive/folders/1hZSXmB1Rrj3I4YfQIQ6N0BEo0F_2DSc4
 - Github / Boiler de paso / Boiler MBF06ED — https://drive.google.com/drive/folders/1bBxcR0BKY2VKhv7IgCtaP3eSWpQs2lX-
+- Github / Boiler de paso / Boiler MBF12AG-AH — https://drive.google.com/drive/folders/1kESduIxAiYtiuNyUfQYQGcQiX0H7KBny
 - Github / Boiler de paso / Boiler MBF16AF — https://drive.google.com/drive/folders/1Z9Zv0v7xRzwqhtopmn3lAnxL7XcjlpMp
 - Github / Boiler de paso / Videos — https://drive.google.com/drive/folders/18HaHIlO2AsSRkCKFARBOwZf1frnLv2E6
 - Github / Lavadoras — https://drive.google.com/drive/folders/1JZ5LhLO-wCGZTu5l9wSfHYTw0Vizzp1M
@@ -108,6 +109,10 @@ Actualizado por Poly el 2026-11-13 a las 8:20 am (America/Hermosillo): se agreg�
 - Modulo MBF16AF display no enciende 5V.jpg — 0.1 MB — https://drive.google.com/file/d/1ZeffF7C5MQY0bBpHPOYFMdT3TLgHkMIG/view?usp=drivesdk — Foto de Ernesto (2026-11-11): el conector del display en el módulo (marcado 5V, CN9); cuando el display no enciende, entre las terminales seleccionadas debe dar 5 volts.
 - Transformador MBF16AF.mp4 — 2.6 MB — https://drive.google.com/file/d/16xDyUfWHFfoHbox3rN-xh13scUMCMca0/view?usp=drivesdk — Video de Ernesto (2026-11-11): el transformador del MBF16AF; los rojos son la entrada de 110 V, blanco a negro son 12 V y blanco a blanco son 24 V (dos devanados de 12.5 V/0.8 A).
 - Voltaje de alimentacion del modulo MBF16AF.jpg — 0.1 MB — https://drive.google.com/file/d/1u5Yf8wRj0DayN5Fn2Uv3K0fwp5OKV62y/view?usp=drivesdk — Foto de Ernesto (2026-11-11): medición con pinza amperimétrica del voltaje de línea que alimenta al MBF16AF: **122.5 V CA**, valor ideal (por debajo de 110 V ya hay problema de alimentación).
+
+## Github / Boiler de paso / Boiler MBF12AG-AH
+
+- Tarjeta_electr_nica_Turbo_Flux_MBF12AG-AH.pdf — 1.4 MB — https://drive.google.com/file/d/1knh9j2-Et09R6VWREllxY4Ub8S876Ysb/view?usp=drivesdk — Documento de Ernesto (2026-11-13), etiquetado «Revision y componente MBF16AG Y MBF12AH»: conexiones de la tarjeta electrónica del **Turbo Flux Gris** (el documento indica modelos **MBF12AG y MBF12AH**): electroválvulas solenoides, termostato bimetálico de gas, motor extractor con capacitor de 1.5 µF, sensor de flujo, termistores de entrada y salida de agua de 10 kΩ, display, emisores de chispa, sensor de flama y alimentación de 120 V, con secuencia de revisión y notas de seguridad.
 
 ## Github / Boiler de paso / Videos
 
