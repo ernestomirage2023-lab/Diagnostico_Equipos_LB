@@ -1,15 +1,15 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-13 a las 8:16 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos) y tres láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs y la del código E1 por taponamiento— (Lavadoras: 64 archivos), verificadas en Drive.
+Actualizado por Poly el 2026-11-13 a las 8:18 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos) y cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos), verificadas en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 154 archivos, ≈3.14 GB en total.
+- **Contenido verificado en este escaneo:** 156 archivos, ≈3.14 GB en total.
   - **Boiler de paso:** 59 archivos.
-  - **Lavadoras:** 64 archivos.
+  - **Lavadoras:** 66 archivos.
   - **Dispensadores:** 21 archivos.
   - **Congeladores:** 2 archivos.
   - **Microondas:** 6 archivos.
@@ -136,10 +136,12 @@ Actualizado por Poly el 2026-11-13 a las 8:16 am (America/Hermosillo): se agreg�
 - Codigo E1 presion baja taponamiento LMA022G.jpg — 0.2 MB — https://drive.google.com/file/d/1s0jT3rcJEF5AvhHIHHnlZsYNIIkP9_dp/view?usp=drivesdk — Lámina de Ernesto (2026-11-13): código E1 de la LMA022G (el llenado toma más de 30 min) por presión baja / taponamiento: fotos de los filtros (mallas) de las electroválvulas de entrada, caliente y fría, tapados con sedimento, y el filtro retirado con la suciedad acumulada.
 - Codigos de error y leds LMA022G.jpg — 0.2 MB — https://drive.google.com/file/d/1WDjltRG283TxoP_8HwqGErFpOFCTAh3R/view?usp=drivesdk — Lámina de Ernesto (2026-11-13): tabla oficial de códigos de error de la LMA022G (E1, E2, E3, E4, E5, F5, F8, Fd) con la situación de cada código y el patrón de LEDs que parpadea en el panel (intermitente, apagado, encendido).
 - Diagrama Electrico Lavadora LMA022G.pdf — 0.1 MB — https://drive.google.com/file/d/16JLH_G5t4rv7nWyXC9uBdobbQdXoeqxr/view?usp=drivesdk
+- Embrague centrifugado transmision LMA022G.jpg — 0.1 MB — https://drive.google.com/file/d/1V747jZO-Fpq81o5kXFsBUfNF-XqxWbcg/view?usp=drivesdk — Lámina de Ernesto (2026-11-13): el embrague centrifugado (la transmisión) de la LMA022G en tres vistas, para identificar la pieza.
 - Instalacion test lavadora .pptx — 205.0 MB — https://docs.google.com/presentation/d/1pHZ29WL5Q1dkUp__kUQP_xJ3CH-6_IUJ/edit?usp=drivesdk&ouid=102203244686594074081&rtpof=true&sd=true
 - LAVADORA AUTOMÁTICA 22KG 2024.pdf — 2.3 MB — https://drive.google.com/file/d/15aWWh4kEXGEgKl0tID8btrb0O8ImZG9S/view?usp=drivesdk
 - Lavadora LMA022G - Manual para técnicos LMA022G.pdf — 18.9 MB — https://drive.google.com/file/d/1S8dpa2EEJUIiO-P6HnFDYd7-VM4UQrYv/view?usp=drivesdk
 - Manual_LMA022G_V_2023.pdf — 7.8 MB — https://drive.google.com/file/d/1lYS3q5amnc-SotSHAhgTYv6Nmyli8jdY/view?usp=drivesdk
+- Motor asincrono LMA022G.jpg — 0.2 MB — https://drive.google.com/file/d/1ZdhtR40H4JQGp1TIngjb1xau9xncnf3G/view?usp=drivesdk — Lámina de Ernesto (2026-11-13): motor asíncrono de la LMA022G — mediciones de bobinas entre pares de cables: 4.4 Ω, 8.5 Ω y 4.1 Ω (en el diagrama: L1 = 4.3 Ω y L2 = 4.3 Ω desde el CN3 de la tarjeta), con foto de la tarjeta principal y el circuito de válvulas, retractor, bomba y seguro de tapa.
 - Vista inferior componentes LMA022G.jpg — 0.2 MB — https://drive.google.com/file/d/1c5jd2uQuo9FZCShFIHkjLnuSO0SBOinA/view?usp=drivesdk — Imagen de Ernesto (2026-11-13): vista inferior (parte de abajo) de la LMA022G con los componentes señalados: motor, banda, transmisión, retractor y bomba de agua.
 
 ## Github / Lavadoras / Lavadoras Automatica Digital LMA-G / Boletines LMA022G
