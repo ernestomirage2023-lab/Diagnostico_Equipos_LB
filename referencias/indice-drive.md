@@ -1,17 +1,17 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), y se creó la carpeta Boiler MBF12AG-AH con el documento de la tarjeta electrónica del Turbo Flux Gris (Boiler de paso: 60 archivos), verificados en Drive.
+Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), y se creó la carpeta Boiler MBF12AG-AH con el documento de la tarjeta electrónica del Turbo Flux Gris (Boiler de paso: 60 archivos), verificados en Drive. Después, a las 11:41 am, se agregó el PDF de la tarjeta de iluminación LED del congelador horizontal (switch de balín) a la carpeta Congeladores (3 archivos), verificado en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 158 archivos, ≈3.16 GB en total.
+- **Contenido verificado en este escaneo:** 159 archivos, ≈3.16 GB en total.
   - **Boiler de paso:** 60 archivos.
   - **Lavadoras:** 66 archivos.
   - **Dispensadores:** 21 archivos.
-  - **Congeladores:** 2 archivos.
+  - **Congeladores:** 3 archivos.
   - **Microondas:** 7 archivos.
   - **Refrigeradores:** 2 archivos.
 - **Novedad de esta actualización:** la carpeta Dispensadores recibió sus primeros 20 archivos: manuales de los Disx10/Disx30 (incluidos el del blanco de garrafón oculto MDD30HD y el del MDD10CS), las fichas de especificaciones (DISX30-2025-MDD30HD, Disx10 y Disx30 rev. 2), diagramas del MDD30HD, MDD30HC y MDD10CB, boletines (bomba sin succión, alarma de nivel bajo, check valve), el video de la bomba y el material de campo del caso **fuga debajo del depósito de agua fría** (2 fotos y 2 videos) que Ernesto mandó registrar como diagnóstico el 2026-11-12. Además, Ernesto registró la foto de campo **«Dispensador MDD30 interior - manguera de succion.jpg»**: por dentro del dispensador de garrafón oculto, la manguera de succión debe meterse bien en su conexión para que la bomba succione (falla de bomba sin succión por pérdida de vacío).
@@ -42,7 +42,7 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 - Github / Lavadoras / Videos — https://drive.google.com/drive/folders/1BbqK4zrKVjxiu-nI6wGu0g361rJ10yO8
 - Github / Dispensadores — https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K — **21 archivos**
 - Github / Microondas — https://drive.google.com/drive/folders/1IHPTyI1Gj4hCj9yp_sFf3a5LuInAST0R — **7 archivos**
-- Github / Congeladores — https://drive.google.com/drive/folders/1z2HWoyE5JTNSMw-xh-WZlcEuTRYGCZfC — **2 archivos**
+- Github / Congeladores — https://drive.google.com/drive/folders/1z2HWoyE5JTNSMw-xh-WZlcEuTRYGCZfC — **3 archivos**
 - Github / Refrigeradores — https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX — **2 archivos**
 
 ## Github / Boiler de paso / Boiler MBE051G
@@ -253,6 +253,7 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 
 - Manual_de_uso_congelador_hb.pdf — 1.5 MB — https://drive.google.com/file/d/1HjjLEiFQ1OU5MXnlPxq8axkbHy4UvrTe/view?usp=drivesdk — **Manual de uso del congelador HB** (23 págs.; enviado por Ernesto el 2026-11-12).
 - congelador_hb.pdf — 1.8 MB — https://drive.google.com/file/d/1QC2NSJKqQVlSoemuFgOAM0YnjOHxvJzD/view?usp=drivesdk — Documento del congelador HB, 2 págs. (enviado por Ernesto el 2026-11-12).
+- Tarjeta de iluminacion LED de congelador switch de balin.pdf — 0.9 MB — https://drive.google.com/file/d/1NsaHqMK1il1MFsA1RIpf2mUy_uMBQjyn/view?usp=drivesdk — **Tarjeta de iluminación LED del congelador horizontal y su switch de balín** (1 pág.; material de capacitación de refrigeración: la tarjeta trabaja con 110–127 V CA, 50/60 Hz; el balín abre o cierra el circuito según la posición de la tapa —tapa levantada: el balín une los contactos y la luz enciende; tapa acostada: se separa y la luz se apaga—; si la luz no enciende, revisar en orden: seguridad (desconectar), alimentación y conexiones, el switch con el multímetro en continuidad inclinándolo, y el montaje/orientación de la tarjeta; enviado por Ernesto el 2026-11-13).
 
 ## Github / Microondas
 
