@@ -2,7 +2,7 @@
 
 Fuente: diagrama explosivo oficial Mirage (PDF). La columna «En la base» cruza cada número de parte contra la base de refacciones de línea blanca (MASTERDATA).
 
-- **Válvula de control a gas (GLP) del MBF06ED: 02090300541** (así viene en este diagrama). Siempre que se pida la válvula del MBF06ED se da este número; la **02090300393** corresponde al MBF06ZB (Rojo). La 541 no está en el catálogo de refacciones y no tiene foto registrada.
+- **Válvula de control a gas (GLP) del MBF06ED: 02090300541** (así viene en este diagrama). Siempre que se pida la válvula del MBF06ED se da este número; la **02090300393** corresponde al MBF06ZB (Rojo). La 541 no está en el catálogo de refacciones, pero su foto sí está registrada en la base de refacciones.
 - La tabla del documento **no trae fila para la posición 15**; en el dibujo, el 15 señala el «Solar Sensor».
 - El **TERMOSTATO (posición 20) es el 02040200001**, el mismo del Flux Rojo y del Turbo Flux MBF16AF.
 
