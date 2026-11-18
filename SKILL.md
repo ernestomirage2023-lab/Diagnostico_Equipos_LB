@@ -89,7 +89,7 @@
 - **Parrillas Sparx:** `referencias/explosivo-parrilla-mps60gb.md`, `referencias/explosivo-parrilla-mps90gb.md`.
 - **Secadora:** `referencias/explosivo-secadora-smg022d.md`.
 - Ojo con dos numeraciones que **no coinciden** con el MASTERDATA: los congeladores **MCP** traen códigos del fabricante (serie 890…) y las **parrillas Sparx** códigos del proveedor (series GHS…); en esos modelos el listado del explosivo es la referencia del número, aunque no aparezca en la base de refacciones.
-- En el **MBF06ED** la válvula de control a gas LP es la **02090300393** (equivalencia confirmada), aunque su diagrama impreso lista otro número; el detalle está en su listado.
+- En el **MBF06ED** la válvula de control a gas LP es la **02090300541** (la de su propio diagrama explosivo); la **02090300393** es la del MBF06ZB (Rojo). La 541 no tiene foto registrada en la base de refacciones.
 
 ## Casos confirmados por Ernesto
 
