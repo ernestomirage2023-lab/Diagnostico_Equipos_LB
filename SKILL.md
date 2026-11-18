@@ -144,7 +144,7 @@
 ## Refrigeración doméstica (curso de Ernesto, Módulo 5): dispensadores, refrigeradores y congeladores
 
 - Lee `referencias/refrigeracion-domestica-modulo-5.md` para el Módulo 5 del curso: el ciclo de refrigeración por compresión de vapor (común a los tres equipos), los tipos de equipos, la revisión del **dispensador** (modelos **MDD10** y **MDD30**) y el **congelador** (100–300 L, **R600a**, rangos por etapa, relé PTC, termostato y compresor).
-- De **refrigeradores** el módulo solo cubre el ciclo y los tipos: no hay revisión de componentes documentada todavía; no inventes procedimientos para ellos.
+- De **refrigeradores** el módulo solo cubre el ciclo y los tipos; pero desde el 2026-11-18 sí hay **manual de servicio completo del MRX12FS** (valores, códigos de error E1/E5/E7 por LED, tabla R/T y solución de problemas) en `referencias/refrigeradores.md`. Para otros modelos de refrigerador sin manual, no inventes procedimientos.
 - **Seguridad:** el R600a es inflamable; recuérdalo al hablar del sistema sellado del congelador.
 
 ## Categorías nuevas
