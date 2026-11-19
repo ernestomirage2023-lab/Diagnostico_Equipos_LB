@@ -56,6 +56,7 @@
 
 - **Las mediciones de resistencia se hacen siempre con el equipo desconectado.**
 - **Si el diagnóstico indica cambiar una pieza, muestra la foto de esa pieza.** Cuando la conclusión sea reemplazar un componente (tarjeta, bomba, retractor, termostato, sensor, válvula, etc.), entrega también su foto desde `referencias/indice-drive.md` cuando exista, para que el técnico identifique la pieza exacta antes de cambiarla, y di qué medición confirma que esa pieza es la falla.
+- **Si la solicitud tiene fotos o referencias, indícalas junto con los documentos o videos (regla de Ernesto, 2026-11-19).** Cuando el caso o la consulta tenga fotos relacionadas (fotos de campo, imágenes muestra de mediciones, fotos de la pieza) o referencias aplicables en el material, señálalas y entrégalas en la misma respuesta, junto con los documentos o videos — no entregues solo el documento o el video dejando fuera las fotos y referencias que apoyan el diagnóstico.
 
 ## Códigos con más de un boletín
 
