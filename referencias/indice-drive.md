@@ -7,10 +7,10 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 163 archivos, ≈3.18 GB en total.
+- **Contenido verificado en este escaneo:** 165 archivos, ≈3.18 GB en total.
   - **Boiler de paso:** 61 archivos.
   - **Lavadoras:** 66 archivos.
-  - **Dispensadores:** 21 archivos.
+  - **Dispensadores:** 23 archivos.
   - **Congeladores:** 3 archivos.
   - **Microondas:** 7 archivos.
   - **Refrigeradores:** 5 archivos.
@@ -40,7 +40,7 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 - Github / Lavadoras / Lavadoras Semiautomaticas LMS-M — https://drive.google.com/drive/folders/1zvfBGNkJuI4c3IY5rIW6mDQpoYzJSuAy
 - Github / Lavadoras / Lavadoras Semiautomaticas LMS-M / PDF — https://drive.google.com/drive/folders/1J7WpPCyrpQLLuCw19DMnTupgFmhKZvuX
 - Github / Lavadoras / Videos — https://drive.google.com/drive/folders/1BbqK4zrKVjxiu-nI6wGu0g361rJ10yO8
-- Github / Dispensadores — https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K — **21 archivos**
+- Github / Dispensadores — https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K — **23 archivos**
 - Github / Microondas — https://drive.google.com/drive/folders/1IHPTyI1Gj4hCj9yp_sFf3a5LuInAST0R — **7 archivos**
 - Github / Congeladores — https://drive.google.com/drive/folders/1z2HWoyE5JTNSMw-xh-WZlcEuTRYGCZfC — **3 archivos**
 - Github / Refrigeradores — https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX — **5 archivos**
@@ -249,6 +249,8 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 - Manual_Dispensador_Blanco_Garrafon_Oculto_MDD30HD.pdf — 3.3 MB — https://drive.google.com/file/d/1JY9EmYCfZOEtSDSOCICI86SgB1R50oXu/view?usp=drivesdk — **Manual del dispensador blanco de garrafón oculto MDD30HD** (enviado por Ernesto el 2026-11-12).
 - Manual_Disx10_MDD10CS.pdf — 4.7 MB — https://drive.google.com/file/d/1_RNH11jOQN3itooP7XWUeIryfpf_wRGw/view?usp=drivesdk — **Manual del Disx10 MDD10CS** (enviado por Ernesto el 2026-11-12).
 - Manual_Mirage_Disx30.pdf — 2.3 MB — https://drive.google.com/file/d/1wx_xHPM8Gvx_fKFeQPUpCXUgSlBbVqEe/view?usp=drivesdk — **Manual Mirage Disx30** (enviado por Ernesto el 2026-11-12).
+- Voltaje bomba MDD30HD 14.5 VCD.jpg — 0.1 MB — https://drive.google.com/file/d/1zGTFcqYVWDmhNHldeFrwXuZC6uZs1V9i/view?usp=drivesdk — **Imagen muestra de Ernesto (2026-11-19):** medición del voltaje que la tarjeta entrega a la **bomba del MDD30HD** (garrafón oculto): el multímetro marca **14.50 VCD** en el conector de la bomba (la bomba es nominal de 12 VCD). Valor de referencia para el diagnóstico de la bomba del MDD30: si llegan ≈14.5 VCD y la bomba no trabaja, la falla es la bomba o el vacío de succión; si no llega voltaje, la falla es la tarjeta.
+- Voltaje bomba MDD30HD medicion en equipo.jpg — 0.2 MB — https://drive.google.com/file/d/1kKwMv6RvKpeMEt-H79e_K0HTl24LSbYg/view?usp=drivesdk — **Foto de campo de Ernesto (2026-11-19):** la misma medición de **14.50 VCD** a la bomba, vista general dentro del MDD30HD abierto, con las puntas en el conector de la bomba.
 
 ## Github / Congeladores
 

@@ -74,7 +74,7 @@ Proceso termodinámico de **compresión de vapor**, en 4 pasos:
 
 **Diagnóstico de la bomba (doble revisión, como en lavadoras):**
 
-- La tarjeta entrega **12 VCD** y la bomba no trabaja → la falla es la **bomba**.
+- La tarjeta entrega el voltaje (bomba nominal de **12 VCD**; **medición de campo de Ernesto en un MDD30HD, 2026-11-19: 14.50 VCD en el conector de la bomba**, con fotos muestra en la carpeta de Dispensadores de Drive) y la bomba no trabaja → la falla es la **bomba**.
 - La tarjeta entrega un voltaje anormal — casos vistos por el instructor: **24 o 40 V**, o por debajo: **5 o 3 V** — → la falla es la **tarjeta**.
 - Si el equipo debería estar llenando y la tarjeta no manda el voltaje → también es la tarjeta.
 
