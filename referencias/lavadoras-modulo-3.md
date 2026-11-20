@@ -145,6 +145,8 @@ El modo test comprueba si cada componente y ciclo trabaja como debe. Hay tres pr
 | **Centrifugado** | Perilla de **temperatura** hasta **FRÍA** | Activa la bomba de drenado por 5 segundos y simula el centrifugado por 3 minutos. |
 | **Llenado de agua** | Perilla de **opciones** hasta **Pre remojo** | Activa las válvulas de llenado por 1 minuto *(la transcripción repetía la combinación del centrifugado; la correcta es la del documento de Ernesto, confirmada por él el 2026-11-12)*. |
 
+**Función Ciclo Suavizante (boletín de la LMA022G, agregado el 2026-11-20):** la perilla de **Opciones** también trae la función **Ciclo Suavizante**. Cada ciclo de lavado tiene un tiempo predeterminado de dispensado y enjuague; al seleccionar **Ciclo Suavizante** en la perilla de Opciones, el sistema integra al ciclo seleccionado el tiempo y la secuencia de **inyección del suavizante** y añade automáticamente un **ciclo adicional de enjuague**, incrementando el tiempo total del proceso para mejorar la eliminación de residuos de detergente y suavizante. Es solo configuración (sin herramienta, ~10 minutos). El boletín está en la carpeta de Drive de boletines de la LMA022G (`Boletin de Lavadora Ciclo suavizante.pdf`, ver `referencias/indice-drive.md`).
+
 ---
 
 ## 5. Cuestionario Módulo #3

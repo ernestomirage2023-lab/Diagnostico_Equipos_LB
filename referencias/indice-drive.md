@@ -7,9 +7,9 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 165 archivos, ≈3.18 GB en total.
+- **Contenido verificado en este escaneo:** 166 archivos, ≈3.18 GB en total.
   - **Boiler de paso:** 61 archivos.
-  - **Lavadoras:** 66 archivos.
+  - **Lavadoras:** 67 archivos.
   - **Dispensadores:** 23 archivos.
   - **Congeladores:** 3 archivos.
   - **Microondas:** 7 archivos.
@@ -152,6 +152,7 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 
 ## Github / Lavadoras / Lavadoras Automatica Digital LMA-G / Boletines LMA022G
 
+- Boletin de Lavadora Ciclo suavizante.pdf — 0.3 MB — https://drive.google.com/file/d/1nbVN5KDPlinqiimH-4c9jryoSd-QPbVF/view?usp=drivesdk — **Boletín de la LMA022G (enviado por Ernesto el 2026-11-20):** la función **Ciclo Suavizante** de la perilla de Opciones: al activarla, el sistema integra al ciclo de lavado el tiempo y la secuencia de inyección del suavizante y añade un ciclo adicional de enjuague para mejorar la eliminación de residuos de detergente y suavizante. Es solo configuración (sin herramienta, ~10 minutos).
 - Boletin E1 Lavadora LMA022G.pdf — 0.5 MB — https://drive.google.com/file/d/10ft5jK-A2Eno3yG10Kmn1J8yjsN6AE1Z/view?usp=drivesdk
 - Boletin E2 Lavadora LMA022G.pdf — 0.5 MB — https://drive.google.com/file/d/1NBguA6ElwTn6_BaWajXGD15G-iArlLEg/view?usp=drivesdk
 - Boletin E3 Lavadora LMA022G.pdf — 0.3 MB — https://drive.google.com/file/d/1CZyptTmt8jIPZSj1Y1u_bKQLRzYeTgWz/view?usp=drivesdk
