@@ -7,8 +7,8 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 167 archivos, ≈3.18 GB en total.
-  - **Boiler de paso:** 62 archivos.
+- **Contenido verificado en este escaneo:** 168 archivos, ≈3.20 GB en total.
+  - **Boiler de paso:** 63 archivos.
   - **Lavadoras:** 67 archivos.
   - **Dispensadores:** 23 archivos.
   - **Congeladores:** 3 archivos.
@@ -114,6 +114,7 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 ## Github / Boiler de paso / Boiler MBF12AG-AH
 
 - Tarjeta_electr_nica_Turbo_Flux_MBF12AG-AH.pdf — 1.4 MB — https://drive.google.com/file/d/1knh9j2-Et09R6VWREllxY4Ub8S876Ysb/view?usp=drivesdk — Documento de Ernesto (2026-11-13), etiquetado «Revision y componente MBF16AG Y MBF12AH»: conexiones de la tarjeta electrónica del **Turbo Flux Gris** (el documento indica modelos **MBF12AG y MBF12AH**): electroválvulas solenoides, termostato bimetálico de gas, motor extractor con capacitor de 1.5 µF, sensor de flujo, termistores de entrada y salida de agua de 10 kΩ, display, emisores de chispa, sensor de flama y alimentación de 120 V, con secuencia de revisión y notas de seguridad.
+- Manual_Turbo_Flux_11L_Gris_MBF12AG-MBF12AH.pdf — 15.0 MB — https://drive.google.com/file/d/1EpobPrTyNmKkhN1-WLw8p64afjTh-QDM/view?usp=drivesdk — Manual del usuario del **Turbo Flux 11 L Gris (MBF12AG gas LP / MBF12AH gas natural)**, enviado por Ernesto el 2026-11-20: especificaciones (115 V~, 11 L/min, carga térmica 19.2 kW, ΔT >25 °C, presión de gas LP 2.74 kPa = 11" c.a., GN 1.76 kPa, chimenea 60 mm), solución de problemas y **tabla oficial de códigos de diagnóstico E0–E9 y En** (capítulo 11), resumida en `referencias/tarjeta-turbo-flux-gris.md`.
 
 ## Github / Boiler de paso / Videos
 

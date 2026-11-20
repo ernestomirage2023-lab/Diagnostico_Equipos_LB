@@ -37,6 +37,30 @@ El documento **no** muestra numeración de terminales, pinout completo, voltajes
 3. **Revisar por circuitos:** comprobar alimentación y conexiones; después evaluar sensores y actuadores de acuerdo con la secuencia descrita en el manual.
 4. **Evitar sustituir la tarjeta sin evidencia:** un sensor, el cableado, la alimentación, el motor extractor o el sistema de encendido pueden producir síntomas similares.
 
+## Manual del usuario del Turbo Flux 11 L Gris (agregado el 2026-11-20)
+
+Ernesto compartió el **manual del usuario** del Turbo Flux 11 L Gris (MBF12AG / MBF12AH), 28 páginas; vive en Drive, carpeta **Boiler MBF12AG-AH**: https://drive.google.com/file/d/1EpobPrTyNmKkhN1-WLw8p64afjTh-QDM/view?usp=drivesdk
+
+**Especificaciones (capítulo 5):** descarga forzada; operación 115 V~; MBF12AG = gas L.P., MBF12AH = gas natural; piloto de encendido automático; capacidad de prueba 11 L/min; carga térmica 19.2 kW; diferencial de temperatura >25 °C; presión mínima de apertura 2.9 PSI (0.02 MPa); presión máxima de trabajo (agua) 65.26 PSI / 0.45 MPa; presión de operación de gas: **L.P. 2.74 kPa (= 11" c.a.)**, natural 1.76 kPa; eficiencia energética 93 %; intercambiador de cobre libre de oxígeno; conexiones entrada-salida 1/2"; diámetro de chimenea 60 mm; dimensiones 320×510×145 mm; peso 10.78 kg.
+
+**Códigos de diagnóstico oficiales (capítulo 11 del manual):**
+
+| Código | Causa (resumen del manual) | Revisión / solución |
+|---|---|---|
+| E0 | Sensor de temperatura del agua de salida: conector flojo o mal contacto; sensor dañado (abierto, cortocircuito o piezas metálicas sueltas). | Ajustar el terminal del sensor de salida; reemplazar el sensor si está dañado. |
+| E1 | Falla en el sistema de combustión: válvula de gas cerrada; presión o composición del gas anormales (apagado accidental de la llama); falla en la aguja de encendido de la llama o en el cableado. | Abrir la válvula de gas; confirmar tipo y presión de gas; verificar quemador, boquilla, panel de control de aire, válvula proporcional y válvula seccionadora; revisar la aguja de encendido y reemplazar partes defectuosas. |
+| E2 | **Velocidad del ventilador anormal**; el pin de retroalimentación está doblado y en contacto con otras partes metálicas; el terminal del pin de retroalimentación está flojo y toca una parte metálica; el cable del pin de retroalimentación está roto. | Verificar que no haya obstrucciones en la chimenea de escape y que la turbina gire libremente; reemplazar el conjunto de la aguja de retroalimentación de encendido si el pin está doblado; insertar el terminal del pin firmemente; verificar si el cable está desconectado y reemplazarlo. |
+| E3 | El termostato se activa o el cable está defectuoso; la presión de suministro o la composición del gas no coinciden (combustión anormal); el programa de control o la configuración son incorrectos; el sistema de combustión está dañado. | Verificar el controlador de temperatura o el circuito y reemplazar las partes dañadas; confirmar tipo y presión de gas; comprobar programa y parámetros contra la tabla; revisar el sistema de combustión. |
+| E4 | Sensor de temperatura del agua de entrada: conector flojo o mal contacto; sensor dañado. | Ajustar el terminal del sensor; reemplazar el sensor de temperatura de entrada. |
+| E5 | Durante la operación no se detectó el cierre del interruptor de presión de viento durante 2 segundos consecutivos (manguera de presión de viento rota); el voltaje de alimentación es demasiado bajo, lo que disminuye la velocidad del ventilador. | Verificar la manguera de presión de viento; confirmar que la fuente de alimentación y el voltaje del ventilador cumplan los requisitos de diseño. |
+| E6 | Presión o composición del gas no coinciden; programa de control o parámetros incorrectos; el sensor de temperatura de salida no coincide con la real (la mostrada es mucho más alta); sistema de combustión dañado; aletas del intercambiador mal soldadas (transferencia de calor lenta: tras cerrar la válvula, el agua del tubo se sigue calentando). | Confirmar tipo y presión de gas; verificar programa y parámetros; probar el sensor de salida contra la temperatura real y reemplazarlo si no coincide; revisar el sistema de combustión; detectar aletas mal soldadas y reemplazar las partes dañadas. |
+| E7 | El conector de la válvula está flojo o tiene mal contacto; la bobina de la válvula tiene un cortocircuito. | Asegurar el terminal; verificar la bobina de la válvula y reemplazar las partes dañadas. |
+| E8 | Fuga en la válvula de gas. | Revisar la válvula de gas. |
+| E9 | Falla en encendido de la flama. | Revisar el sistema de encendido. |
+| En | Protección del temporizador de funcionamiento de 40 minutos. | Cerrar el grifo para cortar el flujo de agua y, después de unos segundos, abrir la llave nuevamente para reiniciar la protección. |
+
+⚠️ Estos códigos son **del Turbo Flux Gris (MBF12AG/AH)** según su manual; **no** son los mismos significados que los del Turbo Flux MBF16AF (donde, por ejemplo, E2 es fuga en la cámara de combustión). No mezclar las tablas entre modelos.
+
 ## Seguridad (del documento)
 
 - El equipo combina electricidad y gas. Antes de desconectar conectores o medir continuidad/resistencia, interrumpir la alimentación eléctrica y cerrar el suministro de gas cuando corresponda.
