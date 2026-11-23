@@ -46,3 +46,91 @@ Documento vivo (instrucción de Ernesto, 2026-11-23): los clientes y los técnic
 | «No sale agua», «no succiona» (MDD30) | Boletín de **bomba sin succión**: primero el **vacío de succión** (sello; si entra aire pierde el vacío) antes de condenar bomba o tarjeta; voltaje en el conector de la bomba ≈ **14.5 VCD** = alimentación buena (bomba nominal 12 VCD) |
 | «No calienta el agua», «sale fría por la caliente», «no calienta» | Ficha **No calienta el agua** (`dispensadores.md`): fusible 5 A (MDD30), termostatos de **trabajo 85 °C / protección 90 °C** (continuidad en frío), resistencia **26 Ω (MDD10) / 33 Ω (MDD30)**; en el MDD30 primero confirmar que sí sube agua |
 | «No enfría el agua», «no sale fría», «el agua fría sale al tiempo» | Ficha **No enfría el agua** (`dispensadores.md`): ajuste del termostato de frío, ¿arranca el compresor?, medición del compresor MDD10 **10 Ω / 20 Ω** (retirar el relevador térmico); del MDD30 no hay valores de compresor documentados |
+
+---
+
+# Correlación oficial: quejas del cliente → fallas de diagnóstico → modelos
+
+Fuente: documento de Ernesto **«Mirage_Fallas_por_tipo_de_producto»** (2026-11-23) — la lista de quejas tal como las reporta el cliente, por tipo de producto. Cada queja se correlaciona con la falla de diagnóstico y los modelos donde aplica, **solo con material documentado**:
+
+- ✅ **Con ficha o procedimiento documentado**
+- 🔶 **Parcial:** hay componentes, valores o casos documentados, pero no una ficha por síntoma
+- ⚪ **Sin diagnóstico documentado todavía** — no se inventa procedimiento; queda registrado como hueco por cubrir
+
+## Lavadora
+
+| Queja del cliente | Correlación | Modelos |
+|---|---|---|
+| No enciende | 🔶 LMS: fusible 10 A (sin fusible no trabaja nada). LMA: alimentación y tarjeta principal (ella entrega los 110 V a los actuadores) | LMS013M/016M/022M · LMA022G y familia |
+| No lava | ✅ LMS: rama de lavado — selector → reloj de lavado → motor de lavado (5.4/5.3/10.7 Ω, capacitor 46 µF). 🔶 LMA: motor y capacitor 60 µF; prueba de lavado en seco del modo test | LMS · LMA022G |
+| No seca | ✅ LMS: ficha **No centrifuga / no seca** (§3.10). 🔶 LMA: no avanza a centrifugado → sensor de nivel no reinicia (ficha Nivel de llenado) | LMS · LMA |
+| No drena | ✅ LMA: código **E2** (bomba 20–40 Ω en la G, bloqueo, sensor que reinicie). ⚪ LMS sin ficha | LMA022G/M/N |
+| No ingresa agua a la tina | ✅ LMA: código **E1** + ficha **Nivel de llenado** (mallas, válvulas ≈1.07 kΩ, manguera del sensor) | LMA022G |
+| Se tira el agua | 🔶 LMA: válvula de entrada que no cierra (resorte/diafragma, Módulo 3) y nivel de llenado; sin ficha propia | LMA |
+| Despliega código de error / Código de Error | ✅ Tabla de códigos por LED de la LMA022G y `codigos-app-mirage.md`; cada código lleva a su boletín/procedimiento | LMA022G/M/N, LMA017/019, LMA022D |
+| Emite ruido inusual | 🔶 LMA: procedimiento «Motor — ruido anormal» (§7). ⚪ LMS sin documentar | LMA022G |
+| No termina o interrumpe el ciclo | 🔶 Se relaciona con los tiempos excedidos de **E1** (llenado) y **E2** (drenado); sin ficha propia | LMA |
+| Se reinicia ciclo | ⚪ Sin documentar | — |
+
+## Boiler de paso
+
+| Queja del cliente | Correlación | Modelos |
+|---|---|---|
+| No calienta | ✅ Flujo excesivo (cubeta 19 L en <2 min), presión de gas 11" c.a., caso folio 213843 | Flux gas y Turbo Flux |
+| Se apaga y enciende intermitente | 🔶 Sensores de temperatura (boletines E0/E4 del MBF10AD y MBF16AF); caso MBF12AG del folio 214806, causa sin confirmar | MBF10AD, MBF16AF, MBF12AG |
+| No enciende | ✅ Baterías (el par >3 V), sensor magnético y su prueba, termostato bimetálico | Flux Blanco MBF06ED/EF y gas en general |
+| No hace chispa | 🔶 Módulo de ignición y emisores de chispa (material del MBF16AF; lista de revisión del caso de explosiones) | Turbo Flux, Flux gas |
+| Arroja humo | ⚪ Sin documentar | — |
+| Explotó | 🔶 Caso MBF06ED con explosiones (reportado 2026-11-13, en investigación): baterías, quemador, emisores, válvula y presión de gas | MBF06ED |
+| Código de error | ✅ Boletines por código y modelo (MBF16AF E0–E7; MBF10AD E0–E3/E5; tabla propia del MBF12AG) | Turbo Flux |
+| Tira agua | ⚪ Sin ficha documentada | — |
+| No sale agua | 🔶 Flujo mínimo de apertura (MBE051G: 1.2 L/min) y sensor de flujo/magnético | Eléctricos y Flux gas |
+
+## Microondas
+
+| Queja del cliente | Correlación | Modelos |
+|---|---|---|
+| No calienta | 🔶 Módulo 4: cadena de alto voltaje — fusible 15 A, capacitor HV 0.80 µF/2,000 V (descarga obligatoria), diodo HV (un solo sentido), transformador HV y magnetrón; valores documentados, sin ficha por síntoma | Microondas (Módulo 4) |
+| No enciende | 🔶 Módulo 4: fusible de entrada 15 A/250 V, switch de monitoreo y switches de puerta | Microondas |
+| Hace ruido | ⚪ Sin documentar | — |
+| No funciona teclado | ⚪ Sin documentar | — |
+| Huele a quemado | ⚪ Sin documentar | — |
+| Activa alarma | ⚪ Sin documentar | — |
+
+## Congelador, Refrigerador, Frigobar
+
+| Queja del cliente | Correlación | Modelos |
+|---|---|---|
+| No enciende | 🔶 Módulo 5: compresor, relé PTC y termostato | Congeladores y refrigeradores |
+| No congela | 🔶 Módulo 5: ciclo de refrigeración y rangos por etapa del control (1–7); manual del MRX12FS (solución de problemas) | Congeladores · MRX12FS |
+| No enciende luz | 🔶 Congelador: tarjeta de iluminación LED con switch de balín | Congeladores |
+| No enfría | 🔶 Ciclo de refrigeración (Módulo 5); manual de servicio del MRX12FS | Refrigeradores · MRX12FS |
+| Fuga de gas | ⚪ Sin procedimiento documentado | — |
+| Ruido inusual | ⚪ Sin documentar | — |
+| No cierra puerta | ⚪ Sin documentar | — |
+| Se sobre calienta | ⚪ Sin documentar | — |
+| Se congela de más | 🔶 Termostato y rangos del control (Módulo 5) | Congeladores |
+| Código de Error | ✅ Solo **MRX12FS**: códigos E1/E5/E7 por LED (`refrigeradores.md`) | MRX12FS |
+| Hacer escarcha | ⚪ Sin documentar | — |
+
+## Dispensador
+
+| Queja del cliente | Correlación | Modelos |
+|---|---|---|
+| No enciende | 🔶 Fusible **5 A** en la caja de controles (MDD30HC/HD) e interruptor | MDD30 · MDD10 |
+| No enfría | ✅ Ficha **No enfría el agua** (`dispensadores.md`) | MDD10 · MDD30 |
+| No calienta | ✅ Ficha **No calienta el agua** (`dispensadores.md`): termostatos 85/90 °C, resistencia 26/33 Ω | MDD10 · MDD30 |
+| Ruido inusual | ⚪ Sin documentar | — |
+| Se congela | ⚪ Sin ficha (el termostato de baja del MDD30 está documentado solo como componente) | MDD30 |
+| Huele a quemado | ⚪ Sin documentar | — |
+| No sale agua | ✅ **Bomba sin succión** (boletín DISX30): vacío y sello de succión; ≈14.5 VCD en la bomba = alimentación buena | MDD30 |
+| Fuga agua | ✅ Caso de campo: fuga debajo del depósito de agua fría (orificio central y vástago roscado, Módulo 5 §3.3) | MDD10 |
+| Bomba no funciona | ✅ Diagnóstico de la bomba: voltaje en su conector (≈14.5 VCD bueno; 24/40 V o 5/3 V = tarjeta) | MDD30 |
+
+## Campana
+
+Sin diagnóstico documentado: de campanas Velox solo hay **listados de explosivo** en la skill, ningún procedimiento. Quejas del documento: No enciende · No enciende luz · Botones no funciona · Motores no funciona · Turbina con ruido · Huele a quemado. ⚪ Todas pendientes de material.
+
+## Parrilla
+
+Sin diagnóstico documentado: de parrillas Sparx solo hay **listados de explosivo**, ningún procedimiento. Quejas del documento: No hace chispa · No regula gas · Fuga gas · No enciende flama · Huele a quemado · No hay flama. ⚪ Todas pendientes de material.
