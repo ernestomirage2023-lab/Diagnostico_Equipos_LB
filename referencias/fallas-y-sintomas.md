@@ -44,4 +44,5 @@ Documento vivo (instrucción de Ernesto, 2026-11-23): los clientes y los técnic
 | Síntoma (como se reporta) | Diagnóstico |
 |---|---|
 | «No sale agua», «no succiona» (MDD30) | Boletín de **bomba sin succión**: primero el **vacío de succión** (sello; si entra aire pierde el vacío) antes de condenar bomba o tarjeta; voltaje en el conector de la bomba ≈ **14.5 VCD** = alimentación buena (bomba nominal 12 VCD) |
-| «No calienta / no enfría el agua» | MDD10: resistencia 26 Ω, termostatos 85/90 °C, compresor 10/20 Ω. MDD30: resistencia 33 Ω (Módulo 5) |
+| «No calienta el agua», «sale fría por la caliente», «no calienta» | Ficha **No calienta el agua** (`dispensadores.md`): fusible 5 A (MDD30), termostatos de **trabajo 85 °C / protección 90 °C** (continuidad en frío), resistencia **26 Ω (MDD10) / 33 Ω (MDD30)**; en el MDD30 primero confirmar que sí sube agua |
+| «No enfría el agua», «no sale fría», «el agua fría sale al tiempo» | Ficha **No enfría el agua** (`dispensadores.md`): ajuste del termostato de frío, ¿arranca el compresor?, medición del compresor MDD10 **10 Ω / 20 Ω** (retirar el relevador térmico); del MDD30 no hay valores de compresor documentados |

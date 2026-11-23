@@ -6,3 +6,27 @@ Categoría creada el 2026-11-12 a petición de Ernesto, dentro del proyecto Diag
 - **Fusible del DISX30 (MDD30HC/HD): 5 A**, ubicado en la **caja de controles**; el manual indica que puede reemplazarse en caso de que se ponga en circuito abierto (manual del usuario DISX30, pág. 10, «Conexión Eléctrica»).
 - La carpeta de Drive **Github / Dispensadores** (https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K) ya tiene 23 archivos registrados en `referencias/indice-drive.md`: manuales Disx10/Disx30 (incluidos el del MDD30HD blanco de garrafón oculto y el del MDD10CS), fichas de especificaciones (DISX30-2025, Disx10, Disx30 rev. 2), diagramas (MDD30HD, eléctrico MDD30HC, explosivo MDD10CB), boletines (bomba sin succión DISX30, alarma de nivel bajo MDD30HC, check valve DISK10), video de la bomba y el material del caso **fuga debajo del depósito de agua fría** (documentado en la sección 3.3 del documento del Módulo 5).
 - Conforme Ernesto comparta más material de esta categoría, se registrará en `referencias/indice-drive.md` y se documentará aquí, siguiendo las mismas reglas de respuesta de la skill.
+
+## Falla de diagnóstico: no calienta el agua
+
+**Lógica:** el tanque caliente lleva una **resistencia abrazada al tanque** de acero inoxidable, controlada por **termostatos**. El diagnóstico es por eliminación, en este orden (resistencias con el equipo desconectado):
+
+1. **Alimentación:** interruptor de encendido y, en el MDD30 (DISX30), el **fusible de 5 A de la caja de controles** — si está abierto, no llega corriente al área de calentamiento.
+2. **Que haya agua en el tanque:** en el MDD30, si la bomba no sube agua (falla de succión/vacío, ver Módulo 5 §3.2), el tanque caliente queda sin agua y no hay nada que calentar. Primero se confirma que el equipo sí sube agua.
+3. **Termostatos (MDD10, valores documentados):** son dos — el de **trabajo, 85 °C** (al llegar el agua a esa temperatura abre el contacto y la resistencia deja de calentar) y el de **protección, 90 °C** (si el de trabajo falla o se queda pegado, este corta la corriente a la resistencia). En frío, ambos deben dar **continuidad**; uno abierto en frío = no calienta nunca.
+4. **Resistencia del tanque caliente:** **MDD10: 26 Ω** · **MDD30: 33 Ω** (tanque alimentado a 120 V). Abierta o fuera de valor = no calienta.
+5. **Voltaje a la resistencia:** si termostatos y resistencia están bien y no llega voltaje, revisar cableado y tarjeta (en el MDD30, la tarjeta display/control).
+
+> En el MDD10, el **indicador de estatus** muestra si el equipo está calentando: si el indicador marca calentando y el agua sale fría, la falla está en resistencia o termostatos, no en la orden de encendido. Del MDD30 no hay valores de termostato documentados; los 85/90 °C documentados son del MDD10.
+
+## Falla de diagnóstico: no enfría el agua
+
+**Lógica:** el agua fría la produce el **ciclo de refrigeración** (compresor), controlado por el **termostato de temperatura del agua fría** (en el MDD30 figura además un **termostato de baja**). Diagnóstico en orden:
+
+1. **Que haya agua y que sí suba:** en el MDD30, sin succión (vacío perdido) no hay agua en el tanque frío — revisar primero la bomba y el sello de vacío (Módulo 5 §3.2).
+2. **Ajuste del termostato de frío:** verificar que el control de temperatura del agua fría no esté en mínimo o apagado.
+3. **¿Arranca el compresor?** En el MDD10, el **indicador de estatus** muestra si el compresor está encendido. Si no arranca: revisar alimentación, el termostato de frío (continuidad) y el relevador térmico.
+4. **Medición del compresor (MDD10):** retirar antes el **relevador térmico**; terminales **1–2: 10 Ω**, terminales **2–3: 20 Ω**; entre extremos debe dar la **suma** de los dos devanados. Si la suma no se cumple, devanado dañado.
+5. Si el compresor trabaja sin parar y no enfría, el problema pasa al ciclo de refrigeración (ver el ciclo y sus etapas en el Módulo 5) — no condenar piezas sin esa revisión.
+
+> Del MDD30 **no hay valores de compresor documentados** en el material del curso: no se inventan; se diagnostica por arranque, termostato y ciclo.
