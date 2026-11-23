@@ -95,6 +95,7 @@
 ## Casos confirmados por Ernesto
 
 - Lee `referencias/fallas-y-sintomas.md` cuando la falla se describa **con palabras del cliente o del técnico** («no seca», «no funciona el reloj», «llena de más», «no desagüa»): es el diccionario que traduce el síntoma a la ficha o código donde se diagnostica, con las equivalencias de términos (timer = reloj = temporizador; no seca = no centrifuga). Es un documento vivo que se nutre con cada falla nueva registrada.
+- **Interpreta como la app:** ese mismo documento trae el **diccionario de interpretación** completo (los sinónimos que usa el buscador de la app) y la **correlación oficial de quejas del cliente → falla → modelos**. Cuando una consulta llegue en lenguaje coloquial, primero interpreta la frase con ese diccionario (ignora el relleno: «no funciona», «falla», «no trabaja»; manda el componente o la acción), busca la queja en la correlación y diagnostica desde la ficha correspondiente. Si la falla interpretada no tiene material documentado, dilo claramente en vez de improvisar un procedimiento.
 
 - Lee `referencias/casos-diagnostico.md` cuando el síntoma no sea un código de error, por ejemplo que el equipo hace chispa y la flama sigue encendida.
 

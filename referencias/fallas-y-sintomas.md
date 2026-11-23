@@ -2,6 +2,53 @@
 
 Documento vivo (instrucción de Ernesto, 2026-11-23): los clientes y los técnicos describen las fallas con sus propias palabras, no con el nombre técnico. Esta tabla traduce **lo que la gente dice** a la ficha o código donde se diagnostica. Se nutre con cada falla nueva que se registra en la skill; no se inventan equivalencias: cada renglón apunta a material que ya existe en la documentación.
 
+## Diccionario de interpretación (el mismo de la app)
+
+La app de diagnóstico interpreta la búsqueda con este diccionario de sinónimos; **la skill usa el mismo**: si el técnico o el cliente usa cualquiera de estas palabras, se entiende el término técnico de la primera columna y se busca la falla con ese término.
+
+| Término técnico | También se dice |
+|---|---|
+| temporizador | timer, reloj, relojes |
+| centrifuga / centrifugado | seca, secado, secar, exprime, exprimir |
+| drena / drenaje | desagüa, desagüe, descarga, descargar |
+| enciende | prende, arranca, arranque, encendido |
+| calienta | caliente, calentar, calentamiento, calor |
+| enfría | fría, frío, helada, tibia (cuando sale tibia es que no enfría) |
+| termostato | termostatos, térmico |
+| compresor | refrigeración, refrigerante |
+| resistencia | resistencias |
+| succión | bomba (en el dispensador, «la bomba» suele ser el problema de succión) |
+| flama | llama |
+| tapa | puerta |
+| batería | pilas, pila |
+| válvula | electroválvula, solenoide |
+| tarjeta | PCB, placa |
+| display | pantalla |
+| capacitor | condensador |
+| fuga | gotea, goteo, tira agua, charco |
+| nivel | presostato |
+| ruido | vibra, vibración, zumba |
+| apaga | apagado |
+| gira | giro, girar |
+| llena / llenado | llenar |
+| cable | arnés |
+| fusible | fusibles |
+| chispa | chispea, chispeo, electrodo |
+| humo | hollín, tizna |
+| explota / explosión | tronido, detonación |
+| teclado | botones, membrana, panel |
+| escarcha | hielo, congela, congelado |
+| quemado | huele (a quemado) |
+| reinicia | reinicio, resetea |
+| alarma | pita, pitido |
+
+**Reglas de interpretación:**
+
+1. Las frases de relleno no cambian la falla: «no funciona», «no trabaja», «falla», «tiene problema» se ignoran; lo que manda es el **componente o la acción** («no funciona el reloj» = falla del temporizador).
+2. Primero se busca la frase en la **correlación de quejas** (más abajo): si la queja está ahí, se va directo a su falla y modelos.
+3. Si no está, se interpreta con este diccionario y se busca la ficha por el término técnico.
+4. Interpretar no es inventar: si la falla interpretada no tiene ficha ni material documentado, se dice claramente (ver los ⚪ de la correlación).
+
 ## Equivalencias de términos
 
 | Se dice | Es en realidad |
