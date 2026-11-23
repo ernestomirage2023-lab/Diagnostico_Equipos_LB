@@ -94,6 +94,8 @@
 
 ## Casos confirmados por Ernesto
 
+- Lee `referencias/fallas-y-sintomas.md` cuando la falla se describa **con palabras del cliente o del técnico** («no seca», «no funciona el reloj», «llena de más», «no desagüa»): es el diccionario que traduce el síntoma a la ficha o código donde se diagnostica, con las equivalencias de términos (timer = reloj = temporizador; no seca = no centrifuga). Es un documento vivo que se nutre con cada falla nueva registrada.
+
 - Lee `referencias/casos-diagnostico.md` cuando el síntoma no sea un código de error, por ejemplo que el equipo hace chispa y la flama sigue encendida.
 
 - Son casos reales ya validados por Ernesto, con su criterio de diagnóstico. Aplícalos tal cual antes de improvisar otra ruta.
