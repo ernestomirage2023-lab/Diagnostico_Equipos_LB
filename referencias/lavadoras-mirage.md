@@ -138,6 +138,20 @@ Las 5 diapositivas "Casos de fallas comunes" no traen texto. Lo que se ve:
 3. **Empalmes de cables con termocontráctil amarillo** en el timer (reparaciones previas en cables café/amarillo/naranja) y **contactos de cobre** dentro del interruptor de tapa/secado.
 4. **Flecha de transmisión/agitador** de LMS022M (código de pieza `12238000000088`) y LMS016M (código `12238000000065`); base/agitador de la tina con 3 círculos azules.
 
+### 3.10 Queja: no centrifuga (la tina de secado no gira) — LMS [PDF/diagrama]
+
+**Lógica:** en la semiautomática, el centrifugado es la **rama de secado**, independiente de la de lavado: línea 110 V → **fusible 10 A** → **switch de tapa de secado** → **timer de secado** → **motor de secado** (con capacitor de 18 µF). No hay tarjeta: todo es electromecánico y el diagnóstico es **por eliminación, en este orden** (las resistencias se miden con el equipo desconectado):
+
+1. **Fusible 10 A / 250 V:** si está abierto no trabaja **ninguna** de las dos ramas (ni lava ni seca). Si la lavadora sí lava, el fusible está bueno y se sigue con la rama de secado.
+2. **Switch de la tapa de secado:** con la tapa cerrada debe dar **continuidad** — es el permiso del motor de secado. Abierto, o con los contactos de cobre flameados/oxidados, el motor nunca se energiza. La cubierta de seguridad deformada o con residuo también lo deja abierto.
+3. **Timer de secado** (2 cables, rojo-morado): **continuidad con la perilla en ON, abierto en OFF**. Si no cierra en ON, no manda los 110 V al motor.
+4. **Voltaje al motor:** con la tapa cerrada y el timer en ON deben llegar **110 V** al motor de secado. Si llegan y no gira, el problema es capacitor o motor.
+5. **Capacitor del motor de secado: 18 µF** (LMS022M). Capacitor desvalorizado: el motor zumba y no arranca, o no hace nada.
+6. **Devanados del motor de secado:** las tres combinaciones miden **31 / 30.5 / 61.5 Ω** (dos devanados de ≈30.5–31 y la suma ≈61.5). Si la suma no se cumple, hay devanado dañado.
+7. **Parte mecánica:** el **freno** detiene el tambor al abrir la tapa; si se queda aplicado (palanca o resorte pegado), el motor se fuerza y la tina no gira. Revisar también **sobrecarga**: la capacidad de la tina de secado **no** es la de la tina de lavado (ver equivalencias de carga, §3.3).
+
+> Los dos motores son independientes: que la lavadora lave bien **no** descarta el motor de secado.
+
 ---
 
 ## 4. Lavadora automática análoga 22 kg (LMA022G)
