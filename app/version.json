@@ -1,5 +1,1 @@
-{
-  "version": "2026-11-23-2",
-  "fecha": "2026-11-23",
-  "notas": "MBF10AD: fichas por codigo (E0, E1, E2, E3, E5) con boletin y video."
-}
+{"fecha":"2026-11-23","notas":"Buscador interpretativo: entiende la falla escrita con palabras del tecnico (sinonimos timer/reloj/temporizador, no seca = no centrifuga) y ordena por relevancia.","version":"2026-11-23-3"}

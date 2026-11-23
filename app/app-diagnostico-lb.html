@@ -35,6 +35,8 @@ header .sub{margin:5px 0 0;font-size:15px;color:var(--muted);max-width:640px}
 .searchbar label{display:block;font-size:14px;font-weight:700;margin:0 2px 6px}
 .searchbar input{width:100%;min-height:54px;font-size:17px;padding:12px 14px;border:2px solid var(--black);border-radius:12px;background:#fff;color:var(--ink)}
 .searchbar input:focus{outline:3px solid var(--red-soft);border-color:var(--red)}
+.interp{font-size:13.5px;color:var(--muted);margin:7px 2px 0}
+.interp strong{color:var(--black)}
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 4px}
 .fbtn{min-height:44px;padding:9px 14px;border-radius:999px;border:1.5px solid #8a8a8a;background:#fff;color:var(--black);font-size:14.5px;font-weight:600;cursor:pointer}
 .fbtn.on{background:var(--black);color:#fff;border-color:var(--black)}
@@ -88,8 +90,8 @@ footer .updbtn{margin-top:10px}
 <button class="updbtn" type="button" id="updBtnTop">↻ Actualizar</button>
 </div>
 <h1>CSAM IA — Diagnóstico Línea Blanca Mirage</h1>
-<p class="sub">Busca por modelo, código de error o síntoma. Cada ficha te dice qué significa la falla, qué revisar paso a paso y los valores exactos.</p>
-<p class="verline">Versión de la app: <strong>2026-11-23-2 · Noviembre 2026</strong></p>
+<p class="sub">Busca como lo dirías: por modelo, por código de error o la falla con tus palabras (ej. «no funciona el timer»). Cada ficha te dice qué significa la falla, qué revisar paso a paso y los valores exactos.</p>
+<p class="verline">Versión de la app: <strong>2026-11-23-3 · Noviembre 2026</strong></p>
 <div class="updstatus" id="updStatus" aria-live="polite"></div>
 </div>
 </header>
@@ -98,14 +100,15 @@ footer .updbtn{margin-top:10px}
 <div class="guide">
 <h2>Cómo usar esta app</h2>
 <div class="gsteps">
-<div class="gstep"><span class="gnum">1</span><span><strong>Busca</strong> el modelo, el código (ej. E2) o el síntoma (ej. «no calienta»).</span></div>
+<div class="gstep"><span class="gnum">1</span><span><strong>Busca</strong> el modelo, el código (ej. E2) o la falla con tus palabras (ej. «no calienta», «no seca», «no funciona el reloj»): el buscador interpreta sinónimos como timer = temporizador = reloj.</span></div>
 <div class="gstep"><span class="gnum">2</span><span><strong>Toca la ficha</strong> que coincide con tu equipo.</span></div>
 <div class="gstep"><span class="gnum">3</span><span><strong>Sigue los pasos en orden</strong> y compara tus mediciones con la tabla de valores.</span></div>
 </div>
 </div>
 <div class="searchbar">
 <label for="q">¿Qué estás buscando?</label>
-<input id="q" type="search" inputmode="search" placeholder="Ej. MBF06ED, E2, no calienta, bomba…" aria-label="Buscar por modelo, código o síntoma">
+<input id="q" type="search" inputmode="search" placeholder="Ej. MBF06ED, E2, no calienta, no funciona el timer…" aria-label="Buscar por modelo, código o síntoma">
+<p class="interp hidden" id="interp" aria-live="polite"></p>
 </div>
 <div class="filters" id="filters" role="group" aria-label="Filtrar por familia"></div>
 <p class="count" id="count"></p>
@@ -116,7 +119,7 @@ footer .updbtn{margin-top:10px}
 </div>
 <div id="detailView" class="hidden"></div>
 </div>
-<footer>CSAM IA — Diagnóstico Línea Blanca Mirage · Versión 2026-11-23-2 · Noviembre 2026<br>
+<footer>CSAM IA — Diagnóstico Línea Blanca Mirage · Versión 2026-11-23-3 · Noviembre 2026<br>
 <button class="updbtn" type="button" id="updBtnFoot">↻ Actualizar — buscar versión nueva</button>
 <div class="updstatus" id="updStatusFoot" aria-live="polite"></div></footer>
 <script>
@@ -348,15 +351,59 @@ FAMS.forEach(function(f){var b=document.createElement("button");b.className="fbt
 var vg=document.getElementById("vgrid");
 VALS.forEach(function(v){var d=document.createElement("div");d.className="vcard";var h="<h3>"+v[0]+"</h3><ul>";v[1].forEach(function(x){h+="<li>"+x+"</li>";});h+="</ul>";d.innerHTML=h;vg.appendChild(d);});
 function esc(s){return (s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;");}
-function matches(e,q){if(!q)return true;var hay=norm(e.fam+" "+e.model+" "+e.code+" "+e.title+" "+e.desc+" "+e.kw+" "+e.steps.join(" ")+" "+e.vals.join(" "));var toks=q.split(/\s+/);for(var i=0;i<toks.length;i++){if(toks[i]&&hay.indexOf(toks[i])===-1)return false;}return true;}
+/* ===== BUSCADOR INTERPRETATIVO =====
+   Entiende la falla escrita con las palabras del técnico:
+   - Quita el relleno («no funciona», «falla», «el», «la», «me», «se»…).
+   - Expande sinónimos: timer = temporizador = reloj; centrifuga = seca;
+     drena = desagua; enciende = prende = arranca; batería = pilas, etc.
+   - Puntúa cada ficha según dónde coincide (código > modelo > título >
+     palabras clave > descripción > pasos/valores) y ordena los resultados
+     de mayor a menor coincidencia, en vez de exigir que todas las palabras
+     aparezcan tal cual. */
+var STOP={el:1,la:1,los:1,las:1,un:1,una:1,unos:1,unas:1,de:1,del:1,en:1,y:1,o:1,a:1,con:1,sin:1,por:1,para:1,que:1,se:1,me:1,mi:1,su:1,al:1,lo:1,es:1,esta:1,este:1,esto:1,no:1,ya:1,muy:1,mas:1,pero:1,cuando:1,como:1,tiene:1,tienen:1,hace:1,hay:1,le:1,les:1,sobre:1,funciona:1,funcionar:1,trabaja:1,trabajar:1,sirve:1,servir:1,jala:1,jalar:1,anda:1,andar:1,falla:1,fallo:1,fallas:1,problema:1,problemas:1,codigo:1,codigos:1,error:1,errores:1,averia:1};
+var SYN=[["timer","temporizador","temporizadores","reloj","relojes"],["centrifuga","centrifugado","centrifugar","seca","secado","secar","exprime","exprimir"],["drena","drenado","drenaje","desagua","desague","descarga","descargar"],["enciende","encendido","prende","prendido","arranca","arranque"],["calienta","caliente","calentar","calentamiento"],["flama","llama"],["tapa","puerta"],["bateria","baterias","pila","pilas"],["valvula","valvulas","electrovalvula","electrovalvulas","solenoide"],["tarjeta","pcb","placa"],["display","pantalla"],["capacitor","condensador"],["fuga","fugas","gotea","goteo"],["nivel","presostato"],["ruido","vibra","vibracion","zumba"],["apaga","apagado"],["gira","giro","girar"],["llena","llenado","llenar"],["cable","cables","arnes"],["fusible","fusibles"]];
+var SYNMAP={};
+SYN.forEach(function(g){g.forEach(function(w){SYNMAP[w]=g;});});
+function stem(t){return t.length>4&&t.charAt(t.length-1)==="s"?t.slice(0,-1):t;}
+function parseQuery(q){
+var raw=q.split(/\s+/),terms=[],seen={};
+for(var i=0;i<raw.length;i++){var t=raw[i];if(!t||STOP[t])continue;
+var g=SYNMAP[t]||SYNMAP[stem(t)]||[t];var key=g.join("|");if(seen[key])continue;seen[key]=1;terms.push({label:t,vars:g});}
+return terms;}
+function fieldHit(txt,vars){for(var i=0;i<vars.length;i++){if(txt.indexOf(vars[i])!==-1||txt.indexOf(stem(vars[i]))!==-1)return true;}return false;}
+function scoreEntry(e,terms){
+var fCode=norm(e.code),fModel=norm(e.model),fTitle=norm(e.title),fKw=norm(e.kw),fDesc=norm(e.desc),fBody=norm(e.steps.join(" ")+" "+e.vals.join(" "));
+var score=0,hit=0;
+for(var i=0;i<terms.length;i++){var v=terms[i].vars,m=false;
+if(fieldHit(fCode,v)){score+=60;m=true;}
+if(fieldHit(fModel,v)){score+=25;m=true;}
+if(fieldHit(fTitle,v)){score+=20;m=true;}
+if(fieldHit(fKw,v)){score+=14;m=true;}
+if(fieldHit(fDesc,v)){score+=9;m=true;}
+if(fieldHit(fBody,v)){score+=4;m=true;}
+if(m)hit++;}
+if(terms.length>1&&hit===terms.length)score+=15;
+return {score:score,hit:hit};}
 function render(){
 var q=norm(document.getElementById("q").value.trim());
-var list=E.filter(function(e){return (famActiva==="Todos"||e.fam===famActiva)&&matches(e,q);});
-document.getElementById("count").textContent=list.length+" resultado"+(list.length===1?"":"s")+" · "+E.length+" fichas en total (códigos, casos y guías)";
+var terms=parseQuery(q);
+var interp=document.getElementById("interp");
+if(q&&terms.length){var parts=[];for(var i=0;i<terms.length;i++){var t=terms[i];parts.push(t.vars.length>1?("<strong>"+esc(t.label)+"</strong> = "+t.vars.join(" / ")):("<strong>"+esc(t.label)+"</strong>"));}
+interp.innerHTML="Busqué interpretando tus palabras: "+parts.join(" · ");interp.classList.remove("hidden");}
+else if(q){interp.textContent="Escribe la falla con tus palabras: el síntoma o la pieza (ej. «no seca», «reloj», «bomba»).";interp.classList.remove("hidden");}
+else{interp.innerHTML="";interp.classList.add("hidden");}
+var scored=[];
+E.forEach(function(e,idx){if(famActiva!=="Todos"&&e.fam!==famActiva)return;
+if(!terms.length){scored.push({e:e,idx:idx,score:0,hit:0});return;}
+var r=scoreEntry(e,terms);if(r.score>0)scored.push({e:e,idx:idx,score:r.score,hit:r.hit});});
+if(terms.length>1){var maxHit=0;scored.forEach(function(s){if(s.hit>maxHit)maxHit=s.hit;});
+if(maxHit>=2)scored=scored.filter(function(s){return s.hit>=2||s.score>=60;});}
+scored.sort(function(a,b){return b.score-a.score||a.idx-b.idx;});
+document.getElementById("count").textContent=scored.length+" resultado"+(scored.length===1?"":"s")+" · "+E.length+" fichas en total (códigos, casos y guías)";
 var box=document.getElementById("results");box.innerHTML="";
-if(!list.length){box.innerHTML='<div class="empty">Sin resultados para esa búsqueda. Prueba con el modelo (ej. MBF06ED), el código (ej. E2) o el síntoma (ej. bomba, no calienta).</div>';return;}
-list.forEach(function(e){
-var idx=E.indexOf(e);
+if(!scored.length){box.innerHTML='<div class="empty">Sin resultados para esa búsqueda. Escríbela como la dirías (ej. «no seca», «no funciona el reloj», «no llena») o prueba con el modelo (ej. MBF06ED) o el código (ej. E2).</div>';return;}
+scored.forEach(function(s){
+var e=s.e,idx=s.idx;
 var b=document.createElement("button");b.className="card";b.setAttribute("type","button");
 b.innerHTML='<div class="cmodel">'+esc(e.model)+'<span class="ctipo">'+esc(e.tipo)+' · '+esc(e.fam)+'</span></div><h3>'+(e.code?'<span class="ccode">'+esc(e.code)+'</span> — ':'')+esc(e.title)+'</h3><p>'+esc(e.desc.length>140?e.desc.slice(0,140)+"…":e.desc)+'</p>';
 b.addEventListener("click",function(){showDetail(idx);});
@@ -379,7 +426,7 @@ document.getElementById("backBtn").addEventListener("click",function(){dv.classL
 window.scrollTo(0,0);
 }
 /* ===== ACTUALIZAR: comprueba el manifiesto de versión en el repo de GitHub ===== */
-var VERSION_APP="2026-11-23-2";
+var VERSION_APP="2026-11-23-3";
 var UPD_MANIFEST="https://raw.githubusercontent.com/ernestomirage2023-lab/Diagnostico_Equipos_LB/main/app/version.json";
 var UPD_DOWNLOAD="https://raw.githubusercontent.com/ernestomirage2023-lab/Diagnostico_Equipos_LB/main/app/app-diagnostico-lb.html";
 function updWrite(html,cls){["updStatus","updStatusFoot"].forEach(function(id){var el=document.getElementById(id);if(el){el.innerHTML=html?'<div class="updbox '+(cls||"")+'">'+html+"</div>":"";}});}
