@@ -294,6 +294,26 @@ Recordatorio del PDF: **los componentes trabajan con 110 V**. Mediciones de resi
 ### Sensor de nivel de agua (fallas)
 - Sin activación/sin reinicio → fuga de manguera del sensor, falla en tarjeta, falla interna del sensor.
 
+### Nivel de llenado (llena de más, de menos o no se detiene) — falla de diagnóstico LMA
+
+**Cómo se mide el nivel:** el sensor de nivel es un **presostato electrónico** que trabaja por diferencia de presión: su manguera baja a la tina y, al subir el agua, sube la presión del aire atrapado en la manguera; con esa presión el sensor manda la señal de nivel (**bajo, medio, alto**) a la tarjeta. El selector de nivel trae **Auto** (la tarjeta detecta la carga), **alto, medio y bajo**.
+
+**El estatus de la manguera manda:** el sensor no mide el agua, mide el aire de la manguera. Una **fuga**, un **tapón**, agua atrapada dentro o la manguera desconectada hacen que la presión no corresponda al nivel real — y el llenado sale mal **aunque el sensor esté bueno**. Por eso la manguera se revisa primero.
+
+**Diagnóstico según el síntoma:**
+
+- **No se detiene el llenado / se pasa de nivel:** fuga en la manguera del sensor (la presión se escapa y la tarjeta «cree» que aún falta agua). Revisar también que la válvula de entrada sí cierre (resorte interno o diafragma dañado).
+- **Se detiene antes de tiempo / nivel bajo:** manguera tapada o con agua atrapada (presión falsa, el sensor «cree» que ya llegó al nivel), o falla interna del sensor.
+- **Drena pero no avanza a centrifugado:** el sensor **no reinicia al vaciar** (la tina sí se vacía, pero el sensor sigue viendo nivel) — es la rama del código **E2**.
+- **Tarda más de 30 min en llegar al nivel (E1):** primero mallas/filtros de entrada, llaves y presión de agua, y bobinas de válvula ≈ **1.07 kΩ**; en ese mismo procedimiento se verifica la manguera del sensor.
+- **Código F8:** falla del sensor de nivel o de su arnés.
+
+**Medición del sensor** (equipo desconectado): capacitancia entre los terminales **1–2 y 2–3: 40–50 nF** por par; resistencia entre el **1 y el 3: 20–40 Ω** (en el procedimiento F8: **20–55 Ω**; el rango varía si el sensor tiene agua o no). Revisar conectores y terminales: mal ajuste o daños, **incluso mordidos por roedores**.
+
+**Ajuste central del sensor (tipo llave Allen): NO moverlo.** Viene calibrado de fábrica y la marca no recomienda ajustarlo, aunque el cliente pida más agua.
+
+**Confirmación:** modo test, **prueba de llenado** (perilla de opciones en Pre remojo: las válvulas trabajan 1 min) y observar que el sensor corte al llegar al nivel seleccionado.
+
 ### Bomba de drenado (fallas)
 - Fuga o no drena → presurizar/inspeccionar abatimiento de la bomba, bloqueo por suciedad, corto o circuito abierto, falla de sensor de nivel o de tarjeta.
 
