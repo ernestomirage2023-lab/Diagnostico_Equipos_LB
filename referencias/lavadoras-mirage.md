@@ -138,7 +138,9 @@ Las 5 diapositivas "Casos de fallas comunes" no traen texto. Lo que se ve:
 3. **Empalmes de cables con termocontráctil amarillo** en el timer (reparaciones previas en cables café/amarillo/naranja) y **contactos de cobre** dentro del interruptor de tapa/secado.
 4. **Flecha de transmisión/agitador** de LMS022M (código de pieza `12238000000088`) y LMS016M (código `12238000000065`); base/agitador de la tina con 3 círculos azules.
 
-### 3.10 Falla de diagnóstico: no centrifuga (la tina de secado no gira) — LMS [PDF/diagrama]
+### 3.10 Falla de diagnóstico: no centrifuga / no seca (la tina de secado no gira) — LMS [PDF/diagrama]
+
+**Aclaración de términos:** en la semiautomática, **centrifugar es lo mismo que «secar»**: la tina de secado **extrae la humedad de la ropa por fuerza centrífuga** — no es secado con calor. Por eso esta misma falla se reporta como **«no centrifuga»** o como **«no seca»**; el diagnóstico es el mismo.
 
 **Lógica:** en la semiautomática, el centrifugado es la **rama de secado**, independiente de la de lavado: línea 110 V → **fusible 10 A** → **switch de tapa de secado** → **timer de secado** → **motor de secado** (con capacitor de 18 µF). No hay tarjeta: todo es electromecánico y el diagnóstico es **por eliminación, en este orden** (las resistencias se miden con el equipo desconectado):
 
