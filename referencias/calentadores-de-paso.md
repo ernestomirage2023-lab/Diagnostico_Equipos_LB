@@ -223,6 +223,37 @@ Guía basada en el calentador de paso de **gas LP, 1 servicio, 5–6 L/min**.
 - **Cable calibre 8.**
 - **Tierra física obligatoria** para cualquier eventualidad.
 
+### 3.8 Boiler eléctrico de 1 servicio — MBE051G
+
+Datos de placa (manual del equipo, tabla de especificaciones):
+
+| Dato | Valor |
+|---|---|
+| Tensión nominal | **220 V~**, 50/60 Hz |
+| Potencia | **4,800 W** |
+| Flujo mínimo de activación | **1.2 L/min** |
+| Presión de agua | **0.02 MPa** mín. — **0.6 MPa** máx. |
+| Conexión de agua (entrada–salida) | **1/2"** |
+| Dimensiones (An×Al×F) | **330×190×70 mm** |
+
+#### Diagrama eléctrico (manual, pág. 5)
+
+La imagen del diagrama está en Drive, carpeta **Boiler MBE051G** («Diagrama electrico MBE051G.png» — ver el índice de Drive). El esquema muestra:
+
+- Alimentación **220 V~** a terminales **L1, L2 y G** (tierra), con **protector térmico de 95 °C** en la línea.
+- La **resistencia (R)** la controla el **TRIAC (T)** desde la tarjeta de control (conector **TR1**); la tarjeta se alimenta por su conector **AC**.
+- **Sensor de corriente** al conector **LD1** de la tarjeta.
+- **Sensor de flujo** al conector **Agua** y **sensor de temperatura** al conector **Salida**.
+
+#### Instalación eléctrica y cableado
+
+- **Consumo:** 4,800 W ÷ 220 V = **21.8 A**. Como carga continua se dimensiona al 125%: **27.3 A**.
+- **Interruptor bipolar de 30 A** protegiendo el circuito.
+- **Cable de cobre calibre 10 AWG como mínimo** (3 conductores: **L1, L2 y tierra física**); si la tirada pasa de ~15 m, subir a **calibre 8 AWG**.
+- La tierra física va a la terminal **«E»** del equipo y es **obligatoria**.
+- **Circuito derivado dedicado**, solo para el equipo. El manual (instalación, págs. 14–15) pide circuito dedicado, interruptor bipolar y calibre según la normativa local (**NOM-001-SEDE**); el calibre 10 AWG sale de la cuenta de consumo de arriba.
+- **No confundir con el de 1.5 servicios (§3.7):** ese lleva breaker doble de 40 A y cable calibre 8; el MBE051G es de 30 A y calibre 10 AWG mínimo.
+
 ---
 
 ## 4. Mantenimiento de calentadores de paso

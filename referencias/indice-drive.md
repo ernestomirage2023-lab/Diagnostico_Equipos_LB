@@ -1,14 +1,14 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), y se creó la carpeta Boiler MBF12AG-AH con el documento de la tarjeta electrónica del Turbo Flux Gris (Boiler de paso: 60 archivos), verificados en Drive. Después, a las 11:41 am, se agregó el PDF de la tarjeta de iluminación LED del congelador horizontal (switch de balín) a la carpeta Congeladores (3 archivos), y a las 12:33 pm la ficha técnica REFX Inverter a la carpeta Refrigeradores (3 archivos), y a las 12:46 pm el video de evidencia de falla «falso en módulo de ignición» a la carpeta Videos de Boiler de paso (61 archivos), verificados en Drive. Después, el 2026-11-18, se agregó el Manual de Servicio del refrigerador MRX12FS en español (PDF y DOCX) a la carpeta Refrigeradores (5 archivos), verificados en Drive.
+Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), y se creó la carpeta Boiler MBF12AG-AH con el documento de la tarjeta electrónica del Turbo Flux Gris (Boiler de paso: 60 archivos), verificados en Drive. Después, a las 11:41 am, se agregó el PDF de la tarjeta de iluminación LED del congelador horizontal (switch de balín) a la carpeta Congeladores (3 archivos), y a las 12:33 pm la ficha técnica REFX Inverter a la carpeta Refrigeradores (3 archivos), y a las 12:46 pm el video de evidencia de falla «falso en módulo de ignición» a la carpeta Videos de Boiler de paso (61 archivos), verificados en Drive. Después, el 2026-11-18, se agregó el Manual de Servicio del refrigerador MRX12FS en español (PDF y DOCX) a la carpeta Refrigeradores (5 archivos), verificados en Drive. Después, el 2026-11-23, se agregó el diagrama eléctrico del MBE051G (pág. 5 de su manual) a la carpeta Boiler MBE051G (Boiler de paso: 64 archivos), verificado en Drive.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 168 archivos, ≈3.20 GB en total.
-  - **Boiler de paso:** 63 archivos.
+- **Contenido verificado en este escaneo:** 169 archivos, ≈3.20 GB en total.
+  - **Boiler de paso:** 64 archivos.
   - **Lavadoras:** 67 archivos.
   - **Dispensadores:** 23 archivos.
   - **Congeladores:** 3 archivos.
@@ -49,6 +49,7 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 
 - Boletin Equipo no calienta.pdf — 0.4 MB — https://drive.google.com/file/d/1oNCfqgge2WCdp0hPEVbPMBOVHCLir_b5/view?usp=drivesdk
 - Boletin Error E4.pdf — 0.3 MB — https://drive.google.com/file/d/1R59_085zEKkrc67BIGbV56FH_fk8NBZw/view?usp=drivesdk
+- Diagrama electrico MBE051G.png — 0.1 MB — https://drive.google.com/file/d/1hDSu2llaZwF9WPcemMeVeAtbpjreaT3y/view?usp=drivesdk — *Diagrama eléctrico del MBE051G (pág. 5 de su manual, registrado el 2026-11-23).*
 - Manual Boiler electrico MBE051G LB 10_2024.pdf — 8.8 MB — https://drive.google.com/file/d/1RXJ7VKZjagqFR5l84hUSRTnrNiOQbDSx/view?usp=drivesdk
 
 ## Github / Boiler de paso / Boiler MBE081G
