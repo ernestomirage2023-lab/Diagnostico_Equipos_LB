@@ -100,6 +100,8 @@ Filtro atrapa pelusa, panel de control, cubierta de lavado, cubierta de secado, 
 
 Resorte, freno, motor de lavado, motor de secado, temporizador de lavado, temporizador de secado.
 
+> **Terminología:** en las LMS, al **temporizador (timer)** también se le conoce como **«reloj»** — el **reloj de lavado** y el **reloj de secado**. Si un técnico o un cliente pregunta por el «reloj» de la semiautomática, se refiere al timer: es la misma pieza y aplica el mismo diagnóstico (§3.6 y §3.7).
+
 ### 3.5 Valores de medición de motores (multímetro/pinza) [PDF]
 
 | Componente | Medición (Ω) | Lectura de las 3 combinaciones de cables |
@@ -109,13 +111,13 @@ Resorte, freno, motor de lavado, motor de secado, temporizador de lavado, tempor
 
 > Regla práctica **[INFERIDO]**: en motor monofásico con capacitor, la medición entre los dos extremos = suma de las otras dos. Si no se cumple, devanado dañado.
 
-### 3.6 Temporizador de lavado [PDF]
+### 3.6 Temporizador de lavado (reloj de lavado) [PDF]
 
 - 3 cables: **café (común)**, **amarillo** y **naranja**.
 - Ciclo de contactos con base de **3 segundos**: el común alterna entre amarillo y naranja (ON/OFF alternado) → invierte el sentido del motor/capacitor para el vaivén del agitador.
 - Prueba: puntas en café–amarillo y café–naranja; se debe ver continuidad alternada.
 
-### 3.7 Temporizador de secado [PDF]
+### 3.7 Temporizador de secado (reloj de secado) [PDF]
 
 - 2 cables (rojo-morado). Contacto **OFF → ON → OFF** según la posición de la perilla (OFF al inicio y al final del recorrido, ON durante el tiempo programado).
 - Prueba: continuidad con la perilla en ON, abierto en OFF.
@@ -146,7 +148,7 @@ Las 5 diapositivas "Casos de fallas comunes" no traen texto. Lo que se ve:
 
 1. **Fusible 10 A / 250 V:** si está abierto no trabaja **ninguna** de las dos ramas (ni lava ni seca). Si la lavadora sí lava, el fusible está bueno y se sigue con la rama de secado.
 2. **Switch de la tapa de secado:** con la tapa cerrada debe dar **continuidad** — es el permiso del motor de secado. Abierto, o con los contactos de cobre flameados/oxidados, el motor nunca se energiza. La cubierta de seguridad deformada o con residuo también lo deja abierto.
-3. **Timer de secado** (2 cables, rojo-morado): **continuidad con la perilla en ON, abierto en OFF**. Si no cierra en ON, no manda los 110 V al motor.
+3. **Timer de secado (reloj de secado)** (2 cables, rojo-morado): **continuidad con la perilla en ON, abierto en OFF**. Si no cierra en ON, no manda los 110 V al motor.
 4. **Voltaje al motor:** con la tapa cerrada y el timer en ON deben llegar **110 V** al motor de secado. Si llegan y no gira, el problema es capacitor o motor.
 5. **Capacitor del motor de secado: 18 µF** (LMS022M). Capacitor desvalorizado: el motor zumba y no arranca, o no hace nada.
 6. **Devanados del motor de secado:** las tres combinaciones miden **31 / 30.5 / 61.5 Ω** (dos devanados de ≈30.5–31 y la suma ≈61.5). Si la suma no se cumple, hay devanado dañado.
