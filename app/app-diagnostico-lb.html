@@ -89,7 +89,7 @@ footer .updbtn{margin-top:10px}
 </div>
 <h1>CSAM IA — Diagnóstico Línea Blanca Mirage</h1>
 <p class="sub">Busca por modelo, código de error o síntoma. Cada ficha te dice qué significa la falla, qué revisar paso a paso y los valores exactos.</p>
-<p class="verline">Versión de la app: <strong>23 de noviembre de 2026</strong></p>
+<p class="verline">Versión de la app: <strong>2026-11-23-2 · Noviembre 2026</strong></p>
 <div class="updstatus" id="updStatus" aria-live="polite"></div>
 </div>
 </header>
@@ -116,7 +116,7 @@ footer .updbtn{margin-top:10px}
 </div>
 <div id="detailView" class="hidden"></div>
 </div>
-<footer>CSAM IA — Diagnóstico Línea Blanca Mirage · Versión: 23 de noviembre de 2026<br>
+<footer>CSAM IA — Diagnóstico Línea Blanca Mirage · Versión 2026-11-23-2 · Noviembre 2026<br>
 <button class="updbtn" type="button" id="updBtnFoot">↻ Actualizar — buscar versión nueva</button>
 <div class="updstatus" id="updStatusFoot" aria-live="polite"></div></footer>
 <script>
@@ -171,6 +171,11 @@ w10E1:{t:"Boletín",n:"MBF10AD / MBF10AE — Código E1",u:"https://drive.google
 w10E2:{t:"Boletín",n:"MBF10AD / MBF10AE — Código E2",u:"https://drive.google.com/file/d/1itGB1EaWSwG_EzdwAbndkV3cYP854ZF4/view?usp=drivesdk"},
 w10E3:{t:"Boletín",n:"MBF10AD / MBF10AE — Código E3",u:"https://drive.google.com/file/d/1MgKNfar-ocIt_81l1-m38LTgRrdLCYki/view?usp=drivesdk"},
 w10E5:{t:"Boletín",n:"MBF10AD / MBF10AE — Código E5",u:"https://drive.google.com/file/d/1wH08LGTiJ0H1eFcS_tO1KposOUU40mya/view?usp=drivesdk"},
+w10VidE0:{t:"Video",n:"MBF10AD Turbo Flux 10 L WiFi — Código E0",u:"https://drive.google.com/file/d/1MuVbsfnKknrieSFcddYU8pSwWKomwxRS/view?usp=drivesdk"},
+w10VidE1:{t:"Video",n:"MBF10AD Turbo Flux 10 L WiFi — Código E1",u:"https://drive.google.com/file/d/1_rVFYt84TZug4VsP0w0HElP_LbGClD8j/view?usp=drivesdk"},
+w10VidE2:{t:"Video",n:"MBF10AD Turbo Flux 10 L WiFi — Código E2",u:"https://drive.google.com/file/d/15mtTjvQgQ8R-s_MbAceoE5qeFhRkzrsR/view?usp=drivesdk"},
+w10VidE3:{t:"Video",n:"MBF10AD Turbo Flux 10 L WiFi — Código E3",u:"https://drive.google.com/file/d/1IzRiSilFkqWlQsmRzN5FMZLWrCQDusBs/view?usp=drivesdk"},
+w10VidE5:{t:"Video",n:"MBF10AD Turbo Flux 10 L WiFi — Código E5",u:"https://drive.google.com/file/d/1yXrKwg3zSwVxD2ZHI-JwXdKA15jFqB9S/view?usp=drivesdk"},
 gManualTec:{t:"Manual",n:"Manual para técnicos LMA022G",u:"https://drive.google.com/file/d/1S8dpa2EEJUIiO-P6HnFDYd7-VM4UQrYv/view?usp=drivesdk"},
 gManual:{t:"Manual",n:"Manual LMA022G (2023)",u:"https://drive.google.com/file/d/1lYS3q5amnc-SotSHAhgTYv6Nmyli8jdY/view?usp=drivesdk"},
 gDiag:{t:"Diagrama",n:"Diagrama eléctrico LMA022G",u:"https://drive.google.com/file/d/16JLH_G5t4rv7nWyXC9uBdobbQdXoeqxr/view?usp=drivesdk"},
@@ -295,8 +300,12 @@ C("Lavadoras",NMOD,"LED 5","SEGURO y SECADO intermitentes — sensor de nivel","
 C("Lavadoras",NMOD,"LED 6","Solo SEGURO intermitente — seguro de tapa","Patrón verificado: solo SEGURO intermitente. Falla en el seguro de la tapa.",["Revisar el mecanismo del seguro de la tapa."],[],[L.nManual,L.nDiag],"lavadora lma022n seguro tapa led");
 C("Lavadoras",NMOD,"LED 7","Candado intermitente — falla de comunicación","Patrón verificado: indicador de bloqueo de niños (candado) intermitente; falla de comunicación.",["Revisar que los conectores de los cables de comunicación estén bien conectados en la tarjeta de tablero y la tarjeta principal.","Revisar si hay cables dañados en los arneses."],[],[L.nManual,L.nDiag],"lavadora lma022n comunicacion candado led tarjeta");
 /* ===== MBF10AD / MBF10AE (boletines del archivo; la app oficial no cubre este equipo) ===== */
-var WMOD="MBF10AD · MBF10AE (10 L con WiFi)";
-C("Boilers de gas",WMOD,"Boletines","Códigos E0, E1, E2, E3 y E5 — ver boletines del modelo","Este equipo no aparece en la app oficial de códigos; la referencia son los boletines del archivo. El caso del código E2 está desarrollado como caso de diagnóstico en esta app (búscalo como «MBF10AD — Marca código E2»).",["Abrir el boletín del código que marque el equipo y seguir su procedimiento.","Para el E2: revisar primero la alimentación del módulo de ignición (ver el caso de diagnóstico)."],[],[L.w10E0,L.w10E1,L.w10E2,L.w10E3,L.w10E5],"wifi mbf10ad mbf10ae boletin e0 e1 e2 e3 e5");
+var WMOD="MBF10AD · MBF10AE (Turbo Flux 10 L WiFi)";
+C("Boilers de gas",WMOD,"E0","Código E0 — ver boletín y video del modelo","Este equipo no aparece en la app oficial de códigos; la referencia son los boletines del archivo.",["Abrir el boletín del código E0 y seguir su procedimiento.","Ver el video del código E0 del MBF10AD (Turbo Flux 10 L WiFi) en el material de apoyo."],[],[L.w10E0,L.w10VidE0],"wifi mbf10ad mbf10ae boletin video e0 turbo flux 10l");
+C("Boilers de gas",WMOD,"E1","Código E1 — ver boletín y video del modelo","Este equipo no aparece en la app oficial de códigos; la referencia son los boletines del archivo.",["Abrir el boletín del código E1 y seguir su procedimiento.","Ver el video del código E1 del MBF10AD (Turbo Flux 10 L WiFi) en el material de apoyo."],[],[L.w10E1,L.w10VidE1],"wifi mbf10ad mbf10ae boletin video e1 turbo flux 10l");
+C("Boilers de gas",WMOD,"E2","Código E2 — ver boletín y video del modelo","Este equipo no aparece en la app oficial de códigos; la referencia son los boletines del archivo. El caso del código E2 está desarrollado como caso de diagnóstico en esta app (búscalo como «MBF10AD — Marca código E2»).",["Abrir el boletín del código E2 y seguir su procedimiento.","Para el E2: revisar primero la alimentación del módulo de ignición (ver el caso de diagnóstico).","Ver el video del código E2 del MBF10AD (Turbo Flux 10 L WiFi) en el material de apoyo."],[],[L.w10E2,L.w10VidE2],"wifi mbf10ad mbf10ae boletin video e2 turbo flux 10l modulo ignicion");
+C("Boilers de gas",WMOD,"E3","Código E3 — ver boletín y video del modelo","Este equipo no aparece en la app oficial de códigos; la referencia son los boletines del archivo.",["Abrir el boletín del código E3 y seguir su procedimiento.","Ver el video del código E3 del MBF10AD (Turbo Flux 10 L WiFi) en el material de apoyo."],[],[L.w10E3,L.w10VidE3],"wifi mbf10ad mbf10ae boletin video e3 turbo flux 10l");
+C("Boilers de gas",WMOD,"E5","Código E5 — ver boletín y video del modelo","Este equipo no aparece en la app oficial de códigos; la referencia son los boletines del archivo.",["Abrir el boletín del código E5 y seguir su procedimiento.","Ver el video del código E5 del MBF10AD (Turbo Flux 10 L WiFi) en el material de apoyo."],[],[L.w10E5,L.w10VidE5],"wifi mbf10ad mbf10ae boletin video e5 turbo flux 10l");
 /* ===== MBE051G (manual y boletines; la app oficial no lo lista) ===== */
 C("Eléctricos","MBE051G","Instalación","Instalación eléctrica: 21.8 A, breaker bipolar 30 A, calibre 10 AWG","Eléctrico de 1 servicio: 220 V~, 4,800 W. Consumo: 4,800 W ÷ 220 V = 21.8 A; como carga continua se dimensiona al 125%: 27.3 A.",["Circuito derivado dedicado, solo para el equipo.","Interruptor bipolar de 30 A protegiendo el circuito.","Cable de cobre calibre 10 AWG como mínimo (3 conductores: L1, L2 y tierra física); si la tirada pasa de ~15 m, subir a calibre 8 AWG.","La tierra física va a la terminal «E» del equipo y es obligatoria.","No confundir con el de 1.5 servicios: ese lleva breaker doble de 40 A y cable calibre 8."],["Potencia: 4,800 W · Consumo: 21.8 A","Flujo mínimo de activación: 1.2 L/min","Presión de agua: 0.02–0.6 MPa","Protector térmico: 95 °C","Diagrama: alimentación 220 V~ a L1, L2 y G; la resistencia la controla el TRIAC desde la tarjeta (conector TR1); sensor de corriente en LD1; sensor de flujo en «Agua»; sensor de temperatura en «Salida»"],[L.el51Manual,L.el51Diag,L.el51BolNC,L.el51BolE4],"mbe051g mps-50 instalacion cableado calibre breaker 30a 10 awg no calienta e4");
 /* ===== 12 CASOS DE DIAGNÓSTICO ===== */
@@ -369,18 +378,18 @@ document.getElementById("listView").classList.add("hidden");dv.classList.remove(
 document.getElementById("backBtn").addEventListener("click",function(){dv.classList.add("hidden");document.getElementById("listView").classList.remove("hidden");window.scrollTo(0,0);});
 window.scrollTo(0,0);
 }
-/* ===== ACTUALIZAR: comprueba el repo de GitHub ===== */
-var VERSION_APP="2026-11-23";
-var UPD_COMMITS="https://api.github.com/repos/ernestomirage2023-lab/Diagnostico_Equipos_LB/commits?path=app/app-diagnostico-lb.html&per_page=1";
+/* ===== ACTUALIZAR: comprueba el manifiesto de versión en el repo de GitHub ===== */
+var VERSION_APP="2026-11-23-2";
+var UPD_MANIFEST="https://raw.githubusercontent.com/ernestomirage2023-lab/Diagnostico_Equipos_LB/main/app/version.json";
 var UPD_DOWNLOAD="https://raw.githubusercontent.com/ernestomirage2023-lab/Diagnostico_Equipos_LB/main/app/app-diagnostico-lb.html";
 function updWrite(html,cls){["updStatus","updStatusFoot"].forEach(function(id){var el=document.getElementById(id);if(el){el.innerHTML=html?'<div class="updbox '+(cls||"")+'">'+html+"</div>":"";}});}
 function checkUpdate(){
 updWrite("Comprobando si hay una versión nueva…");
-fetch(UPD_COMMITS,{headers:{"Accept":"application/vnd.github+json"}}).then(function(r){if(!r.ok)throw new Error("http "+r.status);return r.json();}).then(function(data){
-if(!data||!data.length||!data[0].commit)throw new Error("sin datos");
-var c=data[0].commit;var d=(c.committer&&c.committer.date)||(c.author&&c.author.date)||"";var f=d.slice(0,10);
-if(f>VERSION_APP){updWrite("<strong>Hay una versión nueva.</strong> Tu app es del 23 de noviembre de 2026 y en el repositorio ya hay una versión más reciente.<br><a class=\"dlbtn\" href=\""+UPD_DOWNLOAD+"\" download>Descargar la versión actualizada</a>","new");}
-else{updWrite("<strong>Ya tienes la versión más reciente</strong> (23 de noviembre de 2026).");}
+fetch(UPD_MANIFEST,{cache:"no-store"}).then(function(r){if(!r.ok)throw new Error("http "+r.status);return r.json();}).then(function(data){
+if(!data||!data.version)throw new Error("sin datos");
+var remoteVersion=String(data.version);
+if(remoteVersion>VERSION_APP){updWrite("<strong>Hay una versión nueva.</strong> Tu app es la versión "+VERSION_APP+" y en el repositorio ya está la versión "+remoteVersion+".<br><a class=\"dlbtn\" href=\""+UPD_DOWNLOAD+"\" download>Descargar la versión actualizada</a>","new");}
+else{updWrite("<strong>Ya tienes la versión más reciente</strong> ("+VERSION_APP+").");}
 }).catch(function(){updWrite("<strong>Sin conexión:</strong> no se pudo comprobar. La app sigue funcionando sin internet.");});
 }
 ["updBtnTop","updBtnFoot"].forEach(function(id){var b=document.getElementById(id);if(b)b.addEventListener("click",checkUpdate);});
