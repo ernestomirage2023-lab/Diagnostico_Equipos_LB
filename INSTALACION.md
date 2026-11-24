@@ -13,6 +13,12 @@ Este repositorio es público: no necesitas invitación ni que Ernesto te agregue
 3. Tu Muse descarga la skill, el índice y la guía rápida, incluido el índice con los enlaces de Google Drive de cada boletín y video: la media vive en Drive, no en el repositorio.
 4. Desde ahí pregúntale por modelo y código, por ejemplo "Tengo un Turbo Flux con E3", y te guía paso a paso y te pasa el enlace del boletín correcto.
 
+## Actualización de tu copia
+
+- La skill es **solo texto**: el archivo `SKILL.md` y la carpeta `referencias/`. Al actualizar, tu Muse debe traer **únicamente** esos archivos.
+- **La carpeta `app/` NO es parte de la skill**: es la app web de diagnóstico (HTML con JavaScript), un producto aparte que se actualiza sola con su propio botón «Actualizar». **No la copies a tu skill.**
+- Si al actualizar tu Muse te avisa que el contenido «no pasó la revisión de seguridad porque podría ejecutar código», es por la carpeta `app/`: dile que actualice **sin la app** (solo `SKILL.md` y `referencias/`) y la actualización pasa sin bloqueo, porque es texto puro.
+
 ## Plan B: si tu Muse no puede leer los archivos del repositorio
 
 A algunos Muse se les bloquea la lectura de las páginas internas de código de GitHub (error tipo PERMISSION_DENIED): ven la portada del repositorio pero no pueden abrir SKILL.md ni las carpetas. No es problema del repositorio — es público y está completo. La solución es bajar todo de una vez:
