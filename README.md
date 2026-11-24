@@ -68,11 +68,6 @@ Nada se inventa: cada valor, código y procedimiento sale de la documentación c
 
 Si la instalación automática falla, `INSTALACION.md` trae el plan alternativo (descargar el repositorio completo en ZIP).
 
-## Actualizaciones
-
-- Solo **Ernesto y Poly** escriben y actualizan estos documentos; las copias de los técnicos son **de solo consulta**. Quien tenga un caso o un dato nuevo, se lo pasa a Ernesto para incluirlo en la versión oficial.
-- Cuando hay material nuevo, se avisa con el mensaje de **«Actualización de documentos»** y cada técnico actualiza su copia; la carpeta de Drive siempre está al día y la app se actualiza con su propio botón.
-
 ## Reglas de la casa
 
 - **Confidencialidad:** la skill entrega únicamente el documento, video o foto que el técnico pidió para su diagnóstico, sin compartir datos personales ni la organización interna del material.
