@@ -2,17 +2,17 @@
 
 Fuente: diagrama explosivo oficial Mirage (PDF). La columna «En la base» cruza cada número de parte contra la base de refacciones de línea blanca (MASTERDATA).
 
-- Temporizadores: lavado **174380000005315** y secado **174380000005309**; selector de programa 174380000005332 (el mismo de la LMS013M).
+- Temporizadores: lavado **17438000005315** y secado **17438000005309**; selector de programa 17438000005332 (el mismo de la LMS013M).
 
 | No. | Descripción | No. Parte | En la base de refacciones |
 |---|---|---|---|
-| 1.2 | Selector de ciclo | 17438000000421 | Sí — sin foto en S3 (LMS013L, LMS013M, LMS016L, LMS016M) |
-| 1.3 | Temporizador de secado | 174380000005309 | No aparece en el MASTERDATA |
+| 1.2 | Selector de ciclo | 1743800000421 | Sí — sin foto en S3 (LMS013L, LMS013M, LMS016L, LMS016M) |
+| 1.3 | Temporizador de secado | 17438000005309 | Sí — sin foto en S3 (LMS016M) |
 | 1.4 | Correa de drenaje | 12138000004401 | Sí — con foto (LMS016M) |
 | 1.5 | Correa de freno | 12138000007973 | Sí — con foto (LMS016L, LMS016M) |
-| 1.8 | Interruptor de seguridad | 174380000001581 | No aparece en el MASTERDATA |
-| 1.15 | Selector de programa | 174380000005332 | No aparece en el MASTERDATA |
-| 1.16 | Temporizador de lavado | 174380000005315 | No aparece en el MASTERDATA |
+| 1.8 | Interruptor de seguridad | 17438000001581 | Sí — sin foto en S3; **foto de campo de Ernesto registrada en la base** (2026-11-24) |
+| 1.15 | Selector de programa | 17438000005332 | Sí — sin foto en S3 (LMS013M, LMS016M) |
+| 1.16 | Temporizador de lavado | 17438000005315 | Sí — sin foto en S3 (LMS016M) |
 | 1.18 | Manguera de agua | 12138000006495 | Sí — sin foto en S3 (LMS013L, LMS016L, LMS016M, LMS022M) |
 | 2.2 | Impulsor | 12138000030613 | Sí — sin foto en S3 (LMS016M) |
 | 2.7 | Manguera de drenaje | 121380000007172 | No aparece en el MASTERDATA |

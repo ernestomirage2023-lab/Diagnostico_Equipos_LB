@@ -2,18 +2,18 @@
 
 Fuente: diagrama explosivo oficial Mirage (PDF). La columna «En la base» cruza cada número de parte contra la base de refacciones de línea blanca (MASTERDATA).
 
-- ⚠️ En el documento, el **Interruptor de cambio (1.16) trae el mismo número que el Selector de ciclo (1.2): 17438000000421** — se transcribe tal cual; probablemente es un número de familia compartida o un error del documento.
-- Temporizadores: lavado **174380000007381** y secado **174380000007382**.
+- ⚠️ En el documento, el **Interruptor de cambio (1.16) trae el mismo número que el Selector de ciclo (1.2): 1743800000421** — se transcribe tal cual; probablemente es un número de familia compartida o un error del documento.
+- Temporizadores: lavado **17438000007381** y secado **17438000007382**.
 
 | No. | Descripción | No. Parte | En la base de refacciones |
 |---|---|---|---|
-| 1.2 | Selector de ciclo | 17438000000421 | Sí — sin foto en S3 (LMS013L, LMS013M, LMS016L, LMS016M) |
-| 1.3 | Temporizador de secado | 174380000007382 | No aparece en el MASTERDATA |
+| 1.2 | Selector de ciclo | 1743800000421 | Sí — sin foto en S3 (LMS013L, LMS013M, LMS016L, LMS016M) |
+| 1.3 | Temporizador de secado | 17438000007382 | Sí — sin foto en S3 (LMS013L) |
 | 1.4 | Correa de drenaje | 12138000039526 | Sí — sin foto en S3 (LMS013L) |
 | 1.5 | Correa de freno | 12138000007965 | Sí — sin foto en S3 (LMS013L, LMS013M) |
-| 1.8 | Interruptor de seguridad | 174380000007323 | No aparece en el MASTERDATA |
-| 1.16 | Interruptor de cambio | 174380000000421 | No aparece en el MASTERDATA |
-| 1.17 | Temporizador de lavado | 174380000007381 | No aparece en el MASTERDATA |
+| 1.8 | Interruptor de seguridad | 17438000007323 | Sí — sin foto en S3; **foto de campo de Ernesto registrada en la base** (2026-11-24) |
+| 1.16 | Interruptor de cambio | 17438000000421 | Sí — sin foto en S3 (LMS013L, LMS013M, LMS016L, LMS016M) |
+| 1.17 | Temporizador de lavado | 17438000007381 | Sí — sin foto en S3 (LMS013L) |
 | 2.2 | Impulsor | 12138000027724 | Sí — sin foto en S3 (LMS013L) |
 | 2.7 | Manguera de drenaje | 12138000007173 | Sí — sin foto en S3 (LMS013L, LMS013M) |
 | 2.8 | Transmisión | 12238000000065 | Sí — sin foto en S3 (LMS013L, LMS013M) |
