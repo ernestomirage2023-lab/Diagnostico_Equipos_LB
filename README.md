@@ -44,6 +44,22 @@ Skill de diagnóstico técnico para el equipo de los **Centros de Servicio Autor
 
 Nada se inventa: cada valor, código y procedimiento sale de la documentación cargada; si un dato no está documentado, la skill lo dice.
 
+## Cómo usarlo
+
+- **Pregunta como le preguntarías a un compañero:** modelo + código o síntoma. Ejemplos: «Turbo Flux MBF16AF con E3, ¿qué reviso?», «LMS022M no centrifuga», «foto del empaque de agua de la LMS022M», «¿qué calibre de cable lleva el MBE051G?».
+- **Si te pide un dato, dáselo:** el diagnóstico avanza por etapas; con el modelo exacto, una medición o una foto, la respuesta se vuelve precisa en vez de genérica.
+- **Pide el material por su nombre:** boletín, manual, diagrama eléctrico, video o la foto de la pieza — te lo entrega en la misma conversación.
+- **Si el equipo trae etiqueta o placa de datos, manda su foto:** la lee y trabaja con esos valores.
+- **Contesta el seguimiento al final:** si la falla se resolvió, di cómo quedó; ese caso se lo pasas a Ernesto y entra a la versión oficial para todo el equipo.
+
+## Qué esperar
+
+- **Solo información documentada:** valores, códigos y procedimientos salen de los manuales, boletines y casos confirmados cargados. Si un dato no está documentado, te lo dice claramente — **nunca lo inventa**.
+- **El orden correcto de revisión:** el del boletín, con la medición esperada en cada paso; cada diagnóstico incluye el manual del modelo y su diagrama eléctrico.
+- **Causa probable ≠ falla confirmada:** no te manda cambiar piezas sin la prueba que lo justifique; si hay que cambiarla, te muestra la foto y el número de parte vigente (el actualizado, si el original fue sustituido).
+- **Seguridad sin excepciones:** te frena si un procedimiento es riesgoso — mediciones con el equipo desconectado cuando corresponde, fugas de gas primero, protecciones y sensores jamás anulados.
+- **Lo que no hace:** no edita ni sube documentos (eso es solo de Ernesto y Poly), no comparte datos personales ni material fuera de los formatos permitidos (PDF, MP4, MOV, JPG, PNG), y no sustituye el criterio del técnico que está frente al equipo: acompaña el diagnóstico, la decisión final es tuya.
+
 ## Instalación (para cada técnico)
 
 1. Entra a **muse.ai** y crea tu usuario.
