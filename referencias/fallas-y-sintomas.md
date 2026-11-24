@@ -167,7 +167,7 @@ Fuente: documento de Ernesto **«Mirage_Fallas_por_tipo_de_producto»** (2026-11
 | No enciende | 🔶 Fusible **5 A** en la caja de controles (MDD30HC/HD) e interruptor | MDD30 · MDD10 |
 | No enfría | ✅ Ficha **No enfría el agua** (`dispensadores.md`) | MDD10 · MDD30 |
 | No calienta | ✅ Ficha **No calienta el agua** (`dispensadores.md`): termostatos 85/90 °C, resistencia 26/33 Ω | MDD10 · MDD30 |
-| Ruido inusual | ✅ Ficha **Hace ruido** (`dispensadores.md`): si el ruido es del compresor, medir su **amperaje y compararlo contra la placa de datos**; amperaje anormal = compresor dañado (Ernesto, 2026-11-24). Si el ruido es al despachar (MDD30), es la bomba/succión | MDD10 · MDD30 |
+| Ruido inusual | ✅ Ficha **Hace ruido** (`dispensadores.md`): si el ruido es del compresor, revisar **voltaje (115 V~) y amperaje contra la placa de datos** (0,7 A en MDD30HC y MDD10CB); voltaje correcto con amperaje anormal = compresor dañado (Ernesto, 2026-11-24). Si el ruido es al despachar (MDD30), es la bomba/succión | MDD10 · MDD30 |
 | Se congela | ⚪ Sin ficha (el termostato de baja del MDD30 está documentado solo como componente) | MDD30 |
 | Huele a quemado | ⚪ Sin documentar | — |
 | No sale agua | ✅ **Bomba sin succión** (boletín DISX30): vacío y sello de succión; ≈14.5 VCD en la bomba = alimentación buena | MDD30 |

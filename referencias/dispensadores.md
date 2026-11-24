@@ -33,12 +33,13 @@ Categoría creada el 2026-11-12 a petición de Ernesto, dentro del proyecto Diag
 
 ## Falla de diagnóstico: hace ruido (ruido inusual)
 
-**Lógica:** primero se identifica la fuente del ruido. Si el ruido viene del **compresor** (suena mientras el equipo enfría), la prueba que manda es el **amperaje** (dictada por Ernesto el 2026-11-24):
+**Lógica:** primero se identifica la fuente del ruido. Si el ruido viene del **compresor** (suena mientras el equipo enfría), la validación es eléctrica: **amperaje y voltaje** (dictada por Ernesto el 2026-11-24):
 
-1. **Medir el amperaje del compresor** con la pinza amperimétrica, con el compresor trabajando.
-2. **Compararlo contra la placa de datos** del equipo: el amperaje medido debe corresponder al nominal que marca la placa. No hay un valor universal: cada modelo se juzga contra su propia placa. **Ejemplos documentados: en el MDD30HC y en el MDD10CB la placa marca corriente del enfriador (compresor) de 0,7 A** (fotos de las placas en Drive, ver la sección de placas de datos abajo).
-3. **Amperaje fuera de lo que marca la placa (consumo anormal) = compresor dañado** — el ruido viene del esfuerzo/devanados del compresor y la solución es el cambio del compresor.
-4. **Comprobación complementaria (MDD10):** medir los devanados del compresor (retirando antes el relevador térmico): terminales **1–2: 10 Ω**, terminales **2–3: 20 Ω**; entre extremos debe dar la **suma**. Si la suma no se cumple, devanado dañado.
+1. **Medir el voltaje de alimentación del compresor:** debe ser el nominal del equipo (**115 V~**, según la placa de datos). Un voltaje bajo o inestable hace que el compresor se esfuerce y haga ruido — primero se descarta la alimentación antes de condenar el compresor.
+2. **Medir el amperaje del compresor** con la pinza amperimétrica, con el compresor trabajando.
+3. **Comparar el amperaje contra la placa de datos** del equipo: debe corresponder al nominal que marca la placa. No hay un valor universal: cada modelo se juzga contra su propia placa. **Ejemplos documentados: en el MDD30HC y en el MDD10CB la placa marca corriente del enfriador (compresor) de 0,7 A** (fotos de las placas en Drive, ver la sección de placas de datos abajo).
+4. **Con el voltaje correcto y el amperaje fuera de lo que marca la placa (consumo anormal) = compresor dañado** — el ruido viene del esfuerzo/devanados del compresor y la solución es el cambio del compresor. Si voltaje y amperaje están dentro de lo que marca la placa, el compresor está funcionando correctamente en lo eléctrico.
+5. **Comprobación complementaria (MDD10):** medir los devanados del compresor (retirando antes el relevador térmico): terminales **1–2: 10 Ω**, terminales **2–3: 20 Ω**; entre extremos debe dar la **suma**. Si la suma no se cumple, devanado dañado.
 
 > Si el ruido es **al despachar o al subir agua** (MDD30), la fuente es la **bomba**, no el compresor: revisar primero el vacío de succión (la bomba se escucha pero no sube el agua, ver «No sale agua» / boletín DISX30) y el voltaje en su conector (≈14.5 VCD = alimentación buena).
 
