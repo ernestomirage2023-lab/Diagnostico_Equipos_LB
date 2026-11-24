@@ -1,13 +1,13 @@
 # Índice de media en Google Drive — carpeta Github
 
-Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), y se creó la carpeta Boiler MBF12AG-AH con el documento de la tarjeta electrónica del Turbo Flux Gris (Boiler de paso: 60 archivos), verificados en Drive. Después, a las 11:41 am, se agregó el PDF de la tarjeta de iluminación LED del congelador horizontal (switch de balín) a la carpeta Congeladores (3 archivos), y a las 12:33 pm la ficha técnica REFX Inverter a la carpeta Refrigeradores (3 archivos), y a las 12:46 pm el video de evidencia de falla «falso en módulo de ignición» a la carpeta Videos de Boiler de paso (61 archivos), verificados en Drive. Después, el 2026-11-18, se agregó el Manual de Servicio del refrigerador MRX12FS en español (PDF y DOCX) a la carpeta Refrigeradores (5 archivos), verificados en Drive. Después, el 2026-11-23, se agregó el diagrama eléctrico del MBE051G (pág. 5 de su manual) a la carpeta Boiler MBE051G (Boiler de paso: 64 archivos), verificado en Drive. Después, el mismo 2026-11-23, Ernesto subió los 5 videos por código del Turbo Flux MBF10AD (E0, E1, E2, E3 y E5) a la carpeta Videos de Boiler de paso (Boiler de paso: 69 archivos), verificados en Drive. Después, el 2026-11-24, Ernesto mandó el video de la llave de agua caliente del dispensador MDD10CB y se agregó a la carpeta Dispensadores (24 archivos; total: 175 archivos), verificado en Drive. Después, el mismo 2026-11-24, Ernesto envió el Manual de Usuario e Instalación REFX Series V.0326 de los refrigeradores MRX10FD/MRX12FD y se agregó a la carpeta Refrigeradores (6 archivos; total: 176 archivos), verificado en Drive. Después, el mismo 2026-11-24, Ernesto mandó la foto de la placa de datos del dispensador MDD30HC y se agregó a la carpeta Dispensadores (25 archivos; total: 177 archivos), verificada en Drive. Después, el mismo 2026-11-24, Ernesto mandó también la foto de la placa de datos del dispensador MDD10CB y se agregó a la carpeta Dispensadores (26 archivos; total: 178 archivos), verificada en Drive. Después, el mismo 2026-11-24, Ernesto mandó el video de la medición de voltaje en la caja de baterías de un boiler Flux y se agregó a la carpeta Videos de Boiler de paso (Boiler de paso: 70 archivos; total: 179 archivos), verificado en Drive. Después, el mismo 2026-11-24, se subieron a la carpeta Lavadoras Semiautomaticas LMS-M las 3 fotos de refacciones LMS corregidas/registradas ese día (resorte de motor 13 kg 12238000000046, suspensión LMS022M 12238000009981 y banda Poli V LMS022M 12638000000108; Lavadoras: 70 archivos; total: 182 archivos), verificadas en Drive. Después, el mismo 2026-11-24, se creó la carpeta **Refacciones Tienda Mirage** en la raíz y se subieron las **61 fotos** del cruce con el catálogo de Refacciones de tiendamirage.mx (48 de números de la base que no tenían foto y 13 de números del concentrado 2026 fuera del MASTERDATA; total: 243 archivos), verificadas en Drive.
+Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agregó la lámina del triac de la revisión E1 del boiler eléctrico a la carpeta Boiler MBE081G (Boiler de paso: 59 archivos), cinco láminas de la LMA022G a la carpeta Lavadoras Automatica Digital LMA-G —la vista inferior con componentes, la tabla de códigos de error con sus LEDs, la del código E1 por taponamiento, la del motor asíncrono y la del embrague centrifugado— (Lavadoras: 66 archivos) y el video de medición del transformador a la carpeta Microondas (7 archivos), y se creó la carpeta Boiler MBF12AG-AH con el documento de la tarjeta electrónica del Turbo Flux Gris (Boiler de paso: 60 archivos), verificados en Drive. Después, a las 11:41 am, se agregó el PDF de la tarjeta de iluminación LED del congelador horizontal (switch de balín) a la carpeta Congeladores (3 archivos), y a las 12:33 pm la ficha técnica REFX Inverter a la carpeta Refrigeradores (3 archivos), y a las 12:46 pm el video de evidencia de falla «falso en módulo de ignición» a la carpeta Videos de Boiler de paso (61 archivos), verificados en Drive. Después, el 2026-11-18, se agregó el Manual de Servicio del refrigerador MRX12FS en español (PDF y DOCX) a la carpeta Refrigeradores (5 archivos), verificados en Drive. Después, el 2026-11-23, se agregó el diagrama eléctrico del MBE051G (pág. 5 de su manual) a la carpeta Boiler MBE051G (Boiler de paso: 64 archivos), verificado en Drive. Después, el mismo 2026-11-23, Ernesto subió los 5 videos por código del Turbo Flux MBF10AD (E0, E1, E2, E3 y E5) a la carpeta Videos de Boiler de paso (Boiler de paso: 69 archivos), verificados en Drive. Después, el 2026-11-24, Ernesto mandó el video de la llave de agua caliente del dispensador MDD10CB y se agregó a la carpeta Dispensadores (24 archivos; total: 175 archivos), verificado en Drive. Después, el mismo 2026-11-24, Ernesto envió el Manual de Usuario e Instalación REFX Series V.0326 de los refrigeradores MRX10FD/MRX12FD y se agregó a la carpeta Refrigeradores (6 archivos; total: 176 archivos), verificado en Drive. Después, el mismo 2026-11-24, Ernesto mandó la foto de la placa de datos del dispensador MDD30HC y se agregó a la carpeta Dispensadores (25 archivos; total: 177 archivos), verificada en Drive. Después, el mismo 2026-11-24, Ernesto mandó también la foto de la placa de datos del dispensador MDD10CB y se agregó a la carpeta Dispensadores (26 archivos; total: 178 archivos), verificada en Drive. Después, el mismo 2026-11-24, Ernesto mandó el video de la medición de voltaje en la caja de baterías de un boiler Flux y se agregó a la carpeta Videos de Boiler de paso (Boiler de paso: 70 archivos; total: 179 archivos), verificado en Drive. Después, el mismo 2026-11-24, se subieron a la carpeta Lavadoras Semiautomaticas LMS-M las 3 fotos de refacciones LMS corregidas/registradas ese día (resorte de motor 13 kg 12238000000046, suspensión LMS022M 12238000009981 y banda Poli V LMS022M 12638000000108; Lavadoras: 70 archivos; total: 182 archivos), verificadas en Drive. Después, el mismo 2026-11-24, se creó la carpeta **Refacciones Tienda Mirage** en la raíz y se subieron las **61 fotos** del cruce con el catálogo de Refacciones de tiendamirage.mx (48 de números de la base que no tenían foto y 13 de números del concentrado 2026 fuera del MASTERDATA; total: 243 archivos), verificadas en Drive. Después, el mismo 2026-11-24, se creó la carpeta **Refacciones LB** y se subieron las **198 fotos** que la base tenía solo en local (las bajadas de S3 y las fotos de campo de Ernesto), verificadas en Drive (total: **441 archivos**). **Desde esta consolidación, las fotos de refacciones se buscan y se entregan desde Drive (carpetas Refacciones LB, Refacciones Tienda Mirage y LMS-M), ya no desde los enlaces de S3**; la base `refacciones-lb.csv` trae las columnas `imagen1_drive` e `imagen2_drive` con el enlace de Drive de cada foto.
 
 ## Estado
 
 - **Arquitectura:** la skill vive en GitHub (`Diagnostico_Equipos_LB`), la media vive en esta carpeta de Drive y Poly/Muse es el medio para los técnicos.
 - **Carpeta compartida:** sí, con enlace y en solo lectura para el equipo (decisión de Ernesto del 2026-11-11). Quien tenga el enlace puede ver y bajar los archivos, no editarlos.
 - **Carpeta raíz en Drive:** https://drive.google.com/drive/folders/1AqTHFo0pSG_mzXwL9D6HbnqI1cgAWVcv
-- **Contenido verificado en este escaneo:** 243 archivos, ≈4.96 GB en total.
+- **Contenido verificado en este escaneo:** 441 archivos, ≈5.03 GB en total.
   - **Boiler de paso:** 70 archivos.
   - **Lavadoras:** 70 archivos.
   - **Dispensadores:** 26 archivos.
@@ -15,6 +15,7 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
   - **Microondas:** 7 archivos.
   - **Refrigeradores:** 6 archivos.
   - **Refacciones Tienda Mirage:** 61 archivos.
+  - **Refacciones LB:** 198 archivos.
 - **Novedad de esta actualización:** la carpeta Dispensadores recibió sus primeros 20 archivos: manuales de los Disx10/Disx30 (incluidos el del blanco de garrafón oculto MDD30HD y el del MDD10CS), las fichas de especificaciones (DISX30-2025-MDD30HD, Disx10 y Disx30 rev. 2), diagramas del MDD30HD, MDD30HC y MDD10CB, boletines (bomba sin succión, alarma de nivel bajo, check valve), el video de la bomba y el material de campo del caso **fuga debajo del depósito de agua fría** (2 fotos y 2 videos) que Ernesto mandó registrar como diagnóstico el 2026-11-12. Además, Ernesto registró la foto de campo **«Dispensador MDD30 interior - manguera de succion.jpg»**: por dentro del dispensador de garrafón oculto, la manguera de succión debe meterse bien en su conexión para que la bomba succione (falla de bomba sin succión por pérdida de vacío).
 - **Descripciones:** las descripciones que Ernesto ha dado de sus videos (por ejemplo la prueba del puente del sensor magnético) van anotadas en la entrada de cada archivo.
 - **Notas de duplicados conocidos:** el diagrama explosivo del MBE081G aparece en dos carpetas de boilers; hay copias de los videos de diagnósticos del MBE081G y del Flux Series en su carpeta de modelo y en la carpeta Videos; y varios boletines de lavadora LMA017D existen en PDF y también en DOCX (y en dos carpetas de boletines).
@@ -46,6 +47,7 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 - Github / Congeladores — https://drive.google.com/drive/folders/1z2HWoyE5JTNSMw-xh-WZlcEuTRYGCZfC — **3 archivos**
 - Github / Refrigeradores — https://drive.google.com/drive/folders/1m4BeVUxRpl9kiTMpMaUKNUAbWYjSFTUX — **6 archivos**
 - Github / Refacciones Tienda Mirage — https://drive.google.com/drive/folders/1Oh9NSbjm8d0e613GsWnRM4j66FwW7TMX — **61 archivos**
+- Github / Refacciones LB — https://drive.google.com/drive/folders/131rItK5X1TDuKVwc8RDofbUeMGGN-oP9 — **198 archivos**
 
 ## Github / Boiler de paso / Boiler MBE051G
 
@@ -297,4 +299,267 @@ Actualizado por Poly el 2026-11-13 a las 10:52 am (America/Hermosillo): se agreg
 
 ## Github / Refacciones Tienda Mirage
 
-- **Carpeta creada el 2026-11-24** con las **61 fotos** bajadas del catálogo de Refacciones de tiendamirage.mx en el cruce contra la base de refacciones LB (autorizado por Ernesto): 48 fotos de números de la base que no tenían foto y 13 de números del concentrado 2026 que no están en el MASTERDATA. Cada archivo se llama por su número de parte (`<numero_parte>.jpg`). El registro foto por foto (número, origen, enlace individual de Drive y URL de la tienda) está en la base local: `~/workspace/user/refacciones-lb/tienda-mirage/fotos-en-drive.csv` y `fotos-tienda-mirage.csv`. Al pedir la foto de una pieza, se entrega desde la base (que ya las trae registradas) o desde esta carpeta.
+- **Carpeta creada el 2026-11-24** con las **61 fotos** bajadas del catálogo de Refacciones de tiendamirage.mx en el cruce contra la base de refacciones LB (autorizado por Ernesto): 48 fotos de números de la base que no tenían foto y 13 de números del concentrado 2026 que no están en el MASTERDATA. Cada archivo se llama por su número de parte (`<numero_parte>.jpg`). El registro completo (número, origen, URL de la tienda) está en la base local: `~/workspace/user/refacciones-lb/tienda-mirage/fotos-tienda-mirage.csv`.
+- 02020100076.jpg — 0.0 MB — https://drive.google.com/file/d/1RWiu-tCR5t5PyFWga2QS2Ll9HX16RDXK/view — Foto de Tienda Mirage: PERILLA B (CHICA), FLUX 6 BLANCO, MOD: MBF06ED/MBF06EF
+- 02020100077.jpg — 0.1 MB — https://drive.google.com/file/d/16rY4icdaI7brG5yjJa_JZT99spyjwAwv/view — Foto de Tienda Mirage: PERILLA A (GRANDE), FLUX 6 BLANCO, MOD: MBF06ED/MBF06EF
+- 02020400016.jpg — 0.1 MB — https://drive.google.com/file/d/1S1GFkp3d4odS-xic5uAQpsfkgmfIi2Ca/view — Foto de Tienda Mirage: CAJA DE BATERÍAS P/BOILER SERIE FLUX
+- 02040200002.jpg — 0.1 MB — https://drive.google.com/file/d/12gGprBwgOpQzK7wd-xJL_Ytm2kvvQ2di/view — Foto de Tienda Mirage: SWITCH DE ENCENDIDO FLUX 6 BLANCO
+- 02070100495.jpg — 0.1 MB — https://drive.google.com/file/d/1vMbLdzTv8I55NI5mbfs3g7HzBqfjnWOz/view — Foto de Tienda Mirage: QUEMADOR DE GAS LP, FLUX 6 BLANCO
+- 02070100499.jpg — 0.2 MB — https://drive.google.com/file/d/1xLwPgQTfOwc3FevgWQdIwC-GzLdAkm2c/view — Foto de Tienda Mirage: QUEMADOR DE GAS - 02070100499
+- 02090300107.jpg — 0.1 MB — https://drive.google.com/file/d/19VXLqVNjkmCRzbnwueDujncE-NqeIMC-/view — Foto de Tienda Mirage: VALVULA DE LINEA DE GAS LP, FLUX 16 LTS
+- 02090300323.jpg — 0.1 MB — https://drive.google.com/file/d/1bnnrzu4ReOgs3S4fQUlI4uCiar0nNQBB/view — Foto de Tienda Mirage: VALVULA DE LINEA DE GAS LP, FLUX 10LTS
+- 02090300343.jpg — 0.0 MB — https://drive.google.com/file/d/1k9YZumqA7wCO395KZNeWsNpaQVFrbL4R/view — Foto de Tienda Mirage: VALVULA DE LINEA DE GAS NATURAL, SERIES FLUX 10 LTS
+- 02090300549.jpg — 0.1 MB — https://drive.google.com/file/d/1Ll2tIw3Aw4rnpMs_SghiO-TASdwpjnqP/view — Foto de Tienda Mirage: VALVULA DE LINEA DE GAS NATURAL, FLUX 6 LTS
+- 10512800184.jpg — 0.1 MB — https://drive.google.com/file/d/1XpLSc6PGYPOiL7r8fPI_Hnrbc0Z2Zvv0/view — Foto de Tienda Mirage: CONECTOR DE ENTRADA DE AGUA CON SENSOR DE FLUJO, BOILER ELEC
+- 11001011000071.jpg — 0.1 MB — https://drive.google.com/file/d/18Bsk-G4axv2bbEJXRk30TRqVMw98eBO4/view — Foto de Tienda Mirage: BOMBA DE AGUA
+- 11002012032415.jpg — 0.1 MB — https://drive.google.com/file/d/1ROABYaaYH7q918YEI8K1z21EkVGZsEPG/view — Foto de Tienda Mirage: MOTOR DE LAVADO ASINCRONO
+- 11002012032417.jpg — 0.1 MB — https://drive.google.com/file/d/1dDnOYDJ458mF_2tze6x9sxE-siuP6ySl/view — Foto de Tienda Mirage: MOTOR DE SECADO ASINCRONO
+- 12138000002388.jpg — 0.1 MB — https://drive.google.com/file/d/1KEgOfVVoMZdic6JO7nBlQb7Md3eSSeTJ/view — Foto de Tienda Mirage: TUBERIA DE 3 VIAS
+- 12138000004386.jpg — 0.0 MB — https://drive.google.com/file/d/17NCsDFDAwfKux1VPYxKH1FeDXlHCwDWq/view — Foto de Tienda Mirage: CORREA DE DRENAJE
+- 12138000007173.jpg — 0.1 MB — https://drive.google.com/file/d/1h8AWtHDTL37cKChp3EfgImyXmj7FuLZ8/view — Foto de Tienda Mirage: MANGUERA DE DRENAJE
+- 12138000007965.jpg — 0.0 MB — https://drive.google.com/file/d/1M9irjKLMOcPo8oItqPbE0c050Ozx8ph7/view — Foto de Tienda Mirage: CORREA DE FRENO
+- 12138000027714.jpg — 0.1 MB — https://drive.google.com/file/d/11AV1nyPu3jqh-kILhPUpfZNfKW5Ww3FZ/view — Foto de Tienda Mirage: IMPULSOR
+- 12138000030613.jpg — 0.1 MB — https://drive.google.com/file/d/1zq13lrVSxaQpRtIx7PX1cHJC2F_wyoS9/view — Foto de Tienda Mirage: IMPULSOR
+- 12138000068369.jpg — 0.0 MB — https://drive.google.com/file/d/1MvA9G-d4A3VjSDrdf2I2SZJZPIK__EUd/view — Foto de Tienda Mirage: AGITADOR PARA LAVADORA AUTOMÁTICA
+- 12138000A03694.jpg — 0.1 MB — https://drive.google.com/file/d/1Mt9vN0I6llHMOOfuG8NCo6zdShh6soA2/view — Foto de Tienda Mirage: TAPA DE LAVADO
+- 12138000A03748.jpg — 0.1 MB — https://drive.google.com/file/d/1AVJRlGvIVCiSYILskoivSXzkJS0Vv7QF/view — Foto de Tienda Mirage: TAPA DE LAVADO
+- 12138000A04203.jpg — 0.2 MB — https://drive.google.com/file/d/1FhG1H2WygTs2BR2xIeXHp5ajVUn6WwGz/view — Foto de Tienda Mirage: TAPA DE LAVADO
+- 12138000A28106.jpg — 0.2 MB — https://drive.google.com/file/d/1kdAYAMcjgCKTcE9wfDNnvK1B4RP95Ycj/view — Foto de Tienda Mirage: TAPA DE SECADO
+- 12138000A28107.jpg — 0.1 MB — https://drive.google.com/file/d/1ZzYYtVd-rKSt5RWjkp9wzwSvMlW_z0cH/view — Foto de Tienda Mirage: TAPA DE SECADO
+- 12138000A33043.jpg — 0.1 MB — https://drive.google.com/file/d/15WuZps1QqogFx3zVQkQ0bbxnNQ9UubQ1/view — Foto de Tienda Mirage: PERILLA SELECTORA
+- 12138000A33143.jpg — 0.1 MB — https://drive.google.com/file/d/1dkFDHg8nrRK2OGu5CyPhFssiWoKojcKc/view — Foto de Tienda Mirage: PANEL DE CONTROL
+- 12138200000293.jpg — 0.1 MB — https://drive.google.com/file/d/1VBpldJqQoMy_1wGeIybuiHv9rjYltvRk/view — Foto de Tienda Mirage: AMORTIGUADOR GIRATORIO
+- 12238000000065.jpg — 0.1 MB — https://drive.google.com/file/d/1drhODwOoczSWbdyCZCF52Lve7OxoYHKW/view — Foto de Tienda Mirage: TRANSMISION
+- 12238000000087.jpg — 0.1 MB — https://drive.google.com/file/d/1cLN3tTwOxM3kjg8d4o0pmbKE3rfA72jr/view — Foto de Tienda Mirage: TRANSMISION
+- 12238000001822.jpg — 0.1 MB — https://drive.google.com/file/d/1qSK2wMKXlPR2dRqaiIuiVpddILN1GopC/view — Foto de Tienda Mirage: POLEA DE FRENO
+- 12338000000050.jpg — 0.1 MB — https://drive.google.com/file/d/16UXspZ-xMuC7RJi8tz_l4KKEMzSMHp7q/view — Foto de Tienda Mirage: POLEA DE MOTOR
+- 12638000000644.jpg — 0.1 MB — https://drive.google.com/file/d/1x5Mwhksfv8xdMzx94E4bMC5ALKwJF9IV/view — Foto de Tienda Mirage: EMPAQUE PARA VALVULA
+- 12840390104P.jpg — 0.1 MB — https://drive.google.com/file/d/1R7UFuPtEZgAtjW9xlwNGFxeEY1xbdKV-/view — Foto de Tienda Mirage: CHAROLA DE GOTEO - 12840390104P
+- 12900101000235.jpg — 0.1 MB — https://drive.google.com/file/d/1OlEznCKPsbMasj1CGB76QuMzSgHDzovX/view — Foto de Tienda Mirage: RESORTE DE TORSION
+- 12938000000319.jpg — 0.0 MB — https://drive.google.com/file/d/174sxyjKuJCZFw0Yd5LlQQiwW4AvD_PO5/view — Foto de Tienda Mirage: SISTEMA DE SUSPENSION 1
+- 13320023805.jpg — 0.1 MB — https://drive.google.com/file/d/1EYBnY3maL1agvrVNOlcmYHzyBqyWG0Yz/view — Foto de Tienda Mirage: TANQUE DE AGUA CALIENTE - 13320023805
+- 17400104000226-1.jpg — 0.1 MB — https://drive.google.com/file/d/1WpST9ddrmLVZvNWNfetUkjhzT2kGzs8j/view — Foto de Tienda Mirage: CAPACITOR DE MOTOR
+- 17438000000102.jpg — 0.1 MB — https://drive.google.com/file/d/1pycQHT7quu8G4T-dramYU-V74L5-qNqS/view — Foto de Tienda Mirage: CAPACITOR DE MOTOR
+- 17438000000316.jpg — 0.1 MB — https://drive.google.com/file/d/1ux2OTuXB88uKEw4y8Xz2ztOszQDhzeFa/view — Foto de Tienda Mirage: RETRACTOR
+- 17438000000421.jpg — 0.1 MB — https://drive.google.com/file/d/1fgDHadN3EVRLdN90TaRFYFaSAmVwtv3b/view — Foto de Tienda Mirage: SELECTOR DE CICLO
+- 17438000000573.jpg — 0.1 MB — https://drive.google.com/file/d/1rApeNAMPpGYxdwnqvKPbH93DBS215f_J/view — Foto de Tienda Mirage: VALVULA DE ENTRADA DE AGUA CALIENTE
+- 17438000000588.jpg — 0.1 MB — https://drive.google.com/file/d/13RXqhyr7QozRGSMuvTjccNnAlHLDoE05/view — Foto de Tienda Mirage: VALVULA DE ENTRADA DE AGUA FRIA
+- 17438000001320.jpg — 0.1 MB — https://drive.google.com/file/d/1tkROxXQqWUKN5u2OxjEXOMVDt7BbUbEL/view — Foto de Tienda Mirage: SENSOR DE IMPACTO
+- 17438000001373.jpg — 0.0 MB — https://drive.google.com/file/d/1L77zFL6FWHVHW0840Lv7yOPWhnS56rir/view — Foto de Tienda Mirage: SENSOR DE NIVEL
+- 17438000005323.jpg — 0.1 MB — https://drive.google.com/file/d/1m0WAzR-ydtnNgTlF1ST26XMy1OrhuUCG/view — Foto de Tienda Mirage: TEMPORIZADOR DE SECADO
+- 17438000005332.jpg — 0.1 MB — https://drive.google.com/file/d/11O5c45f0lQBZPfNwtQhjszLKi3v4547H/view — Foto de Tienda Mirage: SELECTOR DE PROGRAMA
+- 17438000016240.jpg — 0.1 MB — https://drive.google.com/file/d/1afNCqP-ZP5QbGWYCNx-q99-XzGX8e-09/view — Foto de Tienda Mirage: TEMPORIZADOR DE LAVADO
+- DA10BB02.jpg — 0.1 MB — https://drive.google.com/file/d/1_9nEc17XYZwp00FQ7fw3Ll2sbZQarYwR/view — Foto de Tienda Mirage: SET DE SWITCHES - DA10BB02
+- MDD10CB-02.jpg — 0.1 MB — https://drive.google.com/file/d/1I3S8Qeo9RLd9-BBBHmn97K-TqYOAjSIm/view — Foto de Tienda Mirage: TAPA SUPERIOR - MDD10CB-02
+- MDD10CB-03.jpg — 0.1 MB — https://drive.google.com/file/d/1ymO73AArgyw1jOo9uEWlheRYVFxpBdts/view — Foto de Tienda Mirage: TAPA SUPERIOR DE TANQUE - MDD10CB-03
+- MDD10CB-04.jpg — 0.1 MB — https://drive.google.com/file/d/1mJspASljNgLJePLJKeqFBTw1AQtyaqY3/view — Foto de Tienda Mirage: TANQUE DE AGUA FRIA - MDD10CB-04
+- MDD10CB-11.jpg — 0.1 MB — https://drive.google.com/file/d/1kKWL6HHZ0-uyBeeeGHdC5k4R00PbMnET/view — Foto de Tienda Mirage: TANQUE DE AGUA CALIENTE - MDD10CB-11
+- MDD10CB-12.jpg — 0.2 MB — https://drive.google.com/file/d/1d7s-B9NqnNahK6ZXKzFyc75A0aIm9bhc/view — Foto de Tienda Mirage: CONDENSADOR PARA DISPENSADOR - MDD10CB-12
+- MDD10CB-14.jpg — 0.1 MB — https://drive.google.com/file/d/1cXDsCPoJfOBI1yHna_cvhKD6XLezteyw/view — Foto de Tienda Mirage: COMPRESOR 1/10 (R134A) - MDD10CB-14
+- MDD10CB-18.jpg — 0.1 MB — https://drive.google.com/file/d/16-IcpOmfIlI9ujiRejveD7xC19S72Kvu/view — Foto de Tienda Mirage: PANEL LATERAL DERECHO - MDD10CB-18
+- MDD10CB-20.jpg — 0.1 MB — https://drive.google.com/file/d/1ORDb5WxfaF9bXQP5gZTyDbh6WYFKwDH8/view — Foto de Tienda Mirage: PANEL FRONTAL SUPERIOR - MDD10CB-20
+- MDD10CB-21.jpg — 0.1 MB — https://drive.google.com/file/d/1p_-g1zJtV9yFi3yDRExAKCSATQtd6HC_/view — Foto de Tienda Mirage: PANEL LATERAL IZQUIERDO - MDD10CB-21
+- MDD10CB-24.jpg — 0.1 MB — https://drive.google.com/file/d/1wMq6uu93YwinZiCKxUp-_LxRfgQ7RKm7/view — Foto de Tienda Mirage: LLAVE DE AGUA CALIENTE - MDD10CB-24
+- MDD10CB-27.jpg — 0.1 MB — https://drive.google.com/file/d/1huYTi0rkMFBd6jFGrLv3rYxWPVUnsYff/view — Foto de Tienda Mirage: CHAROLA DE GOTEO - MDD10CB-27
+
+## Github / Refacciones LB
+
+- **Carpeta creada el 2026-11-24** con las **198 fotos de la base de refacciones LB** que vivían solo en el almacenamiento local de Poly (las bajadas de S3 y las fotos de campo de Ernesto: válvula 02090300541, seguro de tapa LMS, entre otras). Cada archivo conserva su nombre de la base (`<numero_parte>.jpg`, con `_2` para la segunda vista). **Estas son las copias oficiales para buscar y entregar fotos de piezas**; los enlaces de S3 quedan solo como procedencia en la base. El registro archivo por archivo está en `~/workspace/user/refacciones-lb/tienda-mirage/fotos-base-en-drive.csv` y la base `refacciones-lb.csv` trae el enlace de Drive de cada foto en las columnas `imagen1_drive` e `imagen2_drive`. Las 3 fotos LMS subidas antes (resorte 00046, suspensión 09981 y banda 00108) viven en la carpeta LMS-M.
+- 02020100046.jpg — 0.1 MB — https://drive.google.com/file/d/1giT-a79w1RorD2vSTsC36UQJKMC8WjjU/view
+- 02020100046_2.jpg — 0.1 MB — https://drive.google.com/file/d/1qhghc7te2eepy8GBsYgT0pk9yfRPVLea/view
+- 02020100047.jpg — 0.1 MB — https://drive.google.com/file/d/1dz-PFPcOp61MnuXFGCwRnLKLE0kwlrn8/view
+- 02020100047_2.jpg — 0.1 MB — https://drive.google.com/file/d/1Z5b7a8BfBjDC0eHWO13iAYSHy0xBudeP/view
+- 02020400007.jpg — 0.2 MB — https://drive.google.com/file/d/1sv1UacMNs3j68nshrM491WacS7CgeFn7/view
+- 02020400007_1.jpg — 0.2 MB — https://drive.google.com/file/d/1sE161NZ5T1l0uQOH_AiL8rZ_fQ3AfL0V/view
+- 02040100187.jpg — 0.4 MB — https://drive.google.com/file/d/1BDLNZuuGlYLa5NB1UM_XrU_EN1BveKYI/view
+- 02040100187_2.jpg — 0.3 MB — https://drive.google.com/file/d/1b7zufWIn46vW30YebGxgVkIg9lh_VzMu/view
+- 02040200001.jpg — 0.3 MB — https://drive.google.com/file/d/1gahrnjs8dlRb8lcSfeoky7h1mwUjBsg0/view
+- 02040200001_1.jpg — 0.7 MB — https://drive.google.com/file/d/1LhfI1Q_mcj-WEFlBKFCjHDNl-TwoqOmX/view
+- 02040400001.jpg — 0.1 MB — https://drive.google.com/file/d/1uvlrfHSCGW6byBpIX-SJwNPNEGG8EhIC/view
+- 02040400001_2.jpg — 0.1 MB — https://drive.google.com/file/d/1-cKfFBR_Nbw6kv3SozG9R7tHmSBmhkVY/view
+- 02040400002.jpg — 0.1 MB — https://drive.google.com/file/d/1NnE6LgqqmCUtrNv42SOWa7feXX2290CH/view
+- 02040400002_2.jpg — 0.1 MB — https://drive.google.com/file/d/1spcgANRyLjCiNHe-LLph3hLEwNFn4DzI/view
+- 02040400006.jpg — 0.1 MB — https://drive.google.com/file/d/1XBIYiHqDhNix0JO2nsNKg4Ko19VQObsL/view
+- 02040400006_2.jpg — 0.1 MB — https://drive.google.com/file/d/1vhwq7DpspGSGHeaFL8yFgQ04AL4wm7cF/view
+- 02040400008.jpg — 0.1 MB — https://drive.google.com/file/d/14uPtPZS3ciwY_vN64VhZR-ro96UnYDWu/view
+- 02040400008_2.jpg — 0.1 MB — https://drive.google.com/file/d/1-kLl-TcoEPPHm-QBUyODuBKuTUV1-aGX/view
+- 02040400015.jpg — 0.1 MB — https://drive.google.com/file/d/1HnT67ojPOXXV7AAgFQ2WBPlxOHNpe2L8/view
+- 02040400015_2.jpg — 0.2 MB — https://drive.google.com/file/d/1iaNiux8Y_jwKKLIjg_kGUbn6aGRPhvzH/view
+- 02040600086.jpg — 0.1 MB — https://drive.google.com/file/d/1h1HTMPOfiKWQnicmGT7yt52uiQAEv4Hn/view
+- 02040600086_2.jpg — 0.1 MB — https://drive.google.com/file/d/1j8NObYQ10pFZTjhJEJdsRIEt6ZWSfe0a/view
+- 02040600092.jpg — 0.4 MB — https://drive.google.com/file/d/1OrC9dm6js4mmA4DQ3dKFW368pQRX91P6/view
+- 02040600092_2.jpg — 0.1 MB — https://drive.google.com/file/d/1QjkhwEwJ8dHIeiQIXEcj73xahsL2cqu3/view
+- 02070000149.jpg — 0.1 MB — https://drive.google.com/file/d/1Jrw3rL78l2d4wkmre8y7RYMETUpkVwgP/view
+- 02070000149_2.jpg — 0.1 MB — https://drive.google.com/file/d/1Sif6rby50MSw6TUURyRL9_v5EROPhcll/view
+- 02070100362.jpg — 0.1 MB — https://drive.google.com/file/d/1LNMCnamc9qQptTkbiM6TzXPUamzcajKh/view
+- 02070100362_2.jpg — 0.1 MB — https://drive.google.com/file/d/14oHR8sQg9Q418n1rnZVG3FF4jRlulcRG/view
+- 02090300393.jpg — 0.1 MB — https://drive.google.com/file/d/1TamKY-A84mA5-EqZCE7xa8BrCCoAeHpN/view
+- 02090300393_2.jpg — 0.1 MB — https://drive.google.com/file/d/1PML-Lf_wjutJ7r1AmZdaCfsrUaSpEHhY/view
+- 02090300541.jpg — 0.1 MB — https://drive.google.com/file/d/19x5RhMFluTR1StRkJptxYrLQF8el3JfJ/view
+- 10513000032.jpg — 0.1 MB — https://drive.google.com/file/d/1QXFtcBXB94fQ1GuxEZQqyxRQ6FTcaHIo/view
+- 10513200010_2.jpg — 0.2 MB — https://drive.google.com/file/d/1QMnePVOXDO-VKLC6fRnsKCv5ljuCG2Nc/view
+- 10513200010_3.jpg — 0.1 MB — https://drive.google.com/file/d/1W9_ZyQL_dne_tb2pbD59O7kvJxRd0FLh/view
+- 10513200011.jpg — 0.1 MB — https://drive.google.com/file/d/1NMixrtK9M5dYOb8KPTNm4ACS367pvoCs/view
+- 10513200011_2.jpg — 0.1 MB — https://drive.google.com/file/d/1U-boK3YAcAdp9iowCcAqXnglW30K8p4i/view
+- 1059000047.jpg — 0.1 MB — https://drive.google.com/file/d/173Hd__e56HrmFwCnY3L3eQaa57VFJz0_/view
+- 1059000047_2.jpg — 0.1 MB — https://drive.google.com/file/d/1NMoAYir5a3H2zv-uzQjhPi-iogCdkI7v/view
+- 10612200169.jpg — 0.1 MB — https://drive.google.com/file/d/1U6UaAyIm5NECkGSs7lWkuSraOp0uT81g/view
+- 10712100089.jpg — 0.1 MB — https://drive.google.com/file/d/1okYQrQu3NoDSQ2zB_7oBGMRPcxT7zLgj/view
+- 10712100089_2.jpg — 0.1 MB — https://drive.google.com/file/d/1nqgeE1bBmAS9zVig7ux3dLSc2KUHL6Nf/view
+- 10712100147.jpg — 0.3 MB — https://drive.google.com/file/d/1d8LZciAzMlvzxHvcI_baOxe620OE_Kil/view
+- 10712100147_2.jpg — 0.1 MB — https://drive.google.com/file/d/1OgFlwKqcR2AfjX57ZuuTQr47GHAaHaGJ/view
+- 10712100158.jpg — 0.1 MB — https://drive.google.com/file/d/1tJOf-JDtRXnbT0rmAvoh_QgO3CPgx2Vh/view
+- 10712100158_2.jpg — 0.1 MB — https://drive.google.com/file/d/1_m8lhdSVm-J7W5hbJA_eU_Kpmdsa6iV3/view
+- 11001011000056.jpg — 0.1 MB — https://drive.google.com/file/d/1eF-1rRJp10alPFo5MBm2hy_70SuZ6Bv4/view
+- 11001011000056_2.jpg — 0.2 MB — https://drive.google.com/file/d/1Kqf8p_UrWCe_ckQPsrzQUDdyH85FBX8h/view
+- 11002012000020_1.jpg — 2.2 MB — https://drive.google.com/file/d/1WpzXvo5UNo1qxgENNXSgxZJzdTk3rBKJ/view
+- 11002012000020_2.jpg — 1.0 MB — https://drive.google.com/file/d/1bP4WI-ndtj4yYxHh7cWA-_J2rmmObpsj/view
+- 11002012000022_1.jpg — 2.3 MB — https://drive.google.com/file/d/1lYREv1BUh_UfGYrcHx020CIj_vtaIMxM/view
+- 11002012000022_2.jpg — 0.9 MB — https://drive.google.com/file/d/1Yqfx_P_laETl-vyeX7FDCvfx-UBzM029/view
+- 11002012000066.jpg — 0.3 MB — https://drive.google.com/file/d/11AbwSl1k0N-xZpIsksQd58vw7Aopid6I/view
+- 11002012000066_2.jpg — 0.2 MB — https://drive.google.com/file/d/18ZqoxqJis49dfhdDIYdz7zYstLE0_Tgk/view
+- 11002012003983.jpg — 0.1 MB — https://drive.google.com/file/d/1J-I9JcyYZ9CgwyQUTkeFypp0J8rdryAu/view
+- 11002012003983_2.jpg — 0.1 MB — https://drive.google.com/file/d/15PH8hqT31jm8lt0LWLXgz8Inb6GQeUub/view
+- 11002012006141.jpg — 0.1 MB — https://drive.google.com/file/d/10sIQ3x5y8TvGmPAfCMPGJGv4jeJfky4R/view
+- 11002012006141_2.jpg — 0.4 MB — https://drive.google.com/file/d/1DITO038G-Fk0GT4cQ-AxFnpkFBXx0azZ/view
+- 11002012006243.jpg — 0.1 MB — https://drive.google.com/file/d/1fZZJBp-ZLFF3PDLz1uIkB8Lf-5vbjTPe/view
+- 11002012006243_2.jpg — 0.1 MB — https://drive.google.com/file/d/1vS033FM-s8uv6g8w39Ck9NpIjJ4odcTg/view
+- 117000499.jpg — 0.1 MB — https://drive.google.com/file/d/1ZTqNJflOkm32qs5a9dAg0aM0sWXNY542/view
+- 117000499_3.jpg — 0.4 MB — https://drive.google.com/file/d/1wnpachVnMsYJixFnebjGH4mtDRyzxxnr/view
+- 117300025.jpg — 0.2 MB — https://drive.google.com/file/d/1AK_LRl2leGWI8_E3rur2yufqiJJiwsa5/view
+- 117300025_2.jpg — 0.1 MB — https://drive.google.com/file/d/16SI9955FAN6ylcBHPs6Ju46W-E5w6yVC/view
+- 117300026.jpg — 0.2 MB — https://drive.google.com/file/d/1FitOTym-JZiiLqoYJCakhmA_T5HyrQzi/view
+- 117300026_2.jpg — 0.1 MB — https://drive.google.com/file/d/15RW1zAlDemkDeDW57TUDS1ZIgmiSUpYk/view
+- 117300624.jpg — 0.2 MB — https://drive.google.com/file/d/1g50Fcst27yd2Up1SJMX8mgmc2Uk2hWF0/view
+- 117300624_2.jpg — 0.2 MB — https://drive.google.com/file/d/1dKrR3bppoI6GS7l0o-uZ5IFDxLuSna_q/view
+- 117300632.jpg — 0.1 MB — https://drive.google.com/file/d/1X0HDYWyG19W53JM2No7urJEQgACENDWO/view
+- 117300632_2.jpg — 0.1 MB — https://drive.google.com/file/d/1-QD-oDFH_uNIHicigzEudACHE1AdD1ML/view
+- 12038000000008.jpg — 0.6 MB — https://drive.google.com/file/d/1NIuoBIA6O8LiKjSFuD8uh2HZDyTgcr5_/view
+- 12038000000034.jpg — 0.3 MB — https://drive.google.com/file/d/1rnsCArAlVGK2SEWYvJCM1881EOknU4KQ/view
+- 12038000000034_2.jpg — 0.2 MB — https://drive.google.com/file/d/1iF-7m_HyqupGmBwehbB2TYm3bfO9D3WI/view
+- 12038000000038.jpg — 0.8 MB — https://drive.google.com/file/d/1XClPVR9FnOOIm-BDQAikbmsrbypoAJgZ/view
+- 12138000000818.jpg — 0.8 MB — https://drive.google.com/file/d/1xezIqc0PXUCcIQLcYxxnQZchDzqTfZu1/view
+- 12138000000818_2.jpg — 0.1 MB — https://drive.google.com/file/d/1OA-jXJsomMeaOcbnXZCVVcoDTT0nfi1Q/view
+- 12138000001647.jpg — 0.4 MB — https://drive.google.com/file/d/12MdQfT8APTzHA_c3xed1NeDr75Y-uzt8/view
+- 12138000001647_2.jpg — 0.1 MB — https://drive.google.com/file/d/1JdsYZ0RctYvRV2q9GnddkOSsrwXzg7hg/view
+- 12138000002390.jpg — 1.7 MB — https://drive.google.com/file/d/19tVsDJTlwKXxfmKGZQ0tAuaUdV0YBKjb/view
+- 12138000002390_2.jpg — 0.4 MB — https://drive.google.com/file/d/1j60X-vHz3JuXq6DwF7GOIVzlcID4Ixri/view
+- 12138000004401.jpg — 0.8 MB — https://drive.google.com/file/d/1l9GrDMzAMJxDCbHoUVse0b6wSTVqTWr_/view
+- 12138000004408.jpg — 0.1 MB — https://drive.google.com/file/d/1ClYF-v7MijWx27ao7n-7N84DuIczITU9/view
+- 12138000007172.jpg — 0.2 MB — https://drive.google.com/file/d/1BnKx1J2FiOeCVDEC8q5bZu2WnCSG78HF/view
+- 12138000007172_2.jpg — 0.1 MB — https://drive.google.com/file/d/1sXQemBmye7MLQbxZwuBcjRZ7SZh2vOyh/view
+- 12138000007973.jpg — 0.1 MB — https://drive.google.com/file/d/1aUIiv1XmweeIUhKTzXYMWWYOcVVnyB44/view
+- 12138000007980.jpg — 0.0 MB — https://drive.google.com/file/d/1lQLIfZzl90dnm5f1rzq_j28yXwhVJXnp/view
+- 12138000008862_1.jpg — 1.0 MB — https://drive.google.com/file/d/1G_3g49snBRA8mkciv0FC0G3ACWjHatv6/view
+- 12138000008984.jpg — 0.1 MB — https://drive.google.com/file/d/1UDeYhD1fpE6no0jD1jt-xSYtwTAjvK4o/view
+- 12138000009283.jpg — 0.2 MB — https://drive.google.com/file/d/1s2_dFsFs2aIvNBE0YSVFkFw5t0sdC5Ej/view
+- 12138000009812.jpg — 0.1 MB — https://drive.google.com/file/d/1KNIPk8VUzBnMZXdheI2qx8n3a0v_m652/view
+- 12138000009812_2.jpg — 0.2 MB — https://drive.google.com/file/d/1PicCdaJwOOM5ktULGwb7Isd0YExlIH0p/view
+- 12138000030665.jpg — 0.1 MB — https://drive.google.com/file/d/11syBNZp9b1I9y0_7E9eqohgQBzMcW5iH/view
+- 12138000031261.jpg — 0.3 MB — https://drive.google.com/file/d/1JnTIFChIgLW1py9e8FKwcOEclTDcHbV2/view
+- 12138000031261_2.jpg — 0.5 MB — https://drive.google.com/file/d/13fwBvtayYwgNDddYBIoTsnuJTNCcnFyw/view
+- 12138000036341.jpg — 0.1 MB — https://drive.google.com/file/d/1UNMvb19W71OQC0G5h7n_-xHVTG6V69ph/view
+- 12138000039206_2.jpg — 0.5 MB — https://drive.google.com/file/d/1sV10G7S-T0xDOxdQIPcBN_iwFIEAQLt3/view
+- 12138000A31719.jpg — 0.1 MB — https://drive.google.com/file/d/1jwop0cVIGTe35Hr8ucCCPDIW4KQf7d2j/view
+- 12138000A33144_2.jpg — 0.4 MB — https://drive.google.com/file/d/1OYJeovY58b5ansaQTS-97Zbqy2KUCVhr/view
+- 12138200000001.jpg — 0.1 MB — https://drive.google.com/file/d/1HPOF8R8NuNBK-ey986QRBXg7wtHs_tFZ/view
+- 12238000000041.jpg — 0.1 MB — https://drive.google.com/file/d/1URte3R9Zel64DSRZjLq1wiMXOHnxAEOv/view
+- 12238000000485.jpg — 0.2 MB — https://drive.google.com/file/d/1yRgIV9G-ydkOix5K8aicJUmOv6YobwFt/view
+- 12238000000489.jpg — 0.2 MB — https://drive.google.com/file/d/1f9tbwvTJ8QcBYmxcT6PXM4pdVK53nCPV/view
+- 12238000000524.jpg — 0.1 MB — https://drive.google.com/file/d/1VlilhgtPiQxwlwLpB1afozOoqFDgOaJW/view
+- 12238000000524_2.jpg — 0.1 MB — https://drive.google.com/file/d/1HTU2eII3RvhIK1Rwje4lLCzbbEynfVR3/view
+- 12238000004101.jpg — 0.1 MB — https://drive.google.com/file/d/1314m7iQ3HFFmjmpnUDtjeT7zsNfebx4V/view
+- 12238000004101_2.jpg — 0.3 MB — https://drive.google.com/file/d/1hZFVDv1PvyAqGh6mPUPrm1J2Kp2uYudT/view
+- 12338000000034.jpg — 0.1 MB — https://drive.google.com/file/d/1SbSHT304IT0Hrfv_6CCvCkoBW5resDpE/view
+- 12338000000034_2.jpg — 0.1 MB — https://drive.google.com/file/d/1T5UefR6piwVTGdYQcX_bMbPpjwHkSvB5/view
+- 12338000000044.jpg — 0.1 MB — https://drive.google.com/file/d/1jcU3HaDqwtgAF_5MzkTYHm3WmkvAI4y1/view
+- 12338000000044_2.jpg — 0.1 MB — https://drive.google.com/file/d/1GzjK0Mey6rxIpMphYSPExiVbjlBDeQYA/view
+- 12338000000051.jpg — 0.1 MB — https://drive.google.com/file/d/1-BNkvhgtcGaTTHRlejJ8aeUqsTojJYoa/view
+- 12338000000051_2.jpg — 0.1 MB — https://drive.google.com/file/d/1aS0ZqH26ZZXAAN2Kx3zdnNcR1shBz_LU/view
+- 12338000000421.jpg — 0.1 MB — https://drive.google.com/file/d/1Hc4Y-gjVGAoq5_y5QozwBc4MRzE5Pdod/view
+- 12338000000421_2.jpg — 0.1 MB — https://drive.google.com/file/d/1Ksm-eTh8TiqYbheSpF2s_Jd6yTU4WHVk/view
+- 12638000000029.jpg — 0.1 MB — https://drive.google.com/file/d/1gHTCuSxdLHuImtZrMs9KB6XQ2PbmNj7h/view
+- 12638000000029_2.jpg — 0.1 MB — https://drive.google.com/file/d/1wKQf_CWZydTXP0osNJv85PteQArvznxL/view
+- 12638000000108_2.jpg — 0.1 MB — https://drive.google.com/file/d/1uC2Ky0kNueVmI_Y9GK6APHC3WGlM14Pt/view
+- 12638000000109.jpg — 0.1 MB — https://drive.google.com/file/d/1tNaawf0ZbKg6DPHoHXR786CHlx5z93JS/view
+- 12638000000140.jpg — 0.1 MB — https://drive.google.com/file/d/126vk_A5hm5CKALxkm9-mr5pG_Y7MydLz/view
+- 12638000000140_2.jpg — 0.1 MB — https://drive.google.com/file/d/1kZn12sZoqMr6bfjLqxWjYlug5avvP4bx/view
+- 12638000000841.jpg — 0.1 MB — https://drive.google.com/file/d/1OEaA37mMlM8GbIzMTlgOc7JEsb34nchn/view
+- 12638000001161.jpg — 0.1 MB — https://drive.google.com/file/d/1-zXV_U5KQLrv4j7mBuIfhix-NcYV-3A5/view
+- 12638000001161_2.jpg — 0.1 MB — https://drive.google.com/file/d/1A0mTTY6qCtw51oc3GEsgiwLrqmvzGOJB/view
+- 12638000001323.jpg — 0.5 MB — https://drive.google.com/file/d/1fnCjQ1Mqc_arqY-q_mRgNxU8tfuKYAGm/view
+- 12638000002243.jpg — 0.1 MB — https://drive.google.com/file/d/1IV1PWasVZjfn1U_U5fSmGU-2xrMZPxM1/view
+- 12638000002243_2.jpg — 0.1 MB — https://drive.google.com/file/d/1JkuOMBQgOL-ddA15_mYWMLF9k1gBzue7/view
+- 12638200000022.jpg — 0.4 MB — https://drive.google.com/file/d/1_pfy3VWqoMhfwpqPFpeXgoQ2dnLJ2d3I/view
+- 12638200000022_2.jpg — 0.1 MB — https://drive.google.com/file/d/1uhQ3rAyhChAsPDXhgAEr4VgxFvzQO4XS/view
+- 12900101000287.jpg — 0.1 MB — https://drive.google.com/file/d/1glU2VcHK-0brFO-ecMxedvXISSCKbopt/view
+- 12938000000206_1.jpg — 0.5 MB — https://drive.google.com/file/d/1R9xogUF8odPGXFip7YE8fF8-3hdQDsjd/view
+- 12938000000386.jpg — 0.2 MB — https://drive.google.com/file/d/1W8OBe_pfkAIpJ2eXQVkdGINhNtrXY4hM/view
+- 12938000000386_2.jpg — 0.1 MB — https://drive.google.com/file/d/1jv3UA_rG328wquFrvkWKXQymnvTS6j1z/view
+- 12938000000409.jpg — 0.1 MB — https://drive.google.com/file/d/1I0grqivljFUxZofOcVuVAIrRVq9H0Xg1/view
+- 12938000000409_2.jpg — 0.1 MB — https://drive.google.com/file/d/1qhWrXv_b6ft4Ug0QInsdTRrFts1EPG5R/view
+- 12938000001801.jpg — 0.0 MB — https://drive.google.com/file/d/1dyxh1ft0aNlf5b8POcV4usVCs8iNXI-V/view
+- 12938000001801_2.jpg — 0.0 MB — https://drive.google.com/file/d/1z2DdVMXfKZGErOIuYa3WU_tEJVxTmJFs/view
+- 12938000001802_2.jpg — 0.1 MB — https://drive.google.com/file/d/1vdGGm3I86RkgoLBPXD4Utx0vanMjnO3R/view
+- 12938000001941.jpg — 0.2 MB — https://drive.google.com/file/d/1L-ZeR0cKL02QHo9aB5M-KG9vtzDgnXeU/view
+- 12938000001941_2.jpg — 0.2 MB — https://drive.google.com/file/d/149HXRqRTyAj7V_tBcAgvLwnFw5282Gv2/view
+- 17138000006141.jpg — 0.1 MB — https://drive.google.com/file/d/1YZ5FH7VWAer95F73m3kbtXP8JAWfPJHX/view
+- 17138000006141_2.jpg — 0.1 MB — https://drive.google.com/file/d/1gh7GGc3_w3DibO0RGUZB_P9ndOOHxYAh/view
+- 17138000006810.jpg — 0.2 MB — https://drive.google.com/file/d/1vKJnd0QFci804Vj1Mb9RNqr2Sg7-aFCw/view
+- 17138000006810_2.jpg — 0.2 MB — https://drive.google.com/file/d/1UBch59-RlQ0rRXFtz1q2-XOy8W2UAgWk/view
+- 17138000020921.jpg — 0.1 MB — https://drive.google.com/file/d/1hr4EjJJFnzzvUIKAa98QTjhtByKCwZcX/view
+- 17138000020921_2.jpg — 0.1 MB — https://drive.google.com/file/d/1xWTzHEz-m6uKkUpTFF52AUf9OlE7qAv9/view
+- 17138000020922.jpg — 0.1 MB — https://drive.google.com/file/d/1hfy18d2LCrWyXTxkY0WutKZvQ1KRJNT8/view
+- 17138000020922_2.jpg — 0.2 MB — https://drive.google.com/file/d/1N0VBUYU-2KhjpTuoiwjcGcBeUe1PaLUH/view
+- 17138000026543.jpg — 0.1 MB — https://drive.google.com/file/d/1PDLYIN71rcaVCkQo1e1q4FrYC45qHnxv/view
+- 17138000026543_2.jpg — 0.1 MB — https://drive.google.com/file/d/1a-PmxNkgjVLhA34hRLAxeu0alOP9g-eO/view
+- 17138000027271.jpg — 0.2 MB — https://drive.google.com/file/d/18RQqc8gYOujSs7YaLvkswxRNWt5eT1Dr/view
+- 17138000027271_2.jpg — 0.1 MB — https://drive.google.com/file/d/1Bkxp4zvXnkYCxlbmnJlXB6SIVcn1W1Yb/view
+- 17138000027312.jpg — 0.2 MB — https://drive.google.com/file/d/1P4vINaClLQLk8AE8wGq9grolOQnEYh0r/view
+- 17138000027312_2.jpg — 0.1 MB — https://drive.google.com/file/d/1RQkdyHnozPWhFKAB1cQtqf3QRr2OpHAs/view
+- 17138200003662.jpg — 0.1 MB — https://drive.google.com/file/d/11AtrBnmhOpaC3cRaOghYJ_FKl5goQagc/view
+- 17138200003662_2.jpg — 0.1 MB — https://drive.google.com/file/d/1yjxdl_56qM6dJaHqipaOIiOOP_7yQUaG/view
+- 17170000001307.jpg — 0.1 MB — https://drive.google.com/file/d/1x2I0pcWzKsw1-o8udzU4CnJxIUyUWcHG/view
+- 17170000001307_2.jpg — 0.1 MB — https://drive.google.com/file/d/1-E-74p2wuPOHT6vBzvRDjThytLShuF10/view
+- 17170000006520.jpg — 0.4 MB — https://drive.google.com/file/d/1ZBoCWgP_U3pbrJFN1Itl1ur_-ePQin3f/view
+- 17170000006520_2.jpg — 0.2 MB — https://drive.google.com/file/d/1NHczlzSi4tCZ-CQQOC7QUHno_g13IYCO/view
+- 17438000000459.jpg — 0.4 MB — https://drive.google.com/file/d/1C6exRgO3kCy6eBuXQwWCDocIuNPp49o3/view
+- 17438000001581.jpg — 0.0 MB — https://drive.google.com/file/d/1knj6cwlmneSR7VSRwkt0CI5GfXKETHrI/view
+- 17438000001584.jpg — 0.1 MB — https://drive.google.com/file/d/11_RmKhjGYOCGo2ZymiIRAUDhdHrnIyoh/view
+- 17438000001615.jpg — 0.1 MB — https://drive.google.com/file/d/1enMFiWwcA-ueDLcUpoUB21Ao0pv5lmUm/view
+- 17438000004039.jpg — 0.1 MB — https://drive.google.com/file/d/1cWokvR8Wwz3OZ3H-Sc_DUGjJGeEfxstg/view
+- 17438000005262.jpg — 0.4 MB — https://drive.google.com/file/d/1qVUeErNsJQ_-QH99H_p5GqjAkWXROErm/view
+- 17438000007081.jpg — 0.2 MB — https://drive.google.com/file/d/1Aqpgm_u46xw9Iuu8wmZph7v0yTwIEIPA/view
+- 17438000007323.jpg — 0.0 MB — https://drive.google.com/file/d/1RTcufz588IGskm8V7wJ6eOesBMBu2mM7/view
+- 17438000015821.jpg — 0.2 MB — https://drive.google.com/file/d/1UVBoZkYvG-4NJ49TXQ6ysLUogVKAe70t/view
+- 17438000016229.jpg — 0.1 MB — https://drive.google.com/file/d/15nledbvHHxnyunCJqsXfr7UIsOsy72zs/view
+- 17438000016230.jpg — 0.1 MB — https://drive.google.com/file/d/1q00N44LIw8luYvpLLp56J229V1Et6iqH/view
+- 17438200000070.jpg — 0.1 MB — https://drive.google.com/file/d/1SBBMP1gJSqyhdyJpF21X8ZC1ZWnp5tZK/view
+- 17438200000404.jpg — 0.1 MB — https://drive.google.com/file/d/11PL4JRQdP5Wfu-_hsXjyV3jk9OhaX18k/view
+- 209103000001.jpg — 0.2 MB — https://drive.google.com/file/d/1eKzkTkd8wk1wZBLQ9ueJirgNSgipYeXy/view
+- 209103000002.jpg — 0.2 MB — https://drive.google.com/file/d/1fC4zACE8hdn2xIa7j3poHxvnM1MrxAKS/view
+- 312121100267.jpg — 0.6 MB — https://drive.google.com/file/d/1LbFzUHO4etJz-tM-_WA8K26XXnFcb1S0/view
+- 312129900113.jpg — 0.2 MB — https://drive.google.com/file/d/1ZyZi1SuS4E1WSim8s5BdZAm1rp_SAQmF/view
+- 312180100114.jpg — 0.3 MB — https://drive.google.com/file/d/1CoBegMYJsDW45hGXwmfWxFKkUCuu-LHa/view
+- 312200400679.jpg — 0.1 MB — https://drive.google.com/file/d/1LHVXsfmP67LtVB2zV0bJ0Jca75dlMRMB/view
+- 312200400716.jpg — 0.1 MB — https://drive.google.com/file/d/1Mzdvj45Qw0RKdi_B5yeUgyQKT6v-rdOO/view
+- 312240100464.jpg — 0.4 MB — https://drive.google.com/file/d/16OF8uTEKJNSMa5lLnLT6n0XrOUrEociZ/view
+- 312240100587.jpg — 0.2 MB — https://drive.google.com/file/d/1XTLQg1XBqoxIwRTYt2dDMRsTC_F_qX5G/view
+- MBE040B-01.jpg — 0.0 MB — https://drive.google.com/file/d/1xpe9PPdrF75IvvLKMOQmbKjq5zcBrvPW/view
+- MBE040B-02.jpg — 0.1 MB — https://drive.google.com/file/d/1h-csn_RUDhZc1kVT1lRYYAHzL3yWmD0L/view
+- MDD10CB-13.jpg — 0.1 MB — https://drive.google.com/file/d/1X2IgYfXn86tKakfXzeGUBS1MHwWQk10Z/view
+- MDD10CB-26.jpg — 0.1 MB — https://drive.google.com/file/d/1ydRJ-mgR6nwu65gfoMPs3UULpyvaI4vs/view
+- MDD10CB-29.jpg — 0.0 MB — https://drive.google.com/file/d/1NdMH9J3zOXEwniRZnUYUXXjb80qc_05o/view
+- MDD10CS-08.jpg — 0.1 MB — https://drive.google.com/file/d/1-rGrFQNUmAEIc2M89z1LUxwEt-n9oMsR/view
+- MDD10CS-26.jpg — 0.1 MB — https://drive.google.com/file/d/1O90rM5txJCvXddPFcbwBrwO2jvTf2G49/view
+- MWD020NC01.jpg — 0.1 MB — https://drive.google.com/file/d/1WJ-BfqoGW_-WyW5HL-gW9sLVXj54u5sG/view
+- MWD020NC02.jpg — 0.1 MB — https://drive.google.com/file/d/1UPlEJEpeSyOSf5nIPIVBdWz_hR6LLQvq/view
+- MWD020NC04.jpg — 0.1 MB — https://drive.google.com/file/d/1ab6HfWPdTCBPms7ALO2wxxzjWfhNgfkv/view
+- MWD020NC05.jpg — 0.1 MB — https://drive.google.com/file/d/1Unqu-CjyIPYh7ZEOd_riYsRu8hF5l1A_/view
+- MWD020NC06.jpg — 0.1 MB — https://drive.google.com/file/d/1wAHdW5lJ_11TqWSviSQVfkD5GZ9U6ROQ/view
+- MWD020NC07.jpg — 0.2 MB — https://drive.google.com/file/d/1TNIodel7j5HA43W1NG3F_LsrYcUydWVQ/view
+- MWD020NC08.jpg — 0.1 MB — https://drive.google.com/file/d/1k1jZPBazrGSVmkP9ZH0e-RMBpFYhA_vl/view
+- MWD020NC09.jpg — 0.1 MB — https://drive.google.com/file/d/1ooPzAegLFz5iRKxjvYEsAHS3pYVakR5K/view
+- MWD020NC10.jpg — 0.1 MB — https://drive.google.com/file/d/1B86b1hDoPROrik4GvXFEAGaIR7xBjL2m/view
+- MWD020NC15.jpg — 0.1 MB — https://drive.google.com/file/d/1YVjHPzKDJzLVAI5HpEtFMUOI3Oc29woh/view
+- MWD020NC17.jpg — 0.1 MB — https://drive.google.com/file/d/1tGQq0fspmSGrCLIVXs4BHMzSGfPSU1I3/view

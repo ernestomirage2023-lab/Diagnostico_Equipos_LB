@@ -1,10 +1,14 @@
 # Refacciones de línea blanca (LB) — Mirage
 
 Información tomada del `MRG_MASTERDATA__REFACCIONES.xlsm` de Ernesto (hoja Buscador, **Organización = LB**), el 2026-11-13.
-Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/` + nombre de archivo de la hoja BD_PIC_S3, buscado por número de parte) y Poly ya descargó las que existen: 197 fotos (131 piezas con foto 1 y 66 con foto 2).
-13 piezas traen foto registrada en la tabla pero la foto no existe en el servidor (error 403), casi todas de dispensadores MDD10.
 
-**Total: 988 registros · 711 números de parte únicos · 12 familias**
+**Las fotos viven en el Drive de Ernesto (consolidación del 2026-11-24):** los enlaces «ver foto» de estas tablas apuntan a las carpetas de Drive **Refacciones LB** (198 fotos: las que se bajaron de S3 y las fotos de campo de Ernesto), **Refacciones Tienda Mirage** (61 fotos del cruce con tiendamirage.mx) y **LMS-M** (3 fotos). En total hay **262 fotos** con copia en Drive; los enlaces de S3 quedan solo como procedencia (sobreviven 2 enlaces S3 sin copia en Drive). 13 piezas traen foto registrada en la tabla original pero la foto no existe en S3 (error 403), casi todas de dispensadores MDD10 — varias de esas (serie MDD10CB) ya tienen foto gracias al cruce con la Tienda Mirage.
+
+**Fuentes de las fotos:** S3 (origen), fotos de campo de Ernesto (válvula 02090300541, seguro de tapa LMS 17438000007323/17438000001581, resorte de motor 12238000000046) y el cruce con el catálogo de Refacciones de Tienda Mirage del 2026-11-24 (641 referencias; llenó la foto de 48 números que no tenían, entre ellos la bomba de lavadora 11001011000071 y los motores actualizados 11002012032415/11002012032417).
+
+**Correcciones registradas:** en S3 las fotos de la LMS022M están cruzadas — la suspensión (varilla con resorte) es el **12238000009981** («SET DE 4 PZA DE RESORTES DE MOTOR» en Oracle) y la banda Poli V es el **12638000000108**; en estas tablas y en Drive ya están en su lugar. La **bomba del dispensador DISX30 (117800034) sigue sin foto en ningún lado**: si Ernesto la fotografía, se registra como su foto oficial. Al validar un número marcado como sustituido, se da el actualizado (ver el concentrado de garantías 2026 en la base local).
+
+**Total: 988 registros · 713 números de parte únicos (711 del MASTERDATA + agregados manuales) · 12 familias**
 
 ## Lavadora automatica (454 registros)
 
@@ -22,15 +26,15 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 1.15 | 12238000000829 | Cabinet Subassembly | — | — |
 | 1.16 | 17438000000030 | Capacitor Assembly | — | — |
 | 1.17 | 12238000000132 | Capacitor clip | — | — |
-| 4.7 | 12938000000386 | Clutch Body Subassembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000000386.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000000386_2.jpg) |
-| 4.12 | 12638000000109 | Cone belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000000109.jpg) | — |
+| 4.7 | 12938000000386 | Clutch Body Subassembly | [ver foto](https://drive.google.com/file/d/1W8OBe_pfkAIpJ2eXQVkdGINhNtrXY4hM/view) | [ver foto](https://drive.google.com/file/d/1jv3UA_rG328wquFrvkWKXQymnvTS6j1z/view) |
+| 4.12 | 12638000000109 | Cone belt | [ver foto](https://drive.google.com/file/d/1tNaawf0ZbKg6DPHoHXR786CHlx5z93JS/view) | — |
 | 3.3 | 16038000A41661 | Control Panel Sticker | — | — |
 | 2.1.4 | 12238000000266 | Coupling Plate | — | — |
 | 3.12 | 12138100013889 | Cycle Select Knob Assembly | — | — |
-| 3.1 | 17138000027271 | Display Panel | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000027271.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000027271_2.jpg) |
+| 3.1 | 17138000027271 | Display Panel | [ver foto](https://drive.google.com/file/d/18RQqc8gYOujSs7YaLvkswxRNWt5eT1Dr/view) | [ver foto](https://drive.google.com/file/d/1Bkxp4zvXnkYCxlbmnJlXB6SIVcn1W1Yb/view) |
 | 4.1 | 12138000054782 | Drain Valve Subassembly | — | — |
 | 3.5 | 12138000A35689 | Drawer Assembly | — | — |
-| 2.1.2 | 12138000036341 | Filtering Cover Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000036341.jpg) | — |
+| 2.1.2 | 12138000036341 | Filtering Cover Assembly | [ver foto](https://drive.google.com/file/d/1UNMvb19W71OQC0G5h7n_-xHVTG6V69ph/view) | — |
 | 1.20.1 | 12638000000052 | Foot body | — | — |
 | 1.14 | 12138000000679 | Handle | — | — |
 | 4.1 | 11301002000313 | Hexagon head bolt and washer | — | — |
@@ -42,31 +46,31 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 3.8 | 17438000015581 | Internal Wire Assembly | — | — |
 | 4.8 | 12138000002861 | Lower Cushion | — | — |
 | 1.8 | 12138000054227 | Middle Hose Assembly | — | — |
-| 4.11 | 12338000000051 | Motor Pulley Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12338000000051.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12338000000051_2.jpg) |
+| 4.11 | 12338000000051 | Motor Pulley Assembly | [ver foto](https://drive.google.com/file/d/1-BNkvhgtcGaTTHRlejJ8aeUqsTojJYoa/view) | [ver foto](https://drive.google.com/file/d/1aS0ZqH26ZZXAAN2Kx3zdnNcR1shBz_LU/view) |
 | 3.4 | 12138000054330 | Nozzle Assembly | — | — |
 | 1.1 | 12138000054781 | Outer Tub Cover | — | — |
 | 4.6 | 12138000010053 | Outer Tub Subordinate Assembly | — | — |
 | 4.5 | 12138000002909 | Overflow Hose | — | — |
-| 3.11 | 17138000026543 | PCB | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000026543.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000026543_2.jpg) |
-| 1.19 | 11001011000056 | Permanent magnet synchronous pump | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11001011000056.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11001011000056_2.jpg) |
+| 3.11 | 17138000026543 | PCB | [ver foto](https://drive.google.com/file/d/1PDLYIN71rcaVCkQo1e1q4FrYC45qHnxv/view) | [ver foto](https://drive.google.com/file/d/1a-PmxNkgjVLhA34hRLAxeu0alOP9g-eO/view) |
+| 1.19 | 11001011000056 | Permanent magnet synchronous pump | [ver foto](https://drive.google.com/file/d/1eF-1rRJp10alPFo5MBm2hy_70SuZ6Bv4/view) | [ver foto](https://drive.google.com/file/d/1Kqf8p_UrWCe_ckQPsrzQUDdyH85FBX8h/view) |
 | 1.5 | 11300414000006 | Plain washer | — | — |
 | 1.18 | 17438100000586 | Power Cord | — | — |
 | 1.13 | 12138000036841 | Rear Cover | — | — |
-| 4.2 | 17438000007081 | Retractor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17438000007081.jpg) | — |
+| 4.2 | 17438000007081 | Retractor | [ver foto](https://drive.google.com/file/d/1Aqpgm_u46xw9Iuu8wmZph7v0yTwIEIPA/view) | — |
 | 1.3 | 11301023000001 | Screw and plain washer | — | — |
-| 4.9 | 11002012003983 | Single phase asynchronous motor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012003983.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012003983_2.jpg) |
+| 4.9 | 11002012003983 | Single phase asynchronous motor | [ver foto](https://drive.google.com/file/d/1J-I9JcyYZ9CgwyQUTkeFypp0J8rdryAu/view) | [ver foto](https://drive.google.com/file/d/15PH8hqT31jm8lt0LWLXgz8Inb6GQeUub/view) |
 | 2.1 | 12238000004961 | Spin Tub Subassembly | — | — |
 | 2.1.5 | 12238000004962 | Stainless Steel Tub | — | — |
-| 1.6 | 12938000001801 | Suspend System | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000001801.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000001801_2.jpg) |
-| 1.12 | 12938000001802 | Suspend System | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000001802_2.jpg) | — |
+| 1.6 | 12938000001801 | Suspend System | [ver foto](https://drive.google.com/file/d/1dyxh1ft0aNlf5b8POcV4usVCs8iNXI-V/view) | [ver foto](https://drive.google.com/file/d/1z2DdVMXfKZGErOIuYa3WU_tEJVxTmJFs/view) |
+| 1.12 | 12938000001802 | Suspend System | [ver foto](https://drive.google.com/file/d/1vdGGm3I86RkgoLBPXD4Utx0vanMjnO3R/view) | — |
 | 3.7 | 12138000A35688 | Top Cover And Door Cover Assembly | — | — |
 | 2.1.3 | 12138000002996 | Tub Bottom Base | — | — |
-| 1.7 | 12138000009812 | Up Drain Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000009812.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000009812_2.jpg) |
-| 1.9 | 12038000000038 | Water Inlet Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12038000000038.jpg) | — |
-| 1.1 | 12038000000008 | Water Inlet Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12038000000008.jpg) | — |
+| 1.7 | 12138000009812 | Up Drain Hose Assembly | [ver foto](https://drive.google.com/file/d/1KNIPk8VUzBnMZXdheI2qx8n3a0v_m652/view) | [ver foto](https://drive.google.com/file/d/1PicCdaJwOOM5ktULGwb7Isd0YExlIH0p/view) |
+| 1.9 | 12038000000038 | Water Inlet Hose Assembly | [ver foto](https://drive.google.com/file/d/1XClPVR9FnOOIm-BDQAikbmsrbypoAJgZ/view) | — |
+| 1.1 | 12038000000008 | Water Inlet Hose Assembly | [ver foto](https://drive.google.com/file/d/1NIuoBIA6O8LiKjSFuD8uh2HZDyTgcr5_/view) | — |
 | 3.1 | 17438000007123 | Water Inlet Valve | — | — |
 | 3.2 | 17438000007122 | Water Inlet Valve | — | — |
-| 3.13 | 17438000005262 | Water Level Sensor Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17438000005262.jpg) | — |
+| 3.13 | 17438000005262 | Water Level Sensor Assembly | [ver foto](https://drive.google.com/file/d/1qVUeErNsJQ_-QH99H_p5GqjAkWXROErm/view) | — |
 
 ### LMS013L
 
@@ -75,41 +79,41 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 2.5 | — |  | — | — |
 | 2.5 | — |  | — | — |
 | 4.7 | 12138000003660 | Base | — | — |
-| 2.11 | 12638000000644 | Bottom Valve | — | — |
-| 4.12 | 12238000000489 | Brake Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000000489.jpg) | — |
-| 1.5 | 12138000007965 | Brake Belt | — | — |
-| 4.13 | 12238000001822 | Brake Wheel Assembly | — | — |
+| 2.11 | 12638000000644 | Bottom Valve | [ver foto](https://drive.google.com/file/d/1x5Mwhksfv8xdMzx94E4bMC5ALKwJF9IV/view) | — |
+| 4.12 | 12238000000489 | Brake Assembly | [ver foto](https://drive.google.com/file/d/1f9tbwvTJ8QcBYmxcT6PXM4pdVK53nCPV/view) | — |
+| 1.5 | 12138000007965 | Brake Belt | [ver foto](https://drive.google.com/file/d/1M9irjKLMOcPo8oItqPbE0c050Ozx8ph7/view) | — |
+| 4.13 | 12238000001822 | Brake Wheel Assembly | [ver foto](https://drive.google.com/file/d/1qSK2wMKXlPR2dRqaiIuiVpddILN1GopC/view) | — |
 | 4.9 | 17400104000791 | Capacitor | — | — |
-| 1.2 | 17438000000421 | Change-Over Switch | — | — |
-| 1.16 | 17438000000421 | Change-Over Switch | — | — |
+| 1.2 | 17438000000421 | Change-Over Switch | [ver foto](https://drive.google.com/file/d/1fgDHadN3EVRLdN90TaRFYFaSAmVwtv3b/view) | — |
+| 1.16 | 17438000000421 | Change-Over Switch | [ver foto](https://drive.google.com/file/d/1fgDHadN3EVRLdN90TaRFYFaSAmVwtv3b/view) | — |
 | 1.18 | 12138000A35145 | Control Panel And Printing | — | — |
 | 1.14 | 12138000039522 | Conversion Valve Assembly | — | — |
 | 1.4 | 12138000039526 | Drain Belt | — | — |
-| 2.7 | 12138000007173 | Drain Hose Assembly | — | — |
-| 2.8 | 12238000000065 | Gear Case Assembly | — | — |
+| 2.7 | 12138000007173 | Drain Hose Assembly | [ver foto](https://drive.google.com/file/d/1h8AWtHDTL37cKChp3EfgImyXmj7FuLZ8/view) | — |
+| 2.8 | 12238000000065 | Gear Case Assembly | [ver foto](https://drive.google.com/file/d/1drhODwOoczSWbdyCZCF52Lve7OxoYHKW/view) | — |
 | 4.4 | 11301811000004 | Hexagon head bolt | — | — |
 | 2.2 | 12138000027724 | Impeller Assembly | — | — |
 | 1.21 | 12138000A35086 | Knob Assembly | — | — |
-| 4.2 | 12338000000050 | Motor Pulley Assembly | — | — |
-| 4.1 | 12238000000046 | Motor Spring Assembly | — | — |
+| 4.2 | 12338000000050 | Motor Pulley Assembly | [ver foto](https://drive.google.com/file/d/16UXspZ-xMuC7RJi8tz_l4KKEMzSMHp7q/view) | — |
+| 4.1 | 12238000000046 | Motor Spring Assembly | [ver foto](https://drive.google.com/file/d/105mreg-S1ZQ_ptHQ-t64AXU2MZCP_N6j/view) | — |
 | 4.6 | 11301601000001 | Nut | — | — |
 | 2.4 | 12138000030097 | Overflow Cover Assembly | — | — |
 | 4.8 | 17438000001683 | Power Cord | — | — |
 | 2.6 | 12138000029567 | Rear Cover | — | — |
 | 1.11 | 12138000001332 | Safety Cover | — | — |
-| 1.8 | 17438000007323 | Safety Switch | — | — |
+| 1.8 | 17438000007323 | Safety Switch | [ver foto](https://drive.google.com/file/d/1RTcufz588IGskm8V7wJ6eOesBMBu2mM7/view) | — |
 | 2.3 | 11301023000001 | Screw and plain washer | — | — |
 | 1.13 | 12138000002485 | Screw Cap | — | — |
-| 4.3 | 11002012032415 | Single phase asynchronous motor | — | — |
-| 4.11 | 11002012032417 | Single phase asynchronous motor | — | — |
+| 4.3 | 11002012032415 | Single phase asynchronous motor | [ver foto](https://drive.google.com/file/d/1ROABYaaYH7q918YEI8K1z21EkVGZsEPG/view) | — |
+| 4.11 | 11002012032417 | Single phase asynchronous motor | [ver foto](https://drive.google.com/file/d/1dDnOYDJ458mF_2tze6x9sxE-siuP6ySl/view) | — |
 | 1.7 | 12138000A35083 | Spin Cover Assembly | — | — |
 | 3.1 | 12138000007218 | Spin Cover Inner | — | — |
 | 1.3 | 17438000007382 | Spin Timer | — | — |
 | 3 | 12138000030639 | Spin Tub Subassembly | — | — |
-| 2.1 | 12138000002388 | Three-Way Pipe | — | — |
+| 2.1 | 12138000002388 | Three-Way Pipe | [ver foto](https://drive.google.com/file/d/1KEgOfVVoMZdic6JO7nBlQb7Md3eSSeTJ/view) | — |
 | 1.12 | 12138000007657 | Top Frame | — | — |
 | 2.12 | 12138000004493 | Twin Tub | — | — |
-| 1.6 | 12900101000235 | Twist Spring | — | — |
+| 1.6 | 12900101000235 | Twist Spring | [ver foto](https://drive.google.com/file/d/1OlEznCKPsbMasj1CGB76QuMzSgHDzovX/view) | — |
 | 4.1 | 12638000000097 | V-Belt | — | — |
 | 1.15 | 12138000A35084 | Wash Cover Assembly | — | — |
 | 1.17 | 17438000007381 | Washing Timer | — | — |
@@ -126,50 +130,50 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 4.7 | — |  | — | — |
 | 3.2.1 | 12138000001299 | Balance Ring Assembly | — | — |
 | 4.6 | 12138000A15526 | Base | — | — |
-| 4.11 | 12238000000485 | Brake Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000000485.jpg) | — |
-| 1.6 | 12138000007980 | Brake Belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000007980.jpg) | — |
-| 4.12 | 12238000000524 | Brake Wheel Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000000524.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000000524_2.jpg) |
+| 4.11 | 12238000000485 | Brake Assembly | [ver foto](https://drive.google.com/file/d/1yRgIV9G-ydkOix5K8aicJUmOv6YobwFt/view) | — |
+| 1.6 | 12138000007980 | Brake Belt | [ver foto](https://drive.google.com/file/d/1lQLIfZzl90dnm5f1rzq_j28yXwhVJXnp/view) | — |
+| 4.12 | 12238000000524 | Brake Wheel Assembly | [ver foto](https://drive.google.com/file/d/1VlilhgtPiQxwlwLpB1afozOoqFDgOaJW/view) | [ver foto](https://drive.google.com/file/d/1HTU2eII3RvhIK1Rwje4lLCzbbEynfVR3/view) |
 | 2.5 | 12138000062125 | Cabinet | — | — |
-| 4.8 | 17438000004039 | Capacitor Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17438000004039.jpg) | — |
-| 1.2 | 17438000000459 | Change-Over Switch | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17438000000459.jpg) | — |
+| 4.8 | 17438000004039 | Capacitor Assembly | [ver foto](https://drive.google.com/file/d/1cWokvR8Wwz3OZ3H-Sc_DUGjJGeEfxstg/view) | — |
+| 1.2 | 17438000000459 | Change-Over Switch | [ver foto](https://drive.google.com/file/d/1C6exRgO3kCy6eBuXQwWCDocIuNPp49o3/view) | — |
 | 1.15 | 17438000000409 | Change-Over Switch | — | — |
 | 1.17 | 12138000A46037 | Control Panel And Printing | — | — |
-| 1.4 | 12138000004408 | Drain Belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000004408.jpg) | — |
+| 1.4 | 12138000004408 | Drain Belt | [ver foto](https://drive.google.com/file/d/1ClYF-v7MijWx27ao7n-7N84DuIczITU9/view) | — |
 | 2.8 | 12138000007202 | Drain Hose Assembly | — | — |
 | 2.9 | 12238000000088 | Gear Case Assembly | — | — |
 | 4.3 | 11301811000004 | Hexagon head bolt | — | — |
-| 2.2 | 12138000001647 | Impeller Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000001647.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000001647_2.jpg) |
+| 2.2 | 12138000001647 | Impeller Assembly | [ver foto](https://drive.google.com/file/d/12MdQfT8APTzHA_c3xed1NeDr75Y-uzt8/view) | [ver foto](https://drive.google.com/file/d/1JdsYZ0RctYvRV2q9GnddkOSsrwXzg7hg/view) |
 | 1.19 | 12138000A45816 | Knob Assembly | — | — |
-| 4.2 | 12338000000034 | Motor Pulley Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12338000000034.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12338000000034_2.jpg) |
-| 4.9 | 12238000009981 | Motor Spring Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000009981.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000009981_2.jpg) |
+| 4.2 | 12338000000034 | Motor Pulley Assembly | [ver foto](https://drive.google.com/file/d/1SbSHT304IT0Hrfv_6CCvCkoBW5resDpE/view) | [ver foto](https://drive.google.com/file/d/1T5UefR6piwVTGdYQcX_bMbPpjwHkSvB5/view) |
+| 4.9 | 12238000009981 | Motor Spring Assembly | [ver foto](https://drive.google.com/file/d/1W6z3d5nNULay8tPucqJVjxs3b4tHFJuY/view) | — |
 | 4.5 | 11301601000001 | Nut | — | — |
 | 2.4 | 12138000007129 | Overflow Cover Assembly | — | — |
 | 2.1 | 11300414000006 | Plain washer | — | — |
 | 2.6 | 12138000000730 | Rear Cover | — | — |
 | 1.11 | 12138000001338 | Safety Cover | — | — |
-| 1.8 | 17438000007323 | Safety Switch | — | — |
+| 1.8 | 17438000007323 | Safety Switch | [ver foto](https://drive.google.com/file/d/1RTcufz588IGskm8V7wJ6eOesBMBu2mM7/view) | — |
 | 2.3 | 11301023000001 | Screw and plain washer | — | — |
 | 1.13 | 12138000002485 | Screw Cap | — | — |
-| 4.4 | 11002012006141 | Single Phase Asynchronous Motor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012006141.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012006141_2.jpg) |
+| 4.4 | 11002012006141 | Single Phase Asynchronous Motor | [ver foto](https://drive.google.com/file/d/10sIQ3x5y8TvGmPAfCMPGJGv4jeJfky4R/view) | [ver foto](https://drive.google.com/file/d/1DITO038G-Fk0GT4cQ-AxFnpkFBXx0azZ/view) |
 | 4.10 | 11002012006140 | Single Phase Asynchronous Motor | — | — |
 | 1.7 | 12138000A30424 | Spin Cover Assembly | — | — |
 | 3.1 | 12138000007216 | Spin Cover Inner | — | — |
-| 1.3 | 17438000016229 | Spin Timer | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17438000016229.jpg) | — |
+| 1.3 | 17438000016229 | Spin Timer | [ver foto](https://drive.google.com/file/d/15nledbvHHxnyunCJqsXfr7UIsOsy72zs/view) | — |
 | 3.2.2 | 12138000001322 | Spin Tub Assembly | — | — |
 | 3.2 | 12138000004526 | Spin Tub Subassembly | — | — |
 | 2.7 | 12238000000433 | Support Line | — | — |
-| 2.10 | 12138000002390 | Three-Way Pipe | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000002390.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000002390_2.jpg) |
+| 2.10 | 12138000002390 | Three-Way Pipe | [ver foto](https://drive.google.com/file/d/19tVsDJTlwKXxfmKGZQ0tAuaUdV0YBKjb/view) | [ver foto](https://drive.google.com/file/d/1j60X-vHz3JuXq6DwF7GOIVzlcID4Ixri/view) |
 | 1.1 | 12138000000923 | Timer Mounting Plate | — | — |
 | 1.12 | 12138000007699 | Top Frame | — | — |
 | 2.12 | 12138000062026 | Twin Tub | — | — |
-| 1.5 | 12900101000287 | Twist Spring | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12900101000287.jpg) | — |
-| 4.1 | 12638000000108 | V-Belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000000108.jpg) | — |
+| 1.5 | 12900101000287 | Twist Spring | [ver foto](https://drive.google.com/file/d/1glU2VcHK-0brFO-ecMxedvXISSCKbopt/view) | — |
+| 4.1 | 12638000000108 | V-Belt | [ver foto](https://drive.google.com/file/d/1xNTJCEX_moHGNr3sAGFkDCAfrDnu3SDu/view) | [ver foto](https://drive.google.com/file/d/1uC2Ky0kNueVmI_Y9GK6APHC3WGlM14Pt/view) |
 | 1.14 | 12138000A08845 | Wash Cover | — | — |
-| 1.16 | 17438000016230 | Washing Timer | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17438000016230.jpg) | — |
+| 1.16 | 17438000016230 | Washing Timer | [ver foto](https://drive.google.com/file/d/1q00N44LIw8luYvpLLp56J229V1Et6iqH/view) | — |
 | 1.10 | 12138000001000 | Water Inlet Box | — | — |
 | 1.9 | 12138000006479 | Water Pipe | — | — |
 | 1.18 | 12138000006495 | Water Pipe | — | — |
-| 2.11 | 12638000002243 | Water Sealer Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000002243.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000002243_2.jpg) |
+| 2.11 | 12638000002243 | Water Sealer Assembly | [ver foto](https://drive.google.com/file/d/1IV1PWasVZjfn1U_U5fSmGU-2xrMZPxM1/view) | [ver foto](https://drive.google.com/file/d/1JkuOMBQgOL-ddA15_mYWMLF9k1gBzue7/view) |
 
 ### LMA019D
 
@@ -183,14 +187,14 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 2.5 | 12138000035845 | Breakwater Plate | — | — |
 | 1.1 | 12238000000736 | Cabinet Assembly | — | — |
 | 1.11 | 12138000009839 | Cabinet Base Assembly | — | — |
-| 1.17 | 17438000000102 | Capacitor Assembly | — | — |
+| 1.17 | 17438000000102 | Capacitor Assembly | [ver foto](https://drive.google.com/file/d/1pycQHT7quu8G4T-dramYU-V74L5-qNqS/view) | — |
 | 4.1 | 12938000001201 | Clutch Body Subassembly | — | — |
 | 3.4 | 12238000000253 | Coupling Plate | — | — |
 | 2.1 | 12138100013889 | Cycle Select Knob Assembly | — | — |
 | 2.14 | 12138000A34754 | Drawer Assembly | — | — |
-| 3.3 | 12138000008984 | Filtering Cover Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000008984.jpg) | — |
+| 3.3 | 12138000008984 | Filtering Cover Assembly | [ver foto](https://drive.google.com/file/d/1UDeYhD1fpE6no0jD1jt-xSYtwTAjvK4o/view) | — |
 | 1.18 | 12138000000679 | Handle | — | — |
-| 2.7 | 17438000001320 | Impact Switch | — | — |
+| 2.7 | 17438000001320 | Impact Switch | [ver foto](https://drive.google.com/file/d/1tkROxXQqWUKN5u2OxjEXOMVDt7BbUbEL/view) | — |
 | 1.6 | 12138000035970 | Impeller Assembly | — | — |
 | 1.4 | 12138000006384 | Impeller Cover | — | — |
 | 4.3 | 12138000002868 | Lower Cushion | — | — |
@@ -199,30 +203,30 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 2.13 | 12138000054891 | Nozzle Assembly | — | — |
 | 1.3 | 12138000051942 | Outer Tub Cover | — | — |
 | 4.1 | 12138000010027 | Outer Tub Subordinate Assembly | — | — |
-| 2.8 | 17138000026543 | PCB | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000026543.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000026543_2.jpg) |
-| 2.8 | 17138000027312 | PCB | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000027312.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000027312_2.jpg) |
+| 2.8 | 17138000026543 | PCB | [ver foto](https://drive.google.com/file/d/1PDLYIN71rcaVCkQo1e1q4FrYC45qHnxv/view) | [ver foto](https://drive.google.com/file/d/1a-PmxNkgjVLhA34hRLAxeu0alOP9g-eO/view) |
+| 2.8 | 17138000027312 | PCB | [ver foto](https://drive.google.com/file/d/1P4vINaClLQLk8AE8wGq9grolOQnEYh0r/view) | [ver foto](https://drive.google.com/file/d/1RQkdyHnozPWhFKAB1cQtqf3QRr2OpHAs/view) |
 | 4.11 | 11001011000256 | Permanent magnet synchronous pump | — | — |
 | 1.16 | 17438100000586 | Power Cord | — | — |
 | 1.7 | 12138000016321 | Rear Cover | — | — |
-| 4.9 | 17438000000316 | Retractor | — | — |
-| 4.7 | 12638000000029 | Ribbed Belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000000029.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000000029_2.jpg) |
+| 4.9 | 17438000000316 | Retractor | [ver foto](https://drive.google.com/file/d/1ux2OTuXB88uKEw4y8Xz2ztOszQDhzeFa/view) | — |
+| 4.7 | 12638000000029 | Ribbed Belt | [ver foto](https://drive.google.com/file/d/1gHTCuSxdLHuImtZrMs9KB6XQ2PbmNj7h/view) | [ver foto](https://drive.google.com/file/d/1wKQf_CWZydTXP0osNJv85PteQArvznxL/view) |
 | 1.5 | 11301021000001 | Screw and washer | — | — |
-| 4.4 | 11002012006243 | Single phase asynchronous motor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012006243.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012006243_2.jpg) |
+| 4.4 | 11002012006243 | Single phase asynchronous motor | [ver foto](https://drive.google.com/file/d/1fZZJBp-ZLFF3PDLz1uIkB8Lf-5vbjTPe/view) | [ver foto](https://drive.google.com/file/d/1vS033FM-s8uv6g8w39Ck9NpIjJ4odcTg/view) |
 | 3.2 | 12238000000240 | Stainless Tub Assembly | — | — |
 | 1.8 | 12938000000585 | Suspend System | — | — |
 | 1.9 | 12938000000597 | Suspend System | — | — |
 | 2 | 12138000A35723 | Top Cover And Door Cover Assembly | — | — |
-| 1.15 | 12138000031261 | Up Drain Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000031261.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000031261_2.jpg) |
+| 1.15 | 12138000031261 | Up Drain Hose Assembly | [ver foto](https://drive.google.com/file/d/1JnTIFChIgLW1py9e8FKwcOEclTDcHbV2/view) | [ver foto](https://drive.google.com/file/d/13fwBvtayYwgNDddYBIoTsnuJTNCcnFyw/view) |
 | 4.5 | 12138000002412 | Upper Cushion | — | — |
 | 2.11 | 17438000007122 | Water Inlet Valve | — | — |
 | 2.12 | 17438000007123 | Water Inlet Valve | — | — |
-| 2.9 | 17438000015821 | Water Level Sensor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17438000015821.jpg) | — |
+| 2.9 | 17438000015821 | Water Level Sensor | [ver foto](https://drive.google.com/file/d/1UVBoZkYvG-4NJ49TXQ6ysLUogVKAe70t/view) | — |
 
 ### LMA022N
 
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
-| 1.3 | 12138000068369 | Agitator | — | — |
+| 1.3 | 12138000068369 | Agitator | [ver foto](https://drive.google.com/file/d/1MvA9G-d4A3VjSDrdf2I2SZJZPIK__EUd/view) | — |
 | 1.11 | 17438100000586 | American Standard Power Cord | — | — |
 | 1.5 | 12138000003930 | Article Connection Assembly | — | — |
 | 2.16 | 12138000007001 | Back Control Panel Assembly | — | — |
@@ -232,40 +236,40 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 2.10 | 12138000002077 | Breakwater Plate | — | — |
 | 1.14 | 12238000000728 | Cabinet Assembly | — | — |
 | 1.13 | 12138000A32791 | Cabinet Base Assembly | — | — |
-| 1.12 | 17438000000102 | Capacitor Assembly | — | — |
-| 4.11 | 12938000000409 | Clutch Body Subassembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000000409.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000000409_2.jpg) |
+| 1.12 | 17438000000102 | Capacitor Assembly | [ver foto](https://drive.google.com/file/d/1pycQHT7quu8G4T-dramYU-V74L5-qNqS/view) | — |
+| 4.11 | 12938000000409 | Clutch Body Subassembly | [ver foto](https://drive.google.com/file/d/1I0grqivljFUxZofOcVuVAIrRVq9H0Xg1/view) | [ver foto](https://drive.google.com/file/d/1qhWrXv_b6ft4Ug0QInsdTRrFts1EPG5R/view) |
 | 3.3 | 12238000000259 | Coupling Plate | — | — |
-| 2.3 | 12138000A04203 | Cover Assembly | — | — |
+| 2.3 | 12138000A04203 | Cover Assembly | [ver foto](https://drive.google.com/file/d/1FhG1H2WygTs2BR2xIeXHp5ajVUn6WwGz/view) | — |
 | 2.4 | 12938000001703 | Damper | — | — |
 | 2.11 | 12938000001703 | Damper | — | — |
-| 2.14 | 17138000006810 | Display Board | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000006810.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000006810_2.jpg) |
+| 2.14 | 17138000006810 | Display Board | [ver foto](https://drive.google.com/file/d/1vKJnd0QFci804Vj1Mb9RNqr2Sg7-aFCw/view) | [ver foto](https://drive.google.com/file/d/1UBch59-RlQ0rRXFtz1q2-XOy8W2UAgWk/view) |
 | 2.7 | 17438000001614 | Door Lock | — | — |
 | 1.7 | 12138000002523 | Electrical Box Assembly | — | — |
 | 4.8 | 12138000031502 | Fixing Bracket | — | — |
-| 2.2 | 17438000001320 | Impact Switch | — | — |
+| 2.2 | 17438000001320 | Impact Switch | [ver foto](https://drive.google.com/file/d/1tkROxXQqWUKN5u2OxjEXOMVDt7BbUbEL/view) | — |
 | 2.9 | 17438000001213 | Internal Wire Assembly | — | — |
-| 2.15 | 12138000008862 | Knob Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000008862_1.jpg) | — |
+| 2.15 | 12138000008862 | Knob Assembly | [ver foto](https://drive.google.com/file/d/1G_3g49snBRA8mkciv0FC0G3ACWjHatv6/view) | — |
 | 2.17 | 12138000008865 | Knob Assembly | — | — |
 | 2.8 | 12138000009282 | Lock Box | — | — |
 | 4.5 | 12138000002864 | Lower Cushion | — | — |
-| 1.10 | 12638000001323 | Middle Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000001323.jpg) | — |
+| 1.10 | 12638000001323 | Middle Hose Assembly | [ver foto](https://drive.google.com/file/d/1fnCjQ1Mqc_arqY-q_mRgNxU8tfuKYAGm/view) | — |
 | 4.6 | 12338000000036 | Motor Pulley Assembly | — | — |
 | 1.2 | 12138000004084 | Outer Tub Cover | — | — |
 | 4.1 | 12138000010074 | Outer Tub Subordinate Assembly | — | — |
-| 1.6 | 17138000006141 | PCB | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000006141.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000006141_2.jpg) |
+| 1.6 | 17138000006141 | PCB | [ver foto](https://drive.google.com/file/d/1YZ5FH7VWAer95F73m3kbtXP8JAWfPJHX/view) | [ver foto](https://drive.google.com/file/d/1gh7GGc3_w3DibO0RGUZB_P9ndOOHxYAh/view) |
 | 4.10 | 11001011000256 | Permanent Magnet Synchronous Pump | — | — |
 | 1.8 | 12138000006435 | Rear Cover | — | — |
-| 4.9 | 17438000000316 | Retractor | — | — |
+| 4.9 | 17438000000316 | Retractor | [ver foto](https://drive.google.com/file/d/1ux2OTuXB88uKEw4y8Xz2ztOszQDhzeFa/view) | — |
 | 4.3 | 11002012005785 | Single Phase Asynchronous Motor | — | — |
 | 3.2 | 12238000004381 | Stainless Tub Assembly | — | — |
-| 1.9 | 12938000000319 | Suspend System | — | — |
-| 1.15 | 12938000000206 | Suspend System | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000000206_1.jpg) | — |
+| 1.9 | 12938000000319 | Suspend System | [ver foto](https://drive.google.com/file/d/174sxyjKuJCZFw0Yd5LlQQiwW4AvD_PO5/view) | — |
+| 1.15 | 12938000000206 | Suspend System | [ver foto](https://drive.google.com/file/d/1R9xogUF8odPGXFip7YE8fF8-3hdQDsjd/view) | — |
 | 2.6 | 12138000009555 | Top Cover Assembly | — | — |
-| 1.4 | 12138000031261 | Up Drain Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000031261.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000031261_2.jpg) |
+| 1.4 | 12138000031261 | Up Drain Hose Assembly | [ver foto](https://drive.google.com/file/d/1JnTIFChIgLW1py9e8FKwcOEclTDcHbV2/view) | [ver foto](https://drive.google.com/file/d/13fwBvtayYwgNDddYBIoTsnuJTNCcnFyw/view) |
 | 4.7 | 12638000000084 | V-Belt | — | — |
-| 1.1 | 12038000000034 | Water Inlet Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12038000000034.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12038000000034_2.jpg) |
+| 1.1 | 12038000000034 | Water Inlet Hose Assembly | [ver foto](https://drive.google.com/file/d/1rnsCArAlVGK2SEWYvJCM1881EOknU4KQ/view) | [ver foto](https://drive.google.com/file/d/1iF-7m_HyqupGmBwehbB2TYm3bfO9D3WI/view) |
 | 1.1 | 12038000000051 | Water Inlet Hose Assembly | — | — |
-| 2.1 | 17438000000573 | Water Inlet Valve | — | — |
+| 2.1 | 17438000000573 | Water Inlet Valve | [ver foto](https://drive.google.com/file/d/1rApeNAMPpGYxdwnqvKPbH93DBS215f_J/view) | — |
 | 2.13 | 17438000000596 | Water Inlet Valve | — | — |
 | 2.12 | 17438000004760 | Water Level Sensor Assembly | — | — |
 
@@ -280,37 +284,37 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 1.6 | 12238000000653 | Cabinet Assembly | — | — |
 | 1.7 | 12138000009856 | Cabinet Base Assembly | — | — |
 | 1.11 | 17438000000148 | Capacitor Assembly | — | — |
-| 4.1 | 12938000001941 | Clutch Body Subassembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000001941.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000001941_2.jpg) |
+| 4.1 | 12938000001941 | Clutch Body Subassembly | [ver foto](https://drive.google.com/file/d/1L-ZeR0cKL02QHo9aB5M-KG9vtzDgnXeU/view) | [ver foto](https://drive.google.com/file/d/149HXRqRTyAj7V_tBcAgvLwnFw5282Gv2/view) |
 | 2.3 | 12138000002344 | Control Panel Assembly | — | — |
 | 3.3 | 12238000000259 | Coupling Plate | — | — |
-| 2.9 | 17438000001615 | Door Lock | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17438000001615.jpg) | — |
+| 2.9 | 17438000001615 | Door Lock | [ver foto](https://drive.google.com/file/d/1enMFiWwcA-ueDLcUpoUB21Ao0pv5lmUm/view) | — |
 | 1.13 | 12138000002523 | Electrical Box Assembly | — | — |
 | 2.11 | 17438000001302 | Impact Switch | — | — |
 | 2.7 | 17438000001224 | Internal Wire Assembly | — | — |
-| 2.1 | 12138200000293 | Knob Assembly | — | — |
-| 2.1 | 12138000009283 | Lock Box | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000009283.jpg) | — |
+| 2.1 | 12138200000293 | Knob Assembly | [ver foto](https://drive.google.com/file/d/1VBpldJqQoMy_1wGeIybuiHv9rjYltvRk/view) | — |
+| 2.1 | 12138000009283 | Lock Box | [ver foto](https://drive.google.com/file/d/1s2_dFsFs2aIvNBE0YSVFkFw5t0sdC5Ej/view) | — |
 | 4.5 | 12138000002868 | Lower Cushion | — | — |
-| 1.8 | 12638000001323 | Middle Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000001323.jpg) | — |
-| 4.6 | 12338000000421 | Motor Pulley Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12338000000421.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12338000000421_2.jpg) |
+| 1.8 | 12638000001323 | Middle Hose Assembly | [ver foto](https://drive.google.com/file/d/1fnCjQ1Mqc_arqY-q_mRgNxU8tfuKYAGm/view) | — |
+| 4.6 | 12338000000421 | Motor Pulley Assembly | [ver foto](https://drive.google.com/file/d/1Hc4Y-gjVGAoq5_y5QozwBc4MRzE5Pdod/view) | [ver foto](https://drive.google.com/file/d/1Ksm-eTh8TiqYbheSpF2s_Jd6yTU4WHVk/view) |
 | 1.1 | 12138000034762 | Outer Tub Cover | — | — |
 | 4.1 | 12138000010071 | Outer Tub Subordinate Assembly | — | — |
-| 1.12 | 17138000020922 | PCB | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000020922.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000020922_2.jpg) |
-| 2.4 | 17138000020921 | PCB | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000020921.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000020921_2.jpg) |
-| 4.11 | 11001011000071 | Permanent magnet synchronous pump | — | — |
+| 1.12 | 17138000020922 | PCB | [ver foto](https://drive.google.com/file/d/1hfy18d2LCrWyXTxkY0WutKZvQ1KRJNT8/view) | [ver foto](https://drive.google.com/file/d/1N0VBUYU-2KhjpTuoiwjcGcBeUe1PaLUH/view) |
+| 2.4 | 17138000020921 | PCB | [ver foto](https://drive.google.com/file/d/1hr4EjJJFnzzvUIKAa98QTjhtByKCwZcX/view) | [ver foto](https://drive.google.com/file/d/1xWTzHEz-m6uKkUpTFF52AUf9OlE7qAv9/view) |
+| 4.11 | 11001011000071 | Permanent magnet synchronous pump | [ver foto](https://drive.google.com/file/d/18Bsk-G4axv2bbEJXRk30TRqVMw98eBO4/view) | — |
 | 1.3 | 12238000000519 | Rear Cover | — | — |
 | 4.9 | 17438000000343 | Retractor | — | — |
-| 4.7 | 12638000001161 | Ribbed Belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000001161.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000001161_2.jpg) |
-| 4.4 | 11002012000022 | Single phase asynchronous motor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012000022_1.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012000022_2.jpg) |
+| 4.7 | 12638000001161 | Ribbed Belt | [ver foto](https://drive.google.com/file/d/1-zXV_U5KQLrv4j7mBuIfhix-NcYV-3A5/view) | [ver foto](https://drive.google.com/file/d/1A0mTTY6qCtw51oc3GEsgiwLrqmvzGOJB/view) |
+| 4.4 | 11002012000022 | Single phase asynchronous motor | [ver foto](https://drive.google.com/file/d/1lYREv1BUh_UfGYrcHx020CIj_vtaIMxM/view) | [ver foto](https://drive.google.com/file/d/1Yqfx_P_laETl-vyeX7FDCvfx-UBzM029/view) |
 | 3.2 | 12238000004381 | Stainless Tub Assembly | — | — |
-| 1.4 | 12938000000319 | Suspend System | — | — |
-| 1.4 | 12938000000206 | Suspend System | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000000206_1.jpg) | — |
-| 1.5 | 12938000000319 | Suspend System | — | — |
-| 1.5 | 12938000000206 | Suspend System | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000000206_1.jpg) | — |
+| 1.4 | 12938000000319 | Suspend System | [ver foto](https://drive.google.com/file/d/174sxyjKuJCZFw0Yd5LlQQiwW4AvD_PO5/view) | — |
+| 1.4 | 12938000000206 | Suspend System | [ver foto](https://drive.google.com/file/d/1R9xogUF8odPGXFip7YE8fF8-3hdQDsjd/view) | — |
+| 1.5 | 12938000000319 | Suspend System | [ver foto](https://drive.google.com/file/d/174sxyjKuJCZFw0Yd5LlQQiwW4AvD_PO5/view) | — |
+| 1.5 | 12938000000206 | Suspend System | [ver foto](https://drive.google.com/file/d/1R9xogUF8odPGXFip7YE8fF8-3hdQDsjd/view) | — |
 | 2.8 | 12138000A33204 | Top Cover And Door Cover Assembly | — | — |
-| 1.9 | 12138000031261 | Up Drain Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000031261.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000031261_2.jpg) |
+| 1.9 | 12138000031261 | Up Drain Hose Assembly | [ver foto](https://drive.google.com/file/d/1JnTIFChIgLW1py9e8FKwcOEclTDcHbV2/view) | [ver foto](https://drive.google.com/file/d/13fwBvtayYwgNDddYBIoTsnuJTNCcnFyw/view) |
 | 4.3 | 12138000036963 | Upper Cushion | — | — |
-| 2.5 | 17438000000588 | Water Inlet Valve | — | — |
-| 2.6 | 17438000001373 | Water Level Sensor Assembly | — | — |
+| 2.5 | 17438000000588 | Water Inlet Valve | [ver foto](https://drive.google.com/file/d/13RXqhyr7QozRGSMuvTjccNnAlHLDoE05/view) | — |
+| 2.6 | 17438000001373 | Water Level Sensor Assembly | [ver foto](https://drive.google.com/file/d/1L77zFL6FWHVHW0840Lv7yOPWhnS56rir/view) | — |
 
 ### LMA022M
 
@@ -326,40 +330,40 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 2.1 | 12138000002077 | Breakwater Plate | — | — |
 | 1.14 | 12238000000728 | Cabinet Assembly | — | — |
 | 1.13 | 12138000A32791 | Cabinet Base Assembly | — | — |
-| 1.12 | 17438000000102 | Capacitor Assembly | — | — |
-| 4.11 | 12938000000409 | Clutch Body Subassembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000000409.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000000409_2.jpg) |
+| 1.12 | 17438000000102 | Capacitor Assembly | [ver foto](https://drive.google.com/file/d/1pycQHT7quu8G4T-dramYU-V74L5-qNqS/view) | — |
+| 4.11 | 12938000000409 | Clutch Body Subassembly | [ver foto](https://drive.google.com/file/d/1I0grqivljFUxZofOcVuVAIrRVq9H0Xg1/view) | [ver foto](https://drive.google.com/file/d/1qhWrXv_b6ft4Ug0QInsdTRrFts1EPG5R/view) |
 | 3.3 | 12238000000259 | Coupling Plate | — | — |
-| 2.3 | 12138000A04203 | Cover Assembly | — | — |
+| 2.3 | 12138000A04203 | Cover Assembly | [ver foto](https://drive.google.com/file/d/1FhG1H2WygTs2BR2xIeXHp5ajVUn6WwGz/view) | — |
 | 2.4 | 12938000001703 | Damper | — | — |
 | 2.11 | 12938000001703 | Damper | — | — |
 | 2.7 | 17438000001614 | Door Lock | — | — |
 | 1.7 | 12138000002524 | Electrical Box Assembly | — | — |
-| 2.2 | 17438000001320 | Impact Switch | — | — |
+| 2.2 | 17438000001320 | Impact Switch | [ver foto](https://drive.google.com/file/d/1tkROxXQqWUKN5u2OxjEXOMVDt7BbUbEL/view) | — |
 | 2.9 | 17438000001213 | Internal Wire Assembly | — | — |
-| 2.15 | 12138000008862 | Knob Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000008862_1.jpg) | — |
+| 2.15 | 12138000008862 | Knob Assembly | [ver foto](https://drive.google.com/file/d/1G_3g49snBRA8mkciv0FC0G3ACWjHatv6/view) | — |
 | 2.17 | 12138000008865 | Knob Assembly | — | — |
 | 2.8 | 12138000009282 | Lock Box | — | — |
 | 4.5 | 12138000002864 | Lower Cushion | — | — |
-| 1.1 | 12638000001323 | Middle Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000001323.jpg) | — |
+| 1.1 | 12638000001323 | Middle Hose Assembly | [ver foto](https://drive.google.com/file/d/1fnCjQ1Mqc_arqY-q_mRgNxU8tfuKYAGm/view) | — |
 | 4.6 | 12338000000036 | Motor Pulley Assembly | — | — |
 | 1.2 | 12138000004085 | Outer Tub Cover | — | — |
 | 4.1 | 12138000010074 | Outer Tub Subordinate Assembly | — | — |
-| 1.6 | 17138000006141 | PCB | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000006141.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000006141_2.jpg) |
-| 2.14 | 17138000006810 | PCB | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000006810.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138000006810_2.jpg) |
+| 1.6 | 17138000006141 | PCB | [ver foto](https://drive.google.com/file/d/1YZ5FH7VWAer95F73m3kbtXP8JAWfPJHX/view) | [ver foto](https://drive.google.com/file/d/1gh7GGc3_w3DibO0RGUZB_P9ndOOHxYAh/view) |
+| 2.14 | 17138000006810 | PCB | [ver foto](https://drive.google.com/file/d/1vKJnd0QFci804Vj1Mb9RNqr2Sg7-aFCw/view) | [ver foto](https://drive.google.com/file/d/1UBch59-RlQ0rRXFtz1q2-XOy8W2UAgWk/view) |
 | 4.1 | 11001011000256 | Permanent magnet synchronous pump | — | — |
 | 1.11 | 17438100000586 | Power Cord | — | — |
 | 1.8 | 12138000006435 | Rear Cover | — | — |
-| 4.9 | 17438000000316 | Retractor | — | — |
-| 4.3 | 11002012000020 | Single phase asynchronous motor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012000020_1.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012000020_2.jpg) |
+| 4.9 | 17438000000316 | Retractor | [ver foto](https://drive.google.com/file/d/1ux2OTuXB88uKEw4y8Xz2ztOszQDhzeFa/view) | — |
+| 4.3 | 11002012000020 | Single phase asynchronous motor | [ver foto](https://drive.google.com/file/d/1WpzXvo5UNo1qxgENNXSgxZJzdTk3rBKJ/view) | [ver foto](https://drive.google.com/file/d/1bP4WI-ndtj4yYxHh7cWA-_J2rmmObpsj/view) |
 | 3.2 | 12238000003060 | Stainless Tub Assembly | — | — |
-| 1.9 | 12938000000319 | Suspend System | — | — |
-| 1.15 | 12938000000206 | Suspend System | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12938000000206_1.jpg) | — |
+| 1.9 | 12938000000319 | Suspend System | [ver foto](https://drive.google.com/file/d/174sxyjKuJCZFw0Yd5LlQQiwW4AvD_PO5/view) | — |
+| 1.15 | 12938000000206 | Suspend System | [ver foto](https://drive.google.com/file/d/1R9xogUF8odPGXFip7YE8fF8-3hdQDsjd/view) | — |
 | 2.6 | 12138000009555 | Top Cover Assembly | — | — |
-| 1.4 | 12138000031261 | Up Drain Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000031261.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000031261_2.jpg) |
+| 1.4 | 12138000031261 | Up Drain Hose Assembly | [ver foto](https://drive.google.com/file/d/1JnTIFChIgLW1py9e8FKwcOEclTDcHbV2/view) | [ver foto](https://drive.google.com/file/d/13fwBvtayYwgNDddYBIoTsnuJTNCcnFyw/view) |
 | 4.7 | 12638000000084 | V-Belt | — | — |
 | 1.1 | 12038000000051 | Water Inlet Hose Assembly | — | — |
-| 1.1 | 12038000000034 | Water Inlet Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12038000000034.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12038000000034_2.jpg) |
-| 2.1 | 17438000000573 | Water Inlet Valve | — | — |
+| 1.1 | 12038000000034 | Water Inlet Hose Assembly | [ver foto](https://drive.google.com/file/d/1rnsCArAlVGK2SEWYvJCM1881EOknU4KQ/view) | [ver foto](https://drive.google.com/file/d/1iF-7m_HyqupGmBwehbB2TYm3bfO9D3WI/view) |
+| 2.1 | 17438000000573 | Water Inlet Valve | [ver foto](https://drive.google.com/file/d/1rApeNAMPpGYxdwnqvKPbH93DBS215f_J/view) | — |
 | 2.13 | 17438000000564 | Water Inlet Valve | — | — |
 | 2.12 | 17438000004760 | Water Level Sensor Assembly | — | — |
 
@@ -368,45 +372,45 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 | 4.6 | 12138000003660 | Base | — | — |
-| 2.11 | 12638000000644 | Bottom Valve | — | — |
-| 4.11 | 12238000000489 | Brake Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000000489.jpg) | — |
-| 1.5 | 12138000007965 | Brake Belt | — | — |
-| 4.12 | 12238000001822 | Brake Wheel Assembly | — | — |
+| 2.11 | 12638000000644 | Bottom Valve | [ver foto](https://drive.google.com/file/d/1x5Mwhksfv8xdMzx94E4bMC5ALKwJF9IV/view) | — |
+| 4.11 | 12238000000489 | Brake Assembly | [ver foto](https://drive.google.com/file/d/1f9tbwvTJ8QcBYmxcT6PXM4pdVK53nCPV/view) | — |
+| 1.5 | 12138000007965 | Brake Belt | [ver foto](https://drive.google.com/file/d/1M9irjKLMOcPo8oItqPbE0c050Ozx8ph7/view) | — |
+| 4.12 | 12238000001822 | Brake Wheel Assembly | [ver foto](https://drive.google.com/file/d/1qSK2wMKXlPR2dRqaiIuiVpddILN1GopC/view) | — |
 | 2.5 | 12138000005073 | Cabinet | — | — |
 | 4.8 | 17400104000226 | Capacitor | — | — |
-| 1.2 | 17438000000421 | Change-Over Switch | — | — |
-| 1.15 | 17438000005332 | Change-Over Switch | — | — |
-| 1.17 | 12138000A33143 | Control Panel And Printing | — | — |
-| 1.4 | 12138000004386 | Drain Belt | — | — |
-| 2.7 | 12138000007173 | Drain Hose Assembly | — | — |
+| 1.2 | 17438000000421 | Change-Over Switch | [ver foto](https://drive.google.com/file/d/1fgDHadN3EVRLdN90TaRFYFaSAmVwtv3b/view) | — |
+| 1.15 | 17438000005332 | Change-Over Switch | [ver foto](https://drive.google.com/file/d/11O5c45f0lQBZPfNwtQhjszLKi3v4547H/view) | — |
+| 1.17 | 12138000A33143 | Control Panel And Printing | [ver foto](https://drive.google.com/file/d/1dkFDHg8nrRK2OGu5CyPhFssiWoKojcKc/view) | — |
+| 1.4 | 12138000004386 | Drain Belt | [ver foto](https://drive.google.com/file/d/17NCsDFDAwfKux1VPYxKH1FeDXlHCwDWq/view) | — |
+| 2.7 | 12138000007173 | Drain Hose Assembly | [ver foto](https://drive.google.com/file/d/1h8AWtHDTL37cKChp3EfgImyXmj7FuLZ8/view) | — |
 | 2.1 | 11300414000007 | Flat washer | — | — |
-| 2.8 | 12238000000065 | Gear Case Assembly | — | — |
+| 2.8 | 12238000000065 | Gear Case Assembly | [ver foto](https://drive.google.com/file/d/1drhODwOoczSWbdyCZCF52Lve7OxoYHKW/view) | — |
 | 4.4 | 11301811000004 | Hexagon head bolt | — | — |
-| 2.2 | 12138000027714 | Impeller Assembly | — | — |
-| 1.19 | 12138000A33043 | Knob Assembly | — | — |
-| 4.2 | 12338000000050 | Motor Pulley Assembly | — | — |
-| 4.9 | 12238000000046 | Motor Spring Assembly | — | — |
+| 2.2 | 12138000027714 | Impeller Assembly | [ver foto](https://drive.google.com/file/d/11AV1nyPu3jqh-kILhPUpfZNfKW5Ww3FZ/view) | — |
+| 1.19 | 12138000A33043 | Knob Assembly | [ver foto](https://drive.google.com/file/d/15WuZps1QqogFx3zVQkQ0bbxnNQ9UubQ1/view) | — |
+| 4.2 | 12338000000050 | Motor Pulley Assembly | [ver foto](https://drive.google.com/file/d/16UXspZ-xMuC7RJi8tz_l4KKEMzSMHp7q/view) | — |
+| 4.9 | 12238000000046 | Motor Spring Assembly | [ver foto](https://drive.google.com/file/d/105mreg-S1ZQ_ptHQ-t64AXU2MZCP_N6j/view) | — |
 | 4.5 | 11301601000001 | Nut | — | — |
 | 2.4 | 12138000007115 | Overflow Cover Assembly | — | — |
 | 4.7 | 17438000001683 | Power Cord | — | — |
 | 2.6 | 12138000029567 | Rear Cover | — | — |
 | 1.11 | 12138000001332 | Safety Cover | — | — |
-| 1.8 | 17438000001581 | Safety Switch | — | — |
+| 1.8 | 17438000001581 | Safety Switch | [ver foto](https://drive.google.com/file/d/1knj6cwlmneSR7VSRwkt0CI5GfXKETHrI/view) | — |
 | 2.1 | 11301023000001 | Screw and plain washer | — | — |
 | 2.3 | 11301023000001 | Screw and plain washer | — | — |
 | 1.13 | 12138000002485 | Screw Cap | — | — |
 | 4.3 | 11002012000219 | Single phase asynchronous motor | — | — |
 | 4.1 | 11002012000174 | Single phase asynchronous motor | — | — |
-| 1.7 | 12138000A28106 | Spin Cover Assembly | — | — |
+| 1.7 | 12138000A28106 | Spin Cover Assembly | [ver foto](https://drive.google.com/file/d/1kdAYAMcjgCKTcE9wfDNnvK1B4RP95Ycj/view) | — |
 | 3.1 | 12138000007218 | Spin Cover Inner | — | — |
-| 1.3 | 17438000005323 | Spin Timer | — | — |
+| 1.3 | 17438000005323 | Spin Timer | [ver foto](https://drive.google.com/file/d/1m0WAzR-ydtnNgTlF1ST26XMy1OrhuUCG/view) | — |
 | 3.2 | 12138000004527 | Spin Tub Subassembly | — | — |
-| 2.1 | 12138000002388 | Three-Way Pipe | — | — |
+| 2.1 | 12138000002388 | Three-Way Pipe | [ver foto](https://drive.google.com/file/d/1KEgOfVVoMZdic6JO7nBlQb7Md3eSSeTJ/view) | — |
 | 1.12 | 12138000007657 | Top Frame | — | — |
 | 2.12 | 12138000004493 | Twin Tub | — | — |
-| 1.6 | 12900101000235 | Twist Spring | — | — |
+| 1.6 | 12900101000235 | Twist Spring | [ver foto](https://drive.google.com/file/d/1OlEznCKPsbMasj1CGB76QuMzSgHDzovX/view) | — |
 | 4.1 | 12638000000106 | V-Belt | — | — |
-| 1.14 | 12138000A03694 | Wash Cover | — | — |
+| 1.14 | 12138000A03694 | Wash Cover | [ver foto](https://drive.google.com/file/d/1Mt9vN0I6llHMOOfuG8NCo6zdShh6soA2/view) | — |
 | 1.16 | 17438000005330 | Washing Timer | — | — |
 | 1.1 | 12138000001001 | Water Inlet Box | — | — |
 | 1.9 | 12138000006501 | Water Pipe | — | — |
@@ -419,31 +423,31 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 | 4.7 | 12138000003616 | Base | — | — |
-| 2.11 | 12638000000644 | Bottom Valve | — | — |
-| 4.12 | 12238000000489 | Brake Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000000489.jpg) | — |
-| 1.5 | 12138000007973 | Brake Belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000007973.jpg) | — |
-| 4.13 | 12238000004101 | Brake Wheel Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000004101.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000004101_2.jpg) |
+| 2.11 | 12638000000644 | Bottom Valve | [ver foto](https://drive.google.com/file/d/1x5Mwhksfv8xdMzx94E4bMC5ALKwJF9IV/view) | — |
+| 4.12 | 12238000000489 | Brake Assembly | [ver foto](https://drive.google.com/file/d/1f9tbwvTJ8QcBYmxcT6PXM4pdVK53nCPV/view) | — |
+| 1.5 | 12138000007973 | Brake Belt | [ver foto](https://drive.google.com/file/d/1aUIiv1XmweeIUhKTzXYMWWYOcVVnyB44/view) | — |
+| 4.13 | 12238000004101 | Brake Wheel Assembly | [ver foto](https://drive.google.com/file/d/1314m7iQ3HFFmjmpnUDtjeT7zsNfebx4V/view) | [ver foto](https://drive.google.com/file/d/1hZFVDv1PvyAqGh6mPUPrm1J2Kp2uYudT/view) |
 | 4.9 | 17400104000787 | Capacitor | — | — |
-| 1.2 | 17438000000421 | Change-Over Switch | — | — |
-| 1.16 | 17438000000421 | Change-Over Switch | — | — |
+| 1.2 | 17438000000421 | Change-Over Switch | [ver foto](https://drive.google.com/file/d/1fgDHadN3EVRLdN90TaRFYFaSAmVwtv3b/view) | — |
+| 1.16 | 17438000000421 | Change-Over Switch | [ver foto](https://drive.google.com/file/d/1fgDHadN3EVRLdN90TaRFYFaSAmVwtv3b/view) | — |
 | 1.18 | 12138000A35147 | Control Panel And Printing | — | — |
 | 1.14 | 12138000039204 | Conversion Valve Assembly | — | — |
-| 1.4 | 12138000039206 | Drain Belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000039206_2.jpg) | — |
-| 2.7 | 12138000007172 | Drain Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000007172.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000007172_2.jpg) |
-| 2.1 | 12138000000818 | Drain Valve Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000000818.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000000818_2.jpg) |
-| 2.8 | 12238000000087 | Gear Case Assembly | — | — |
+| 1.4 | 12138000039206 | Drain Belt | [ver foto](https://drive.google.com/file/d/1sV10G7S-T0xDOxdQIPcBN_iwFIEAQLt3/view) | — |
+| 2.7 | 12138000007172 | Drain Hose Assembly | [ver foto](https://drive.google.com/file/d/1BnKx1J2FiOeCVDEC8q5bZu2WnCSG78HF/view) | [ver foto](https://drive.google.com/file/d/1sXQemBmye7MLQbxZwuBcjRZ7SZh2vOyh/view) |
+| 2.1 | 12138000000818 | Drain Valve Assembly | [ver foto](https://drive.google.com/file/d/1xezIqc0PXUCcIQLcYxxnQZchDzqTfZu1/view) | [ver foto](https://drive.google.com/file/d/1OA-jXJsomMeaOcbnXZCVVcoDTT0nfi1Q/view) |
+| 2.8 | 12238000000087 | Gear Case Assembly | [ver foto](https://drive.google.com/file/d/1cLN3tTwOxM3kjg8d4o0pmbKE3rfA72jr/view) | — |
 | 4.4 | 11301811000004 | Hexagon head bolt | — | — |
 | 2.2 | 12138000030614 | Impeller Assembly | — | — |
 | 1.21 | 12138000A35086 | Knob Assembly | — | — |
-| 4.2 | 12338000000050 | Motor Pulley Assembly | — | — |
-| 4.1 | 12238000000041 | Motor Spring Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000000041.jpg) | — |
+| 4.2 | 12338000000050 | Motor Pulley Assembly | [ver foto](https://drive.google.com/file/d/16UXspZ-xMuC7RJi8tz_l4KKEMzSMHp7q/view) | — |
+| 4.1 | 12238000000041 | Motor Spring Assembly | [ver foto](https://drive.google.com/file/d/1URte3R9Zel64DSRZjLq1wiMXOHnxAEOv/view) | — |
 | 4.6 | 11301601000001 | Nut | — | — |
-| 2.4 | 12138000030665 | Overflow Cover Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000030665.jpg) | — |
+| 2.4 | 12138000030665 | Overflow Cover Assembly | [ver foto](https://drive.google.com/file/d/11syBNZp9b1I9y0_7E9eqohgQBzMcW5iH/view) | — |
 | 2.1 | 11300414000006 | Plain washer | — | — |
 | 4.8 | 17438000001683 | Power Cord | — | — |
 | 2.6 | 12138000000743 | Rear Cover | — | — |
 | 1.11 | 12138000001346 | Safety Cover | — | — |
-| 1.8 | 17438000007323 | Safety Switch | — | — |
+| 1.8 | 17438000007323 | Safety Switch | [ver foto](https://drive.google.com/file/d/1RTcufz588IGskm8V7wJ6eOesBMBu2mM7/view) | — |
 | 2.3 | 11301023000001 | Screw and plain washer | — | — |
 | 1.13 | 12138000002485 | Screw Cap | — | — |
 | 4.3 | 11002012032422 | Single phase asynchronous motor | — | — |
@@ -454,14 +458,14 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 3 | 12138000028587 | Spin Tub Subassembly | — | — |
 | 1.12 | 12138000007646 | Top Frame | — | — |
 | 2.12 | 12138000004489 | Twin Tub | — | — |
-| 1.6 | 12900101000287 | Twist Spring | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12900101000287.jpg) | — |
+| 1.6 | 12900101000287 | Twist Spring | [ver foto](https://drive.google.com/file/d/1glU2VcHK-0brFO-ecMxedvXISSCKbopt/view) | — |
 | 4.1 | 12638000000106 | V-Belt | — | — |
 | 1.15 | 12138000A35087 | Wash Cover Assembly | — | — |
 | 1.17 | 17438000007262 | Washing Timer | — | — |
 | 1.1 | 12138000001001 | Water Inlet Box | — | — |
 | 1.9 | 12138000006501 | Water Pipe | — | — |
 | 1.2 | 12138000006495 | Water Pipe | — | — |
-| 2.9 | 12638000000140 | Water Sealer Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000000140.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000000140_2.jpg) |
+| 2.9 | 12638000000140 | Water Sealer Assembly | [ver foto](https://drive.google.com/file/d/126vk_A5hm5CKALxkm9-mr5pG_Y7MydLz/view) | [ver foto](https://drive.google.com/file/d/1kZn12sZoqMr6bfjLqxWjYlug5avvP4bx/view) |
 | 1.1 | 12138000033922 | Waterproof Shield | — | — |
 
 ### LMS016M
@@ -469,47 +473,47 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 | 4.7 | 12138000003616 | Base | — | — |
-| 2.11 | 12638000000644 | Bottom Valve | — | — |
-| 4.12 | 12238000000489 | Brake Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000000489.jpg) | — |
-| 1.5 | 12138000007973 | Brake Belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000007973.jpg) | — |
-| 4.13 | 12238000004101 | Brake Wheel Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000004101.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000004101_2.jpg) |
+| 2.11 | 12638000000644 | Bottom Valve | [ver foto](https://drive.google.com/file/d/1x5Mwhksfv8xdMzx94E4bMC5ALKwJF9IV/view) | — |
+| 4.12 | 12238000000489 | Brake Assembly | [ver foto](https://drive.google.com/file/d/1f9tbwvTJ8QcBYmxcT6PXM4pdVK53nCPV/view) | — |
+| 1.5 | 12138000007973 | Brake Belt | [ver foto](https://drive.google.com/file/d/1aUIiv1XmweeIUhKTzXYMWWYOcVVnyB44/view) | — |
+| 4.13 | 12238000004101 | Brake Wheel Assembly | [ver foto](https://drive.google.com/file/d/1314m7iQ3HFFmjmpnUDtjeT7zsNfebx4V/view) | [ver foto](https://drive.google.com/file/d/1hZFVDv1PvyAqGh6mPUPrm1J2Kp2uYudT/view) |
 | 4.9 | 17400104000226 | Capacitor | — | — |
-| 1.2 | 17438000000421 | Change-Over Switch | — | — |
-| 1.15 | 17438000005332 | Change-Over Switch | — | — |
-| 1.17 | 12138000A33144 | Control Panel And Printing | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000A33144_2.jpg) | — |
-| 1.4 | 12138000004401 | Drain Belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000004401.jpg) | — |
-| 2.7 | 12138000007172 | Drain Hose Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000007172.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000007172_2.jpg) |
-| 2.1 | 12138000000818 | Drain Valve Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000000818.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000000818_2.jpg) |
-| 2.8 | 12238000000087 | Gear Case Assembly | — | — |
+| 1.2 | 17438000000421 | Change-Over Switch | [ver foto](https://drive.google.com/file/d/1fgDHadN3EVRLdN90TaRFYFaSAmVwtv3b/view) | — |
+| 1.15 | 17438000005332 | Change-Over Switch | [ver foto](https://drive.google.com/file/d/11O5c45f0lQBZPfNwtQhjszLKi3v4547H/view) | — |
+| 1.17 | 12138000A33144 | Control Panel And Printing | [ver foto](https://drive.google.com/file/d/1OYJeovY58b5ansaQTS-97Zbqy2KUCVhr/view) | — |
+| 1.4 | 12138000004401 | Drain Belt | [ver foto](https://drive.google.com/file/d/1l9GrDMzAMJxDCbHoUVse0b6wSTVqTWr_/view) | — |
+| 2.7 | 12138000007172 | Drain Hose Assembly | [ver foto](https://drive.google.com/file/d/1BnKx1J2FiOeCVDEC8q5bZu2WnCSG78HF/view) | [ver foto](https://drive.google.com/file/d/1sXQemBmye7MLQbxZwuBcjRZ7SZh2vOyh/view) |
+| 2.1 | 12138000000818 | Drain Valve Assembly | [ver foto](https://drive.google.com/file/d/1xezIqc0PXUCcIQLcYxxnQZchDzqTfZu1/view) | [ver foto](https://drive.google.com/file/d/1OA-jXJsomMeaOcbnXZCVVcoDTT0nfi1Q/view) |
+| 2.8 | 12238000000087 | Gear Case Assembly | [ver foto](https://drive.google.com/file/d/1cLN3tTwOxM3kjg8d4o0pmbKE3rfA72jr/view) | — |
 | 4.4 | 11301811000004 | Hexagon head bolt | — | — |
-| 2.2 | 12138000030613 | Impeller Assembly | — | — |
-| 1.19 | 12138000A33043 | Knob Assembly | — | — |
-| 4.2 | 12338000000044 | Motor Pulley Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12338000000044.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12338000000044_2.jpg) |
-| 4.1 | 12238000000041 | Motor Spring Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12238000000041.jpg) | — |
+| 2.2 | 12138000030613 | Impeller Assembly | [ver foto](https://drive.google.com/file/d/1zq13lrVSxaQpRtIx7PX1cHJC2F_wyoS9/view) | — |
+| 1.19 | 12138000A33043 | Knob Assembly | [ver foto](https://drive.google.com/file/d/15WuZps1QqogFx3zVQkQ0bbxnNQ9UubQ1/view) | — |
+| 4.2 | 12338000000044 | Motor Pulley Assembly | [ver foto](https://drive.google.com/file/d/1jcU3HaDqwtgAF_5MzkTYHm3WmkvAI4y1/view) | [ver foto](https://drive.google.com/file/d/1GzjK0Mey6rxIpMphYSPExiVbjlBDeQYA/view) |
+| 4.1 | 12238000000041 | Motor Spring Assembly | [ver foto](https://drive.google.com/file/d/1URte3R9Zel64DSRZjLq1wiMXOHnxAEOv/view) | — |
 | 4.6 | 11301601000001 | Nut | — | — |
-| 2.4 | 12138000A31719 | Overflow Cover Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138000A31719.jpg) | — |
+| 2.4 | 12138000A31719 | Overflow Cover Assembly | [ver foto](https://drive.google.com/file/d/1jwop0cVIGTe35Hr8ucCCPDIW4KQf7d2j/view) | — |
 | 2.5 | 12138000004533 | Plastic Cabinet Assembly | — | — |
 | 4.8 | 17438000001683 | Power Cord | — | — |
 | 1.11 | 12138000001346 | Safety Cover | — | — |
-| 1.8 | 17438000001581 | Safety Switch | — | — |
+| 1.8 | 17438000001581 | Safety Switch | [ver foto](https://drive.google.com/file/d/1knj6cwlmneSR7VSRwkt0CI5GfXKETHrI/view) | — |
 | 2.3 | 11301023000001 | Screw and plain washer | — | — |
 | 2.1 | 11300912000048 | Screw and spring washer and plain washer | — | — |
 | 1.13 | 12138000002485 | Screw Cap | — | — |
 | 4.3 | 11002012000219 | Single phase asynchronous motor | — | — |
 | 4.11 | 11002012000174 | Single phase asynchronous motor | — | — |
-| 1.7 | 12138000A28107 | Spin Cover Assembly | — | — |
+| 1.7 | 12138000A28107 | Spin Cover Assembly | [ver foto](https://drive.google.com/file/d/1ZzYYtVd-rKSt5RWjkp9wzwSvMlW_z0cH/view) | — |
 | 3.1 | 12138000007217 | Spin Cover Inner | — | — |
 | 1.3 | 17438000005309 | Spin Timer | — | — |
 | 3.2 | 12138000028587 | Spin Tub Subassembly | — | — |
 | 1.12 | 12138000007646 | Top Frame | — | — |
-| 1.6 | 12900101000287 | Twist Spring | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12900101000287.jpg) | — |
-| 4.1 | 12638000000841 | V-Belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000000841.jpg) | — |
-| 1.14 | 12138000A03748 | Wash Cover | — | — |
+| 1.6 | 12900101000287 | Twist Spring | [ver foto](https://drive.google.com/file/d/1glU2VcHK-0brFO-ecMxedvXISSCKbopt/view) | — |
+| 4.1 | 12638000000841 | V-Belt | [ver foto](https://drive.google.com/file/d/1OEaA37mMlM8GbIzMTlgOc7JEsb34nchn/view) | — |
+| 1.14 | 12138000A03748 | Wash Cover | [ver foto](https://drive.google.com/file/d/1AVJRlGvIVCiSYILskoivSXzkJS0Vv7QF/view) | — |
 | 1.16 | 17438000005315 | Washing Timer | — | — |
 | 1.1 | 12138000001001 | Water Inlet Box | — | — |
 | 1.9 | 12138000006501 | Water Pipe | — | — |
 | 1.18 | 12138000006495 | Water Pipe | — | — |
-| 2.9 | 12638000000140 | Water Sealer Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000000140.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638000000140_2.jpg) |
+| 2.9 | 12638000000140 | Water Sealer Assembly | [ver foto](https://drive.google.com/file/d/126vk_A5hm5CKALxkm9-mr5pG_Y7MydLz/view) | [ver foto](https://drive.google.com/file/d/1kZn12sZoqMr6bfjLqxWjYlug5avvP4bx/view) |
 | 1.1 | 12138000000944 | Waterproof Shield | — | — |
 
 ## XWAVE (97 registros)
@@ -548,21 +552,21 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | P118 | MWD020NP118 | door hinge spring | — | — |
 | P120 | MWD020NP120 | lower pad | — | — |
 | P124 | MWD020NP124 | clamp holder 2 | — | — |
-| C01 | MWD020NC01 | H.V.fuse | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MWD020NC01.jpg) | — |
-| C02 | MWD020NC02 | H.V.diode | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MWD020NC02.jpg) | — |
+| C01 | MWD020NC01 | H.V.fuse | [ver foto](https://drive.google.com/file/d/1WJ-BfqoGW_-WyW5HL-gW9sLVXj54u5sG/view) | — |
+| C02 | MWD020NC02 | H.V.diode | [ver foto](https://drive.google.com/file/d/1UPlEJEpeSyOSf5nIPIVBdWz_hR6LLQvq/view) | — |
 | C03 | MWD020NC03 | H.V.capacitor | registrada, no existe en el servidor | — |
-| C04 | MWD020NC04 | fuse | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MWD020NC04.jpg) | — |
-| C05 | MWD020NC05 | fan motor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MWD020NC05.jpg) | — |
-| C06 | MWD020NC06 | lamp | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MWD020NC06.jpg) | — |
-| C07 | MWD020NC07 | thermostat 1 | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MWD020NC07.jpg) | — |
-| C08 | MWD020NC08 | magnetron | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MWD020NC08.jpg) | — |
-| C09 | MWD020NC09 | microswitch | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MWD020NC09.jpg) | — |
-| C10 | MWD020NC10 | microswitch | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MWD020NC10.jpg) | — |
+| C04 | MWD020NC04 | fuse | [ver foto](https://drive.google.com/file/d/1ab6HfWPdTCBPms7ALO2wxxzjWfhNgfkv/view) | — |
+| C05 | MWD020NC05 | fan motor | [ver foto](https://drive.google.com/file/d/1Unqu-CjyIPYh7ZEOd_riYsRu8hF5l1A_/view) | — |
+| C06 | MWD020NC06 | lamp | [ver foto](https://drive.google.com/file/d/1wAHdW5lJ_11TqWSviSQVfkD5GZ9U6ROQ/view) | — |
+| C07 | MWD020NC07 | thermostat 1 | [ver foto](https://drive.google.com/file/d/1TNIodel7j5HA43W1NG3F_LsrYcUydWVQ/view) | — |
+| C08 | MWD020NC08 | magnetron | [ver foto](https://drive.google.com/file/d/1k1jZPBazrGSVmkP9ZH0e-RMBpFYhA_vl/view) | — |
+| C09 | MWD020NC09 | microswitch | [ver foto](https://drive.google.com/file/d/1ooPzAegLFz5iRKxjvYEsAHS3pYVakR5K/view) | — |
+| C10 | MWD020NC10 | microswitch | [ver foto](https://drive.google.com/file/d/1B86b1hDoPROrik4GvXFEAGaIR7xBjL2m/view) | — |
 | C11 | MWD020NC11 | microswitch | — | — |
 | C12 | MWD020NC12 | H.V.transformer | — | — |
 | C13 | MWD020NC13 | wiring harness | — | — |
-| C15 | MWD020NC15 | turntable motor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MWD020NC15.jpg) | — |
-| C17 | MWD020NC17 | p.c. board | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MWD020NC17.jpg) | — |
+| C15 | MWD020NC15 | turntable motor | [ver foto](https://drive.google.com/file/d/1YVjHPzKDJzLVAI5HpEtFMUOI3Oc29woh/view) | — |
+| C17 | MWD020NC17 | p.c. board | [ver foto](https://drive.google.com/file/d/1tGQq0fspmSGrCLIVXs4BHMzSGfPSU1I3/view) | — |
 | C18 | MWD020NC18 | thin film switch | — | — |
 
 ### MWD031E
@@ -580,8 +584,8 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | C07 | 12170000007098 | Door Open Button | — | — |
 | C08 | 12970000000400 | Spring | — | — |
 | C13 | 12170000010328 | Door Open Lever | — | — |
-| C18 | 17170000006520 | PCB | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17170000006520.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17170000006520_2.jpg) |
-| C26 | 17170000001307 | Membrane Switch Circuit | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17170000001307.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17170000001307_2.jpg) |
+| C18 | 17170000006520 | PCB | [ver foto](https://drive.google.com/file/d/1ZBoCWgP_U3pbrJFN1Itl1ur_-ePQin3f/view) | [ver foto](https://drive.google.com/file/d/1NHczlzSi4tCZ-CQQOC7QUHno_g13IYCO/view) |
+| C26 | 17170000001307 | Membrane Switch Circuit | [ver foto](https://drive.google.com/file/d/1x2I0pcWzKsw1-o8udzU4CnJxIUyUWcHG/view) | [ver foto](https://drive.google.com/file/d/1-E-74p2wuPOHT6vBzvRDjThytLShuF10/view) |
 | C28 | 12270000000866 | Button Decoration | — | — |
 | D00 | 12270000A25419 | Door Assembly | — | — |
 | D01 | 12270000003772 | Door Frame Assembly | — | — |
@@ -746,7 +750,7 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 2.4 | 12238200000085 | Door Pin | — | — |
 | 2.5 | 12238200000265 | Front Panel Cover (1) | — | — |
 | 3.1 | 12138200000119 | Front Air Flue Assembly | — | — |
-| 3.2 | 12138200000001 | Lint Filter Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12138200000001.jpg) | — |
+| 3.2 | 12138200000001 | Lint Filter Assembly | [ver foto](https://drive.google.com/file/d/1HPOF8R8NuNBK-ey986QRBXg7wtHs_tFZ/view) | — |
 | 3.3 | 12438200000002 | Front Support Seal | — | — |
 | 3.4 | 12238200000218 | Front Support Assembly | — | — |
 | 3.5 | 11301514000006 | Hexagon locking nut | — | — |
@@ -760,16 +764,16 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 5.3 | 11301609000015 | Nut | — | — |
 | 5.4 | 12138200000140 | Impeller Assembly | — | — |
 | 5.5 | 12138200000327 | Volute Cover | — | — |
-| 5.6 | 17438200000404 | Temperature Sensor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17438200000404.jpg) | — |
+| 5.6 | 17438200000404 | Temperature Sensor | [ver foto](https://drive.google.com/file/d/11PL4JRQdP5Wfu-_hsXjyV3jk9OhaX18k/view) | — |
 | 5.7 | 12938200000008 | Clip Spring | — | — |
-| 5.8 | 11002012000066 | Single phase asynchronous motor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012000066.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/11002012000066_2.jpg) |
+| 5.8 | 11002012000066 | Single phase asynchronous motor | [ver foto](https://drive.google.com/file/d/11AbwSl1k0N-xZpIsksQd58vw7Aopid6I/view) | [ver foto](https://drive.google.com/file/d/18ZqoxqJis49dfhdDIYdz7zYstLE0_Tgk/view) |
 | 5.9 | 12138200000243 | Support For Tensioner Pulley Assembly | — | — |
 | 5.10 | 12900101000323 | Spring | — | — |
 | 5.11 | 11303202000009 | Tapping screw | — | — |
-| 5.12 | 17438000001584 | Safety Switch | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17438000001584.jpg) | — |
+| 5.12 | 17438000001584 | Safety Switch | [ver foto](https://drive.google.com/file/d/11_RmKhjGYOCGo2ZymiIRAUDhdHrnIyoh/view) | — |
 | 5.13 | 12238200000100 | Motor Support | — | — |
 | 6 | 12138200003763 | Adjustable Foot Assembly | — | — |
-| 7 | 17438200000070 | Heater Assembly | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17438200000070.jpg) | — |
+| 7 | 17438200000070 | Heater Assembly | [ver foto](https://drive.google.com/file/d/1SBBMP1gJSqyhdyJpF21X8ZC1ZWnp5tZK/view) | — |
 | 7.1 | 12238200000094 | Combustion Chamber | — | — |
 | 7.2 | 17400513000454 | Thermostate | — | — |
 | 7.3 | 17400513000461 | Thermostate | — | — |
@@ -785,7 +789,7 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 9 | 12138200000233 | Adjustable Foot Assembly | — | — |
 | 10 | 12238200000144 | Side Plate | — | — |
 | 11 | 12238200000126 | Rear Vent Pipe Assembly | — | — |
-| 12 | 12638200000022 | Belt | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638200000022.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/12638200000022_2.jpg) |
+| 12 | 12638200000022 | Belt | [ver foto](https://drive.google.com/file/d/1_pfy3VWqoMhfwpqPFpeXgoQ2dnLJ2d3I/view) | [ver foto](https://drive.google.com/file/d/1uhQ3rAyhChAsPDXhgAEr4VgxFvzQO4XS/view) |
 | 13.1 | 12438200000021 | Felt | — | — |
 | 13.2 | 12238200000211 | Basket Assembly | — | — |
 | 13.2.1 | 12138200000178 | Lifter | — | — |
@@ -801,7 +805,7 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 19.1 | 12138000036822 | Knob Assembly | — | — |
 | 19.2 | 16038200A11345 | Control Panel Sticker | — | — |
 | 19.3 | 12138200001681 | Control Panel | — | — |
-| 19.4 | 17138200003662 | PCB | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138200003662.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/17138200003662_2.jpg) |
+| 19.4 | 17138200003662 | PCB | [ver foto](https://drive.google.com/file/d/11AtrBnmhOpaC3cRaOghYJ_FKl5goQagc/view) | [ver foto](https://drive.google.com/file/d/1yjxdl_56qM6dJaHqipaOIiOOP_7yQUaG/view) |
 | 20 | 12238200000106 | Line Speed Hole Cover | — | — |
 | 21 | 12238200000107 | Controller Board Cover | — | — |
 | 22 | 12238200000275 | Top Cover Plate | — | — |
@@ -887,34 +891,34 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 |  | MDD10CB-01 | 聪明座 | registrada, no existe en el servidor | — |
-|  | MDD10CB-02 | 顶盖 | — | — |
+|  | MDD10CB-02 | 顶盖 | [ver foto](https://drive.google.com/file/d/1I3S8Qeo9RLd9-BBBHmn97K-TqYOAjSIm/view) | — |
 |  | MDD10CB-03 | 分水盘 | registrada, no existe en el servidor | — |
-|  | MDD10CB-04 | 冷胆160*160 | — | — |
+|  | MDD10CB-04 | 冷胆160*160 | [ver foto](https://drive.google.com/file/d/1mJspASljNgLJePLJKeqFBTw1AQtyaqY3/view) | — |
 |  | MDD10CB-05 | 冷胆泡沫 | — | — |
 |  | MDD10CB-06 | 冷胆泡沫底座 | — | — |
 |  | MDD10CB-07 | 铁上板 | — | — |
 |  | MDD10CB-08 | 开关板 | — | — |
 |  | MDD10CB-09 | 热罐海绵 | — | — |
 |  | MDD10CB-10 | 热温控 | registrada, no existe en el servidor | — |
-|  | MDD10CB-11 | 热罐 | — | — |
-|  | MDD10CB-12 | 冷凝器 | — | — |
-|  | MDD10CB-13 | 干燥过滤器 | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MDD10CB-13.jpg) | — |
-|  | MDD10CB-14 | 压缩机 | — | — |
+|  | MDD10CB-11 | 热罐 | [ver foto](https://drive.google.com/file/d/1kKWL6HHZ0-uyBeeeGHdC5k4R00PbMnET/view) | — |
+|  | MDD10CB-12 | 冷凝器 | [ver foto](https://drive.google.com/file/d/1d7s-B9NqnNahK6ZXKzFyc75A0aIm9bhc/view) | — |
+|  | MDD10CB-13 | 干燥过滤器 | [ver foto](https://drive.google.com/file/d/1X2IgYfXn86tKakfXzeGUBS1MHwWQk10Z/view) | — |
+|  | MDD10CB-14 | 压缩机 | [ver foto](https://drive.google.com/file/d/1cXDsCPoJfOBI1yHna_cvhKD6XLezteyw/view) | — |
 |  | MDD10CB-15 | 铁中板 | — | — |
 |  | MDD10CB-16 | 压缩机底脚 | — | — |
 |  | MDD10CB-17 | 底脚螺丝 | — | — |
-|  | MDD10CB-18 | 右侧板 | — | — |
+|  | MDD10CB-18 | 右侧板 | [ver foto](https://drive.google.com/file/d/16-IcpOmfIlI9ujiRejveD7xC19S72Kvu/view) | — |
 |  | MDD10CB-19 | 插头 | — | — |
-|  | MDD10CB-20 | 上面板 | — | — |
-|  | MDD10CB-21 | 左侧板 | — | — |
+|  | MDD10CB-20 | 上面板 | [ver foto](https://drive.google.com/file/d/1ORDb5WxfaF9bXQP5gZTyDbh6WYFKwDH8/view) | — |
+|  | MDD10CB-21 | 左侧板 | [ver foto](https://drive.google.com/file/d/1p_-g1zJtV9yFi3yDRExAKCSATQtd6HC_/view) | — |
 |  | MDD10CB-22 | 接地线 | — | — |
 |  | MDD10CB-23 | 下门 | — | — |
 |  | MDD10CB-24 | 热水龙头 | registrada, no existe en el servidor | — |
 |  | MDD10CB-25 | 冷水龙头 | registrada, no existe en el servidor | — |
-|  | MDD10CB-26 | 网片 | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MDD10CB-26.jpg) | — |
+|  | MDD10CB-26 | 网片 | [ver foto](https://drive.google.com/file/d/1ydRJ-mgR6nwu65gfoMPs3UULpyvaI4vs/view) | — |
 |  | MDD10CB-27 | 接水盒 | registrada, no existe en el servidor | — |
 |  | MDD10CB-28 | 铁底板 | — | — |
-|  | MDD10CB-29 | 饮水机底脚(大黑脚) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MDD10CB-29.jpg) | — |
+|  | MDD10CB-29 | 饮水机底脚(大黑脚) | [ver foto](https://drive.google.com/file/d/1NdMH9J3zOXEwniRZnUYUXXjb80qc_05o/view) | — |
 |  | MDD10CB-30 | 排污阀堵头+盖子 | — | — |
 |  | MDD10CB-31 | 加热圈 | registrada, no existe en el servidor | — |
 
@@ -923,14 +927,14 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 |  | MDD10CS-02 | 顶盖(银色) | — | — |
-|  | MDD10CS-08 | 开关板(银色) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MDD10CS-08.jpg) | — |
+|  | MDD10CS-08 | 开关板(银色) | [ver foto](https://drive.google.com/file/d/1-rGrFQNUmAEIc2M89z1LUxwEt-n9oMsR/view) | — |
 |  | MDD10CS-18 | 右侧板(银色) | — | — |
 |  | MDD10CS-20 | 上面板(银色) | — | — |
 |  | MDD10CS-21 | 左侧板(银色) | — | — |
 |  | MDD10CS-23 | 下门(银色) | — | — |
 |  | MDD10CS-24 | 热水龙头(银色) | registrada, no existe en el servidor | — |
 |  | MDD10CS-25 | 冷水龙头(银色) | registrada, no existe en el servidor | — |
-|  | MDD10CS-26 | 网片(银色) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MDD10CS-26.jpg) | — |
+|  | MDD10CS-26 | 网片(银色) | [ver foto](https://drive.google.com/file/d/1O90rM5txJCvXddPFcbwBrwO2jvTf2G49/view) | — |
 |  | MDD10CS-27 | 接水盒(银色) | registrada, no existe en el servidor | — |
 
 ### MDT10BB
@@ -951,31 +955,31 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 |  | 125050010 | 胶脚(大) | — | — |
-|  | 117300025 | 限温器(86℃) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/117300025.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/117300025_2.jpg) |
-|  | 117300026 | 限温器(96℃) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/117300026.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/117300026_2.jpg) |
-|  | 13320023805 | 热罐(0.6L) 420W/115V | — | — |
+|  | 117300025 | 限温器(86℃) | [ver foto](https://drive.google.com/file/d/1AK_LRl2leGWI8_E3rur2yufqiJJiwsa5/view) | [ver foto](https://drive.google.com/file/d/16SI9955FAN6ylcBHPs6Ju46W-E5w6yVC/view) |
+|  | 117300026 | 限温器(96℃) | [ver foto](https://drive.google.com/file/d/1FitOTym-JZiiLqoYJCakhmA_T5HyrQzi/view) | [ver foto](https://drive.google.com/file/d/15RW1zAlDemkDeDW57TUDS1ZIgmiSUpYk/view) |
+|  | 13320023805 | 热罐(0.6L) 420W/115V | [ver foto](https://drive.google.com/file/d/1EYBnY3maL1agvrVNOlcmYHzyBqyWG0Yz/view) | — |
 |  | 709000142 | 螺钉 M3X5 | — | — |
 |  | 125050001 | 排水管胶塞 | — | — |
 |  | 125100020 | 排水管盖带螺纹 | — | — |
-|  | 209103000002 | 水龙头组件(左)(热水) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/209103000002.jpg) | — |
-|  | 209103000001 | 水龙头组件(右)(冷水) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/209103000001.jpg) | — |
+|  | 209103000002 | 水龙头组件(左)(热水) | [ver foto](https://drive.google.com/file/d/1fC4zACE8hdn2xIa7j3poHxvnM1MrxAKS/view) | — |
+|  | 209103000001 | 水龙头组件(右)(冷水) | [ver foto](https://drive.google.com/file/d/1eKzkTkd8wk1wZBLQ9ueJirgNSgipYeXy/view) | — |
 |  | 128990719 | 杯推硅胶件 | — | — |
 |  | 128403890 | 童锁支架(本色) | — | — |
 |  | 128500377 | 旋钮(左)(黑色) | — | — |
 |  | 133202384 | 弹簧 Φ0.5XΦ4.8X18.6 | — | — |
 |  | 115050006 | 波动开关(10A/250V)(红) | — | — |
 |  | 1150500061 | 波动开关(10A/250V)(绿) | — | — |
-|  | 12840390104P | 接水盒(中灰428C)(喷涂银色) | — | — |
+|  | 12840390104P | 接水盒(中灰428C)(喷涂银色) | [ver foto](https://drive.google.com/file/d/1R7UFuPtEZgAtjW9xlwNGFxeEY1xbdKV-/view) | — |
 |  | 125050020 | 隔震圈 | — | — |
 |  | 00036540002 | 水桶盖组件(预装) | — | — |
 |  | 117800034 | 自吸水泵 1000/1.2-A | — | — |
 |  | 71020265 | 高温线扎 120mm | — | — |
 |  | 14505000901 | 泡沫(冷罐) | — | — |
 |  | 11710002401 | 冷罐组件(2.3L) | — | — |
-|  | 117300632 | 主板 GYWE-LRSX01 | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/117300632.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/117300632_2.jpg) |
+|  | 117300632 | 主板 GYWE-LRSX01 | [ver foto](https://drive.google.com/file/d/1X0HDYWyG19W53JM2No7urJEQgACENDWO/view) | [ver foto](https://drive.google.com/file/d/1-QD-oDFH_uNIHicigzEudACHE1AdD1ML/view) |
 |  | 117300709 | 温控器 WP7M | — | — |
-|  | 117000499 | 液位开关(3位) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/117000499.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/117000499_3.jpg) |
-|  | 117300624 | 指示灯板 | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/117300624.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/117300624_2.jpg) |
+|  | 117000499 | 液位开关(3位) | [ver foto](https://drive.google.com/file/d/1ZTqNJflOkm32qs5a9dAg0aM0sWXNY542/view) | [ver foto](https://drive.google.com/file/d/1wnpachVnMsYJixFnebjGH4mtDRyzxxnr/view) |
+|  | 117300624 | 指示灯板 | [ver foto](https://drive.google.com/file/d/1g50Fcst27yd2Up1SJMX8mgmc2Uk2hWF0/view) | [ver foto](https://drive.google.com/file/d/1dKrR3bppoI6GS7l0o-uZ5IFDxLuSna_q/view) |
 |  | 119990010 | 冷接头 | — | — |
 |  | 115050009 | 干燥过滤器 GYLR22X XH-9 | — | — |
 |  | 11780003501 | 压缩机 PW2.0DV-F(110-120V/60Hz)(铝线) | — | — |
@@ -987,14 +991,14 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 | 1 | / | Door handle | — | — |
-| 3 | 312240100464 | door gasket | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312240100464.jpg) | — |
+| 3 | 312240100464 | door gasket | [ver foto](https://drive.google.com/file/d/16OF8uTEKJNSMa5lLnLT6n0XrOUrEociZ/view) | — |
 | 4 | 312280200249 | basket | — | — |
-| 5 | 312200400716 | compressor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312200400716.jpg) | — |
-| 6 | 312121100267 | control box | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312121100267.jpg) | — |
+| 5 | 312200400716 | compressor | [ver foto](https://drive.google.com/file/d/1Mzdvj45Qw0RKdi_B5yeUgyQKT6v-rdOO/view) | — |
+| 6 | 312121100267 | control box | [ver foto](https://drive.google.com/file/d/1LbFzUHO4etJz-tM-_WA8K26XXnFcb1S0/view) | — |
 | 7 | 312129900717 | wheel | registrada, no existe en el servidor | — |
 | 8 | 312200600036 | Dry filter | — | — |
 | 9 | 312151100337 | Power cord | — | — |
-| 10 | 312180100114 | thersmostat | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312180100114.jpg) | — |
+| 10 | 312180100114 | thersmostat | [ver foto](https://drive.google.com/file/d/1CoBegMYJsDW45hGXwmfWxFKkUCuu-LHa/view) | — |
 
 ### MCP15HB
 
@@ -1003,54 +1007,54 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | 1 | / | Hinge | — | — |
 | 2 | 312380100270 | door gasket | — | — |
 | 3 | 312280200250 | basket | — | — |
-| 4 | 312200400716 | compressor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312200400716.jpg) | — |
+| 4 | 312200400716 | compressor | [ver foto](https://drive.google.com/file/d/1Mzdvj45Qw0RKdi_B5yeUgyQKT6v-rdOO/view) | — |
 | 5 | 312121100454 | control box | — | — |
-| 6 | 312129900113 | wheel | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312129900113.jpg) | — |
+| 6 | 312129900113 | wheel | [ver foto](https://drive.google.com/file/d/1ZyZi1SuS4E1WSim8s5BdZAm1rp_SAQmF/view) | — |
 | 7 | 312200600036 | Dry filter | — | — |
 | 8 | 312151100337 | Power cord | — | — |
-| 9 | 312180100114 | thersmostat | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312180100114.jpg) | — |
+| 9 | 312180100114 | thersmostat | [ver foto](https://drive.google.com/file/d/1CoBegMYJsDW45hGXwmfWxFKkUCuu-LHa/view) | — |
 
 ### MCP20HB
 
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 | 2 | / | Hinge | — | — |
-| 4 | 312240100587 | door gasket | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312240100587.jpg) | — |
+| 4 | 312240100587 | door gasket | [ver foto](https://drive.google.com/file/d/1XTLQg1XBqoxIwRTYt2dDMRsTC_F_qX5G/view) | — |
 | 5 | 312280200250 | basket | — | — |
-| 6 | 312200400679 | compressor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312200400679.jpg) | — |
-| 8 | 312180100114 | control box | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312180100114.jpg) | — |
-| 9 | 312129900113 | wheel | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312129900113.jpg) | — |
+| 6 | 312200400679 | compressor | [ver foto](https://drive.google.com/file/d/1LHVXsfmP67LtVB2zV0bJ0Jca75dlMRMB/view) | — |
+| 8 | 312180100114 | control box | [ver foto](https://drive.google.com/file/d/1CoBegMYJsDW45hGXwmfWxFKkUCuu-LHa/view) | — |
+| 9 | 312129900113 | wheel | [ver foto](https://drive.google.com/file/d/1ZyZi1SuS4E1WSim8s5BdZAm1rp_SAQmF/view) | — |
 | 10 | 312200600036 | Dry filter | — | — |
 | 11 | 312151100337 | Power cord | — | — |
-| 12 | 312180100114 | thersmostat | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312180100114.jpg) | — |
+| 12 | 312180100114 | thersmostat | [ver foto](https://drive.google.com/file/d/1CoBegMYJsDW45hGXwmfWxFKkUCuu-LHa/view) | — |
 
 ### MCP25HB
 
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 | 2 | / | Hinge | — | — |
-| 4 | 312240100587 | door gasket | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312240100587.jpg) | — |
+| 4 | 312240100587 | door gasket | [ver foto](https://drive.google.com/file/d/1XTLQg1XBqoxIwRTYt2dDMRsTC_F_qX5G/view) | — |
 | 5 | 312280200250 | basket | — | — |
-| 6 | 312200400679 | compressor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312200400679.jpg) | — |
-| 8 | 312180100114 | control box | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312180100114.jpg) | — |
-| 9 | 312129900113 | wheel | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312129900113.jpg) | — |
+| 6 | 312200400679 | compressor | [ver foto](https://drive.google.com/file/d/1LHVXsfmP67LtVB2zV0bJ0Jca75dlMRMB/view) | — |
+| 8 | 312180100114 | control box | [ver foto](https://drive.google.com/file/d/1CoBegMYJsDW45hGXwmfWxFKkUCuu-LHa/view) | — |
+| 9 | 312129900113 | wheel | [ver foto](https://drive.google.com/file/d/1ZyZi1SuS4E1WSim8s5BdZAm1rp_SAQmF/view) | — |
 | 10 | 312200600036 | Dry filter | — | — |
 | 11 | 312151100337 | Power cord | — | — |
-| 12 | 312180100114 | thersmostat | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312180100114.jpg) | — |
+| 12 | 312180100114 | thersmostat | [ver foto](https://drive.google.com/file/d/1CoBegMYJsDW45hGXwmfWxFKkUCuu-LHa/view) | — |
 
 ### MCP30HB
 
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 | 2 | / | Hinge | — | — |
-| 4 | 312240100587 | door gasket | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312240100587.jpg) | — |
+| 4 | 312240100587 | door gasket | [ver foto](https://drive.google.com/file/d/1XTLQg1XBqoxIwRTYt2dDMRsTC_F_qX5G/view) | — |
 | 5 | 312280200250 | basket | — | — |
-| 6 | 312200400679 | compressor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312200400679.jpg) | — |
-| 8 | 312180100114 | control box | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312180100114.jpg) | — |
-| 9 | 312129900113 | wheel | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312129900113.jpg) | — |
+| 6 | 312200400679 | compressor | [ver foto](https://drive.google.com/file/d/1LHVXsfmP67LtVB2zV0bJ0Jca75dlMRMB/view) | — |
+| 8 | 312180100114 | control box | [ver foto](https://drive.google.com/file/d/1CoBegMYJsDW45hGXwmfWxFKkUCuu-LHa/view) | — |
+| 9 | 312129900113 | wheel | [ver foto](https://drive.google.com/file/d/1ZyZi1SuS4E1WSim8s5BdZAm1rp_SAQmF/view) | — |
 | 10 | 312200600036 | Dry filter | — | — |
 | 11 | 312151100337 | Power cord | — | — |
-| 12 | 312180100114 | thersmostat | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/312180100114.jpg) | — |
+| 12 | 312180100114 | thersmostat | [ver foto](https://drive.google.com/file/d/1CoBegMYJsDW45hGXwmfWxFKkUCuu-LHa/view) | — |
 
 ## REFX (32 registros)
 
@@ -1097,34 +1101,34 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
-| 1 | 02040400001 | Ignition Pin | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400001.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400001_2.jpg) |
-| 2 | 02020100047 | Winter/Summer knob | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02020100047.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02020100047_2.jpg) |
-| 3 | 02040400002 | Sensor Pin | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400002.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400002_2.jpg) |
-| 4 | 02040600092 | LCD display | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040600092.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040600092_2.jpg) |
-| 5 | 02020100046 | Gas/Water Adjusting Knob | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02020100046.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02020100046_2.jpg) |
-| 6 | 02090300393 | Water-gas interlock valve（LPG） | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02090300393.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02090300393_2.jpg) |
-| 7 | 02070100362 | Burner （LPG） | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02070100362.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02070100362_2.jpg) |
+| 1 | 02040400001 | Ignition Pin | [ver foto](https://drive.google.com/file/d/1uvlrfHSCGW6byBpIX-SJwNPNEGG8EhIC/view) | [ver foto](https://drive.google.com/file/d/1-cKfFBR_Nbw6kv3SozG9R7tHmSBmhkVY/view) |
+| 2 | 02020100047 | Winter/Summer knob | [ver foto](https://drive.google.com/file/d/1dz-PFPcOp61MnuXFGCwRnLKLE0kwlrn8/view) | [ver foto](https://drive.google.com/file/d/1Z5b7a8BfBjDC0eHWO13iAYSHy0xBudeP/view) |
+| 3 | 02040400002 | Sensor Pin | [ver foto](https://drive.google.com/file/d/1NnE6LgqqmCUtrNv42SOWa7feXX2290CH/view) | [ver foto](https://drive.google.com/file/d/1spcgANRyLjCiNHe-LLph3hLEwNFn4DzI/view) |
+| 4 | 02040600092 | LCD display | [ver foto](https://drive.google.com/file/d/1OrC9dm6js4mmA4DQ3dKFW368pQRX91P6/view) | [ver foto](https://drive.google.com/file/d/1QjkhwEwJ8dHIeiQIXEcj73xahsL2cqu3/view) |
+| 5 | 02020100046 | Gas/Water Adjusting Knob | [ver foto](https://drive.google.com/file/d/1giT-a79w1RorD2vSTsC36UQJKMC8WjjU/view) | [ver foto](https://drive.google.com/file/d/1qhghc7te2eepy8GBsYgT0pk9yfRPVLea/view) |
+| 6 | 02090300393 | Water-gas interlock valve（LPG） | [ver foto](https://drive.google.com/file/d/1TamKY-A84mA5-EqZCE7xa8BrCCoAeHpN/view) | [ver foto](https://drive.google.com/file/d/1PML-Lf_wjutJ7r1AmZdaCfsrUaSpEHhY/view) |
+| 7 | 02070100362 | Burner （LPG） | [ver foto](https://drive.google.com/file/d/1LNMCnamc9qQptTkbiM6TzXPUamzcajKh/view) | [ver foto](https://drive.google.com/file/d/14oHR8sQg9Q418n1rnZVG3FF4jRlulcRG/view) |
 | 8 | 02010400002 | Fixing plate | — | — |
-| 9 | 02040100187 | Ignitor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040100187.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040100187_2.jpg) |
+| 9 | 02040100187 | Ignitor | [ver foto](https://drive.google.com/file/d/1BDLNZuuGlYLa5NB1UM_XrU_EN1BveKYI/view) | [ver foto](https://drive.google.com/file/d/1b7zufWIn46vW30YebGxgVkIg9lh_VzMu/view) |
 | 10 | 02010200001 | Bracket for Ignition | — | — |
 | 11 | 02010300001 | Heat Shield | — | — |
-| 12 | 02020400007 | Battery box | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02020400007.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02020400007_1.jpg) |
-| 13 | 02040400006 | Output Water Temperature Sensor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400006.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400006_2.jpg) |
+| 12 | 02020400007 | Battery box | [ver foto](https://drive.google.com/file/d/1sv1UacMNs3j68nshrM491WacS7CgeFn7/view) | [ver foto](https://drive.google.com/file/d/1sE161NZ5T1l0uQOH_AiL8rZ_fQ3AfL0V/view) |
+| 13 | 02040400006 | Output Water Temperature Sensor | [ver foto](https://drive.google.com/file/d/1XBIYiHqDhNix0JO2nsNKg4Ko19VQObsL/view) | [ver foto](https://drive.google.com/file/d/1vhwq7DpspGSGHeaFL8yFgQ04AL4wm7cF/view) |
 | 14 | 0201010000411 | Back Panel | — | — |
 | 15 | 02100100168 | Heat Exchanger | — | — |
 | 16 | 0211010000208 | Exhaust Gas Collector | — | — |
-| 17 | 02040200001 | Thermostat | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040200001.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040200001_1.jpg) |
+| 17 | 02040200001 | Thermostat | [ver foto](https://drive.google.com/file/d/1gahrnjs8dlRb8lcSfeoky7h1mwUjBsg0/view) | [ver foto](https://drive.google.com/file/d/1LhfI1Q_mcj-WEFlBKFCjHDNl-TwoqOmX/view) |
 | 18 | 0201010066611 | Front Panel | — | — |
 
 ### MBF06ZC
 
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
-| 1 | 02040400001 | Ignition Pin | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400001.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400001_2.jpg) |
-| 2 | 02020100047 | Winter/Summer knob | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02020100047.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02020100047_2.jpg) |
-| 3 | 02040400002 | Sensor Pin | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400002.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400002_2.jpg) |
-| 4 | 02040600092 | LCD display | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040600092.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040600092_2.jpg) |
-| 5 | 02020100046 | Gas/Water Adjusting Knob | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02020100046.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02020100046_2.jpg) |
+| 1 | 02040400001 | Ignition Pin | [ver foto](https://drive.google.com/file/d/1uvlrfHSCGW6byBpIX-SJwNPNEGG8EhIC/view) | [ver foto](https://drive.google.com/file/d/1-cKfFBR_Nbw6kv3SozG9R7tHmSBmhkVY/view) |
+| 2 | 02020100047 | Winter/Summer knob | [ver foto](https://drive.google.com/file/d/1dz-PFPcOp61MnuXFGCwRnLKLE0kwlrn8/view) | [ver foto](https://drive.google.com/file/d/1Z5b7a8BfBjDC0eHWO13iAYSHy0xBudeP/view) |
+| 3 | 02040400002 | Sensor Pin | [ver foto](https://drive.google.com/file/d/1NnE6LgqqmCUtrNv42SOWa7feXX2290CH/view) | [ver foto](https://drive.google.com/file/d/1spcgANRyLjCiNHe-LLph3hLEwNFn4DzI/view) |
+| 4 | 02040600092 | LCD display | [ver foto](https://drive.google.com/file/d/1OrC9dm6js4mmA4DQ3dKFW368pQRX91P6/view) | [ver foto](https://drive.google.com/file/d/1QjkhwEwJ8dHIeiQIXEcj73xahsL2cqu3/view) |
+| 5 | 02020100046 | Gas/Water Adjusting Knob | [ver foto](https://drive.google.com/file/d/1giT-a79w1RorD2vSTsC36UQJKMC8WjjU/view) | [ver foto](https://drive.google.com/file/d/1qhghc7te2eepy8GBsYgT0pk9yfRPVLea/view) |
 
 ## TURBO FLUX (22 registros)
 
@@ -1133,14 +1137,14 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 | 1 | 02010100701.002 | FRONT PANEL | — | — |
-| 2 | 02040400015 | IGNITION PIN | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400015.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400015_2.jpg) |
-| 3 | 02040400008 | SENSOR PIN | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400008.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040400008_2.jpg) |
+| 2 | 02040400015 | IGNITION PIN | [ver foto](https://drive.google.com/file/d/1HnT67ojPOXXV7AAgFQ2WBPlxOHNpe2L8/view) | [ver foto](https://drive.google.com/file/d/1iaNiux8Y_jwKKLIjg_kGUbn6aGRPhvzH/view) |
+| 3 | 02040400008 | SENSOR PIN | [ver foto](https://drive.google.com/file/d/14uPtPZS3ciwY_vN64VhZR-ro96UnYDWu/view) | [ver foto](https://drive.google.com/file/d/1-kLl-TcoEPPHm-QBUyODuBKuTUV1-aGX/view) |
 | 4 | 02100100149 | HEAT EXCHANGER | — | — |
 | 5 | 02040400014 | OUTPUT WATER TEMPERATURE SENSOR | — | — |
-| 6 | 02040600086 | DISPLAY | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040600086.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040600086_2.jpg) |
-| 7 | 02070000149 | BURNER | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02070000149.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02070000149_2.jpg) |
+| 6 | 02040600086 | DISPLAY | [ver foto](https://drive.google.com/file/d/1h1HTMPOfiKWQnicmGT7yt52uiQAEv4Hn/view) | [ver foto](https://drive.google.com/file/d/1j8NObYQ10pFZTjhJEJdsRIEt6ZWSfe0a/view) |
+| 7 | 02070000149 | BURNER | [ver foto](https://drive.google.com/file/d/1Jrw3rL78l2d4wkmre8y7RYMETUpkVwgP/view) | [ver foto](https://drive.google.com/file/d/1Sif6rby50MSw6TUURyRL9_v5EROPhcll/view) |
 | 8 | 02040500017 | TRANSFORMER | — | — |
-| 9 | 02040200001 | THERMOSTAT | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040200001.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/02040200001_1.jpg) |
+| 9 | 02040200001 | THERMOSTAT | [ver foto](https://drive.google.com/file/d/1gahrnjs8dlRb8lcSfeoky7h1mwUjBsg0/view) | [ver foto](https://drive.google.com/file/d/1LhfI1Q_mcj-WEFlBKFCjHDNl-TwoqOmX/view) |
 | 10 | 02010100700026 | BACK PANEL | — | — |
 | 11 | 02010500011 | BURNER SHEET | — | — |
 | 12 | 02090100012 | GAS PROPORTIONAL VALVE | — | — |
@@ -1162,28 +1166,28 @@ Las fotos viven en Amazon AWS S3 (`https://s3.amazonaws.com/mrgprd2023-00010/APP
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
 |  | 1059000700 | Heating element | — | — |
-|  | 10712100158 | Main power board | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10712100158.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10712100158_2.jpg) |
-|  | 10513000032 | Thermal cut-out | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10513000032.jpg) | — |
+|  | 10712100158 | Main power board | [ver foto](https://drive.google.com/file/d/1tJOf-JDtRXnbT0rmAvoh_QgO3CPgx2Vh/view) | [ver foto](https://drive.google.com/file/d/1_m8lhdSVm-J7W5hbJA_eU_Kpmdsa6iV3/view) |
+|  | 10513000032 | Thermal cut-out | [ver foto](https://drive.google.com/file/d/1QXFtcBXB94fQ1GuxEZQqyxRQ6FTcaHIo/view) | — |
 |  | 10612200167 | Triac with wire | — | — |
-|  | 10513200011 | Inlet temp.sensor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10513200011.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10513200011_2.jpg) |
-|  | 10513200010 | Outlet temp.sensor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10513200010_2.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10513200010_3.jpg) |
+|  | 10513200011 | Inlet temp.sensor | [ver foto](https://drive.google.com/file/d/1NMixrtK9M5dYOb8KPTNm4ACS367pvoCs/view) | [ver foto](https://drive.google.com/file/d/1U-boK3YAcAdp9iowCcAqXnglW30K8p4i/view) |
+|  | 10513200010 | Outlet temp.sensor | [ver foto](https://drive.google.com/file/d/1QMnePVOXDO-VKLC6fRnsKCv5ljuCG2Nc/view) | [ver foto](https://drive.google.com/file/d/1W9_ZyQL_dne_tb2pbD59O7kvJxRd0FLh/view) |
 |  | 10200000003 | Filter | — | — |
-|  | MBE040B-01 | Seal ring | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MBE040B-01.jpg) | — |
-|  | MBE040B-02 | Screw set | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/MBE040B-02.jpg) | — |
+|  | MBE040B-01 | Seal ring | [ver foto](https://drive.google.com/file/d/1xpe9PPdrF75IvvLKMOQmbKjq5zcBrvPW/view) | — |
+|  | MBE040B-02 | Screw set | [ver foto](https://drive.google.com/file/d/1h-csn_RUDhZc1kVT1lRYYAHzL3yWmD0L/view) | — |
 |  | MBE040B-03 | Cable tie | — | — |
 
 ### MBE081G
 
 | EX_ID | Número de parte | Refacción | Foto 1 | Foto 2 |
 |---|---|---|---|---|
-|  | 10612200169 | Heating element | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10612200169.jpg) | — |
-|  | 10712100147 | Display board | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10712100147.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10712100147_2.jpg) |
-|  | 10712100089 | Main power board | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10712100089.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10712100089_2.jpg) |
-|  | 10513000032 | Thermal cut-out | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/10513000032.jpg) | — |
+|  | 10612200169 | Heating element | [ver foto](https://drive.google.com/file/d/1U6UaAyIm5NECkGSs7lWkuSraOp0uT81g/view) | — |
+|  | 10712100147 | Display board | [ver foto](https://drive.google.com/file/d/1d8LZciAzMlvzxHvcI_baOxe620OE_Kil/view) | [ver foto](https://drive.google.com/file/d/1OgFlwKqcR2AfjX57ZuuTQr47GHAaHaGJ/view) |
+|  | 10712100089 | Main power board | [ver foto](https://drive.google.com/file/d/1okYQrQu3NoDSQ2zB_7oBGMRPcxT7zLgj/view) | [ver foto](https://drive.google.com/file/d/1nqgeE1bBmAS9zVig7ux3dLSc2KUHL6Nf/view) |
+|  | 10513000032 | Thermal cut-out | [ver foto](https://drive.google.com/file/d/1QXFtcBXB94fQ1GuxEZQqyxRQ6FTcaHIo/view) | — |
 |  | 10513100003 | Triac with wire | — | — |
-|  | 10512800184 | Water inlet conector with flowmeter | — | — |
-|  | 1059000047 | Inlet temp.sensor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/1059000047.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/1059000047_2.jpg) |
-|  | 1059000047 | Outlet temp.sensor | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/1059000047.jpg) | [ver foto](https://s3.amazonaws.com/mrgprd2023-00010/APP_REF/PIC_REF/1059000047_2.jpg) |
+|  | 10512800184 | Water inlet conector with flowmeter | [ver foto](https://drive.google.com/file/d/1XpLSc6PGYPOiL7r8fPI_Hnrbc0Z2Zvv0/view) | — |
+|  | 1059000047 | Inlet temp.sensor | [ver foto](https://drive.google.com/file/d/173Hd__e56HrmFwCnY3L3eQaa57VFJz0_/view) | [ver foto](https://drive.google.com/file/d/1NMoAYir5a3H2zv-uzQjhPi-iogCdkI7v/view) |
+|  | 1059000047 | Outlet temp.sensor | [ver foto](https://drive.google.com/file/d/173Hd__e56HrmFwCnY3L3eQaa57VFJz0_/view) | [ver foto](https://drive.google.com/file/d/1NMoAYir5a3H2zv-uzQjhPi-iogCdkI7v/view) |
 |  | 10929900137 | Filter | — | — |
 |  | 10929900022 | Seal ring | — | — |
 |  | MBE081G-01 | Screw set | — | — |
