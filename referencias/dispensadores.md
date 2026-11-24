@@ -31,6 +31,17 @@ Categoría creada el 2026-11-12 a petición de Ernesto, dentro del proyecto Diag
 
 > Del MDD30 **no hay valores de compresor documentados** en el material del curso: no se inventan; se diagnostica por arranque, termostato y ciclo.
 
+## Falla de diagnóstico: hace ruido (ruido inusual)
+
+**Lógica:** primero se identifica la fuente del ruido. Si el ruido viene del **compresor** (suena mientras el equipo enfría), la prueba que manda es el **amperaje** (dictada por Ernesto el 2026-11-24):
+
+1. **Medir el amperaje del compresor** con la pinza amperimétrica, con el compresor trabajando.
+2. **Compararlo contra la placa de datos** del equipo: el amperaje medido debe corresponder al nominal que marca la placa. No hay un valor universal: cada modelo se juzga contra su propia placa.
+3. **Amperaje fuera de lo que marca la placa (consumo anormal) = compresor dañado** — el ruido viene del esfuerzo/devanados del compresor y la solución es el cambio del compresor.
+4. **Comprobación complementaria (MDD10):** medir los devanados del compresor (retirando antes el relevador térmico): terminales **1–2: 10 Ω**, terminales **2–3: 20 Ω**; entre extremos debe dar la **suma**. Si la suma no se cumple, devanado dañado.
+
+> Si el ruido es **al despachar o al subir agua** (MDD30), la fuente es la **bomba**, no el compresor: revisar primero el vacío de succión (la bomba se escucha pero no sube el agua, ver «No sale agua» / boletín DISX30) y el voltaje en su conector (≈14.5 VCD = alimentación buena).
+
 ## Pieza: llave de agua caliente del MDD10
 
 - **Llave de agua caliente, DISX10 blanco — número de parte MDD10CB-24** (la del gris MDD10CS es la MDD10CS-24). Es la llave original del dispensador **MDD10CB**: cuerpo blanco con **palanca roja** y **seguro** — el seguro se levanta para poder despachar, como protección contra el despacho accidental de agua caliente.
