@@ -112,7 +112,7 @@ Guía basada en el calentador de paso de **gas LP, 1 servicio, 5–6 L/min**.
 #### a) Suministro de gas y baterías
 
 - Verificar que la válvula del tanque esté **abierta** y que haya suministro de gas.
-- Baterías con voltaje **por encima de 3 V** (se requieren para el funcionamiento). Es el par de 2 pilas de 1.5 V: con 3.0 V o menos, la bobina de la válvula ya no se sostiene y se cambian las pilas.
+- Baterías con voltaje **por encima de 3 V** (se requieren para el funcionamiento). Es el par de 2 pilas de 1.5 V: con 3.0 V o menos, la bobina de la válvula ya no se sostiene y se cambian las pilas. **Imagen muestra:** video de campo de Ernesto (2026-11-24) midiendo la caja de baterías con la pinza: el par marca ≈3.2 V (en Drive, carpeta Videos de Boiler de paso: «Medicion de voltaje en caja de baterias.mp4»).
 
 #### b) Bobina de la válvula de gas
 
