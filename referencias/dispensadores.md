@@ -4,7 +4,7 @@ Categoría creada el 2026-11-12 a petición de Ernesto, dentro del proyecto Diag
 
 - El contenido técnico de la categoría está en **`referencias/refrigeracion-domestica-modulo-5.md`** (Módulo 5 del curso de Ernesto, compartido con refrigeradores y congeladores): ciclo de refrigeración y la revisión de los dos modelos — **MDD10** (garrafón superior por gravedad: resistencia del tanque caliente 26 Ω, termostatos de 85/90 °C, compresor 10 Ω / 20 Ω) y **MDD30** (garrafón inferior con bomba: resistencia 33 Ω, bomba alimentada a 12 VCD desde la tarjeta; medición de campo de Ernesto en un MDD30HD, 2026-11-19: **14.50 VCD en el conector de la bomba**, con fotos muestra en Drive) —, con las confirmaciones de Ernesto del 2026-11-12.
 - **Fusible del DISX30 (MDD30HC/HD): 5 A**, ubicado en la **caja de controles**; el manual indica que puede reemplazarse en caso de que se ponga en circuito abierto (manual del usuario DISX30, pág. 10, «Conexión Eléctrica»).
-- La carpeta de Drive **Github / Dispensadores** (https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K) ya tiene 25 archivos registrados en `referencias/indice-drive.md`: manuales Disx10/Disx30 (incluidos el del MDD30HD blanco de garrafón oculto y el del MDD10CS), fichas de especificaciones (DISX30-2025, Disx10, Disx30 rev. 2), diagramas (MDD30HD, eléctrico MDD30HC, explosivo MDD10CB), boletines (bomba sin succión DISX30, alarma de nivel bajo MDD30HC, check valve DISK10), video de la bomba, el video de la llave de agua caliente del MDD10CB y el material del caso **fuga debajo del depósito de agua fría** (documentado en la sección 3.3 del documento del Módulo 5).
+- La carpeta de Drive **Github / Dispensadores** (https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K) ya tiene 26 archivos registrados en `referencias/indice-drive.md`: manuales Disx10/Disx30 (incluidos el del MDD30HD blanco de garrafón oculto y el del MDD10CS), fichas de especificaciones (DISX30-2025, Disx10, Disx30 rev. 2), diagramas (MDD30HD, eléctrico MDD30HC, explosivo MDD10CB), boletines (bomba sin succión DISX30, alarma de nivel bajo MDD30HC, check valve DISK10), video de la bomba, el video de la llave de agua caliente del MDD10CB y el material del caso **fuga debajo del depósito de agua fría** (documentado en la sección 3.3 del documento del Módulo 5).
 - Conforme Ernesto comparta más material de esta categoría, se registrará en `referencias/indice-drive.md` y se documentará aquí, siguiendo las mismas reglas de respuesta de la skill.
 
 ## Falla de diagnóstico: no calienta el agua
@@ -36,13 +36,15 @@ Categoría creada el 2026-11-12 a petición de Ernesto, dentro del proyecto Diag
 **Lógica:** primero se identifica la fuente del ruido. Si el ruido viene del **compresor** (suena mientras el equipo enfría), la prueba que manda es el **amperaje** (dictada por Ernesto el 2026-11-24):
 
 1. **Medir el amperaje del compresor** con la pinza amperimétrica, con el compresor trabajando.
-2. **Compararlo contra la placa de datos** del equipo: el amperaje medido debe corresponder al nominal que marca la placa. No hay un valor universal: cada modelo se juzga contra su propia placa. **Ejemplo documentado: en el MDD30HC la placa marca corriente del enfriador (compresor) de 0,7 A** (foto de la placa en Drive, ver la sección de placa de datos abajo).
+2. **Compararlo contra la placa de datos** del equipo: el amperaje medido debe corresponder al nominal que marca la placa. No hay un valor universal: cada modelo se juzga contra su propia placa. **Ejemplos documentados: en el MDD30HC y en el MDD10CB la placa marca corriente del enfriador (compresor) de 0,7 A** (fotos de las placas en Drive, ver la sección de placas de datos abajo).
 3. **Amperaje fuera de lo que marca la placa (consumo anormal) = compresor dañado** — el ruido viene del esfuerzo/devanados del compresor y la solución es el cambio del compresor.
 4. **Comprobación complementaria (MDD10):** medir los devanados del compresor (retirando antes el relevador térmico): terminales **1–2: 10 Ω**, terminales **2–3: 20 Ω**; entre extremos debe dar la **suma**. Si la suma no se cumple, devanado dañado.
 
 > Si el ruido es **al despachar o al subir agua** (MDD30), la fuente es la **bomba**, no el compresor: revisar primero el vacío de succión (la bomba se escucha pero no sube el agua, ver «No sale agua» / boletín DISX30) y el voltaje en su conector (≈14.5 VCD = alimentación buena).
 
-## Placa de datos del MDD30HC (foto de Ernesto, 2026-11-24)
+## Placas de datos (fotos de Ernesto, 2026-11-24)
+
+### MDD30HC
 
 Datos de la placa de datos del dispensador de temperatura dual **MDD30HC** (foto en Drive, carpeta Dispensadores):
 
@@ -54,6 +56,19 @@ Datos de la placa de datos del dispensador de temperatura dual **MDD30HC** (foto
 - **Importador impreso en la placa: CENAGE S.A. DE C.V.** (el mismo del Flux Rojo; ojo: el manual del MDD30HD trae impreso LB Importaciones — el importador se confirma en la placa/manual de cada equipo)
 
 > Nota: el consumo del calefactor de la placa (490 W a 115 V) equivale a una resistencia de ≈27 Ω; el valor de resistencia documentado en el curso para el MDD30 es **33 Ω**. Se conservan ambos datos con su fuente (placa de datos vs. material del curso) sin dar uno por corregido.
+
+### MDD10CB
+
+Datos de la placa de datos del dispensador de temperatura dual **MDD10CB** (foto en Drive, carpeta Dispensadores):
+
+- **Voltaje:** 115 V~ · **1 fase** · **60 Hz**
+- **Corriente del enfriador (compresor): 0,7 A** — consumo 70 W
+- **Corriente del calefactor: 4,25 A** — consumo 490 W
+- **Refrigerante: R134a / 32 g** (el MDD30HC trae 34 g)
+- **Consumo energético:** 0,596 kWh en operación · 0,0004 kWh en modo de espera
+- **Importador impreso en la placa: CENAGE S.A. DE C.V.** (dirección de Guadalajara, la misma del Flux Rojo)
+
+> Nota: el calefactor del MDD10CB también marca 490 W en placa (≈27 Ω equivalentes); la resistencia documentada del MDD10 es **26 Ω**, que a 115 V da ≈509 W — cercano al dato de placa, dentro de tolerancia de medición/redondeo.
 
 ## Pieza: llave de agua caliente del MDD10
 
