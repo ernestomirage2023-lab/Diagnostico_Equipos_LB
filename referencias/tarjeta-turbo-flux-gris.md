@@ -41,6 +41,8 @@ El documento **no** muestra numeración de terminales, pinout completo, voltajes
 
 Ernesto compartió el **manual del usuario** del Turbo Flux 11 L Gris (MBF12AG / MBF12AH), 28 páginas; vive en Drive, carpeta **Boiler MBF12AG-AH**: https://drive.google.com/file/d/1EpobPrTyNmKkhN1-WLw8p64afjTh-QDM/view?usp=drivesdk
 
+**Conectividad:** el MBF12AG / MBF12AH **tiene WiFi** (confirmado por Ernesto el 2026-11-24), igual que el Turbo Flux 10 L MBF10AD / MBF10AE.
+
 **Especificaciones (capítulo 5):** descarga forzada; operación 115 V~; MBF12AG = gas L.P., MBF12AH = gas natural; piloto de encendido automático; capacidad de prueba 11 L/min; carga térmica 19.2 kW; diferencial de temperatura >25 °C; presión mínima de apertura 2.9 PSI (0.02 MPa); presión máxima de trabajo (agua) 65.26 PSI / 0.45 MPa; presión de operación de gas: **L.P. 2.74 kPa (= 11" c.a.)**, natural 1.76 kPa; eficiencia energética 93 %; intercambiador de cobre libre de oxígeno; conexiones entrada-salida 1/2"; diámetro de chimenea 60 mm; dimensiones 320×510×145 mm; peso 10.78 kg.
 
 **Códigos de diagnóstico oficiales (capítulo 11 del manual):**
