@@ -4,7 +4,7 @@ Categoría creada el 2026-11-12 a petición de Ernesto, dentro del proyecto Diag
 
 - El contenido técnico de la categoría está en **`referencias/refrigeracion-domestica-modulo-5.md`** (Módulo 5 del curso de Ernesto, compartido con refrigeradores y congeladores): ciclo de refrigeración y la revisión de los dos modelos — **MDD10** (garrafón superior por gravedad: resistencia del tanque caliente 26 Ω, termostatos de 85/90 °C, compresor 10 Ω / 20 Ω) y **MDD30** (garrafón inferior con bomba: resistencia 33 Ω, bomba alimentada a 12 VCD desde la tarjeta; medición de campo de Ernesto en un MDD30HD, 2026-11-19: **14.50 VCD en el conector de la bomba**, con fotos muestra en Drive) —, con las confirmaciones de Ernesto del 2026-11-12.
 - **Fusible del DISX30 (MDD30HC/HD): 5 A**, ubicado en la **caja de controles**; el manual indica que puede reemplazarse en caso de que se ponga en circuito abierto (manual del usuario DISX30, pág. 10, «Conexión Eléctrica»).
-- La carpeta de Drive **Github / Dispensadores** (https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K) ya tiene 23 archivos registrados en `referencias/indice-drive.md`: manuales Disx10/Disx30 (incluidos el del MDD30HD blanco de garrafón oculto y el del MDD10CS), fichas de especificaciones (DISX30-2025, Disx10, Disx30 rev. 2), diagramas (MDD30HD, eléctrico MDD30HC, explosivo MDD10CB), boletines (bomba sin succión DISX30, alarma de nivel bajo MDD30HC, check valve DISK10), video de la bomba y el material del caso **fuga debajo del depósito de agua fría** (documentado en la sección 3.3 del documento del Módulo 5).
+- La carpeta de Drive **Github / Dispensadores** (https://drive.google.com/drive/folders/1IzJRrikGDn6KNMSjWT6MHGRHIegikE8K) ya tiene 24 archivos registrados en `referencias/indice-drive.md`: manuales Disx10/Disx30 (incluidos el del MDD30HD blanco de garrafón oculto y el del MDD10CS), fichas de especificaciones (DISX30-2025, Disx10, Disx30 rev. 2), diagramas (MDD30HD, eléctrico MDD30HC, explosivo MDD10CB), boletines (bomba sin succión DISX30, alarma de nivel bajo MDD30HC, check valve DISK10), video de la bomba, el video de la llave de agua caliente del MDD10CB y el material del caso **fuga debajo del depósito de agua fría** (documentado en la sección 3.3 del documento del Módulo 5).
 - Conforme Ernesto comparta más material de esta categoría, se registrará en `referencias/indice-drive.md` y se documentará aquí, siguiendo las mismas reglas de respuesta de la skill.
 
 ## Falla de diagnóstico: no calienta el agua
@@ -30,3 +30,9 @@ Categoría creada el 2026-11-12 a petición de Ernesto, dentro del proyecto Diag
 5. Si el compresor trabaja sin parar y no enfría, el problema pasa al ciclo de refrigeración (ver el ciclo y sus etapas en el Módulo 5) — no condenar piezas sin esa revisión.
 
 > Del MDD30 **no hay valores de compresor documentados** en el material del curso: no se inventan; se diagnostica por arranque, termostato y ciclo.
+
+## Pieza: llave de agua caliente del MDD10
+
+- **Llave de agua caliente, DISX10 blanco — número de parte MDD10CB-24** (la del gris MDD10CS es la MDD10CS-24). Es la llave original del dispensador **MDD10CB**: cuerpo blanco con **palanca roja** y **seguro** — el seguro se levanta para poder despachar, como protección contra el despacho accidental de agua caliente.
+- **Video de la pieza** (Ernesto, 2026-11-24): muestra la llave en la mano, su palanca y cómo se levanta el seguro: https://drive.google.com/file/d/15hO-snWtYdfN4c6XtsDeh89u010uZ_JG/view?usp=drivesdk
+- La foto de catálogo de esta pieza en S3 **no existe** (error 403, como varias del MDD10): para identificarla se usa este video.
