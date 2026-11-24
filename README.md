@@ -31,7 +31,7 @@ Skill de diagnóstico técnico para el equipo de los **Centros de Servicio Autor
 - **Cursos integrados:** Módulo 2 «Calentadores de paso», Módulo 3 «Lavadoras», Módulo 4 «Microondas» y Módulo 5 «Refrigeración doméstica».
 - **`referencias/refacciones-lb.md`** — la base de refacciones de línea blanca (988 registros, 713 números de parte, del MASTERDATA oficial): cada pieza con su posición en el diagrama explosivo y su foto. Las **262 fotos viven en Drive** (carpetas «Refacciones LB» y «Refacciones Tienda Mirage»); al cambiar una pieza se muestra su foto para identificarla, y si un número está sustituido se entrega el actualizado.
 - **Diagramas explosivos** en texto de más de 25 modelos (`referencias/explosivo-*.md`).
-- **`app/`** — la **app CSAM IA** de diagnóstico (un solo HTML, sin internet para consultar): buscador por modelo, código o síntoma, 134 fichas didácticas y botón «Actualizar» que compara su versión contra `app/version.json` de este repositorio.
+- **La app CSAM IA ya no vive en este repositorio** (se retiró el 2026-11-24 para que las actualizaciones de la skill sean texto puro y no disparen revisiones de seguridad por código): es un producto aparte que Ernesto distribuye por su cuenta.
 - **`INSTALACION.md`** — los pasos de instalación y el plan alternativo de descarga completa.
 
 ## Cómo trabaja un diagnóstico con la skill
@@ -71,8 +71,8 @@ Si la instalación automática falla, `INSTALACION.md` trae el plan alternativo 
 ## Actualizaciones
 
 - Solo **Ernesto y Poly** escriben y actualizan estos documentos; las copias de los técnicos son **de solo consulta**. Quien tenga un caso o un dato nuevo, se lo pasa a Ernesto para incluirlo en la versión oficial.
-- Cuando hay material nuevo, se avisa con el mensaje de **«Actualización de documentos»** y cada técnico actualiza su copia; la carpeta de Drive siempre está al día y la app se actualiza con su propio botón.
-- **La actualización de la skill es solo texto** (`SKILL.md` + `referencias/`): la carpeta `app/` no forma parte de la skill y no se copia al actualizar — es la app web aparte, y es lo único del repositorio que contiene código (por eso algunas revisiones de seguridad la marcan al descargar el paquete completo).
+- Cuando hay material nuevo, se avisa con el mensaje de **«Actualización de documentos»** y cada técnico actualiza su copia; la carpeta de Drive siempre está al día.
+- **La actualización de la skill es solo texto** (`SKILL.md` + `referencias/`): el repositorio no contiene código; la app web se retiró de aquí el 2026-11-24 y se distribuye aparte.
 
 ## Reglas de la casa
 

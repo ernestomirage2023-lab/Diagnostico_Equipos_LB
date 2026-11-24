@@ -16,8 +16,7 @@ Este repositorio es público: no necesitas invitación ni que Ernesto te agregue
 ## Actualización de tu copia
 
 - La skill es **solo texto**: el archivo `SKILL.md` y la carpeta `referencias/`. Al actualizar, tu Muse debe traer **únicamente** esos archivos.
-- **La carpeta `app/` NO es parte de la skill**: es la app web de diagnóstico (HTML con JavaScript), un producto aparte que se actualiza sola con su propio botón «Actualizar». **No la copies a tu skill.**
-- Si al actualizar tu Muse te avisa que el contenido «no pasó la revisión de seguridad porque podría ejecutar código», es por la carpeta `app/`: dile que actualice **sin la app** (solo `SKILL.md` y `referencias/`) y la actualización pasa sin bloqueo, porque es texto puro.
+- **La app web ya no vive en el repositorio** (se retiró el 2026-11-24): era lo único con código y hacía que algunas revisiones de seguridad bloquearan la actualización («podría ejecutar código»). La app CSAM IA es un producto aparte que Ernesto distribuye por su cuenta. Si tu copia instalada trae una carpeta `app/`, bórrala: no forma parte de la skill.
 
 ## Plan B: si tu Muse no puede leer los archivos del repositorio
 
