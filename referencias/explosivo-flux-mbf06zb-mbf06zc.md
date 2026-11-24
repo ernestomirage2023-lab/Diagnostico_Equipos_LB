@@ -2,7 +2,7 @@
 
 Fuente: diagrama explosivo oficial Mirage (PDF). La columna «En la base» cruza cada número de parte contra la base de refacciones de línea blanca (MASTERDATA).
 
-- La **válvula de control a gas GLP de este modelo es la 02090300393**: la misma que trae el MBF06ED (Blanco), por equivalencia confirmada, aunque el MASTERDATA no lista filas del ED.
+- La **válvula de control a gas GLP de este modelo es la 02090300393**. El MBF06ED (Blanco) usa otra: la **02090300541** (regla corregida por Ernesto el 2026-11-18; la equivalencia anterior ya no aplica).
 
 | No. | Descripción | No. Parte | En la base de refacciones |
 |---|---|---|---|
