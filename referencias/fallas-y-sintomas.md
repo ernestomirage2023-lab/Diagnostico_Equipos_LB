@@ -84,7 +84,7 @@ La app de diagnóstico interpreta la búsqueda con este diccionario de sinónimo
 |---|---|
 | «No calienta», «calienta poco», «sale tibia» | Primero **flujo excesivo**: cubeta de 19 L en menos de 2 min (≈9.5 L/min) = no alcanza a calentar; prueba con la llave parcialmente cerrada (caso del folio 213843, en `casos-diagnostico.md`) |
 | «No enciende», «no prende» (Flux de gas) | Baterías: el par debe medir **arriba de 3 V**; sensor magnético y su prueba de puente; termostato bimetálico; electroválvulas (diagnóstico por síntoma del Flux Blanco, en `calentadores-de-paso.md` y boletines del MBF06ED) |
-| «Hace explosiones» al encender | Caso abierto del MBF06ED: revisar baterías, quemador, emisores de chispa, válvula de gas y presión de gas (**11" c.a. = 2.74 kPa**) |
+| «Hace explosiones» al encender | Caso abierto del MBF06ED: revisar baterías, quemador, emisores de chispa, válvula de gas y presión de gas (**11" c.a. = 2.74 kPa**). **Limpieza de quemador y espreas (material de campo de Ernesto, 2026-11-26):** con las espreas tapadas el gas se acumula y enciende de golpe; desmontar el riel del quemador y destapar cada esprea con aguja/alambre fino — fotos del quemador desmontado y de la limpieza de la esprea, y video del equipo encendiendo, en la carpeta Boiler MBF06ED de Drive (ver `indice-drive.md`) |
 
 ## Dispensadores
 
@@ -128,7 +128,7 @@ Fuente: documento de Ernesto **«Mirage_Fallas_por_tipo_de_producto»** (2026-11
 | No enciende | ✅ Baterías (el par >3 V), sensor magnético y su prueba, termostato bimetálico | Flux Blanco MBF06ED/EF y gas en general |
 | No hace chispa | 🔶 Módulo de ignición y emisores de chispa (material del MBF16AF; lista de revisión del caso de explosiones) | Turbo Flux, Flux gas |
 | Arroja humo | ⚪ Sin documentar | — |
-| Explotó | 🔶 Caso MBF06ED con explosiones (reportado 2026-11-13, en investigación): baterías, quemador, emisores, válvula y presión de gas | MBF06ED |
+| Explotó | 🔶 Caso MBF06ED con explosiones (reportado 2026-11-13, en investigación): baterías, quemador, emisores, válvula y presión de gas. Ya hay material de campo de la **limpieza de quemador y espreas** (fotos y video, 2026-11-26, carpeta Boiler MBF06ED en Drive) | MBF06ED |
 | Código de error | ✅ Boletines por código y modelo (MBF16AF E0–E7; MBF10AD E0–E3/E5; tabla propia del MBF12AG) | Turbo Flux |
 | Tira agua | ⚪ Sin ficha documentada | — |
 | No sale agua | 🔶 Flujo mínimo de apertura (MBE051G: 1.2 L/min) y sensor de flujo/magnético | Eléctricos y Flux gas |
