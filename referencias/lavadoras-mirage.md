@@ -156,6 +156,8 @@ Las 5 diapositivas "Casos de fallas comunes" no traen texto. Lo que se ve:
 
 > Los dos motores son independientes: que la lavadora lave bien **no** descarta el motor de secado.
 
+**Material de campo (foto de Ernesto, 2026-11-27):** cambio del motor de secado en una semiautomática LMS — vista inferior de la base con el motor de lavado y el de secado montados en sus bases estrella, y el motor retirado en el piso con su base: https://drive.google.com/file/d/1-tFw5Kl6PmIcWvrSlIZdOnErYVQtwHGa/view?usp=drivesdk (carpeta Lavadoras Semiautomaticas LMS-M de Drive).
+
 ---
 
 ## 4. Lavadora automática análoga 22 kg (LMA022G)
